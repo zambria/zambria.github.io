@@ -26,12 +26,14 @@ import html as html_mod
 import re
 import urllib.error
 import urllib.request
+import json
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent
 POSTS_DIR = REPO / "posts"
 INDEX_FILE = REPO / "index.html"
 STYLE_FILE = REPO / "style.css"
+TOPICS_FILE = REPO / "topics.json"
 
 FIXES: list[str] = []  # corricoes aplicadas
 WARN: list[str] = []   # problemas que exigem tarefa no Kanban
@@ -234,6 +236,54 @@ def garantir_css_toggle() -> None:
     FIXES.append("style.css: adicionou regras do botao toggle da sidebar")
 
 
+# ---------------------------------------------------------------- ancoras de topicos (sidebar)
+def carregar_topicos() -> list[dict]:
+    """Lê os ids/titulos de topico de topics.json (fonte unica de verdade
+    das ancoras da sidebar)."""
+    if not TOPICS_FILE.exists():
+        return []
+    dados = json.loads(TOPICS_FILE.read_text(encoding="utf-8"))
+    return list(dados.get("topicos", []))
+
+
+def gerar_alvos_topicos(topicos: list[dict]) -> str:
+    """Gera secoes <section id='TOPIC-ID'> para cada topico de topics.json,
+    de modo que as ancoras da sidebar (#ufo-01, #arch-01, etc.) tenham
+    destino dentro do proprio index.html."""
+    linhas: list[str] = [
+        '<section id="topicos" aria-label="Índice de tópicos do ZAMBRIA">',
+        "  <h2>Tópicos</h2>",
+        "  <p class=\"topico-desc\">Conteúdo dos tópicos em construção. Use a barra lateral para navegar até cada assunto.</p>",
+    ]
+    for t in topicos:
+        tid = t["id"]
+        titulo = html_mod.escape(t.get("titulo", tid), quote=False)
+        linhas.append(f"  <section id=\"{tid}\" class=\"topico\">")
+        linhas.append(f"    <h3>{titulo}</h3>")
+        linhas.append(f"    <p>{titulo} — tópico em construção.</p>")
+        linhas.append("  </section>")
+    linhas.append("</section>")
+    return "\n".join(linhas) + "\n"
+
+
+def inserir_alvos_topicos(texto: str, topicos: list[dict]) -> str:
+    alvos = gerar_alvos_topicos(topicos)
+    marcador = "</main>"
+    pos = texto.find(marcador)
+    if pos == -1:
+        raise RuntimeError("tag </main> nao encontrada no index.html")
+    ja_inserido = 'id="topicos"' in texto
+    if ja_inserido:
+        inicio = texto.rfind('<section id="topicos"', 0, pos)
+        fim = texto.find("</section>", inicio) + len("</section>")
+        texto = texto[:inicio] + alvos.rstrip() + "\n" + texto[fim:]
+        FIXES.append("index.html: atualizou secoes-alvo dos topicos da sidebar (topics.json)")
+    else:
+        texto = texto[:pos] + "\n" + alvos + texto[pos:]
+        FIXES.append("index.html: inseriu secoes-alvo (ancoras) dos topicos da sidebar a partir de topics.json")
+    return texto
+
+
 # ---------------------------------------------------------------- links
 def checar_links_internos() -> list[str]:
     quebrados: list[str] = []
@@ -290,6 +340,11 @@ def main() -> int:
     # 3. toggle da sidebar
     texto = garantir_toggle_sidebar(texto)
     garantir_css_toggle()
+
+    # 5. ancoras de topicos da sidebar: alvos em index.html a partir de topics.json
+    topicos = carregar_topicos()
+    if topicos:
+        texto = inserir_alvos_topicos(texto, topicos)
 
     INDEX_FILE.write_text(texto, encoding="utf-8")
 
