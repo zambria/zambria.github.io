@@ -1,9 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* Design system ZAMBRIA */
 :root {
   --bg: #0a0a0a;
   --bg-panel: #121212;
@@ -14,16 +9,39 @@
   --border: #2a2a2a;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   background-color: var(--bg);
   color: var(--text);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   min-height: 100vh;
+}
+
+.site-shell {
+  display: flex;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.site-shell.sidebar-hidden .sidebar {
+  transform: translateX(-100%);
+}
+
+.site-shell.sidebar-hidden .conteudo {
+  padding-left: 2rem;
+}
+
+.sidebar {
+  width: 320px;
+  background-color: var(--bg-panel);
+  border-right: 1px solid var(--border);
+  padding: 2rem 1.5rem;
+  overflow-y: auto;
+  flex-shrink: 0;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  transition: all 0.3s ease;
 }
 
 .btn-toggle-sidebar {
@@ -42,6 +60,10 @@ body {
   padding: 0;
   margin-right: 0.75rem;
   flex-shrink: 0;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1000;
 }
 
 .btn-toggle-sidebar:hover {
@@ -50,10 +72,13 @@ body {
 }
 
 .btn-toggle-sidebar.hidden {
-  display: none;
+  opacity: 0.4;
 }
 
-/* Layout da sidebar: botão e título na mesma linha */
+.site-shell.sidebar-hidden .btn-toggle-sidebar {
+  opacity: 1;
+}
+
 .sidebar-header {
   display: flex;
   align-items: center;
@@ -63,43 +88,10 @@ body {
 
 .sidebar-header .site-title {
   margin: 0;
-}
-
-/* Layout principal */
-.site-shell {
-  display: flex;
-  min-height: 100vh;
-  transition: all 0.3s ease;
-}
-
-.site-shell.sidebar-hidden .sidebar {
-  transform: translateX(-100%);
-}
-
-.site-shell.sidebar-hidden .conteudo {
-  padding-left: 2rem;
-}
-
-/* Sidebar esquerda */
-.sidebar {
-  width: 320px;
-  background-color: var(--bg-panel);
-  border-right: 1px solid var(--border);
-  padding: 2rem 1.5rem;
-  overflow-y: auto;
-  flex-shrink: 0;
-  position: sticky;
-  top: 0;
-  height: 100vh;
-  transition: all 0.3s ease;
-}
-
-.site-title {
   font-size: 1.5rem;
   font-weight: 800;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  margin-bottom: 0.5rem;
   color: var(--text);
 }
 
@@ -112,10 +104,6 @@ body {
   opacity: 0.9;
 }
 
-.categoria-grupo {
-  margin-bottom: 2rem;
-}
-
 .categoria-titulo {
   font-size: 0.75rem;
   text-transform: uppercase;
@@ -124,14 +112,6 @@ body {
   margin-bottom: 0.75rem;
   padding-left: 0.25rem;
   border-left: 3px solid var(--accent);
-}
-
-.lista-topicos {
-  list-style: none;
-}
-
-.lista-topicos li {
-  margin-bottom: 0.5rem;
 }
 
 .lista-topicos a {
@@ -150,19 +130,13 @@ body {
   padding-left: 1rem;
 }
 
-.lista-topicos a.ativo {
-  color: var(--accent);
-  background-color: var(--accent-glow);
-  font-weight: 600;
-}
-
-/* Área principal */
 .conteudo {
   flex: 1;
   padding: 3rem 4rem;
   max-width: 800px;
   margin: 0 auto;
   width: 100%;
+  transition: all 0.3s ease;
 }
 
 .hero {
@@ -178,51 +152,6 @@ body {
   letter-spacing: -0.02em;
   margin-bottom: 0.5rem;
   color: var(--text);
-}
-
-.hero p {
-  font-size: 1.1rem;
-  color: var(--text-muted);
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.post {
-  margin-bottom: 3rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid var(--border);
-}
-
-.post:last-child {
-  border-bottom: none;
-}
-
-.post-meta {
-  display: flex;
-  gap: 1rem;
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin-bottom: 1rem;
-}
-
-.post-meta span.categoria {
-  color: var(--accent);
-  font-weight: 600;
-}
-
-.post h2 {
-  font-size: 1.75rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  color: var(--text);
-}
-
-.post .texto p {
-  margin-bottom: 1.2rem;
-  color: var(--text);
-  font-size: 1.05rem;
 }
 
 .comentario-agente {
@@ -249,37 +178,15 @@ body {
   margin-bottom: 0.75rem;
 }
 
-.fontes ul {
-  list-style: none;
-}
-
-.fontes li {
-  margin-bottom: 0.5rem;
-  font-size: 0.85rem;
-  color: var(--text-muted);
-}
-
 .fontes a {
   color: var(--accent);
   text-decoration: none;
 }
 
-.fontes a:hover {
-  text-decoration: underline;
-}
-
-.vazio {
-  text-align: center;
-  padding: 4rem 0;
-  color: var(--text-muted);
-}
-
-/* Responsivo */
 @media (max-width: 768px) {
   .site-shell {
     flex-direction: column;
   }
-
   .sidebar {
     width: 100%;
     height: auto;
@@ -287,51 +194,13 @@ body {
     border-right: none;
     border-bottom: 1px solid var(--border);
   }
-
   .conteudo {
     padding: 2rem 1.5rem;
   }
-
-  .hero h1 {
-    font-size: 2rem;
+  .btn-toggle-sidebar {
+    position: static;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
   }
 }
-
-/* Neon sutil nos títulos de categoria */
-.categoria-titulo::before {
-  content: '';
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  background-color: var(--accent);
-  border-radius: 50%;
-  margin-right: 0.5rem;
-  box-shadow: 0 0 8px var(--accent-glow);
-}
-
-
-/* Botao toggle da sidebar (aparece apenas em telas pequenas) */
-.toggle-sidebar {
-  display: none;
-  background: none;
-  border: none;
-  color: var(--text);
-  font-size: 1.5rem;
-  cursor: pointer;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-  align-self: start;
-}
-
-@media (max-width: 768px) {
-  .toggle-sidebar {
-    display: block;
-  }
-
-  /* esconde/mostra a sidebar esquerda no mobile */
-  .sidebar.fechado {
-    display: none;
-  }
-}
-
-
