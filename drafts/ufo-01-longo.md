@@ -3,6 +3,8 @@ title: "OVNIs e UAPs: quando o céu deixa de ser identificado"
 category: ufo
 status: aprovado
 data_pesquisa: 2026-11-18T13:30:00Z
+data_revisao: 2026-11-18T14:07:42.553257+00:00
+revisor: agente-revisor-v1
 data_revisao: 2026-11-18T13:33:06.104287+00:00
 revisor: agente-revisor-v1
 ---
@@ -111,3 +113,9 @@ O mistério permanece aberto — e talvez devesse ficar assim.
 
 - Arquivo Nacional dos EUA — “Project BLUE BOOK - Unidentified Flying Objects”
   https://www.archives.gov/research/military/air-force/ufos
+
+
+## Notas do revisor
+- Texto muito longo (1564 palavras) — precisa de corte
+
+Por favor, reescreva as partes indicadas e submeta novamente para revisao.
