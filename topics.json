@@ -1,0 +1,14 @@
+{
+  "topicos": [
+    {
+      "slug": "seguranca-no-trabalho",
+      "titulo": "Segurança no Trabalho",
+      "descricao": "Anotações do curso de Segurança no Trabalho, Ergonomia Industrial e NR-15."
+    },
+    {
+      "slug": "pc-gaming",
+      "titulo": "PC Gaming",
+      "descricao": "Dicas para aproveitar ao máximo o PC com gráficos integrados Intel UHD."
+    }
+  ]
+}
