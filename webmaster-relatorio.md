@@ -8,7 +8,6 @@ Posts em /posts/: 1
 - [x] index.html: adicionou id='sidebar-zambria' ao <aside>
 - [x] index.html: inseriu botao toggle da sidebar
 - [x] index.html: inseriu script de toggle da sidebar antes de </body>
-- [x] style.css: adicionou regras do botao toggle da sidebar
 
 ## Pendentes (abrir tarefa no Kanban se aplicavel)
 - [ ] 49 link(s) interno(s) quebrado(s) — ver relatorio
@@ -65,5 +64,8 @@ Posts em /posts/: 1
 - [ ] quebrado: index.html: ancora #nature-04 nao existe na pagina
 
 ## Links externos (fontes consultadas)
-- https://www.nationalgeographicbrasil.com/espaco/2023/02/como-o-pentagono-passou-a-se-preocupar-e-investigar-ovnis -> OK
-- https://g1.globo.com/google/amp/mundo/noticia/2026/05/10/arquivos-sobre-ovnis-astronauta-da-apollo-relatou-particulas-e-flashes-escapando-da-lua.ghtml -> OK
+- https://www.nationalgeographicbrasil.com/ciencia/2023/07/o-que-sabemos-de-decadas-de-investigacoes-governamentais-sobre-ovnis -> OK
+- https://www.cnnbrasil.com.br/internacional/ovnis-imagens-dos-avistamentos-e-o-que-foi-revelado-pelo-pentagono/ -> OK
+- https://super.abril.com.br/especiais/ovnis-os-avistamentos/ -> OK
+- https://www.uol.com.br/tilt/noticias/redacao/2021/06/25/pentagono-divulga-aguardado-dossie-sobre-ovnis-aliens-nao-sao-descartados.htm -> OK
+- https://www.archives.gov/research/military/air-force/ufos -> OK

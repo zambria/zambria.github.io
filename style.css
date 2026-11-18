@@ -26,10 +26,46 @@ body {
   min-height: 100vh;
 }
 
+.btn-toggle-sidebar {
+  display: block;
+  width: 44px;
+  height: 44px;
+  margin: 0 auto 1.5rem auto;
+  background-color: var(--accent);
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  line-height: 1;
+  text-align: center;
+  padding: 0;
+}
+
+.btn-toggle-sidebar:hover {
+  background-color: #e62e2e;
+  transform: scale(1.05);
+}
+
+.btn-toggle-sidebar.hidden {
+  display: none;
+}
+
 /* Layout principal */
 .site-shell {
   display: flex;
   min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.site-shell.sidebar-hidden .sidebar {
+  transform: translateX(-100%);
+}
+
+.site-shell.sidebar-hidden .conteudo {
+  padding-left: 2rem;
 }
 
 /* Sidebar esquerda */
@@ -43,6 +79,7 @@ body {
   position: sticky;
   top: 0;
   height: 100vh;
+  transition: all 0.3s ease;
 }
 
 .site-title {

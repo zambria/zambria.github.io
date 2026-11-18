@@ -9,9 +9,9 @@
 <body>
 
   <div class="site-shell">
-
     <!-- Sidebar esquerda: abas por categoria -->
     <aside class="sidebar" id="sidebar-zambria">
+      <button class="btn-toggle-sidebar" id="btnToggleSidebar" aria-label="Esconder barra lateral">☰</button>
       <div class="site-title">ZAMBRIA</div>
       <div class="site-subtitle">O Insólito Presente</div>
       <button class="toggle-sidebar" aria-label="Mostrar ou ocultar menu de categorias" aria-expanded="true" aria-controls="sidebar-zambria">&#x2715;</button>
@@ -122,6 +122,21 @@
     </main>
 
   </div>
+
+  <script>
+    const btn = document.getElementById('btnToggleSidebar');
+    const shell = document.querySelector('.site-shell');
+    btn.addEventListener('click', () => {
+      shell.classList.toggle('sidebar-hidden');
+      if (shell.classList.contains('sidebar-hidden')) {
+        btn.textContent = '≡';
+        btn.setAttribute('aria-label', 'Mostrar barra lateral');
+      } else {
+        btn.textContent = '☰';
+        btn.setAttribute('aria-label', 'Esconder barra lateral');
+      }
+    });
+  </script>
 
   <script>
     (function() {
