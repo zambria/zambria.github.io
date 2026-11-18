@@ -1,6 +1,6 @@
 # ZAMBRIA
 
-## o insólito presente
+## O Insólito Presente
 
 Blog pessoal — curiosidades, ciências, arqueologia antiga, OVNIs, sobrenatural e mistérios.
 
