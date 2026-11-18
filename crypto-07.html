@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serpentes marinhas e leviatãs — ZAMBRIA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="site-shell" id="site-shell">
+
+    <aside class="sidebar" id="sidebar-zambria">
+      <div class="sidebar-header">
+        <button class="btn-toggle-sidebar" id="btnToggleSidebar" aria-label="Esconder barra lateral">☰</button>
+        <div class="site-title">ZAMBRIA</div>
+      </div>
+      <div class="site-subtitle">O Insólito Presente</div>
+
+      <div class="categoria-grupo">
+        <div class="categoria-titulo">Criptozologia</div>
+        <ul class="lista-topicos">          <li><a href="#crypto-01">Bigfoot / Pé Grande e Yeti</a></li>
+          <li><a href="#crypto-02">Monstro do Lago Ness e criaturas lacustres</a></li>
+          <li><a href="#crypto-03">Chupacabra</a></li>
+          <li><a href="#crypto-04">Mothman</a></li>
+          <li><a href="#crypto-05">Jersey Devil</a></li>
+          <li><a href="#crypto-06">Lobisomens e criaturas mutantes</a></li>
+          <li><a href="#crypto-07" class="ativo">Serpentes marinhas e leviatãs</a></li>
+          <li><a href="#crypto-08">Dragões e criaturas aladas mitológicas</a></li>
+          <li><a href="index.html">← Voltar ao início</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="conteudo">
+      <section class="hero">
+        <h1>Serpentes marinhas e leviatãs</h1>
+        <p>Criaturas gigantes dos oceanos profundos.</p>
+      </section>
+
+      <article class="post">
+        <div class="post-meta">
+          <span class="categoria">criptozologia</span>
+          <span>Estudo em andamento</span>
+        </div>
+        <h2>Serpentes marinhas e leviatãs</h2>
+        <div class="texto">
+          <p>Este tópico está em desenvolvimento. Em breve, conteúdo detalhado sobre serpentes marinhas e leviatãs.</p>
+          <p>Fique atento — novas informações serão adicionadas em breve.</p>
+        </div>
+      </article>
+    </main>
+
+  </div>
+
+  <script>
+    const btn = document.getElementById('btnToggleSidebar');
+    const shell = document.querySelector('.site-shell');
+    btn.addEventListener('click', () => {
+      shell.classList.toggle('sidebar-hidden');
+      if (shell.classList.contains('sidebar-hidden')) {
+        btn.textContent = '≡';
+        btn.setAttribute('aria-label', 'Mostrar barra lateral');
+      } else {
+        btn.textContent = '☰';
+        btn.setAttribute('aria-label', 'Esconder barra lateral');
+      }
+    });
+  </script>
+
+</body>
+</html>
