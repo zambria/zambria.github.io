@@ -11,9 +11,10 @@
   <div class="site-shell">
 
     <!-- Sidebar esquerda: abas por categoria -->
-    <aside class="sidebar">
+    <aside class="sidebar" id="sidebar-zambria">
       <div class="site-title">ZAMBRIA</div>
       <div class="site-subtitle">O Insólito Presente</div>
+      <button class="toggle-sidebar" aria-label="Mostrar ou ocultar menu de categorias" aria-expanded="true" aria-controls="sidebar-zambria">&#x2715;</button>
 
       <div class="categoria-grupo">
         <div class="categoria-titulo">UFOs e Aliens</div>
@@ -109,24 +110,30 @@
       </section>
 
       <section id="posts-lista">
-        <!-- Posts serão injetados aqui pelo agente publicador -->
               <article class="post">
         <div class="post-meta">
           <span class="categoria">ufo</span>
           <span>2026-11-18</span>
         </div>
         <h2><a href="posts/ovnis-e-uaps-quando-o-c-u-deixa-de-ser-identificado.html">OVNIs e UAPs: quando o céu deixa de ser identificado</a></h2>
-        <p># OVNIs e UAPs: quando o céu deixa de ser identificado
-
-Pilotos da Marinha dos Estados Unidos vêm relatando, há décadas, encontros com objetos voadore...</p>
+        <p>Pilotos da Marinha dos Estados Unidos vêm relatando, há décadas, encontros com objetos voadores que desafiam a explicação convencional. Não se trata mais de histórias contadas em bares de beira de estrada ou de fotos...</p>
       </article>
-<div class="vazio">
-          <p>Nenhum post publicado ainda. O primeiro artigo está chegando.</p>
-        </div>
-      </section>
+            </section>
     </main>
 
   </div>
 
+  <script>
+    (function() {
+      var btn = document.querySelector('.toggle-sidebar');
+      var sidebar = document.getElementById('sidebar-zambria');
+      if (!btn || !sidebar) return;
+      btn.addEventListener('click', function() {
+        var fechado = sidebar.classList.toggle('fechado');
+        btn.setAttribute('aria-expanded', String(!fechado));
+        btn.textContent = fechado ? '☰' : '✕';
+      });
+    })();
+  </script>
 </body>
 </html>

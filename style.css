@@ -259,3 +259,30 @@ body {
   margin-right: 0.5rem;
   box-shadow: 0 0 8px var(--accent-glow);
 }
+
+
+/* Botao toggle da sidebar (aparece apenas em telas pequenas) */
+.toggle-sidebar {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  align-self: start;
+}
+
+@media (max-width: 768px) {
+  .toggle-sidebar {
+    display: block;
+  }
+
+  /* esconde/mostra a sidebar esquerda no mobile */
+  .sidebar.fechado {
+    display: none;
+  }
+}
+
+
