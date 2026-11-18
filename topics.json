@@ -34,54 +34,299 @@
     }
   ],
   "topicos": [
-    {"id": "ufo-01", "categoria": "ufo", "titulo": "Observações de OVNIs e UAPs", "ultimo_uso": null},
-    {"id": "ufo-02", "categoria": "ufo", "titulo": "Relatos de abdução alienígena", "ultimo_uso": null},
-    {"id": "ufo-03", "categoria": "ufo", "titulo": "Contato de terceiro, quarto e quinto graus", "ultimo_uso": null},
-    {"id": "ufo-04", "categoria": "ufo", "titulo": "Crop circles (agroglifos)", "ultimo_uso": null},
-    {"id": "ufo-05", "categoria": "ufo", "titulo": "OVNIs nas artes antigas e pinturas religiosas", "ultimo_uso": null},
-    {"id": "ufo-06", "categoria": "ufo", "titulo": "Programas governamentais secretos (Projeto Blue Book, AATIP)", "ultimo_uso": null},
-    {"id": "ufo-07", "categoria": "ufo", "titulo": "Área 51 e bases militares ultrassecretas", "ultimo_uso": null},
-    {"id": "ufo-08", "categoria": "ufo", "titulo": "Sinais de inteligência extraterrestre (SETI, sinais de rádio, Wow! signal)", "ultimo_uso": null},
-    {"id": "ufo-09", "categoria": "ufo", "titulo": "Teoria dos Antigos Astronautas", "ultimo_uso": null},
-    {"id": "ufo-10", "categoria": "ufo", "titulo": "Biologia de formas de vida não-terrestres", "ultimo_uso": null},
-    {"id": "arch-01", "categoria": "arch", "titulo": "Pirâmides do Egito e de Mesoamérica", "ultimo_uso": null},
-    {"id": "arch-02", "categoria": "arch", "titulo": "Stonehenge e círculos de pedras megalíticos", "ultimo_uso": null},
-    {"id": "arch-03", "categoria": "arch", "titulo": "Geoglifos de Nazca", "ultimo_uso": null},
-    {"id": "arch-04", "categoria": "arch", "titulo": "Machu Picchu e cidades perdidas dos incas", "ultimo_uso": null},
-    {"id": "arch-05", "categoria": "arch", "titulo": "Atlântida e Mu", "ultimo_uso": null},
-    {"id": "arch-06", "categoria": "arch", "titulo": "Estruturas submersas (Yonaguni, Bimini Road)", "ultimo_uso": null},
-    {"id": "arch-07", "categoria": "arch", "titulo": "Mecanismo de Anticítera e tecnologia antiga anacrônica", "ultimo_uso": null},
-    {"id": "arch-08", "categoria": "arch", "titulo": "Sumerianos, Anunnaki e tábuas de argila", "ultimo_uso": null},
-    {"id": "arch-09", "categoria": "arch", "titulo": "OOPArts (pedras de Ica, Ovo de Colombo, artefatos fora do lugar)", "ultimo_uso": null},
-    {"id": "arch-10", "categoria": "arch", "titulo": "Túneis e cidades subterrâneas antigas (Derinkuyu, Capadócia)", "ultimo_uso": null},
-    {"id": "arch-11", "categoria": "arch", "titulo": "Civilizações pré-adamitas e histórias antes do Dilúvio", "ultimo_uso": null},
-    {"id": "para-01", "categoria": "para", "titulo": "Fantasmas, assombrações e casas mal-assombradas", "ultimo_uso": null},
-    {"id": "para-02", "categoria": "para", "titulo": "Poltergeists e fenômenos psicocinéticos", "ultimo_uso": null},
-    {"id": "para-03", "categoria": "para", "titulo": "Mediunidade e comunicações com os mortos", "ultimo_uso": null},
-    {"id": "para-04", "categoria": "para", "titulo": "EVP (fenômeno de voz eletrônica)", "ultimo_uso": null},
-    {"id": "para-05", "categoria": "para", "titulo": "Experiências de quase-morte (EQM) e viagens astrais", "ultimo_uso": null},
-    {"id": "para-06", "categoria": "para", "titulo": "Maldições antigas (Tutancâmon)", "ultimo_uso": null},
-    {"id": "para-07", "categoria": "para", "titulo": "Objetos amaldiçoados e relíquias com energia negativa", "ultimo_uso": null},
-    {"id": "para-08", "categoria": "para", "titulo": "Bruxaria, feitiçaria e ocultismo", "ultimo_uso": null},
-    {"id": "para-09", "categoria": "para", "titulo": "Entidades demoníacas e possessões", "ultimo_uso": null},
-    {"id": "para-10", "categoria": "para", "titulo": "Exorcismos e rituais de limpeza espiritual", "ultimo_uso": null},
-    {"id": "crypto-01", "categoria": "crypto", "titulo": "Bigfoot / Pé Grande e Yeti", "ultimo_uso": null},
-    {"id": "crypto-02", "categoria": "crypto", "titulo": "Monstro do Lago Ness e criaturas lacustres", "ultimo_uso": null},
-    {"id": "crypto-03", "categoria": "crypto", "titulo": "Chupacabra", "ultimo_uso": null},
-    {"id": "crypto-04", "categoria": "crypto", "titulo": "Mothman", "ultimo_uso": null},
-    {"id": "crypto-05", "categoria": "crypto", "titulo": "Jersey Devil", "ultimo_uso": null},
-    {"id": "crypto-06", "categoria": "crypto", "titulo": "Lobisomens e criaturas mutantes", "ultimo_uso": null},
-    {"id": "crypto-07", "categoria": "crypto", "titulo": "Serpentes marinhas e leviatãs", "ultimo_uso": null},
-    {"id": "crypto-08", "categoria": "crypto", "titulo": "Dragões e criaturas aladas mitológicas", "ultimo_uso": null},
-    {"id": "conspir-01", "categoria": "conspir", "titulo": "Cobertura governamental de OVNIs e tecnologia alienígena", "ultimo_uso": null},
-    {"id": "conspir-02", "categoria": "conspir", "titulo": "Sociedades secretas (Iluminati, Maçonaria, Bilderberg)", "ultimo_uso": null},
-    {"id": "conspir-03", "categoria": "conspir", "titulo": "Programas de controle mental (MKUltra)", "ultimo_uso": null},
-    {"id": "conspir-04", "categoria": "conspir", "titulo": "Civilizações subterrâneas (Agartha, Shamballa)", "ultimo_uso": null},
-    {"id": "conspir-05", "categoria": "conspir", "titulo": "Viagens no tempo e linhas do tempo alternativas", "ultimo_uso": null},
-    {"id": "conspir-06", "categoria": "conspir", "titulo": "Matriz / simulação da realidade", "ultimo_uso": null},
-    {"id": "nature-01", "categoria": "nature", "titulo": "Luzes estranhas no céu (ball lightning, Marfa, Hessdalen)", "ultimo_uso": null},
-    {"id": "nature-02", "categoria": "nature", "titulo": "Desaparecimentos em massa (Bermudas, Bennington)", "ultimo_uso": null},
-    {"id": "nature-03", "categoria": "nature", "titulo": "Círculos de gelo, sons do céu (sky trumpets) e fenômenos acústicos", "ultimo_uso": null},
-    {"id": "nature-04", "categoria": "nature", "titulo": "Chuva de animais e objetos estranhos", "ultimo_uso": null}
+    {
+      "id": "ufo-01",
+      "categoria": "ufo",
+      "titulo": "Observações de OVNIs e UAPs",
+      "ultimo_uso": "2026-11-18T13:31:43.137529+00:00"
+    },
+    {
+      "id": "ufo-02",
+      "categoria": "ufo",
+      "titulo": "Relatos de abdução alienígena",
+      "ultimo_uso": null
+    },
+    {
+      "id": "ufo-03",
+      "categoria": "ufo",
+      "titulo": "Contato de terceiro, quarto e quinto graus",
+      "ultimo_uso": null
+    },
+    {
+      "id": "ufo-04",
+      "categoria": "ufo",
+      "titulo": "Crop circles (agroglifos)",
+      "ultimo_uso": null
+    },
+    {
+      "id": "ufo-05",
+      "categoria": "ufo",
+      "titulo": "OVNIs nas artes antigas e pinturas religiosas",
+      "ultimo_uso": null
+    },
+    {
+      "id": "ufo-06",
+      "categoria": "ufo",
+      "titulo": "Programas governamentais secretos (Projeto Blue Book, AATIP)",
+      "ultimo_uso": null
+    },
+    {
+      "id": "ufo-07",
+      "categoria": "ufo",
+      "titulo": "Área 51 e bases militares ultrassecretas",
+      "ultimo_uso": null
+    },
+    {
+      "id": "ufo-08",
+      "categoria": "ufo",
+      "titulo": "Sinais de inteligência extraterrestre (SETI, sinais de rádio, Wow! signal)",
+      "ultimo_uso": null
+    },
+    {
+      "id": "ufo-09",
+      "categoria": "ufo",
+      "titulo": "Teoria dos Antigos Astronautas",
+      "ultimo_uso": null
+    },
+    {
+      "id": "ufo-10",
+      "categoria": "ufo",
+      "titulo": "Biologia de formas de vida não-terrestres",
+      "ultimo_uso": null
+    },
+    {
+      "id": "arch-01",
+      "categoria": "arch",
+      "titulo": "Pirâmides do Egito e de Mesoamérica",
+      "ultimo_uso": null
+    },
+    {
+      "id": "arch-02",
+      "categoria": "arch",
+      "titulo": "Stonehenge e círculos de pedras megalíticos",
+      "ultimo_uso": null
+    },
+    {
+      "id": "arch-03",
+      "categoria": "arch",
+      "titulo": "Geoglifos de Nazca",
+      "ultimo_uso": null
+    },
+    {
+      "id": "arch-04",
+      "categoria": "arch",
+      "titulo": "Machu Picchu e cidades perdidas dos incas",
+      "ultimo_uso": null
+    },
+    {
+      "id": "arch-05",
+      "categoria": "arch",
+      "titulo": "Atlântida e Mu",
+      "ultimo_uso": null
+    },
+    {
+      "id": "arch-06",
+      "categoria": "arch",
+      "titulo": "Estruturas submersas (Yonaguni, Bimini Road)",
+      "ultimo_uso": null
+    },
+    {
+      "id": "arch-07",
+      "categoria": "arch",
+      "titulo": "Mecanismo de Anticítera e tecnologia antiga anacrônica",
+      "ultimo_uso": null
+    },
+    {
+      "id": "arch-08",
+      "categoria": "arch",
+      "titulo": "Sumerianos, Anunnaki e tábuas de argila",
+      "ultimo_uso": null
+    },
+    {
+      "id": "arch-09",
+      "categoria": "arch",
+      "titulo": "OOPArts (pedras de Ica, Ovo de Colombo, artefatos fora do lugar)",
+      "ultimo_uso": null
+    },
+    {
+      "id": "arch-10",
+      "categoria": "arch",
+      "titulo": "Túneis e cidades subterrâneas antigas (Derinkuyu, Capadócia)",
+      "ultimo_uso": null
+    },
+    {
+      "id": "arch-11",
+      "categoria": "arch",
+      "titulo": "Civilizações pré-adamitas e histórias antes do Dilúvio",
+      "ultimo_uso": null
+    },
+    {
+      "id": "para-01",
+      "categoria": "para",
+      "titulo": "Fantasmas, assombrações e casas mal-assombradas",
+      "ultimo_uso": null
+    },
+    {
+      "id": "para-02",
+      "categoria": "para",
+      "titulo": "Poltergeists e fenômenos psicocinéticos",
+      "ultimo_uso": null
+    },
+    {
+      "id": "para-03",
+      "categoria": "para",
+      "titulo": "Mediunidade e comunicações com os mortos",
+      "ultimo_uso": null
+    },
+    {
+      "id": "para-04",
+      "categoria": "para",
+      "titulo": "EVP (fenômeno de voz eletrônica)",
+      "ultimo_uso": null
+    },
+    {
+      "id": "para-05",
+      "categoria": "para",
+      "titulo": "Experiências de quase-morte (EQM) e viagens astrais",
+      "ultimo_uso": null
+    },
+    {
+      "id": "para-06",
+      "categoria": "para",
+      "titulo": "Maldições antigas (Tutancâmon)",
+      "ultimo_uso": null
+    },
+    {
+      "id": "para-07",
+      "categoria": "para",
+      "titulo": "Objetos amaldiçoados e relíquias com energia negativa",
+      "ultimo_uso": null
+    },
+    {
+      "id": "para-08",
+      "categoria": "para",
+      "titulo": "Bruxaria, feitiçaria e ocultismo",
+      "ultimo_uso": null
+    },
+    {
+      "id": "para-09",
+      "categoria": "para",
+      "titulo": "Entidades demoníacas e possessões",
+      "ultimo_uso": null
+    },
+    {
+      "id": "para-10",
+      "categoria": "para",
+      "titulo": "Exorcismos e rituais de limpeza espiritual",
+      "ultimo_uso": null
+    },
+    {
+      "id": "crypto-01",
+      "categoria": "crypto",
+      "titulo": "Bigfoot / Pé Grande e Yeti",
+      "ultimo_uso": null
+    },
+    {
+      "id": "crypto-02",
+      "categoria": "crypto",
+      "titulo": "Monstro do Lago Ness e criaturas lacustres",
+      "ultimo_uso": null
+    },
+    {
+      "id": "crypto-03",
+      "categoria": "crypto",
+      "titulo": "Chupacabra",
+      "ultimo_uso": null
+    },
+    {
+      "id": "crypto-04",
+      "categoria": "crypto",
+      "titulo": "Mothman",
+      "ultimo_uso": null
+    },
+    {
+      "id": "crypto-05",
+      "categoria": "crypto",
+      "titulo": "Jersey Devil",
+      "ultimo_uso": null
+    },
+    {
+      "id": "crypto-06",
+      "categoria": "crypto",
+      "titulo": "Lobisomens e criaturas mutantes",
+      "ultimo_uso": null
+    },
+    {
+      "id": "crypto-07",
+      "categoria": "crypto",
+      "titulo": "Serpentes marinhas e leviatãs",
+      "ultimo_uso": null
+    },
+    {
+      "id": "crypto-08",
+      "categoria": "crypto",
+      "titulo": "Dragões e criaturas aladas mitológicas",
+      "ultimo_uso": null
+    },
+    {
+      "id": "conspir-01",
+      "categoria": "conspir",
+      "titulo": "Cobertura governamental de OVNIs e tecnologia alienígena",
+      "ultimo_uso": null
+    },
+    {
+      "id": "conspir-02",
+      "categoria": "conspir",
+      "titulo": "Sociedades secretas (Iluminati, Maçonaria, Bilderberg)",
+      "ultimo_uso": null
+    },
+    {
+      "id": "conspir-03",
+      "categoria": "conspir",
+      "titulo": "Programas de controle mental (MKUltra)",
+      "ultimo_uso": null
+    },
+    {
+      "id": "conspir-04",
+      "categoria": "conspir",
+      "titulo": "Civilizações subterrâneas (Agartha, Shamballa)",
+      "ultimo_uso": null
+    },
+    {
+      "id": "conspir-05",
+      "categoria": "conspir",
+      "titulo": "Viagens no tempo e linhas do tempo alternativas",
+      "ultimo_uso": null
+    },
+    {
+      "id": "conspir-06",
+      "categoria": "conspir",
+      "titulo": "Matriz / simulação da realidade",
+      "ultimo_uso": null
+    },
+    {
+      "id": "nature-01",
+      "categoria": "nature",
+      "titulo": "Luzes estranhas no céu (ball lightning, Marfa, Hessdalen)",
+      "ultimo_uso": null
+    },
+    {
+      "id": "nature-02",
+      "categoria": "nature",
+      "titulo": "Desaparecimentos em massa (Bermudas, Bennington)",
+      "ultimo_uso": null
+    },
+    {
+      "id": "nature-03",
+      "categoria": "nature",
+      "titulo": "Círculos de gelo, sons do céu (sky trumpets) e fenômenos acústicos",
+      "ultimo_uso": null
+    },
+    {
+      "id": "nature-04",
+      "categoria": "nature",
+      "titulo": "Chuva de animais e objetos estranhos",
+      "ultimo_uso": null
+    }
   ]
 }
