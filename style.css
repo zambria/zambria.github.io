@@ -86,12 +86,10 @@ body {
   transform: scale(1.05);
 }
 
-.btn-toggle-sidebar.hidden {
-  opacity: 0.4;
-}
-
+/* Botão SEMPRE visível, não some com a sidebar */
 .site-shell.sidebar-hidden .btn-toggle-sidebar {
   opacity: 1;
+  left: 1rem;
 }
 
 .sidebar-header {
