@@ -87,10 +87,18 @@ body {
 }
 
 /* Botão SEMPRE visível, não some com a sidebar */
+.btn-toggle-sidebar {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1000;
+}
+
 .site-shell.sidebar-hidden .btn-toggle-sidebar {
   opacity: 1;
   left: 1rem;
 }
+
 
 .sidebar-header {
   display: flex;
