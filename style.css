@@ -26,10 +26,44 @@ body {
   min-height: 100vh;
 }
 
+.btn-toggle-sidebar {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1000;
+  background-color: var(--bg-panel);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 0.6rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.btn-toggle-sidebar:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.btn-toggle-sidebar.hidden {
+  left: auto;
+  right: 1rem;
+}
+
 /* Layout principal */
 .site-shell {
   display: flex;
   min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.site-shell.sidebar-hidden .sidebar {
+  transform: translateX(-100%);
+}
+
+.site-shell.sidebar-hidden .conteudo {
+  padding-left: 2rem;
 }
 
 /* Sidebar esquerda */
@@ -43,6 +77,7 @@ body {
   position: sticky;
   top: 0;
   height: 100vh;
+  transition: all 0.3s ease;
 }
 
 .site-title {
