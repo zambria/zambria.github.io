@@ -27,28 +27,30 @@ body {
 }
 
 .btn-toggle-sidebar {
-  position: fixed;
-  top: 1rem;
-  left: 1rem;
-  z-index: 1000;
-  background-color: var(--bg-panel);
-  color: var(--text);
-  border: 1px solid var(--border);
-  padding: 0.6rem 1rem;
-  font-size: 0.9rem;
-  cursor: pointer;
+  display: block;
+  width: 44px;
+  height: 44px;
+  margin: 0 auto 1.5rem auto;
+  background-color: var(--accent);
+  color: #000000;
+  border: none;
   border-radius: 4px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  cursor: pointer;
   transition: all 0.2s ease;
+  line-height: 1;
+  text-align: center;
+  padding: 0;
 }
 
 .btn-toggle-sidebar:hover {
-  border-color: var(--accent);
-  color: var(--accent);
+  background-color: #e62e2e;
+  transform: scale(1.05);
 }
 
 .btn-toggle-sidebar.hidden {
-  left: auto;
-  right: 1rem;
+  display: none;
 }
 
 /* Layout principal */
