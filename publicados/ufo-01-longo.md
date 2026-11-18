@@ -1,0 +1,113 @@
+---
+title: "OVNIs e UAPs: quando o céu deixa de ser identificado"
+category: ufo
+status: aprovado
+data_pesquisa: 2026-11-18T13:30:00Z
+data_revisao: 2026-11-18T13:33:06.104287+00:00
+revisor: agente-revisor-v1
+---
+
+# OVNIs e UAPs: quando o céu deixa de ser identificado
+
+Pilotos da Marinha dos Estados Unidos vêm relatando, há décadas, encontros com objetos voadores que desafiam a explicação convencional. Não se trata mais de histórias contadas em bares de beira de estrada ou de fotos borradas em jornais antigos. O assunto chegou ao Congresso, foi analisado por agências de inteligência e ganhou um nome novo: UAP, ou fenômeno aéreo não identificado.
+
+A mudança de termo não é apenas um detalhe semântico. Enquanto “OVNI” soava, para muitos, como sinônimo de naves alienígenas e teorias da conspiração, “UAP” carrega uma proposta diferente: indicar que algo está no céu, que é real o suficiente para ser detectado por radar e sensores infravermelhos, mas que ainda não tem identificação confirmada.
+
+E talvez nunca tenha.
+
+## O que o governo dos Estados Unidos admite
+
+Um relatório exigido pelo Congresso americano e produzido pela Diretoria de Inteligência Nacional analisou 144 avistamentos relatados por funcionários do governo entre 2004 e 2021. A conclusão oficial é direta: o Pentágono não sabe o que são esses objetos. Não há evidências de que sejam naves extraterrestres, mas também não há explicação plausível para a maioria dos casos.
+
+De 144 incidentes, 143 permanecem inexplicados. Um único caso foi esclarecido: era um balão.
+
+O documento deixa claro que algumas observações podem estar ligadas a programas sigilosos de entidades dos próprios Estados Unidos. No entanto, não é possível confirmar se esses sistemas são responsáveis por todos os relatos. Em outras palavras: uma parte pode ser tecnologia humana secreta, mas o restante continua sem resposta.
+
+Os investigadores também estavam convencidos de que a maioria dos avistamentos eram “objetos físicos”. Não eram meros erros de sensor, não eram ilusões de ótica. Eram coisas que existiam fisicamente.
+
+> *Sinistro isso aí.*
+
+Em 80 dos incidentes, o objeto foi observado por múltiplos sensores simultaneamente — radares, câmeras infravermelhas de aviões, miras de armas e também observação visual, a olho nu. Quando múltiplos sistemas independentes confirmam a presença de algo físico no céu, fica difícil desconsiderar como simples falha de equipamento.
+
+Pilotos militares relataram objetos com habilidades aerodinâmicas aparentemente extraordinárias — capazes de manobras que desafiam o entendimento atual da aviação, capturados tanto em radar quanto em sensores infravermelhos.
+
+## Relatos que vêm do espaço
+
+O tema não se limita à atmosfera terrestre. Astronautas de missões Apollo também descreveram fenômenos anômalos durante suas jornadas. Durante a Apollo 12, o piloto Alan Bean relatou ter observado, por telescópio, partículas e flashes de luz “navegando pelo espaço” e “escapando da Lua”.
+
+Na Apollo 17, a última missão tripulada à Lua, os tripulantes documentaram eventos estranhos em três momentos distintos. O piloto Ronald Evans descreveu partículas brilhantes flutuando e girando próximas à espaçonave. Jack Schmitt comparou um dos fenômenos aos fogos de artifício do Quatro de Julho. O comandante Eugene Cernan relatou rastros luminosos e uma luz intensa, semelhante a um farol de trem, piscando entre seus olhos.
+
+Uma foto da missão mostra três pontos de luz não identificados, capturados pela câmera da NASA.
+
+## O Incidente Nimitz
+
+Em novembro de 2004, dois pilotos da Marinha em uma missão de treinamento receberam ordens para interceptar uma nave misteriosa. Eles viram — e capturaram em vídeo — uma nave incomum de formato oval, com cerca de 12 metros de comprimento, pairando sobre o Oceano Pacífico a cerca de 160 quilômetros de San Diego.
+
+Ela se afastou rapidamente antes que os pilotos pudessem se aproximar. “Não faço ideia do que vi”, disse um dos pilotos, o comandante David Fravor, na época. “Ele não tinha plumas, asas ou rotores, e ultrapassou nossos F-18s.”
+
+O objeto ficou conhecido como o “Tic Tac” — pela sua forma alongada e branca, sem marcas de propulsão visíveis. Quando Fravor tentou se aproximar, o objeto acelerou rapidamente para o sul e desapareceu em menos de dois segundos.
+
+“Isso foi extremamente difícil, como uma bola de pingue-pongue quicando na parede. Ela batia e ia para o outro lado.”
+
+## O Projeto Blue Book
+
+Antes dos UAPs, houve os OVNIs oficiais. Ao longo de duas décadas, a Força Aérea dos EUA catalogou 12.618 avistamentos de ovnis como parte do que hoje é conhecido como Projeto Blue Book. Isso incluía luzes, objetos e leituras de radar inexplicáveis relatadas por pilotos militares e civis, observadores meteorológicos, astrônomos e outras fontes.
+
+Desses, 701 permaneciam “não identificados”.
+
+O projeto foi encerrado em 1969, depois que um estudo da Universidade do Colorado concluiu que não havia evidências de que os ovnis viessem de outros mundos. “Nossa conclusão geral é que, nos últimos 21 anos, o estudo dos ovnis não trouxe nada que tenha contribuído para o conhecimento científico”, disse o líder do estudo, Edward U. Condon. Segundo ele, “não é possível justificar mais investigações”.
+
+Ainda assim, os rumores e avistamentos persistiram — às vezes para o incômodo dos investigadores originais.
+
+## O relatório de 2021
+
+Em junho de 2021, o Gabinete do Diretor de Inteligência Nacional divulgou sua “avaliação preliminar” dos avistamentos de ovnis de 2004 a 2021. O relatório sugeriu que os ovnis, agora conhecidos como UAPs, poderiam se enquadrar em cinco categorias prováveis: fenômenos atmosféricos naturais, programas de desenvolvimento aeroespacial público e privado, sistemas adversários estrangeiros e “OUTROS”.
+
+O relatório deixa claro que mais trabalho precisa ser feito para identificar esses objetos, pois “o número limitado de relatórios de alta qualidade de fenômenos aéreos não identificados dificulta nossa capacidade de tirar conclusões firmes sobre sua natureza ou intenção”.
+
+Alguns dos UAPs pareciam exibir características de voo pouco usuais. Eles se deslocavam sem deixar qualquer rastro de calor, aceleravam e freavam violentamente e chegavam a girar sobre o próprio eixo enquanto se deslocavam em alta velocidade — um movimento incompatível com a aerodinâmica e as tecnologias de propulsão conhecidas. Nenhum avião, helicóptero, drone ou míssil seria capaz de fazer isso.
+
+“Alguns dos UAPs parecem demonstrar tecnologia avançada”, afirma o documento.
+
+Em um pequeno número de casos, aeronaves militares captaram energia de radiofrequência (RF) associada com os avistamentos de UAPs. Ou seja: embora não deixem rastros de calor, alguns dos objetos emitiam ondas eletromagnéticas — cuja explicação, ou função, é desconhecida.
+
+O mais intrigante: o órgão criado pela Marinha dos EUA para estudar esses fenômenos possuía uma pequena quantidade de dados que pareciam mostrar UAPs demonstrando aceleração ou algum grau de gerenciamento de assinatura — um termo usado na aviação militar para o conjunto de medidas empregadas para esconder uma aeronave.
+
+Sob a linguagem sóbria, o relatório estava afirmando algo extraordinário: os objetos não identificados tomam medidas para evitar que sejam detectados.
+
+Quais medidas, ele não diz. Essa informação, bem como as descrições detalhadas dos 144 avistamentos, está no Apêndice B — que é confidencial, e só foi apresentado ao Comitê Permanente de Inteligência do Congresso americano.
+
+## 2023 e além
+
+O DNI divulgou um relatório de acompanhamento em junho de 2023, identificando mais 510 avistamentos — dos quais 171 permaneceram sem explicação. Nesses casos, as naves não identificadas muitas vezes “parecem ter demonstrado características de voo ou capacidades de desempenho incomuns”, segundo o relatório.
+
+De forma mais explosiva, um ex-funcionário da inteligência chamado David Grusch apresentou em junho um relatório de denúncia alegando que o governo dos EUA estava de posse de “veículos intactos e parcialmente intactos” encontrados em locais de queda de ovnis. As naves, segundo ele, eram de origem “não humana”. Mas ele também disse que nunca havia visto pessoalmente os objetos, o que gerou ceticismo por parte de especialistas externos.
+
+Em abril de 2024, Sean Kirkpatrick, diretor do Escritório de Resolução de Anomalias do Pentágono, disse a um subcomitê do Senado que o governo dos EUA estava rastreando mais de 650 casos potenciais de fenômenos aéreos não identificados. Kirkpatrick enfatizou que não há evidências de vida extraterrestre e que seu escritório não encontrou “nenhuma evidência confiável” de objetos que desafiam as leis conhecidas da física.
+
+Mais de 650 casos. E a resposta oficial continua sendo a mesma: não sabemos.
+
+## O que isso significa — e o que não significa
+
+É preciso lembrar que “não identificado” não é sinônimo de “extraterrestre”. A ausência de explicação não prova a presença de vida fora da Terra. O que está em jogo, por enquanto, é o reconhecimento de que existem fenômenos no céu que nossos instrumentos detectam, mas nossa ciência ainda não consegue nomear.
+
+O mistério permanece aberto — e talvez devesse ficar assim.
+
+> *Deus me livre.*
+
+## Fontes consultadas
+
+- National Geographic Brasil — “O que sabemos de décadas de investigações governamentais sobre ovnis” (Joel Mathis, 10/07/2023)
+  https://www.nationalgeographicbrasil.com/ciencia/2023/07/o-que-sabemos-de-decadas-de-investigacoes-governamentais-sobre-ovnis
+
+- CNN Brasil — “OVNIs: veja imagens das aparições nos EUA e saiba o que diz o Pentágono” (Lucas Schroeder)
+  https://www.cnnbrasil.com.br/internacional/ovnis-imagens-dos-avistamentos-e-o-que-foi-revelado-pelo-pentagono/
+
+- Super Interessante — “OVNIs: os 144 avistamentos registrados pelo Pentágono entre 2004 e 2021” (Bruno Garattoni e Tiago Cordeiro)
+  https://super.abril.com.br/especiais/ovnis-os-avistamentos/
+
+- UOL Tilt — “Pentágono divulga aguardado dossiê sobre OVNIs; aliens não são descartados” (25/06/2021)
+  https://www.uol.com.br/tilt/noticias/redacao/2021/06/25/pentagono-divulga-aguardado-dossie-sobre-ovnis-aliens-nao-sao-descartados.htm
+
+- Arquivo Nacional dos EUA — “Project BLUE BOOK - Unidentified Flying Objects”
+  https://www.archives.gov/research/military/air-force/ufos
