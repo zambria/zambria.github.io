@@ -3,6 +3,8 @@ title: "O Tom das 3h14"
 category: contos
 status: aprovado
 data_pesquisa: 2026-11-18T15:00:00Z
+data_revisao: 2026-11-18T15:00:29.560433+00:00
+revisor: agente-revisor-v1
 ---
 
 # O Tom das 3h14
@@ -35,3 +37,9 @@ O tom não parou mais. E toda noite, às 3h14, a voz fica um pouco mais clara, u
 
 - Relatos de fenômenos de rádio anômalos (números estações)
 - Casos de EVP (fenômeno de voz eletrônica)
+
+
+## Notas do revisor
+- Texto muito curto (410 palavras) — precisa de expansao
+
+Por favor, reescreva as partes indicadas e submeta novamente para revisao.
