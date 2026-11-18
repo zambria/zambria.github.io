@@ -6,8 +6,7 @@ Posts em /posts/: 1
 ## Corricoes aplicadas
 - [x] index.html: removeu bloco 'vazio' (posts existem em /posts/)
 - [x] index.html: adicionou id='sidebar-zambria' ao <aside>
-- [x] index.html: inseriu botao toggle da sidebar
-- [x] index.html: inseriu script de toggle da sidebar antes de </body>
+- [x] index.html: adicionou id='site-shell' ao .site-shell
 
 ## Pendentes (abrir tarefa no Kanban se aplicavel)
 - [ ] 49 link(s) interno(s) quebrado(s) — ver relatorio

@@ -144,32 +144,35 @@ def garantir_toggle_sidebar(texto: str) -> str:
         texto = texto.replace('<aside class="sidebar">', '<aside class="sidebar" id="sidebar-zambria">', 1)
         FIXES.append("index.html: adicionou id='sidebar-zambria' ao <aside>")
 
-    # botao dentro do sidebar, apos o subtitulo
-    if 'class="toggle-sidebar"' not in texto:
+    # id no site-shell (alvo do JS de toggle)
+    if 'id="site-shell"' not in texto:
+        texto = texto.replace('<div class="site-shell">', '<div class="site-shell" id="site-shell">', 1)
+        FIXES.append("index.html: adicionou id='site-shell' ao .site-shell")
+
+    # botao dentro do sidebar, apos o subtitulo (convencao do publisher ZAMBRIA)
+    if 'class="btn-toggle-sidebar"' not in texto:
         botao = (
-            '\n      <button class="toggle-sidebar" aria-label="Mostrar ou ocultar menu de categorias"'
-            ' aria-expanded="true" aria-controls="sidebar-zambria">&#x2715;</button>'
+            '\n      <button class="btn-toggle-sidebar" id="btnToggleSidebar"'
+            ' aria-label="Esconder barra lateral">&#x2630;</button>'
         )
         texto = texto.replace('<div class="site-subtitle">O Insólito Presente</div>',
                               '<div class="site-subtitle">O Insólito Presente</div>' + botao, 1)
-        FIXES.append("index.html: inseriu botao toggle da sidebar")
+        FIXES.append("index.html: inseriu botao toggle da sidebar (btn-toggle-sidebar)")
 
-    # script antes de </body>
+    # script antes de </body>: alterna .sidebar-hidden no .site-shell
     js = (
         '  <script>\n'
         "    (function() {\n"
-        "      var btn = document.querySelector('.toggle-sidebar');\n"
-        "      var sidebar = document.getElementById('sidebar-zambria');\n"
-        "      if (!btn || !sidebar) return;\n"
+        "      var btn = document.getElementById('btnToggleSidebar');\n"
+        "      var shell = document.getElementById('site-shell');\n"
+        "      if (!btn || !shell) return;\n"
         "      btn.addEventListener('click', function() {\n"
-        "        var fechado = sidebar.classList.toggle('fechado');\n"
-        "        btn.setAttribute('aria-expanded', String(!fechado));\n"
-        "        btn.textContent = fechado ? '\u2630' : '\u2715';\n"
+        "        shell.classList.toggle('sidebar-hidden');\n"
         "      });\n"
         "    })();\n"
         "  </script>\n"
     )
-    if "sidebar.classList.toggle" not in texto:
+    if "sidebar-hidden" not in texto:
         if "</body>" in texto:
             texto = texto.replace("</body>", js + "</body>", 1)
         else:
@@ -181,8 +184,8 @@ def garantir_toggle_sidebar(texto: str) -> str:
 # ---------------------------------------------------------------- style.css
 CSS_TOGGLE = """
 
-/* Botao toggle da sidebar (aparece apenas em telas pequenas) */
-.toggle-sidebar {
+/* Botao toggle da sidebar (convencao do publisher ZAMBRIA) */
+.btn-toggle-sidebar {
   display: none;
   background: none;
   border: none;
@@ -194,14 +197,28 @@ CSS_TOGGLE = """
   align-self: start;
 }
 
+.btn-toggle-sidebar:hover {
+  color: var(--accent);
+}
+
+.btn-toggle-sidebar.hidden {
+  display: none;
+}
+
 @media (max-width: 768px) {
-  .toggle-sidebar {
+  .btn-toggle-sidebar {
     display: block;
   }
 
   /* esconde/mostra a sidebar esquerda no mobile */
-  .sidebar.fechado {
+  .site-shell.sidebar-hidden .sidebar {
     display: none;
+  }
+
+  .site-shell.sidebar-hidden .conteudo {
+    max-width: none;
+    padding: 2rem 1.5rem;
+    margin: 0;
   }
 }
 
@@ -211,7 +228,7 @@ CSS_TOGGLE = """
 
 def garantir_css_toggle() -> None:
     texto = STYLE_FILE.read_text(encoding="utf-8")
-    if ".toggle-sidebar" in texto:
+    if ".btn-toggle-sidebar" in texto:
         return
     STYLE_FILE.write_text(texto + CSS_TOGGLE, encoding="utf-8")
     FIXES.append("style.css: adicionou regras do botao toggle da sidebar")

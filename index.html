@@ -8,13 +8,12 @@
 </head>
 <body>
 
-  <div class="site-shell">
+  <div class="site-shell" id="site-shell">
     <!-- Sidebar esquerda: abas por categoria -->
     <aside class="sidebar" id="sidebar-zambria">
       <button class="btn-toggle-sidebar" id="btnToggleSidebar" aria-label="Esconder barra lateral">☰</button>
       <div class="site-title">ZAMBRIA</div>
       <div class="site-subtitle">O Insólito Presente</div>
-      <button class="toggle-sidebar" aria-label="Mostrar ou ocultar menu de categorias" aria-expanded="true" aria-controls="sidebar-zambria">&#x2715;</button>
 
       <div class="categoria-grupo">
         <div class="categoria-titulo">UFOs e Aliens</div>
@@ -138,17 +137,5 @@
     });
   </script>
 
-  <script>
-    (function() {
-      var btn = document.querySelector('.toggle-sidebar');
-      var sidebar = document.getElementById('sidebar-zambria');
-      if (!btn || !sidebar) return;
-      btn.addEventListener('click', function() {
-        var fechado = sidebar.classList.toggle('fechado');
-        btn.setAttribute('aria-expanded', String(!fechado));
-        btn.textContent = fechado ? '☰' : '✕';
-      });
-    })();
-  </script>
 </body>
 </html>
