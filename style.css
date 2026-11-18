@@ -27,10 +27,8 @@ body {
 }
 
 .btn-toggle-sidebar {
-  display: block;
   width: 44px;
   height: 44px;
-  margin: 0 auto 1.5rem auto;
   background-color: var(--accent);
   color: #000000;
   border: none;
@@ -42,6 +40,8 @@ body {
   line-height: 1;
   text-align: center;
   padding: 0;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
 }
 
 .btn-toggle-sidebar:hover {
@@ -51,6 +51,18 @@ body {
 
 .btn-toggle-sidebar.hidden {
   display: none;
+}
+
+/* Layout da sidebar: botão e título na mesma linha */
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.sidebar-header .site-title {
+  margin: 0;
 }
 
 /* Layout principal */
