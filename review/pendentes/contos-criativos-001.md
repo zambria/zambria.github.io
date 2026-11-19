@@ -89,7 +89,7 @@ O Rio Negro é negro mesmo de noite. Não pela ausência de luz, mas pela cor da
 
 Não é jacaré. Não é boto. Não é peixe. É algo maior — muito maior. Algo que desliza sob a superfície deixando um rastro de espuma que não se desfaz. Algo que, quando emerge, não faz barulho de respingo, mas de algo pesado sendo arrastado por dentro da água.
 
-O último avistamento registrado foi na semana passada. Um grupo de pescadores voltava de uma pescaria noturna quando o motor da lanterna parou. Na escuridão, ouviram um som baixo, gutural, vindo de debaixo do barco. A água começou a borbulhar em torno deles. Então viram: uma forma escura, com cerca de cinco metros de comprimento, subindo à superfície com lentidão, antes de desaparecer novamente nas profundezas.
+O último avistamento registrado foi na semana passada. Um grupo de pescadores voltava de uma pescaria noturna quando o motor da lancha parou. Na escuridão, ouviram um som baixo, gutural, vindo de debaixo do barco. A água começou a borbulhar em torno deles. Então viram: uma forma escura, com cerca de cinco metros de comprimento, subindo à superfície com lentidão, antes de desaparecer novamente nas profundezas.
 
 O biólogo que analisou o relato não conseguiu identificar a criatura com nenhuma espécie conhecida da região. Não há registro de anfíbios, répteis ou mamíferos aquáticos de porte semelhante no Rio Negro.
 
@@ -156,25 +156,79 @@ A família continua respeitando a regra. Não dizem o nome após o escurecer. E,
 
 ---
 titulo: O Último Contato
-resumo: Uma colônia de contos de terror adulto que explora o medo do desconhecido, onde cada história é uma porta para algo que não deveria ser aberto.
+resumo: Um operador de rádio em uma estação remota recebe um sinal que não deveria existir — e descobre que algo do outro lado já conhece seu nome.
 categoria: contos-de-terror
 data: 2026-11-18
 slug: o-ultimo-contato
 ---
 
-O medo não mora nos monstros. Ele mora no momento em que você percebe que está sendo observado por algo que não deveria existir.
+A Estação de Monitoramento 7 ficava a trezentos quilômetros do núcleo mais próximo de civilização, instalada em uma antiga base militar abandonada nas montanhas de Minas Gerais. Não havia estrada de acesso decente, apenas uma trilha de terra que o jipe percorria em três horas de poeira e suspensão rangeando. Marcos Vidal era o único operador de plantão. Sua função era simples: ouvir. Registrar qualquer anomalia nas frequências de longo alcance. Reportar ao comando central, se algo surgisse.
 
-Este é o espírito do Z4W3R14: histórias sombrias para ler com a luz acesa. Contos que não prometem respostas, apenas perguntas que ecoam depois de apagar a luz.
+Nos primeiros quatorze dias, não surgiu nada. Apenas estática, o chiado constante do vazio, o som do universo se recusando a falar.
 
-Cada conto aqui é uma porta. Espelhos que não refletem. Câmeras que capturam o invisível. Sinais de rádio que não deveriam ter resposta. Radares que detectam o indetetável.
+No décimo quinto dia, às 3h14, algo mudou.
 
-O medo adulto é diferente do medo infantil. Não é medo do escuro em si — é medo do que o escuro esconde quando você sabe que algo está lá, mas não consegue nomear.
+Marcos ajustara o botão de frequência em uma faixa classificada como não atribuída. Não deveria haver nada ali. Apenas ruído branco, o sussurro cósmico de fundo. Mas, em vez de estática, ele ouviu uma sequência: três tons curtos, um longo, pausa, repetição. Um padrão demasiado ordenado para ser fenômeno natural.
 
-Bem-vindo ao Z4W3R14. Aqui, o último contato pode ser o primeiro de muitos. E algumas portas, uma vez abertas, nunca mais se fecham por completo.
+Ele gravou. Analisou o espectro. O sinal vinha de uma direção fixa acima da serra, a poucos quilômetros da estação. Não havia satélite registrado naquela posição. Não havia aeronave. Não havia nada que explicasse aqueles tons.
+
+Quando Marcos tentou transmitir uma resposta na mesma frequência, o equipamento não respondeu. O rádio ficou mudo. Até que, minutos depois, os três tons voltaram — desta vez acompanhados de algo novo. Uma voz. Não vinha pelo alto-falante. Vinha dentro de seus fones de ouvido, direto no ouvido esquerdo, como se alguém estivesse sussurrando a um centímetro de sua cabeça.
+
+— Marcos Vidal — disse a voz. — Estamos ouvindo você.
+
+Marcos tirou os fones. O silêncio da estação voltou, opressor, pesado. O rádio continuava mudo. Ele olhou ao redor do quarto de concreto, as paredes úmidas, a lâmpada piscando acima da mesa. Nada. Apenas o chiado do equipamento desligado.
+
+Na noite seguinte, os tons voltaram às 3h14. E a voz também.
+
+— Você não está sozinho, Marcos — sussurrou. — Nunca esteve.
+
+Ele desligou o rádio. Desligou tudo. Trancou a porta do quarto de operações com cadeado. Sentou na cadeira de frente para a porta, a faca de cozinha na mão, e passou a noite inteira acordado, olhando para a escuridão do corredor.
+
+Às 3h14, a cadeira rangeu sozinha.
+
+Marcos levantou de um salto. A faca caiu no chão com um barulho metálico que ecoou pela estação. O corredor estava vazio. A porta continuava trancada. O cadeado, intacto.
+
+Ele voltou para o quarto de operações. O rádio estava ligado.
+
+Não ele quem ligou. Ele tinha certeza. Os fones de ouvido estavam no lugar, sobre a mesa, o cabo emaranhado. E a voz saiu deles, clara, próxima, como se falasse de dentro do quarto.
+
+— Você não pode nos bloquear, Marcos — disse a voz. — Já entramos. Estamos nas paredes. No ar. No seu respirar.
+
+Marcos pegou a faca. Saiu do quarto. Correu para a entrada principal da estação, a porta de aço pesada que trancava de fora com correntes. As correntes estavam lá. O cadeado, intacto. Ele passou a mão pelo metal gelado. Não havia arrombamento. Não havia entrada.
+
+Ele voltou para o quarto de operações, de faca em punho, o coração batendo forte demais, o suor frio escorrendo pelas costas. O rádio continuava ligado. A voz falava novamente.
+
+— Você nos ouviu, Marcos — disse. — Agora nós ouvimos você. Não apenas seus sinais. Seus pensamentos. Seus medos. O nome da sua mãe. A data do seu nascimento. O que você fez naquela noite em São Paulo, quando ninguém estava olhando.
+
+Marcos desligou o rádio. Arrancou o cabo da tomada. Quebrou o aparelho com a faca, os componentes eletrônicos espalhados pelo chão de concreto. O silêncio voltou, absoluto.
+
+Ele dormiu na cadeira, exausto, a faca apoiada no colo.
+
+Acordou às 3h14.
+
+O rádio estava ligado novamente. Não estava conectado à tomada. O cabo estava quebrado em duas partes no chão. Mas o aparelho tocava, o chiado preenchendo o quarto, e a voz saía dele, mais forte agora, mais próxima, como se estivesse ao seu lado, respirando no mesmo ritmo.
+
+— Você não pode nos desligar, Marcos — disse a voz. — Você já é um de nós.
+
+Ele olhou para o espelho do banheiro ao lado do quarto de operações. Seu reflexo piscou. Não ele quem piscou. O reflexo sorriu. Um sorriso que não era dele, dentes demais, ângulos errados.
+
+Marcos saiu correndo da estação. Não trancou a porta. Não pegou as chaves do jipe. Caminhou pela trilha de terra na escuridão total, a faca na mão, o fôlego ofegante, ouvindo os passos atrás de si. Não eram os seus. Eram muitos. Muitos pés caminhando na terra seca, aproximando-se, sempre atrás, nunca alcançando.
+
+Ele chegou à estrada principal ao amanhecer. Um caminhão passou. Marcos acenou. O motorista parou. Abriu a porta do passageiro.
+
+— Para onde? — perguntou o homem.
+
+— Qualquer lugar longe daqui — respondeu Marcos.
+
+O motorista olhou para ele, os olhos arregalados, a expressão de quem vê um fantasma.
+
+— Você não deveria estar vivo — disse o homem. — A estação explodiu na noite passada. Não sobrou nada. Não sobrou ninguém.
+
+Marcos olhou para trás. A serra estava lá, silenciosa, coberta de neblina. E, em alguma profundidade daquela montanha, ele sabia, os três tons continuavam tocando. À espera do próximo operador. À espera de quem quisesse ouvir.
 
 ## Fontes de inspiração
-- Literatura de terror e suspense adulto
-- Contos sobrenaturais brasileiros e internacionais
-- Fenômenos não explicados como pano de fundo para ficção
+- Relatos de estações de rádio remotas e sinais não identificados
+- Fenômenos de vozes em equipamentos eletrônicos (EVP)
+- Lendas sobre locais isolados e presências invisíveis
 
 ---
