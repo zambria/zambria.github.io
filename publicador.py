@@ -25,6 +25,7 @@ from pathlib import Path
 # --------------------------- caminhos ---------------------------
 REPO = Path(__file__).resolve().parent
 REVIEW_DIR = REPO / "review"
+PENDENTES_DIR = REVIEW_DIR / "pendentes"
 POSTS_DIR = REPO / "posts"
 PUBLICADOS_DIR = REPO / "publicados"
 INDEX_FILE = REPO / "index.html"
@@ -372,7 +373,7 @@ def publicar():
         salvar_estado(estado)
         return
 
-    pendentes = sorted(REVIEW_DIR.glob("*.md"))
+    pendentes = sorted(PENDENTES_DIR.glob("*.md"))
     if not pendentes:
         log("Nenhum conteúdo aprovado pendente em /review/.")
         salvar_estado(estado)
