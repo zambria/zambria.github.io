@@ -20,16 +20,16 @@
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-ufo" role="button" tabindex="0" aria-expanded="false">UFO</div>
         <ul class="lista-topicos" id="lista-ufo" style="display: none;">
-          <li><a href="ufo-01.html">Observações de OVNIs e UAPs</a></li>
-          <li><a href="ufo-02.html">Relatos de abdução alienígena</a></li>
-          <li><a href="ufo-03.html">Contato de terceiro, quarto e quinto graus</a></li>
-          <li><a href="ufo-04.html">Crop circles (agroglifos)</a></li>
-          <li><a href="ufo-05.html">OVNIs nas artes antigas e pinturas religiosas</a></li>
-          <li><a href="ufo-06.html">Programas governamentais secretos (Blue Book, AATIP)</a></li>
-          <li><a href="ufo-07.html">Área 51 e bases militares ultrassecretas</a></li>
-          <li><a href="ufo-08.html">SETI, sinais de rádio, Wow! signal</a></li>
-          <li><a href="ufo-09.html">Teoria dos Antigos Astronautas</a></li>
-          <li><a href="ufo-10.html">Biologia de formas de vida não-terrestres</a></li>
+          <li data-index="0"><a href="ufo-01.html">Observações de OVNIs e UAPs</a></li>
+          <li data-index="1"><a href="ufo-02.html">Relatos de abdução alienígena</a></li>
+          <li data-index="2"><a href="ufo-03.html">Contato de terceiro, quarto e quinto graus</a></li>
+          <li data-index="3"><a href="ufo-04.html">Crop circles (agroglifos)</a></li>
+          <li data-index="4"><a href="ufo-05.html">OVNIs nas artes antigas e pinturas religiosas</a></li>
+          <li data-index="5"><a href="ufo-06.html">Programas governamentais secretos (Blue Book, AATIP)</a></li>
+          <li data-index="6"><a href="ufo-07.html">Área 51 e bases militares ultrassecretas</a></li>
+          <li data-index="7"><a href="ufo-08.html">SETI, sinais de rádio, Wow! signal</a></li>
+          <li data-index="8"><a href="ufo-09.html">Teoria dos Antigos Astronautas</a></li>
+          <li data-index="9"><a href="ufo-10.html">Biologia de formas de vida não-terrestres</a></li>
         </ul>
       </div>
     </aside>
@@ -70,10 +70,41 @@
 
     const categoria = document.getElementById('categoria-ufo');
     const lista = document.getElementById('lista-ufo');
+    const itens = lista.querySelectorAll('li');
+
+    function abrirComCascata() {
+      lista.style.display = 'block';
+      itens.forEach((li, i) => {
+        li.style.animation = 'none';
+        li.offsetHeight; // force reflow
+        li.style.animation = `slideFadeIn 0.3s ease forwards`;
+        li.style.animationDelay = `${i * 70}ms`;
+      });
+      categoria.setAttribute('aria-expanded', 'true');
+    }
+
+    function fecharComCascata() {
+      itens.forEach((li, i) => {
+        const reverso = (itens.length - 1 - i) * 50;
+        li.style.animation = `slideFadeOut 0.2s ease forwards`;
+        li.style.animationDelay = `${reverso}ms`;
+      });
+      setTimeout(() => {
+        lista.style.display = 'none';
+        itens.forEach(li => {
+          li.style.animation = 'none';
+        });
+      }, 250);
+      categoria.setAttribute('aria-expanded', 'false');
+    }
+
     categoria.addEventListener('click', () => {
       const aberto = lista.style.display === 'block';
-      lista.style.display = aberto ? 'none' : 'block';
-      categoria.setAttribute('aria-expanded', String(!aberto));
+      if (aberto) {
+        fecharComCascata();
+      } else {
+        abrirComCascata();
+      }
     });
     categoria.addEventListener('keydown', (e) => {
       if (e.key === 'Enter' || e.key === ' ') {
