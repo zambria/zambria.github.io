@@ -18,8 +18,18 @@
       <div class="site-subtitle">O Insólito Presente</div>
 
       <div class="categoria-grupo">
-        <div class="categoria-titulo">UFO</div>
-        <ul class="lista-topicos">
+        <div class="categoria-titulo" id="categoria-ufo" role="button" tabindex="0" aria-expanded="false">UFO</div>
+        <ul class="lista-topicos" id="lista-ufo" style="display: none;">
+          <li><a href="ufo-01.html">Observações de OVNIs e UAPs</a></li>
+          <li><a href="ufo-02.html">Relatos de abdução alienígena</a></li>
+          <li><a href="ufo-03.html">Contato de terceiro, quarto e quinto graus</a></li>
+          <li><a href="ufo-04.html">Crop circles (agroglifos)</a></li>
+          <li><a href="ufo-05.html">OVNIs nas artes antigas e pinturas religiosas</a></li>
+          <li><a href="ufo-06.html">Programas governamentais secretos (Blue Book, AATIP)</a></li>
+          <li><a href="ufo-07.html">Área 51 e bases militares ultrassecretas</a></li>
+          <li><a href="ufo-08.html">SETI, sinais de rádio, Wow! signal</a></li>
+          <li><a href="ufo-09.html">Teoria dos Antigos Astronautas</a></li>
+          <li><a href="ufo-10.html">Biologia de formas de vida não-terrestres</a></li>
         </ul>
       </div>
     </aside>
@@ -55,6 +65,20 @@
       } else {
         btn.textContent = '☰';
         btn.setAttribute('aria-label', 'Esconder barra lateral');
+      }
+    });
+
+    const categoria = document.getElementById('categoria-ufo');
+    const lista = document.getElementById('lista-ufo');
+    categoria.addEventListener('click', () => {
+      const aberto = lista.style.display === 'block';
+      lista.style.display = aberto ? 'none' : 'block';
+      categoria.setAttribute('aria-expanded', String(!aberto));
+    });
+    categoria.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        categoria.click();
       }
     });
   </script>
