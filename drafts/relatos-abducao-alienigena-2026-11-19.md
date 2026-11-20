@@ -32,4 +32,7 @@ A similaridade entre as histórias pode ser explicada por "roteiros culturais" d
 
 ---
 
+
 *Rascunho gerado automaticamente pelo agente pesquisador do blog ZAMBRIA.*
+
+* Processado em 2026-11-19: convertido em artigo criativo em review/pendentes/exame-sala-branca-abducoes-arquivos-mente-fabrica-visitantes.md *
