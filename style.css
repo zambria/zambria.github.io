@@ -199,6 +199,33 @@ body {
   text-decoration: none;
 }
 
+/* Animação em cascata dos tópicos */
+@keyframes slideFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideFadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+.lista-topicos li {
+  opacity: 0;
+}
+
 @media (max-width: 768px) {
   .site-shell {
     flex-direction: column;
