@@ -1,5 +1,9 @@
 {
-  "ultima_publicacao": "2026-11-18",
+  "ultima_publicacao": "2026-11-21",
   "posts_hoje": 2,
-  "total_publicados": 2
+  "total_publicados": 2,
+  "limite_diario": 999,
+  "espaco_disponivel": true,
+  "texto_indicado": null,
+  "motivo_nao_publicacao": null
 }
