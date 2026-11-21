@@ -112,7 +112,6 @@
 
   </div>
 
-  <script>
     /* Botão de esconder/mostrar sidebar inteira */
     const btn = document.getElementById('btnToggleSidebar');
     const shell = document.querySelector('.site-shell');
@@ -136,8 +135,9 @@
 
       function abrir() {
         lista.style.display = 'block';
-        // garante que o navegador repinte antes de animar
-        lista.offsetHeight;
+        lista.style.visibility = 'visible';
+        // força repaint
+        void lista.offsetHeight;
         itens.forEach((li, i) => {
           li.style.animation = 'none';
           li.offsetHeight;
@@ -155,9 +155,9 @@
           li.style.animation = `slideFadeOut 0.2s ease forwards`;
           li.style.animationDelay = `${i * 60}ms`;
         });
-        // só esconde a lista depois que o último item terminou a animação
         setTimeout(() => {
           lista.style.display = 'none';
+          lista.style.visibility = 'hidden';
           itens.forEach(li => { li.style.animation = 'none'; });
         }, ultimo * 60 + 250);
         titulo.setAttribute('aria-expanded', 'false');
