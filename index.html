@@ -4,48 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ZAMBRIA — O Insólito Presente</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          keyframes: {
-            'slideFadeIn': {
-              '0%': { opacity: '0', transform: 'translateY(10px)' },
-              '100%': { opacity: '1', transform: 'translateY(0)' }
-            },
-            'slideFadeOut': {
-              '0%': { opacity: '1', transform: 'translateY(0)' },
-              '100%': { opacity: '0', transform: 'translateY(-10px)' }
-            }
-          },
-          animation: {
-            'slide-fade-in': 'slideFadeIn 0.3s ease forwards',
-            'slide-fade-out': 'slideFadeOut 0.2s ease forwards'
-          }
-        }
-      }
-    }
-  </script>
-  <style>
-    @keyframes slideFadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    @keyframes slideFadeOut {
-      from { opacity: 1; transform: translateY(0); }
-      to { opacity: 0; transform: translateY(-10px); }
-    }
-    .li-initial { opacity: 0; }
-  </style>
-  <style>
-    .site-shell.sidebar-hidden .sidebar {
-      transform: translateX(-100%);
-    }
-    .site-shell.sidebar-hidden .conteudo {
-      padding-left: 2rem;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-black text-white font-sans leading-relaxed min-h-screen">
 
@@ -54,657 +13,98 @@
     <!-- Botão SEMPRE visível, fora da sidebar -->
     <button class="btn-toggle-sidebar w-8 h-8 bg-red-600 text-black rounded font-black text-lg cursor-pointer transition-all duration-200 leading-none text-center p-0 shrink-0 fixed top-4 left-4 z-50" id="btnToggleSidebar" aria-label="Esconder barra lateral">☰</button>
 
+    <!-- Sidebar esquerda: categorias que se expandem/contraem -->
     <aside class="sidebar w-80 bg-black border-r border-gray-700 p-6 overflow-y-auto shrink-0 sticky top-0 h-screen transition-all duration-300" id="sidebar-zambria">
       <div class="sidebar-header flex flex-col items-center gap-2 mb-8 text-center">
         <div class="site-title text-2xl font-black uppercase tracking-widest text-white">ZAMBRIA</div>
       </div>
       <div class="site-subtitle text-xs text-red-600 uppercase tracking-widest mb-10 opacity-90 text-center">O Insólito Presente</div>
 
+      <!-- Categoria: UFOs e Aliens -->
       <div class="categoria-grupo">
         <div class="categoria-titulo text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3 pl-1 border-l-3 border-red-600" id="categoria-ufo" role="button" tabindex="0" aria-expanded="true">UFOs e Aliens</div>
-        <ul class="lista-topicos" id="lista-ufo">
-          <li><a href="posts/ovnis-e-uaps-quando-o-c-u-deixa-de-ser-identificado.html">OVNIs e UAPs: quando o céu deixa de ser identificado</a></li>
-          <li><a href="posts/ufo-01-longo.html">OVNIs e UAPs: quando o céu deixa de ser identificado — versão longa</a></li>
-          <li><a href="posts/abdu-es-alien-genas-quando-eles-levam-voc.html">Abduções Alienígenas: quando eles levam você</a></li>
-          <li><a href="posts/triangulo-negro-uap.html">Triângulo Negro: o silêncio dos arquivos e o que paira sobre o Oeste</a></li>
+        <ul class="lista-topicos" id="lista-ufo" style="display: block;">
           <li><a href="posts/ceus-vigiados-ovnis-brasil.html">Os Céus Vigiados: O Que a Força Aérea Deixou nos Arquivos do OVNI</a></li>
-          <li><a href="posts/a-ultima-noite-de-marte.html">A Última Noite de Marte</a></li>
-                  <li><a href="posts/743-registros-zero-explicacoes-arquivo-nacional.html">743 Registros, Zero Explicações: O Que o Arquivo Nacional Esconde Sobre o Que Voa Sobre o Brasil</a></li>
-</ul>
-      </div>
-
-      <div class="categoria-grupo">
-        <div class="categoria-titulo text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3 pl-1 border-l-3 border-red-600" role="button" tabindex="0">Arqueologia Antiga e Mistérios Históricos</div>
-        <ul class="lista-topicos">
-          <li><a href="posts/o-diario-do-vigia.html">O Diário do Vigia</a></li>
-          <li><a href="posts/a-sombra-no-planalto.html">A Sombra no Planalto</a></li>
+          <li><a href="posts/triangulo-negro-uap.html">Triângulo Negro: o silêncio dos arquivos e o que paira sobre o Oeste</a></li>
         </ul>
       </div>
 
+      <!-- Categoria: Arqueologia Antiga -->
       <div class="categoria-grupo">
-        <div class="categoria-titulo text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3 pl-1 border-l-3 border-red-600" role="button" tabindex="0">Sobrenatural e Paranormal</div>
-        <ul class="lista-topicos">
-          <li><a href="posts/a-l-mpada-que-viu-demais.html">A Lâmpada que Viu Demais</a></li>
-        </ul>
-      </div>
-
-      <div class="categoria-grupo">
-        <div class="categoria-titulo text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3 pl-1 border-l-3 border-red-600" role="button" tabindex="0">Criptozologia</div>
-        <ul class="lista-topicos">
+        <div class="categoria-titulo text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3 pl-1 border-l-3 border-red-600" id="categoria-arch" role="button" tabindex="0" aria-expanded="false">Arqueologia Antiga e Mistérios Históricos</div>
+        <ul class="lista-topicos" id="lista-arch" style="display: none;">
           <li><span class="text-gray-500 text-sm">Sem posts publicados ainda</span></li>
         </ul>
       </div>
 
+      <!-- Categoria: Sobrenatural -->
       <div class="categoria-grupo">
-        <div class="categoria-titulo text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3 pl-1 border-l-3 border-red-600" role="button" tabindex="0">Conspirações e Coberturas</div>
-        <ul class="lista-topicos">
-          <li><span class="text-gray-500 text-sm">Sem posts publicados ainda</span></li>
-                  <li><a href="posts/17-de-novembro-apagao-mundial.html">17 de Novembro: a noite em que o mundo se preparou para apagar</a></li>
-</ul>
-      </div>
-
-      <div class="categoria-grupo">
-        <div class="categoria-titulo text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3 pl-1 border-l-3 border-red-600" role="button" tabindex="0">Fenômenos Naturais Inexplicáveis</div>
-        <ul class="lista-topicos">
+        <div class="categoria-titulo text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3 pl-1 border-l-3 border-red-600" id="categoria-para" role="button" tabindex="0" aria-expanded="false">Sobrenatural e Paranormal</div>
+        <ul class="lista-topicos" id="lista-para" style="display: none;">
           <li><span class="text-gray-500 text-sm">Sem posts publicados ainda</span></li>
         </ul>
       </div>
 
+      <!-- Categoria: Criptozologia -->
       <div class="categoria-grupo">
-        <div class="categoria-titulo text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3 pl-1 border-l-3 border-red-600" role="button" tabindex="0">Contos</div>
-        <ul class="lista-topicos">
-          <li><a href="posts/o-tom-das-3h14.html">O Tom das 3h14</a></li>
-          <li><a href="posts/o-di-rio-do-vigia.html">O Diário do Vigia</a></li>
-          <li><a href="posts/o-olhar-de-pedra.html">O Olhar de Pedra</a></li>
-          <li><a href="posts/a-ltima-noite-de-marte.html">A Última Noite de Marte</a></li>
+        <div class="categoria-titulo text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3 pl-1 border-l-3 border-red-600" id="categoria-crypto" role="button" tabindex="0" aria-expanded="false">Criptozologia</div>
+        <ul class="lista-topicos" id="lista-crypto" style="display: none;">
+          <li><span class="text-gray-500 text-sm">Sem posts publicados ainda</span></li>
+        </ul>
+      </div>
+
+      <!-- Categoria: Conspirações -->
+      <div class="categoria-grupo">
+        <div class="categoria-titulo text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3 pl-1 border-l-3 border-red-600" id="categoria-conspir" role="button" tabindex="0" aria-expanded="false">Conspirações e Coberturas</div>
+        <ul class="lista-topicos" id="lista-conspir" style="display: none;">
+          <li><span class="text-gray-500 text-sm">Sem posts publicados ainda</span></li>
+        </ul>
+      </div>
+
+      <!-- Categoria: Fenômenos Naturais -->
+      <div class="categoria-grupo">
+        <div class="categoria-titulo text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3 pl-1 border-l-3 border-red-600" id="categoria-nature" role="button" tabindex="0" aria-expanded="false">Fenômenos Naturais Inexplicáveis</div>
+        <ul class="lista-topicos" id="lista-nature" style="display: none;">
+          <li><span class="text-gray-500 text-sm">Sem posts publicados ainda</span></li>
+        </ul>
+      </div>
+
+      <!-- Categoria: Contos -->
+      <div class="categoria-grupo">
+        <div class="categoria-titulo text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3 pl-1 border-l-3 border-red-600" id="categoria-contos" role="button" tabindex="0" aria-expanded="false">Contos de Terror Adulto</div>
+        <ul class="lista-topicos" id="lista-contos" style="display: none;">
+          <li><span class="text-gray-500 text-sm">Sem posts publicados ainda</span></li>
         </ul>
       </div>
     </aside>
 
+    <!-- Conteúdo principal -->
     <main class="conteudo flex-1 p-12 max-w-5xl mx-auto w-full transition-all duration-300">
       <section class="hero text-center mb-12 pb-8 border-b border-gray-700">
-        <h1 class="text-5xl font-black leading-tight text-white mb-2">O Insólito Presente</h1>
-        <p class="text-gray-400">Curiosidades, ciências, arqueologia antiga, OVNIs, sobrenatural e mistérios. Um olhar sério sobre o que não se explica.</p>
+        <h1 class="text-5xl font-black leading-tight text-white mb-2">ZAMBRIA</h1>
+        <p class="text-gray-400">O Insólito Presente — Estudos sobre fenômenos que ficam na fronteira entre o conhecido e o inexplicável.</p>
       </section>
 
-      <section id="ufo" class="mb-12">
-        <h2 class="text-3xl font-bold text-red-600 mb-6">UFOs e Aliens</h2>
-        <p class="text-gray-400 mb-6">Observações, avistamentos, abduções, contatos e programas governamentais sobre fenômenos aéreos não identificados.</p>
-        <div class="space-y-4">
-          <article class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">ufo</span>
-              <span>2026-11-18</span>
-            
-<article class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-  <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-    <span class="categoria uppercase tracking-wider">ufos</span>
-    <span>2026-11-20</span>
-  </div>
-  <h3 class="text-xl font-bold"><a href="posts/743-registros-zero-explicacoes-arquivo-nacional.html" class="text-white hover:text-red-400">743 Registros, Zero Explicações: O Que o Arquivo Nacional Esconde Sobre o Que Voa Sobre o Brasil</a></h3>
-</article>
-</div>
-            <h3 class="text-xl font-bold"><a href="posts/ovnis-e-uaps-quando-o-c-u-deixa-de-ser-identificado.html" class="text-white hover:text-red-400">OVNIs e UAPs: quando o céu deixa de ser identificado</a></h3>
-          </article>
-          <article class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">ufo</span>
-              <span>2026-11-18</span>
-            </div>
-            <h3 class="text-xl font-bold"><a href="posts/ufo-01-longo.html" class="text-white hover:text-red-400">OVNIs e UAPs: quando o céu deixa de ser identificado — versão longa</a></h3>
-          </article>
-          <article class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">ufo</span>
-              <span>2026-11-21</span>
-            </div>
-            <h3 class="text-xl font-bold"><a href="posts/abdu-es-alien-genas-quando-eles-levam-voc.html" class="text-white hover:text-red-400">Abduções Alienígenas: quando eles levam você</a></h3>
-          </article>
-          <article class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">ufo</span>
-              <span>20/11/2026</span>
-            </div>
-            <h3 class="text-xl font-bold"><a href="posts/triangulo-negro-uap.html" class="text-white hover:text-red-400">Triângulo Negro: o silêncio dos arquivos e o que paira sobre o Oeste</a></h3>
-          </article>
-          <article class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">ufo</span>
-              <span>20/11/2026</span>
-            </div>
-            <h3 class="text-xl font-bold"><a href="posts/ceus-vigiados-ovnis-brasil.html" class="text-white hover:text-red-400">Os Céus Vigiados: O Que a Força Aérea Deixou nos Arquivos do OVNI</a></h3>
-          </article>
-          <article class="post last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">ufo</span>
-              <span>2026-11-18</span>
-            </div>
-            <h3 class="text-xl font-bold"><a href="posts/a-ultima-noite-de-marte.html" class="text-white hover:text-red-400">A Última Noite de Marte</a></h3>
-          </article>
-        </div>
-      </section>
+      <section class="posts-list space-y-8">
+        <article class="post border-b border-gray-700 pb-8 last:border-b-0 last:pb-0">
+          <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
+            <span class="categoria uppercase tracking-wider">ufos</span>
+            <span>20/11/2026</span>
+          </div>
+          <h2 class="text-2xl font-bold mb-4">Os Céus Vigiados: O Que a Força Aérea Deixou nos Arquivos do OVNI</h2>
+          <p class="text-gray-300">O Brasil guarda 743 registros oficiais de OVNIs de 1952 a 2016, mas a Força Aérea diz que nunca investigou sua natureza — apenas catalogou o silêncio.</p>
+          <a href="posts/ceus-vigiados-ovnis-brasil.html" class="text-red-600 hover:text-red-400 font-medium">Ler artigo →</a>
+        </article>
 
-      <section id="arch" class="mb-12">
-        <h2 class="text-3xl font-bold text-red-600 mb-6">Arqueologia Antiga e Mistérios Históricos</h2>
-        <p class="text-gray-400 mb-6">Pirâmides, megalitos, geoglifos, cidades perdidas e tecnologia antiga anacrônica.</p>
-        <div class="space-y-4">
-          <article class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">arch</span>
-              <span>2026-11-18</span>
-            </div>
-            <h3 class="text-xl font-bold"><a href="posts/o-diario-do-vigia.html" class="text-white hover:text-red-400">O Diário do Vigia</a></h3>
-          </article>
-          <article class="post last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">arch</span>
-              <span>—</span>
-            </div>
-            <h3 class="text-xl font-bold"><a href="posts/a-sombra-no-planalto.html" class="text-white hover:text-red-400">A Sombra no Planalto</a></h3>
-          </article>
-        </div>
-      </section>
-
-      <section id="para" class="mb-12">
-        <h2 class="text-3xl font-bold text-red-600 mb-6">Sobrenatural e Paranormal</h2>
-        <p class="text-gray-400 mb-6">Fenômenos além da linha entre o mundo dos vivos e o que fica para trás.</p>
-        <div class="space-y-4">
-          <article class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">para</span>
-              <span>2026-11-18</span>
-            </div>
-            <h3 class="text-xl font-bold"><a href="posts/a-l-mpada-que-viu-demais.html" class="text-white hover:text-red-400">A Lâmpada que Viu Demais</a></h3>
-          </article>
-        </div>
-      </section>
-
-      <section id="crypto" class="mb-12">
-        <h2 class="text-3xl font-bold text-red-600 mb-6">Criptozologia</h2>
-        <p class="text-gray-400">Sem posts publicados ainda nesta categoria.</p>
-      </section>
-
-      <section id="conspir" class="mb-12">
-        <h2 class="text-3xl font-bold text-red-600 mb-6">Conspirações e Coberturas</h2>
-        <p class="text-gray-400">Sem posts publicados ainda nesta categoria.</p>
-      </section>
-
-      <section id="nature" class="mb-12">
-        <h2 class="text-3xl font-bold text-red-600 mb-6">Fenômenos Naturais Inexplicáveis</h2>
-        <p class="text-gray-400">Sem posts publicados ainda nesta categoria.</p>
-      </section>
-
-      <section id="contos" class="mb-12">
-        <h2 class="text-3xl font-bold text-red-600 mb-6">Contos</h2>
-        <p class="text-gray-400 mb-6">Ficções curtas do insólito, publicadas em /posts/.</p>
-        <div class="space-y-4">
-          <article class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">contos</span>
-              <span>2026-11-18</span>
-            
-<article class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-  <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-    <span class="categoria uppercase tracking-wider">conspiracoes</span>
-    <span>2026-11-20</span>
-  </div>
-  <h3 class="text-xl font-bold"><a href="posts/17-de-novembro-apagao-mundial.html" class="text-white hover:text-red-400">17 de Novembro: a noite em que o mundo se preparou para apagar</a></h3>
-</article>
-</div>
-            <h3 class="text-xl font-bold"><a href="posts/o-tom-das-3h14.html" class="text-white hover:text-red-400">O Tom das 3h14</a></h3>
-          </article>
-          <article class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">contos</span>
-              <span>—</span>
-            </div>
-            <h3 class="text-xl font-bold"><a href="posts/o-di-rio-do-vigia.html" class="text-white hover:text-red-400">O Diário do Vigia</a></h3>
-          </article>
-          <article class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">contos</span>
-              <span>—</span>
-            </div>
-            <h3 class="text-xl font-bold"><a href="posts/o-olhar-de-pedra.html" class="text-white hover:text-red-400">O Olhar de Pedra</a></h3>
-          </article>
-          <article class="post last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">contos</span>
-              <span>2026-11-18</span>
-            </div>
-            <h3 class="text-xl font-bold"><a href="posts/a-ltima-noite-de-marte.html" class="text-white hover:text-red-400">A Última Noite de Marte</a></h3>
-          </article>
-        </div>
-      </section>
-      <section id="topicos-indice" class="mb-12">
-        <h2 class="text-3xl font-bold text-red-600 mb-6">Índice de tópicos</h2>
-        <p class="text-gray-400 mb-6">Todos os tópicos do site, mapeados por categoria. Tópicos sem post publicado apontam para a categoria correspondente.</p>
-        <div class="space-y-3" id="topicos-lista">
-          <section id="ufo-01" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">ufo</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Observações de OVNIs e UAPs</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: UFOs e Aliens — <a href="#ufo" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="ufo-02" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">ufo</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Relatos de abdução alienígena</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: UFOs e Aliens — <a href="#ufo" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="ufo-03" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">ufo</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Contato de terceiro, quarto e quinto graus</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: UFOs e Aliens — <a href="#ufo" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="ufo-04" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">ufo</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Crop circles (agroglifos)</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: UFOs e Aliens — <a href="#ufo" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="ufo-05" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">ufo</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">OVNIs nas artes antigas e pinturas religiosas</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: UFOs e Aliens — <a href="#ufo" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="ufo-06" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">ufo</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Programas governamentais secretos (Projeto Blue Book, AATIP)</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: UFOs e Aliens — <a href="#ufo" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="ufo-07" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">ufo</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Área 51 e bases militares ultrassecretas</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: UFOs e Aliens — <a href="#ufo" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="ufo-08" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">ufo</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Sinais de inteligência extraterrestre (SETI, sinais de rádio, Wow! signal)</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: UFOs e Aliens — <a href="#ufo" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="ufo-09" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">ufo</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Teoria dos Antigos Astronautas</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: UFOs e Aliens — <a href="#ufo" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="ufo-10" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">ufo</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Biologia de formas de vida não-terrestres</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: UFOs e Aliens — <a href="#ufo" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="ufo-11" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">ufo</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Luzes Que Não Mentem</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: UFOs e Aliens — <a href="#ufo" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="ufo-12" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">ufo</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">O Quarto Grau</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: UFOs e Aliens — <a href="#ufo" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="arch-01" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">arch</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Pirâmides do Egito e de Mesoamérica</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Arqueologia Antiga e Mistérios Históricos — <a href="#arch" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="arch-02" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">arch</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Stonehenge e círculos de pedras megalíticos</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Arqueologia Antiga e Mistérios Históricos — <a href="#arch" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="arch-03" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">arch</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Geoglifos de Nazca</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Arqueologia Antiga e Mistérios Históricos — <a href="#arch" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="arch-04" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">arch</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Machu Picchu e cidades perdidas dos incas</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Arqueologia Antiga e Mistérios Históricos — <a href="#arch" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="arch-05" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">arch</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Atlântida e Mu</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Arqueologia Antiga e Mistérios Históricos — <a href="#arch" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="arch-06" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">arch</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Estruturas submersas (Yonaguni, Bimini Road)</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Arqueologia Antiga e Mistérios Históricos — <a href="#arch" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="arch-07" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">arch</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Mecanismo de Anticítera e tecnologia antiga anacrônica</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Arqueologia Antiga e Mistérios Históricos — <a href="#arch" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="arch-08" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">arch</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Sumerianos, Anunnaki e tábuas de argila</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Arqueologia Antiga e Mistérios Históricos — <a href="#arch" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="arch-09" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">arch</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">OOPArts (pedras de Ica, Ovo de Colombo, artefatos fora do lugar)</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Arqueologia Antiga e Mistérios Históricos — <a href="#arch" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="arch-10" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">arch</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Túneis e cidades subterrâneas antigas (Derinkuyu, Capadócia)</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Arqueologia Antiga e Mistérios Históricos — <a href="#arch" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="arch-11" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">arch</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Civilizações pré-adamitas e histórias antes do Dilúvio</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Arqueologia Antiga e Mistérios Históricos — <a href="#arch" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="arch-12" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">arch</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">A Escrita Que Não Fala</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Arqueologia Antiga e Mistérios Históricos — <a href="#arch" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="para-01" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">para</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Fantasmas, assombrações e casas mal-assombradas</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Sobrenatural e Paranormal — <a href="#para" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="para-02" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">para</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Poltergeists e fenômenos psicocinéticos</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Sobrenatural e Paranormal — <a href="#para" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="para-03" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">para</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Mediunidade e comunicações com os mortos</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Sobrenatural e Paranormal — <a href="#para" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="para-04" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">para</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">EVP (fenômeno de voz eletrônica)</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Sobrenatural e Paranormal — <a href="#para" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="para-05" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">para</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Experiências de quase-morte (EQM) e viagens astrais</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Sobrenatural e Paranormal — <a href="#para" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="para-06" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">para</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Maldições antigas (Tutancâmon)</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Sobrenatural e Paranormal — <a href="#para" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="para-07" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">para</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Objetos amaldiçoados e relíquias com energia negativa</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Sobrenatural e Paranormal — <a href="#para" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="para-08" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">para</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Bruxaria, feitiçaria e ocultismo</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Sobrenatural e Paranormal — <a href="#para" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="para-09" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">para</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Entidades demoníacas e possessões</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Sobrenatural e Paranormal — <a href="#para" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="para-10" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">para</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Exorcismos e rituais de limpeza espiritual</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Sobrenatural e Paranormal — <a href="#para" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="crypto-01" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">crypto</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Bigfoot / Pé Grande e Yeti</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Criptozologia — <a href="#crypto" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="crypto-02" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">crypto</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Monstro do Lago Ness e criaturas lacustres</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Criptozologia — <a href="#crypto" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="crypto-03" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">crypto</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Chupacabra</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Criptozologia — <a href="#crypto" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="crypto-04" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">crypto</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Mothman</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Criptozologia — <a href="#crypto" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="crypto-05" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">crypto</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Jersey Devil</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Criptozologia — <a href="#crypto" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="crypto-06" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">crypto</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Lobisomens e criaturas mutantes</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Criptozologia — <a href="#crypto" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="crypto-07" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">crypto</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Serpentes marinhas e leviatãs</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Criptozologia — <a href="#crypto" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="crypto-08" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">crypto</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Dragões e criaturas aladas mitológicas</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Criptozologia — <a href="#crypto" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="crypto-09" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">crypto</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Pés Virados na Floresta</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Criptozologia — <a href="#crypto" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="conspir-01" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">conspir</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Cobertura governamental de OVNIs e tecnologia alienígena</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Conspirações e Coberturas — <a href="#conspir" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="conspir-02" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">conspir</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Sociedades secretas (Iluminati, Maçonaria, Bilderberg)</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Conspirações e Coberturas — <a href="#conspir" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="conspir-03" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">conspir</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Programas de controle mental (MKUltra)</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Conspirações e Coberturas — <a href="#conspir" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="conspir-04" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">conspir</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Civilizações subterrâneas (Agartha, Shamballa)</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Conspirações e Coberturas — <a href="#conspir" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="conspir-05" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">conspir</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Viagens no tempo e linhas do tempo alternativas</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Conspirações e Coberturas — <a href="#conspir" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="conspir-06" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">conspir</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Matriz / simulação da realidade</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Conspirações e Coberturas — <a href="#conspir" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="nature-01" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">nature</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Luzes estranhas no céu (ball lightning, Marfa, Hessdalen)</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Fenômenos Naturais Inexplicáveis — <a href="#nature" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="nature-02" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">nature</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Desaparecimentos em massa (Bermudas, Bennington)</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Fenômenos Naturais Inexplicáveis — <a href="#nature" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="nature-03" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">nature</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Círculos de gelo, sons do céu (sky trumpets) e fenômenos acústicos</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Fenômenos Naturais Inexplicáveis — <a href="#nature" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-          <section id="nature-04" class="post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0">
-            <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-              <span class="categoria uppercase tracking-wider">nature</span>
-              <span>Sem post publicado</span>
-            </div>
-            <h3 class="text-xl font-bold">Chuva de animais e objetos estranhos</h3>
-            <p class="text-sm text-gray-400 mt-2">Categoria: Fenômenos Naturais Inexplicáveis — <a href="#nature" class="text-red-400 hover:text-red-300">ver categoria</a></p>
-          </section>
-        </div>
+        <article class="post border-b border-gray-700 pb-8 last:border-b-0 last:pb-0">
+          <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
+            <span class="categoria uppercase tracking-wider">ufos</span>
+            <span>20/11/2026</span>
+          </div>
+          <h2 class="text-2xl font-bold mb-4">Triângulo Negro: o silêncio dos arquivos e o que paira sobre o Oeste</h2>
+          <p class="text-gray-300">No fim de outubro de 2026, o governo dos Estados Unidos abriu o sétimo lote de documentos desclassificados sobre UAPs: 28 arquivos em PDF, memorandos e depoimentos, sem imagens e sem certezas.</p>
+          <a href="posts/triangulo-negro-uap.html" class="text-red-600 hover:text-red-400 font-medium">Ler artigo →</a>
+        </article>
       </section>
     </main>
 
