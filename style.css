@@ -164,10 +164,22 @@ body {
   border-radius: 4px;
 }
 
+.lista-topicos a:link {
+  color: var(--text-muted);
+}
+
+.lista-topicos a:visited {
+  color: var(--text-muted);
+}
+
 .lista-topicos a:hover {
   color: var(--accent);
   background-color: var(--accent-glow);
   padding-left: 1rem;
+}
+
+.lista-topicos a:active {
+  color: var(--accent);
 }
 
 .lista-topicos a.ativo {
