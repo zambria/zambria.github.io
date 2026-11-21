@@ -68,14 +68,17 @@ body {
 
 .site-shell.sidebar-hidden .sidebar {
   transform: translateX(-100%);
+  width: 0;
+  border: none;
+  padding: 0;
+  overflow: hidden;
 }
 
-/* Quando a sidebar está escondida, o conteúdo se expande e fica totalmente centralizado */
 .site-shell.sidebar-hidden .conteudo {
-  padding-left: 2rem;
-  padding-right: 2rem;
-  max-width: 90vw;
-  margin: 0 auto;
+  flex: 1 1 100%;
+  max-width: none;
+  padding: 3rem 2rem;
+  text-align: center;
 }
 
 /* Sidebar esquerda */
@@ -209,6 +212,11 @@ body {
   border-bottom: none;
 }
 
+.site-shell.sidebar-hidden .post {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .post-meta {
   display: flex;
   gap: 1rem;
@@ -217,6 +225,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 1rem;
+  justify-content: center;
 }
 
 .post-meta span.categoria {
@@ -238,6 +247,12 @@ body {
   line-height: 1.7;
 }
 
+.site-shell.sidebar-hidden .post h2,
+.site-shell.sidebar-hidden .post .texto p,
+.site-shell.sidebar-hidden .post-meta {
+  text-align: center;
+}
+
 .comentario-agente {
   background-color: var(--accent-glow);
   border-left: 3px solid var(--accent);
@@ -246,6 +261,14 @@ body {
   font-size: 0.95rem;
   font-style: italic;
   color: var(--text);
+}
+
+.site-shell.sidebar-hidden .comentario-agente {
+  border-left: none;
+  border-bottom: 3px solid var(--accent);
+  margin: 1.5rem auto;
+  max-width: 600px;
+  text-align: center;
 }
 
 .fontes {
