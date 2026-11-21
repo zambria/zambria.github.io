@@ -24,74 +24,64 @@
 
     <!-- Sidebar esquerda: categorias que se expandem/contraem -->
     <aside class="sidebar" id="sidebar-zambria">
-      <div class="sidebar-header">
-        <div class="site-title">ZAMBRIA</div>
-        <div class="site-subtitle">O Insólito Presente</div>
-      </div>
-
-      <!-- Categoria: UFOs e Aliens -->
+  <div class="sidebar-header">
+    <div class="site-title">ZAMBRIA</div>
+    <div class="site-subtitle">O Insólito Presente</div>
+  </div>
       <div class="categoria-grupo">
-        <div class="categoria-titulo" id="categoria-ufo" role="button" tabindex="0" aria-expanded="false">UFOs e Aliens</div>
-        <ul class="lista-topicos" id="lista-ufo" style="display: none;">
-          <li><a href="posts/ceus-vigiados-ovnis-brasil.html">Os Céus Vigiados: O Que a Força Aérea Deixou nos Arquivos do OVNI</a></li>
-          <li><a href="posts/triangulo-negro-uap.html">Triângulo Negro: o silêncio dos arquivos e o que paira sobre o Oeste</a></li>
-          <li><a href="posts/abdu-es-alien-genas-quando-eles-levam-voc.html">Abduções Alienígenas: quando eles levam você</a></li>
-          <li><a href="posts/ovnis-e-uaps-quando-o-c-u-deixa-de-ser-identificado.html">OVNIs e UAPs: quando o céu deixa de ser identificado</a></li>
-          <li><a href="posts/743-registros-zero-explicacoes-arquivo-nacional.html">743 Registros, Zero Explicações</a></li>
+        <h3 class="categoria-titulo" onclick="toggleCategoria(this)">UFOs e Aliens</h3>
+        <ul class="topicos-lista" id="lista-ufo">
+        <li><a href="posts/ceus-vigiados-ovnis-brasil.html">Os Céus Vigiados: O Que a Força Aérea Deixou nos Arquivos do OVNI</a></li>
+        <li><a href="posts/triangulo-negro-uap.html">Triângulo Negro: o silêncio dos arquivos e o que paira sobre o Oeste</a></li>
+        <li><a href="posts/abdu-es-alien-genas-quando-eles-levam-voc.html">Abduções Alienígenas: quando eles levam você</a></li>
+        <li><a href="posts/ovnis-e-uaps-quando-o-c-u-deixa-de-ser-identificado.html">OVNIs e UAPs: quando o céu deixa de ser identificado</a></li>
+        <li><a href="posts/743-registros-zero-explicacoes-arquivo-nacional.html">743 Registros, Zero Explicações</a></li>
+        <li><a href="posts/ufo-01-longo.html">OVNIs e UAPs: quando o céu deixa de ser identificado (versão longa)</a></li>
         </ul>
       </div>
-
-      <!-- Categoria: Arqueologia Antiga -->
       <div class="categoria-grupo">
-        <div class="categoria-titulo" id="categoria-arch" role="button" tabindex="0" aria-expanded="false">Arqueologia Antiga e Mistérios Históricos</div>
-        <ul class="lista-topicos" id="lista-arch" style="display: none;">
-          <li><a href="posts/a-sombra-no-planalto.html">A Sombra no Planalto</a></li>
-          <li><a href="posts/o-di-rio-do-vigia.html">O Diário do Vigia</a></li>
+        <h3 class="categoria-titulo" onclick="toggleCategoria(this)">Arqueologia Antiga e Mistérios Históricos</h3>
+        <ul class="topicos-lista" id="lista-arch">
+        <li><a href="posts/a-sombra-no-planalto.html">A Sombra no Planalto</a></li>
+        <li><a href="posts/o-di-rio-do-vigia.html">O Diário do Vigia</a></li>
         </ul>
       </div>
-
-      <!-- Categoria: Sobrenatural -->
       <div class="categoria-grupo">
-        <div class="categoria-titulo" id="categoria-para" role="button" tabindex="0" aria-expanded="false">Sobrenatural e Paranormal</div>
-        <ul class="lista-topicos" id="lista-para" style="display: none;">
-          <li><a href="posts/o-olhar-de-pedra.html">O Olhar de Pedra</a></li>
+        <h3 class="categoria-titulo" onclick="toggleCategoria(this)">Sobrenatural e Paranormal</h3>
+        <ul class="topicos-lista" id="lista-para">
+        <li><a href="posts/o-olhar-de-pedra.html">O Olhar de Pedra</a></li>
+        <li><a href="posts/conversas-com-os-mortos-2026-11-21.html">O Eco que Responde: Conversas com os Mortos entre a Fé e a Ilusão</a></li>
+        <li><a href="posts/a-l-mpada-que-viu-demais-revisao.html">A Lâmpada que Viu Demais (revisão editorial)</a></li>
         </ul>
       </div>
-
-      <!-- Categoria: Criptozologia -->
       <div class="categoria-grupo">
-        <div class="categoria-titulo" id="categoria-crypto" role="button" tabindex="0" aria-expanded="false">Criptozologia</div>
-        <ul class="lista-topicos" id="lista-crypto" style="display: none;">
-          <li><span class="text-gray-500 text-sm">Sem posts publicados ainda</span></li>
+        <h3 class="categoria-titulo" onclick="toggleCategoria(this)">Criptozologia</h3>
+        <ul class="topicos-lista" id="lista-crypto">
+        <li><span class="text-gray-500 text-sm">Sem posts publicados ainda</span></li>
         </ul>
       </div>
-
-      <!-- Categoria: Conspirações -->
       <div class="categoria-grupo">
-        <div class="categoria-titulo" id="categoria-conspir" role="button" tabindex="0" aria-expanded="false">Conspirações e Coberturas</div>
-        <ul class="lista-topicos" id="lista-conspir" style="display: none;">
-          <li><a href="posts/2026-11-20-17-de-novembro-apagao-mundial.html">17 de Novembro: a noite em que o mundo se preparou para apagar</a></li>
+        <h3 class="categoria-titulo" onclick="toggleCategoria(this)">Conspirações e Coberturas</h3>
+        <ul class="topicos-lista" id="lista-conspir">
+        <li><a href="posts/2026-11-20-17-de-novembro-apagao-mundial.html">17 de Novembro: a noite em que o mundo se preparou para apagar</a></li>
         </ul>
       </div>
-
-      <!-- Categoria: Fenômenos Naturais -->
       <div class="categoria-grupo">
-        <div class="categoria-titulo" id="categoria-nature" role="button" tabindex="0" aria-expanded="false">Fenômenos Naturais Inexplicáveis</div>
-        <ul class="lista-topicos" id="lista-nature" style="display: none;">
-          <li><a href="posts/2026-11-20-ceu-verde-paraiba-bolido.html">O Céu Verde sobre a Paraíba: a Noite em que um Bólido Cruzou o Nordeste</a></li>
+        <h3 class="categoria-titulo" onclick="toggleCategoria(this)">Fenômenos Naturais Inexplicáveis</h3>
+        <ul class="topicos-lista" id="lista-nature">
+        <li><a href="posts/2026-11-20-ceu-verde-paraiba-bolido.html">O Céu Verde sobre a Paraíba: a Noite em que um Bólido Cruzou o Nordeste</a></li>
         </ul>
       </div>
-
-      <!-- Categoria: Contos -->
       <div class="categoria-grupo">
-        <div class="categoria-titulo" id="categoria-contos" role="button" tabindex="0" aria-expanded="false">Contos de Terror — Conteúdo Original</div>
-        <ul class="lista-topicos" id="lista-contos" style="display: none;">
-          <li><a href="posts/a-ltima-noite-de-marte.html">A Última Noite de Marte</a></li>
-          <li><a href="posts/contos-criativos-001.html">Contos Criativos 001</a></li>
-          <li><a href="posts/o-tom-das-3h14.html">O Tom das 3h14</a></li>
+        <h3 class="categoria-titulo" onclick="toggleCategoria(this)">Contos de Terror — Conteúdo Original</h3>
+        <ul class="topicos-lista" id="lista-contos">
+        <li><a href="posts/a-ltima-noite-de-marte.html">A Última Noite de Marte</a></li>
+        <li><a href="posts/contos-criativos-001.html">Contos Criativos 001</a></li>
+        <li><a href="posts/o-tom-das-3h14.html">O Tom das 3h14</a></li>
+        <li><a href="posts/revis-o-editorial-contos-criativos-001-md.html">Revisão editorial — Contos Criativos 001</a></li>
         </ul>
       </div>
-    </aside>
+</aside>
 
     <!-- Conteúdo principal -->
     <main class="conteudo">
