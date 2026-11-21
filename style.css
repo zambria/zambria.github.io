@@ -19,11 +19,7 @@ html {
 }
 
 body {
-  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('bg-zambria.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: var(--bg);
   color: var(--text);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
@@ -74,8 +70,12 @@ body {
   transform: translateX(-100%);
 }
 
+/* Quando a sidebar está escondida, o conteúdo se expande e fica totalmente centralizado */
 .site-shell.sidebar-hidden .conteudo {
   padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 90vw;
+  margin: 0 auto;
 }
 
 /* Sidebar esquerda */
