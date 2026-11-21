@@ -6,9 +6,9 @@
   <title>ZAMBRIA — O Insólito Presente</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg-black text-white font-sans leading-relaxed min-h-screen">
 
-  <div class="site-shell" id="site-shell">
+  <div class="site-shell flex min-h-screen transition-all duration-300" id="site-shell">
 
     <!-- Botão SEMPRE visível, fora da sidebar -->
     <button class="btn-toggle-sidebar" id="btnToggleSidebar" aria-label="Esconder barra lateral">☰</button>
@@ -17,8 +17,8 @@
     <aside class="sidebar" id="sidebar-zambria">
       <div class="sidebar-header">
         <div class="site-title">ZAMBRIA</div>
+        <div class="site-subtitle">O Insólito Presente</div>
       </div>
-      <div class="site-subtitle">O Insólito Presente</div>
 
       <!-- Categoria: UFOs e Aliens -->
       <div class="categoria-grupo">
@@ -26,14 +26,10 @@
         <ul class="lista-topicos" id="lista-ufo" style="display: block;">
           <li><a href="posts/ceus-vigiados-ovnis-brasil.html">Os Céus Vigiados: O Que a Força Aérea Deixou nos Arquivos do OVNI</a></li>
           <li><a href="posts/triangulo-negro-uap.html">Triângulo Negro: o silêncio dos arquivos e o que paira sobre o Oeste</a></li>
-          <li><a href="posts/743-registros-zero-explicacoes-arquivo-nacional.html">743 Registros, Zero Explicações: O Que o Arquivo Nacional Esconde Sobre o Que Voa Sobre o Brasil</a></li>
-          <li><a href="posts/abdu-es-alien-genas-quando-eles-levam-voc.html">Abduções Alienígenas: quando eles levam você</a></li>
-          <li><a href="posts/ovnis-e-uaps-quando-o-c-u-deixa-de-ser-identificado.html">OVNIs e UAPs: quando o céu deixa de ser identificado</a></li>
-          <li><a href="posts/ufo-01-longo.html">OVNIs e UAPs: quando o céu deixa de ser identificado — versão longa</a></li>
         </ul>
       </div>
 
-      <!-- Categoria: Arqueologia Antiga e Mistérios Históricos -->
+      <!-- Categoria: Arqueologia Antiga -->
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-arch" role="button" tabindex="0" aria-expanded="false">Arqueologia Antiga e Mistérios Históricos</div>
         <ul class="lista-topicos" id="lista-arch" style="display: none;">
@@ -42,11 +38,11 @@
         </ul>
       </div>
 
-      <!-- Categoria: Sobrenatural e Paranormal -->
+      <!-- Categoria: Sobrenatural -->
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-para" role="button" tabindex="0" aria-expanded="false">Sobrenatural e Paranormal</div>
         <ul class="lista-topicos" id="lista-para" style="display: none;">
-          <li><a href="posts/a-l-mpada-que-viu-demais-revisao.html">A Lâmpada que Viu Demais</a></li>
+          <li><a href="posts/a-l-mpada-que-viu-demais.html">A Lâmpada que Viu Demais</a></li>
           <li><a href="posts/o-olhar-de-pedra.html">O Olhar de Pedra</a></li>
         </ul>
       </div>
@@ -59,7 +55,7 @@
         </ul>
       </div>
 
-      <!-- Categoria: Conspirações e Coberturas -->
+      <!-- Categoria: Conspirações -->
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-conspir" role="button" tabindex="0" aria-expanded="false">Conspirações e Coberturas</div>
         <ul class="lista-topicos" id="lista-conspir" style="display: none;">
@@ -67,7 +63,7 @@
         </ul>
       </div>
 
-      <!-- Categoria: Fenômenos Naturais Inexplicáveis -->
+      <!-- Categoria: Fenômenos Naturais -->
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-nature" role="button" tabindex="0" aria-expanded="false">Fenômenos Naturais Inexplicáveis</div>
         <ul class="lista-topicos" id="lista-nature" style="display: none;">
@@ -75,7 +71,7 @@
         </ul>
       </div>
 
-      <!-- Categoria: Contos de Terror Adulto -->
+      <!-- Categoria: Contos -->
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-contos" role="button" tabindex="0" aria-expanded="false">Contos de Terror Adulto</div>
         <ul class="lista-topicos" id="lista-contos" style="display: none;">
@@ -84,69 +80,16 @@
           <li><a href="posts/o-tom-das-3h14.html">O Tom das 3h14</a></li>
         </ul>
       </div>
-
-      <!-- Categoria: Revisão Editorial -->
-      <div class="categoria-grupo">
-        <div class="categoria-titulo" id="categoria-editorial" role="button" tabindex="0" aria-expanded="false">Revisão Editorial</div>
-        <ul class="lista-topicos" id="lista-editorial" style="display: none;">
-          <li><a href="posts/revis-o-editorial-contos-criativos-001-md.html">Revisão editorial — contos-criativos-001.md</a></li>
-        </ul>
-      </div>
     </aside>
 
     <!-- Conteúdo principal -->
     <main class="conteudo">
       <section class="hero">
         <h1>ZAMBRIA</h1>
-        <p>O Insólito Presente — Estudos sobre fenômenos que ficam na fronteira entre o conhecido e o inexplicável.</p>
+        <p class="hero-sub">O Insólito Presente — Estudos sobre fenômenos que ficam na fronteira entre o conhecido e o inexplicável.</p>
       </section>
 
       <section class="posts-list">
-        <article class="post">
-          <div class="post-meta">
-            <span class="categoria">ufos</span>
-            <span>20/11/2026</span>
-          </div>
-          <h2><a href="posts/ovnis-e-uaps-quando-o-c-u-deixa-de-ser-identificado.html">OVNIs e UAPs: quando o céu deixa de ser identificado</a></h2>
-          <p>Pilotos da Marinha dos Estados Unidos vêm relatando, há décadas, encontros com objetos voadores que desafiam a explicação convencional.</p>
-        </article>
-
-        <article class="post">
-          <div class="post-meta">
-            <span class="categoria">ufos</span>
-            <span>20/11/2026</span>
-          </div>
-          <h2><a href="posts/triangulo-negro-uap.html">Triângulo Negro: o silêncio dos arquivos e o que paira sobre o Oeste</a></h2>
-          <p>No fim de outubro de 2026, o governo dos Estados Unidos abriu o sétimo lote de documentos desclassificados sobre UAPs: 28 arquivos em PDF, memorandos e depoimentos, sem imagens e sem certezas.</p>
-        </article>
-
-        <article class="post">
-          <div class="post-meta">
-            <span class="categoria">ufos</span>
-            <span>20/11/2026</span>
-          </div>
-          <h2><a href="posts/abdu-es-alien-genas-quando-eles-levam-voc.html">Abduções Alienígenas: quando eles levam você</a></h2>
-          <p>Existe um momento em que o céu deixa de ser apenas um cenário e se torna um palco...</p>
-        </article>
-
-        <article class="post">
-          <div class="post-meta">
-            <span class="categoria">ufos</span>
-            <span>20/11/2026</span>
-          </div>
-          <h2><a href="posts/o-tom-das-3h14.html">O Tom das 3h14</a></h2>
-          <p>Um rádio amador em uma fazenda isolada capta um sinal curto e repetido em uma frequência proibida, acompanhado de uma luz fixa acima da mata.</p>
-        </article>
-
-        <article class="post">
-          <div class="post-meta">
-            <span class="categoria">ufos</span>
-            <span>20/11/2026</span>
-          </div>
-          <h2><a href="posts/ufo-01-longo.html">OVNIs e UAPs: quando o céu deixa de ser identificado — versão longa</a></h2>
-          <p>Relatório aprofundado sobre os fenômenos aéreos não identificados e seus registros oficiais.</p>
-        </article>
-
         <article class="post">
           <div class="post-meta">
             <span class="categoria">ufos</span>
@@ -158,56 +101,11 @@
 
         <article class="post">
           <div class="post-meta">
-            <span class="categoria">arqueologia</span>
+            <span class="categoria">ufos</span>
             <span>20/11/2026</span>
           </div>
-          <h2><a href="posts/a-sombra-no-planalto.html">A Sombra no Planalto</a></h2>
-          <p>Uma expedição arqueológica descobre uma estrutura enterrada que não pertence a nenhuma civilização conhecida.</p>
-        </article>
-
-        <article class="post">
-          <div class="post-meta">
-            <span class="categoria">arqueologia</span>
-            <span>20/11/2026</span>
-          </div>
-          <h2><a href="posts/o-di-rio-do-vigia.html">O Diário do Vigia</a></h2>
-          <p>Um diário encontrado em uma mina abandonada registra acontecimentos que não deveriam ser possíveis.</p>
-        </article>
-
-        <article class="post">
-          <div class="post-meta">
-            <span class="categoria">sobrenatural</span>
-            <span>20/11/2026</span>
-          </div>
-          <h2><a href="posts/a-l-mpada-que-viu-demais-revisao.html">A Lâmpada que Viu Demais</a></h2>
-          <p>Uma lâmpada de rua em uma cidade pequena começa a mostrar imagens de pessoas que ainda não nasceram — ou que já morreram.</p>
-        </article>
-
-        <article class="post">
-          <div class="post-meta">
-            <span class="categoria">sobrenatural</span>
-            <span>20/11/2026</span>
-          </div>
-          <h2><a href="posts/o-olhar-de-pedra.html">O Olhar de Pedra</a></h2>
-          <p>Um olhar de pedra que observa de volta.</p>
-        </article>
-
-        <article class="post">
-          <div class="post-meta">
-            <span class="categoria">contos</span>
-            <span>20/11/2026</span>
-          </div>
-          <h2><a href="posts/a-ltima-noite-de-marte.html">A Última Noite de Marte</a></h2>
-          <p>A colônia marciana recebe um sinal.</p>
-        </article>
-
-        <article class="post">
-          <div class="post-meta">
-            <span class="categoria">contos</span>
-            <span>20/11/2026</span>
-          </div>
-          <h2><a href="posts/contos-criativos-001.html">Contos Criativos 001</a></h2>
-          <p>Conteúdo criativo baseado em pesquisa profunda dos temas do site.</p>
+          <h2><a href="posts/triangulo-negro-uap.html">Triângulo Negro: o silêncio dos arquivos e o que paira sobre o Oeste</a></h2>
+          <p>No fim de outubro de 2026, o governo dos Estados Unidos abriu o sétimo lote de documentos desclassificados sobre UAPs: 28 arquivos em PDF, memorandos e depoimentos, sem imagens e sem certezas.</p>
         </article>
       </section>
     </main>
