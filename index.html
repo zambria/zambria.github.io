@@ -134,19 +134,25 @@
       titulo.addEventListener('click', () => {
         const aberto = lista.style.display === 'block';
         if (aberto) {
+          // Fechar: cascata de cima para baixo (mesma ordem)
           itens.forEach((li, i) => {
-            const reverso = (itens.length - 1 - i) * 50;
-            li.style.animation = `slideFadeOut 0.2s ease forwards`;
-            li.style.animationDelay = `${reverso}ms`;
+            li.style.animation = 'none';
+            li.offsetHeight;
+            li.style.animation = 'slideFadeOut 0.2s ease forwards';
+            li.style.animationDelay = `${i * 60}ms`;
           });
-          setTimeout(() => { lista.style.display = 'none'; itens.forEach(li => { li.style.animation = 'none'; }); }, 250);
+          setTimeout(() => {
+            lista.style.display = 'none';
+            itens.forEach(li => { li.style.animation = 'none'; });
+          }, itens.length * 60 + 200);
           titulo.setAttribute('aria-expanded', 'false');
         } else {
+          // Abrir: cascata de cima para baixo
           lista.style.display = 'block';
           itens.forEach((li, i) => {
             li.style.animation = 'none';
             li.offsetHeight;
-            li.style.animation = `slideFadeIn 0.3s ease forwards`;
+            li.style.animation = 'slideFadeIn 0.3s ease forwards';
             li.style.animationDelay = `${i * 70}ms`;
           });
           titulo.setAttribute('aria-expanded', 'true');
