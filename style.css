@@ -19,7 +19,11 @@ html {
 }
 
 body {
-  background-color: var(--bg);
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('bg-zambria.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: var(--text);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
