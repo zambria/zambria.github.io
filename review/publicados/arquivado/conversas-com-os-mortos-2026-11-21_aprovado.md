@@ -1,24 +1,18 @@
-# Aprovação de Qualidade — conversas-com-os-mortos-2026-11-21.md
+# Aprovação de Qualidade — conversas-com-os-mortos-2026-11-21
 
-**Data:** 2026-11-21  
-**Veredito:** APROVADO  
-**Avaliado por:** Curador-Revisor-Verificador (ZAMBRIA — O Insólito Presente)  
-**Arquivo:** review/pendentes/conversas-com-os-mortos-2026-11-21.md  
+**Texto:** review/pendentes/conversas-com-os-mortos-2026-11-21.md  
 **Título:** O Eco que Responde: Conversas com os Mortos entre a Fé e a Ilusão  
-**Tópico:** para-03  
-**Categoria:** para  
+**Categoria:** sobrenatural  
+**Data da verificação:** 2026-11-21  
+**Veredito:** APROVADO para publicação  
+**Verificador:** Curador-Revisor-Verificador — ZAMBRIA
 
 ## Verificações realizadas
+- Ortografia e gramática (PT-BR): aprovado. Sem erros graves.
+- Coesão e clareza narrativa: aprovado. Artigo estruturado em seções numeradas com conclusão sombria.
+- Tom sombrio e adulto: adequado. Trata mediunidade, espiritismo e fraude com seriedade, sem apelo sensacionalista.
+- Plágio (cópia integral de 5+ palavras seguidas das fontes): não detectado. Citações diretas curtas estão entre aspas e atribuídas; o restante é síntese própria com referências [1]-[16].
+- Erros factuais óbvios no contexto do texto: nenhum identificado.
+- Frontmatter com `publicar: false`: não constou.
 
-| Verificação | Resultado |
-|---|---|
-| Ortografia e gramática (PT-BR) | Aprovado — sem erros graves |
-| Coesão e clareza narrativa | Aprovado — estrutura introdutório → histórico → evidências → controvérsia → interpretações → conclusão |
-| Tom sombrio e adulto | Adequado — não soa como notícia jornalística nem sensacionalismo barato |
-| Plágio (5+ palavras seguidas de fontes de inspiração) | Não detectado — texto com síntese própria e marcadores de citação [1]-[16] |
-| Erros factuais óbvios no contexto | Nenhum detectado |
-| Frontmatter `publicar: false` | Ausente — não há bloqueio automático |
-
-## Decisão
-
-Aprovado para publicação. O texto está em `review/pendentes/conversas-com-os-mortos-2026-11-21.md` e pronto para o Publicador-Webmaster (Bloco C).
+**Decisão:** texto liberado para o Publicador-Webmaster (Bloco C).
