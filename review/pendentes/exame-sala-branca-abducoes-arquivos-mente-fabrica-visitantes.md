@@ -1,8 +1,8 @@
 ---
-titulo: O exame da sala branca: abduções, arquivos oficiais e a mente que fabrica visitantes
-resumo: Entre o Acervo de OVNIs do Arquivo Nacional — 758 documentos que vão de avistamentos a viagens em naves interplanetárias — e o estudo de Harvard que mediu o medo de quem diz ter sido levado por extraterrestres, existe uma linha tênue. Este artigo cruza os registros oficiais com a ciência da memória e do sono para perguntar: o que está nos arquivos aconteceu lá fora, ou dentro de quem acredita?
-categoria: ufos
-data: 2026-11-19
+titulo: "O exame da sala branca"
+resumo: "O exame da sala branca"
+categoria: geral
+data: 2026-11-21
 slug: exame-sala-branca-abducoes-arquivos-mente-fabrica-visitantes
 ---
 

@@ -1,0 +1,32 @@
+---
+titulo: "O Que Anda Sobre Dois Pés na Serra do Amolar"
+resumo: "Uma bióloga de campo revisa armadilhas fotográficas no Pantanal e encontra um registro que não pertence a nenhuma espécie conhecida — algo que observa os observadores."
+categoria: "criptozoologia"
+data: "2026-11-21"
+slug: "o-que-anda-sobre-dois-pes"
+tipo: "ficcao"
+fonte_pesquisa: "Instituto Homem Pantaneiro / Jaguar ID Project (armadilhas fotográficas no Pantanal); Mapinguari (criptídeo brasileiro)"
+---
+
+# O Que Anda Sobre Dois Pés na Serra do Amolar
+
+A Serra do Amolar não perdoa distrações. Carolina Varela aprendeu isso nas primeiras duas semanas de campo, quando um jacaré-de-papo-amarelo saiu do Rio Miranda a poucos metros de sua bota e ela nem ouviu a água romper. Estava ali como técnica de monitoramento do Instituto Homem Pantaneiro, encarregada de rodar o grid de armadilhas fotográficas — dezessete estações, duas câmeras cada, disparos em sequência de dez segundos, flash estroboscópico cortando o escuro da savana alagada. O trabalho era, em tese, simples: caminhar, trocar os cartões SD, levar as imagens para o notebook da base, catalogar. Onças-pintadas, jaguatiricas, pumas, capivaras, queixadas, antas. Biodiversidade. Dados.
+
+Mas a estação catorze, instalada numa clareira de cipó e angico perto de um lago sazonal que o mapa não nomeia, vinha entregando algo que não constava em nenhuma planilha de espécies.
+
+Na primeira revisão, Carolina achou que fosse falha de equipamento. A sequência mostrava uma capivara entrando no quadro, o flash disparando, e então — entre um quadro e outro, no intervalo de dez segundos — uma figura grande, ereta, que não era onça nem homem. O corpo coberto por pêlos escuros e emaranhados, os membros dobrados em ângulos que não condiziam com nenhum primata, a cabeça baixa sobre os ombros como se estivesse cheirando o chão. No último quadro da sequência, a criatura parara, virara o rosto diretamente para a lente e ficara imóvel até o flash se apagar. Depois, nada. Os cartões seguintes estavam limpos. A estação catorze, dali em diante, só registrou vento e folhagem.
+
+Ela não falou nada na base. Não queria ser a bióloga que viu coisas. Mas voltou à estação catorze sozinha, ao anoitecer, com uma lanterna e o cartão novo. O cheiro chegou primeiro: carne podre misturada a amônia, o odor que os guias ribeirinhos associam ao mapinguari, aquele bicho de pé virado para trás que os antigos dizem guardar a floresta e punir quem mata demais. Carolina encontrou a câmera deslocada, virada para a própria trilha de acesso, como se alguém a tivesse girado para observar quem se aproximava. No chão, uma única pegada larga, profunda, com os dedos apontando na direção errada — de volta para a mata, não para fora dela.
+
+Nos dias seguintes, as outras estações começaram a falhar. Não todas, apenas o suficiente para incomodar: um flash que não disparava, um sensor que ignorava a passagem de uma anta, uma sequência em que a imagem de um jaguatirica era sobreposta por uma mancha escura e indistinta. O guia local, Paulo, recusou-se a acompanhá-la além da estação doze. "A floresta está quieta demais," disse, sem olhar nos olhos dela. "Quando a floresta fica quieta, é porque algo maior que a gente está ouvindo junto."
+
+Carolina passou as noites revisando os quadros em sequência, quadro a quadro, como se o movimento revelasse o que o olho rápido não via. E revelou. Não era uma criatura perdida ou um deslize da evolução. Era algo que aprendia o ritmo das câmeras, que esperava o momento exato entre um disparo e outro para entrar no quadro, que olhava para a lente com uma paciência que não tinha nada de animal. Na estação catorze, o último registro antes de a câmera ser deslocada mostrava, ao lado de uma capivara imóvel, uma segunda figura de estatura humana, peluda, com as mãos apoiadas no chão e o rosto voltado para a câmera — e, no canto inferior do quadro, refletido numa poça de água da chuva, a própria silhueta de Carolina, de pé, segurando a lanterna, numa hora em que ela ainda não havia saído da base.
+
+Ela não voltou mais à estação catorze. Pediu transferência para outra frente do grid, longe do lago sem nome. Mas o erro, agora ela entende, não foi ter ido até lá. O erro foi ter olhado. As armadilhas fotográficas existem para registrar quem passa sem ser visto. O que a estação catorze registrou não foi um animal perdido na floresta. Foi quem estava observando o observador — e aprendeu, quadro a quadro, onde a base fica, a que horas a luz se acende, qual janela é a dela.
+
+Na noite em que escreveu estas linhas, Carolina deixou a cortina da janela entreaberta. Fora, o Pantanal respira. E algo, do lado de fora, não pisca o olho.
+
+## Fontes de inspiração
+
+- Instituto Homem Pantaneiro e Jaguar ID Project (Projeto GRID): uso de armadilhas fotográficas em grid para monitorar onças-pintadas e fauna do Pantanal, incluindo a Serra do Amolar e a região do Rio Miranda.
+- Mapinguari: criptídeo do folclore brasileiro, descrito como bípede peludo de pés virados para trás, associado ao silêncio da floresta e à hipótese de preguiça-gigante sobrevivente.

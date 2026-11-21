@@ -1,8 +1,8 @@
 ---
-arquivo_revisado: contos-criativos-001.md
-revisao_em: 2026-11-19
-revisor: editor ZAMBRIA
-status: aprovado
+title: "Revisão editorial — contos-criativos-001.md"
+category: geral
+status: revisado
+data_auditor: 2026-11-21T14:58:15
 ---
 
 # Revisão editorial — contos-criativos-001.md

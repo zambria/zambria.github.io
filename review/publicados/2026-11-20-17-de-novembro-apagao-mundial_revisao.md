@@ -1,3 +1,10 @@
+---
+title: "2026 11 20 17 De Novembro Apagao Mundial Revisao"
+category: geral
+status: revisado
+data_auditor: 2026-11-21T14:58:15
+---
+
 Retorno de revisão editorial — ZAMBRIA (O Insólito Presente)
 
 Texto avaliado: review/pendentes/2026-11-20-17-de-novembro-apagao-mundial.md

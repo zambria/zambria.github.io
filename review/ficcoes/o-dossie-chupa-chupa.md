@@ -1,0 +1,39 @@
+---
+titulo: "O Dossiê do Chupa-Chupa"
+resumo: "Um servidor do Arquivo Nacional digitaliza os relatórios classificados da Operação Prato, a investigação da FAB sobre as luzes que atacavam moradores de Colares, no Pará, em 1977 — e descobre que o fenômeno não estava no céu, mas nos papéis."
+categoria: "ufos"
+data: "2026-11-20"
+slug: "o-dossie-chupa-chupa"
+tipo: "ficcao"
+fonte_pesquisa: "CATVE (depoimento do coronel Uiratan Hollanda sobre a Operação Prato: luzes hostis, feixes nas pessoas, marcas de duas picadas de agulha e mancha marrom no seio esquerdo de vítimas mulheres) e UAP Codex/O Arquivo (nome "chupa-chupa" dado pela população de Colares e Vigia; queimaduras, paralisia e palidez nas vítimas; investigação da FAB com dezenas de registros)"
+---
+
+# O Dossiê do Chupa-Chupa
+
+O setor de digitalização de documentos classificados do Arquivo Nacional, no Rio de Janeiro, não cheira a mistério. Cheira a mofo, a pó de gesso e a papel que o tempo amarelou até ficar da cor do dente de fumante. É um cheiro inofensivo, e isso é exatamente o que me dizem para acreditar. Minha mesa fica no fundo da sala, embaixo de uma lâmpada que, se este fosse um filme de terror, piscaria o tempo todo. Não pisca. A ausência de piscar é, de seu jeito, mais inquietante.
+
+Não pedi para trabalhar nessas caixas. Uma reorganização de setor, uma meta de digitalização a cumprir até o fim do trimestre, e eu — servidor de carreira, nenhuma ambição além de não ser notado — caí na caixa 14 do fundo "Operação Prato — 1977". Lacrada com fita adesiva vermelha. Ordem escrita à mão na tampa: ninguém fala com a imprensa. Dentro, relatórios da Força Aérea Brasileira, fotografias em preto e branco de céus noturnos do Pará, laudos médicos, fitas de cassete com a caligrafia espessa de alguém que, segundo o arquivo, já morreu.
+
+O coronel Uiratan Hollanda comandou a operação ainda como capitão. Décadas depois, antes de morrer, falou para jornalistas sobre luzes hostis sobre a Ilha de Colares e Vigia, no litoral do Pará, entre 1977 e 1978. Luzes que não pousavam, não se comunicavam por canais oficiais — apenas atiravam feixes nas pessoas. A população chamou aquelas luzes de "chupa-chupa". Não por serem doces, mas por causa do que os feixes faziam nos corpos.
+
+Eis o que os papéis dizem, e repito só porque o papel insiste: queimaduras de primeiro grau, lesões com menos de quinze centímetros, maior parte delas sobre a região torácica. Duas marcas minúsculas, lado a lado, como picadas de agulha. E uma mancha marrom, como de iodo, sobre o seio esquerdo das vítimas mulheres — cerca de duas em cada três atingidas eram adultas do sexo feminino. Tontura, dor no corpo, paralisia dos membros atingidos, crise nervosa, palidez. A médica do posto de saúde de Colares, jovem na época, tratou quatro pacientes e não encontrou explicação científica para os diagnósticos.
+
+Os próprios homens da FAB viram e fotografaram os objetos. Hollanda descreveu filmes que nunca apareceram nos arquivos públicos. A conclusão oficial, quando enfim veio, foi a de sempre: histeria coletiva, fenômenos atmosféricos, nada de outro mundo. O caso foi encerrado sem ser resolvido. Encerrado, aqui, significa arquivado. Arquivado não significa esquecido.
+
+Na caixa 14 havia uma pasta solta, fora do número, com uma transcrição datilografada de uma fita de áudio. Não há fita, só o texto. Uma testemunha, cuja identidade foi riscada com caneta preta, descrevia a luz não como clarão, mas como presença. Dizia que a luz não iluminava: ela escolhia. E que, no momento em que o feixe a atingiu, ouviu o próprio nome sussurrado — não em alto-falante, não em rádio, mas dentro do crânio, com a voz de alguém que ela conhecia, alguém que já estava morto.
+
+Li aquela transcrição três vezes. Na terceira, percebi que a folha seguinte não era uma folha qualquer. Era uma lista datilografada, datada de 1978, com o título discreto "Pessoas a serem monitoradas". Nomes. CPFs. Endereços. Pessoas que nunca foram atacadas pela luz, nunca estiveram em Colares, nunca viram feixe algum. Pessoas que, simplesmente, leram os relatórios. Pessoas que, como eu, agora seguravam aquelas páginas nas mãos.
+
+Meu nome estava lá. Nome completo. CPF. Um endereço que eu tinha em 1996, quando eu tinha quatorze anos e morava com a avó em Niterói.
+
+Senti frio no peito esquerdo no dia seguinte. Não era frio de ar-condicionado; era frio de algo que havia saído dali e não voltara. Fui ao banheiro do setor, tirei a camisa, e lá estava: uma mancha marrom, bem no seio esquerdo, com duas marcas minúsculas lado a lado, como picadas de agulha. Não doía. Não coçava. Parecia ter sido desenhada com paciência, por alguém que sabe exatamente onde dói menos para que você não perceba de imediato.
+
+Não saí mais do setor de digitalização. Caixas novas continuam chegando, endereçadas a mim, com a mesma fita vermelha e a mesma ordem escrita à mão. Não abri nenhuma. Não preciso abri-las para saber o que contêm: o meu nome, repetido, e a instrução de que eu continue lendo.
+
+O Arquivo Nacional não guarda o fenômeno. O fenômeno guarda o Arquivo Nacional. O chupa-chupa não precisa mais voar até o Pará, ou até qualquer lugar. Basta você virar a página. Basta você ler o seu próprio nome em uma lista de 1978 e sentir, no peito esquerdo, o frio de algo que já escolheu você e só está esperando você terminar a leitura para sugar o resto.
+
+## Fontes de inspiração
+
+- CATVE — "Coronel que investigou fenômenos no Pará revelou detalhes da Operação Prato antes de morrer" (depoimento do coronel Uiratan Hollanda: luzes hostis sobre Colares e Vigia, feixes dirigidos a pessoas, marcas de duas picadas de agulha e mancha marrom no seio esquerdo de vítimas mulheres).
+- UAP Codex — "Brazil. Colares (Operação Prato) — 1977" (luzes sobre vilas do litoral paraense, feixes nas pessoas, apelido "chupa-chupa" dado pelos moradores, queimaduras, paralisia e palidez; investigação da Força Aérea Brasileira com dezenas de registros).
+- O Arquivo — "Operação Prato – Parte 1" (posto médico de Colares, queimaduras cutâneas, lesões de primeiro grau na região torácica, vítimas adultas de ambos os sexos com maioria feminina).

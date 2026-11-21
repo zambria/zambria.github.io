@@ -1,0 +1,76 @@
+---
+titulo: "O Zumbido no Fundo da Mina"
+resumo: "Um técnico de medição acústica desce a uma mina desativada em Mariana para registrar frequências abaixo do audível. Descobre um som que apenas alguns ouvem — e que algo, no fundo do poço, está ouvindo de volta."
+categoria: "contos-de-terror"
+data: "2026-11-21"
+slug: "o-zumbido-no-fundo-da-mina"
+tipo: "ficcao"
+fonte_pesquisa: "The Hum (Zumbido de Taos) e Mina da Passagem, Mariana (MG)"
+---
+
+O céu acima de Mariana já não era apenas cenário. Às três e vinte da manhã, quando o último mineiro de plantão havia deixado a portaria da Mina da Passagem e o silêncio colonial da cidade se acomodara sobre as ladeiras de pedra, o som começou.
+
+Não era um barulho. Era uma presença.
+
+Chamemo-lo de Zumbido. Uma frequência grave, contínua, entre trinta e oitenta hertz, abaixo do limiar confortável da audição humana, mas não abaixo do limiar do incômodo. A ciência lhe deu nomes — The Hum, zumbido de baixa frequência, uma forma de tinnitus, ou a simples fixação do ouvido em ruídos inocentes. Registraram-no em Taos, em Bristol, em Auckland. Em Frankfurt e Darmstadt. Nunca encontraram uma única fonte espalhada pelo planeta. O que unia os relatos era a seletividade: uma minoria de duas a quatro por cento da população o ouvia, geralmente à noite, geralmente dentro de casa, e a maioria do resto jurava que não existia.
+
+Eu era da minoria.
+
+Não por vocação, mas por ofício. Sou técnico de medição acústica, e havia sido contratado para um laudo sobre ruído ambiental em torno da mina desativada. A Mina da Passagem, a cento e vinte metros de profundidade, mais de trinta quilômetros de túneis e galerias, produzira mais de trinta e duas toneladas de ouro entre os séculos dezenove e vinte. Em mil novecentos e trinta e seis, uma inundação subterrânea afogou dezessete homens. Nunca mais se falou muito deles. A mina foi desativada em mil novecentos e cinquenta e quatro, reaberta ao turismo, depois fechada novamente. Restavam os túneis, o lago subterrâneo de águas cristalinas, a imagem de Santa Bárbara guardando a alma dos mortos, e um silêncio que eu descobriria não ser silêncio.
+
+Cheguei ao portão de serviço às onze da noite. A porteira estava aberta, o cadeado quebrado, e nenhum guarda. Isso já deveria ter sido o primeiro aviso. Levei o analisador de espectro, o microfone de calibração, os fones de isolamento e uma lanterna. Desci sozinho, no trêmulo do vagão que leva os visitantes aos níveis inferiores, mais de cento e vinte metros abaixo do nível do solo.
+
+A temperatura caiu para dezenove graus. O ar ficou pesado, úmido, cheiro de rocha velha e água parada. Os ecos dos meus passos voltavam de direções que não correspondiam à minha posição. Isso é normal em galerias irregulares, dizem os folhetos turísticos. O que o folheto não dizia é que, em certos corredores, o eco não retorna igual ao que foi enviado. Volta alterado. Como se algo, no fundo do poço, estivesse repetindo minhas palavras com um atraso de frações de segundo e um tom mais grave.
+
+Liguei o analisador no nível intermediário, cerca de sessenta metros abaixo da superfície. O display mostrava silêncio quase absoluto — vinte e poucos decibéis, o ruído de fundo da própria rocha. Mas eu ouvia. O Zumbido.
+
+Começou como um rosnado distante, um motor diesel parado a quilômetros de distância, um refrigerador ligado em outro cômodo. Quando tapava os ouvidos, intensificava. Isso é um dos sinais clássicos do Zumbido: o isolamento sonoro o torna mais aparente, porque remove os ruídos que o mascaram. A porta de aço da galeria fechou-se atrás de mim com um estalo seco, e o som preencheu o espaço.
+
+Não era externo. Não era interno. Era algo entre os dois, como se a mina mesma estivesse respirando em uma frequência que meu ouvido captava mas meu cérebro se recusava a nomear.
+
+Andei pelos corredores. As paredes de rocha, sustentadas por madeira envelhecida, pareciam se aproximar quando eu não olhava. O analisador, no entanto, continuava limpo. Nenhum pico de frequência, nenhuma onda estacionária, nenhum equipamento defeituoso. A ciência dizia que não havia som. Meus ouvidos diziam o contrário.
+
+Foi então que encontrei a sala.
+
+Não constava nos mapas de visitação. Uma câmara irregular, mais larga que os túneis, com o teto perdido na escuridão da lanterna. No centro, algo que não era estalactite nem estalagmite: uma formação de pedra escura, úmida, que parecia ter sido moldada por mãos que não conheciam a anatomia humana. E vinha dela o Zumbido, mais forte, mais claro, não mais como um ruído de fundo mas como uma voz sem palavras.
+
+Coloquei o microfone a meio metro da formação. O analisador registrou picos aleatórios entre quarenta e sessenta hertz, mas nada que justificasse a intensidade do que eu ouvia. O aparelho mentia, ou eu estava enlouquecendo. Talvez ambas as coisas.
+
+Sentei-me no chão úmido, as costas contra a parede de rocha, e deixei o gravador rodando. O Zumbido subiu de volume. Não era mais um som grave e contínuo; começara a modular, a subir e descer em padrões que lembravam respiração. Ou contagem. Ou algo pior.
+
+Lembrei, então, da lenda do Capitão Jack, o inglês que comandara a mina no século dezenove e que, segundo os antigos, ainda cavalgava pelos túneis disparando faíscas prateadas. Lembrei de Santa Bárbara, protetora dos mineiros, cuja imagem guarda a alma dos dezessete homens afogados na inundação de mil novecentos e trinta e seis. Lembrei dos barulhos de sinos e correntes relatados por visitantes em mina vazia.
+
+O que nenhuma dessas lendas dizia é que o som não vem dos mortos. O som vem do poço. E o poço está ouvindo.
+
+Quando decidi voltar, o vagão não estava mais no nível. O elevador de serviço, o velho trolley dos mineiros, havia sumido. A lanterna começou a piscar. O Zumbido, agora, não vinha mais apenas da formação de pedra; vinha de todos os lados, das paredes, do teto, do chão, e — pior — de dentro do meu próprio crânio. Não era mais um som que eu escutava com os ouvidos. Era um som que o meu crânio estava retransmitindo, como se algo tivesse sintonizado minha cabeça em uma frequência que não deveria ser captada humana.
+
+Corri pelos corredores. O eco dos meus passos voltou alterado, mais grave, mais lento, como se algo à minha frente estivesse andando no mesmo ritmo, alguns metros à frente, sempre à frente. O analisador, agora, registrava algo: um tom de trinta e seis hertz, exatamente a frequência que, segundo relatórios antigos, fora captada em Kokomo, Indiana, numa torre de resfriamento que ninguém conseguiu desligar de verdade. Trinta e seis hertz. A frequência do desespero subterrâneo.
+
+Encontrei a saída, ou o que restara dela. A porta de aço que eu entrara estivera aberta. Agora estava fechada. Trincada. Como se algo do lado de fora tivesse tentado entrar, ou algo do lado de dentro tivesse tentado sair.
+
+Desci mais. Não por coragem. Por porque o Zumbido estava me chamando pelo nome, e eu percebi, com uma clareza gelada, que ele sabia meu nome porque eu o havia dito em voz alta, horas atrás, quando testei o microfone. O som havia viajado pelos túneis, tinha descido até o fundo do poço, e algo lá embaixo havia anotado.
+
+No nível mais baixo, onde a temperatura cai para dezessete graus e o oxigênio se torna escasso, há um lago subterrâneo. Águas cristalinas, dizem os folhetos. Não olhei para a superfície da água. Olhei para as paredes da caverna, onde o Zumbido agora se tornava palavras, não em português nem em inglês, mas em vibrações que meu ouvido traduzia como uma pergunta:
+
+O que você está enterrando ali, e por que ninguém ousa desenterrar?
+
+Não respondi. Não porque não tivesse resposta, mas porque compreendi, naquele momento, que a pergunta não era dirigida a mim. Era dirigida à mina. À rocha. À escuridão que há mais de cem anos abriga o que foi arrancado do subsolo e o que foi enterrado com ele.
+
+Subi. Não sei como. O vagão apareceu, vazio, parado no nível de saída, como se nunca tivesse saído. O analisador, quando o desliguei à luz do dia, mostrava silêncio absoluto. Vinte e poucos decibéis. Nenhum pico. Nenhum som.
+
+O Zumbido parou.
+
+Ou, pelo menos, parou de vir da mina.
+
+Porque, desde aquela noite, quando apago as luzes do meu quarto e o silêncio da cidade se acomoda sobre as ladeiras, eu ainda o ouço. Mais forte agora. Mais claro. E não vem de fora. Vem de dentro do crânio, como se algo, a cento e vinte metros de profundidade, tivesse deixado uma sintonização aberta na minha cabeça.
+
+A ciência diz que o Zumbido não existe para a maioria das pessoas. A ciência diz que é tinnitus, é fixação, é ouvido focando em ruídos inocentes. A ciência está certa, para a maioria. Mas para quem desceu ao fundo do poço e ouviu o poço responder, a ciência é apenas um cobertor fino contra o frio.
+
+Fico acordado até tarde, ouvindo o silêncio. E me pergunto, com um arrepio que não vem do ar-condicionado, o que ainda está enterrado na mina, e por que, agora que o Zumbido sabe meu nome, ele parece estar subindo.
+
+---
+
+## Fontes de inspiração
+
+- Reportagens sobre o fenômeno conhecido como "The Hum" (Zumbido de Taos): um som grave e contínuo de baixa frequência, entre 30 e 80 hertz, ouvido apenas por uma minoria da população, sobretudo à noite e em ambientes silenciosos, com origem ainda não totalmente explicada pela ciência (fontes: EM/BH, Terra, Medical Xpress, Wikipedia).
+- Matérias sobre a Mina da Passagem, em Mariana (MG): mina de ouro desativada, 120 metros de profundidade, inundação subterrânea de 1936 que matou dezessete trabalhadores, relatos de barulhos de sinos e correntes em galerias vazias e a imagem de Santa Bárbara protegendo os mortos (fontes: Super/Abril, Correio Braziliense, S2519-5352).

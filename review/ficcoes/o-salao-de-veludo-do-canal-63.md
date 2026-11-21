@@ -1,0 +1,36 @@
+---
+titulo: "O Salão de Veludo do Canal 63"
+resumo: "Um arquivista de televisão encontra, numa fita de 1987, um corte de dois minutos e dezessete segundos de um salão vazio com um relógio na parede — um relógio que avança em sincronia com o tempo real, até que a porta se abre."
+categoria: "contos-de-terror"
+data: "2026-11-21"
+slug: "o-salao-de-veludo-do-canal-63"
+tipo: "ficcao"
+fonte_pesquisa: "Invasão de sinal Max Headroom (Chicago, 22/11/1987); emissoras de TV brasileiras com desligamento noturno por manutenção técnica"
+---
+
+Camilo Vargas nunca acreditou em assombração. O que ele acreditava era em fita U-matic com mofo, em cabeçote de reprodução desalinhado e em emissoras de UHF que morrem de silêncio. Trabalhava desde outubro no arquivo da TV Nordeste Paulista, uma estação de interior que havia saído do ar em 1991 e cujo prédio seria demolido. Sua tarefa: passar o acervo analógico para um disco rígido antes que as fitas se desintegrassem de vez. Trabalhava à noite, porque durante o dia o prédio cheirava a tinta nova dos pedreiros e ao gesso do forro, e porque à noite ninguém o interrompia para perguntar se aquilo ali valia alguma coisa.
+
+A terceira fita da caixa de novembro de 1987 estava rotulada de maneira quase bucólica: "Madrugada — teste de padrão". Camilo a carregou no deck às 2h14 de uma quarta-feira. O sinal começou como qualquer teste de padrão: barra de cores, tom de mil hertz, nada. Então, no segundo cento e setenta e sete, a imagem caiu. Não houve ruído, nem chiado, nem quadro branco. O que apareceu foi um salão.
+
+Poltronas de veludo verde, papel de parede descascando, uma lâmpada pendente de fio aparente e um relógio de parede analógico marcando 3:11. Ao fundo, uma porta de madeira fechada. Sem áudio. Sem crédito. Sem assinatura. A imagem durou dois minutos e dezessete segundos, tempo exato até o sinal voltar ao teste de cores. Camilo assistiu duas vezes. Anotou no caderno: sinal morto, imagem estável, não há sobreposição de informação técnica. Era o tipo de material que as emissoras gravavam entre programas para preencher as horas da madrugada — enchimento, lixo eletrônico com data de validade expirada.
+
+Guardou a fita e não voltou ao assunto na semana seguinte. Quando voltou, algo tinha mudado.
+
+O relógio da imagem marcava 3:12. Mesmo rolo, mesma fita, mesmo quadro congelado na mesma madrugada de 1987. Camilo passou a filmar a tela com uma câmera compacta, em dias diferentes, sempre na mesma hora da digitalização. O ponteiro dos minutos avançava um minuto a cada sessenta e quatro horas, aproximadamente, sempre atrasado em relação ao relógio de pulso dele. Nenhum mecanismo explicava aquilo: uma fita analógica não se regrava sozinha, o cabeçote não altera o que já está gravado, e o salão não era um evento ao vivo para mudar de hora em hora.
+
+Em 9 de janeiro, a porta de madeira ao fundo do salão estava entreaberta, uns dez centímetros, o bastante para ver a escuridão do outro lado. Camilo verificou em cada uma das doze vezes que revistara a fita entre novembro e dezembro: a porta tinha estado fechada em todas elas. Duas semanas depois, a porta estava aberta de par em par. E na poltrona da esquerda, a mais próxima da porta, havia um casaco de gabardine jogado sobre o encosto — o mesmo modelo, a mesma cor cinza, a mesma mancha na altura do punho esquerdo que Camilo vestira em cada noite de plantão naquele mesmo prédio.
+
+Foi então que começou a gravar a própria sala.
+
+Em 21 de fevereiro, Camilo decidiu dormir no arquivo. Levou um colchonete, uma garrafa de água e uma cadeira de madeira que encostou contra a porta do escritório, de modo que ninguém entrasse sem derrubá-la. Colocou a câmera digital em cima da estante, apontada para sua própria poltrona, e programou para gravar a noite toda. Acordou às 3:11 da manhã, exatamente, sem alarme, com a sensação física de que alguém estava assistindo-o dormir.
+
+A gravação daquela noite mostra: a porta se abrindo sozinha às 3h10min58s. Uma figura entrando, vestindo o casaco de gabardine de Camilo — e o pijama de Camilo, o mesmo que ele usara naquela noite. A figura sentou-se na poltrona da esquerda, de frente para a câmera, e ficou olhando. Não fez gestos, não falou, não se moveu. Apenas esperou.
+
+Há um detalhe que Camilo notou apenas na terceira vez que assistiu à gravação. Atrás da figura, na estante de madeira do salão, há uma fita U-matic com uma etiqueta colada à mão: "22/11/1987 — Madrugada — teste de padrão". A mesma fita que Camilo guardara no arquivo do prédio. A mesma fita que ele vira doze vezes, que digitalizara, que estava ali, em sua gaveta, enquanto o salão também a tinha em sua prateleira — como se o arquivo fosse o espelho de si mesmo, e como se o espelho estivesse filmando de volta.
+
+Camilo não desligou mais a câmera. Não por coragem, nem pela esperança de provar algo a alguém. Não desligou porque descobriu que, com a câmera desligada, ele não terá como saber quando o relógio da fita bater às 3:11 e se a porta — a porta do salão ou a porta do quarto — se abrirá novamente. E porque, quando isso acontecer, a figura já estará sentada, esperando para terminar de assistir o que ele começou.
+
+## Fontes de inspiração
+
+- A invasão de sinal de televisão conhecida como incidente Max Headroom, em Chicago, 22 de novembro de 1987: as emissoras WGN-TV e WTTW tiveram suas transmissões interrompidas por uma figura mascarada (cerca de 25 e 90 segundos, respectivamente); investigações do FBI e da FCC nunca identificaram os responsáveis.
+- O costume de emissoras de televisão brasileiras dos anos 1980 de suspenderem a programação durante a madrugada sob o pretexto de "manutenção técnica" — justificativa que, como se sabe, nem sempre refletia o que realmente estava sendo transmitido.

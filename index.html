@@ -6,23 +6,23 @@
   <title>ZAMBRIA — O Insólito Presente</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-black text-white font-sans leading-relaxed min-h-screen">
+<body>
 
-  <div class="site-shell flex min-h-screen transition-all duration-300" id="site-shell">
+  <div class="site-shell" id="site-shell">
 
     <!-- Botão SEMPRE visível, fora da sidebar -->
-    <button class="btn-toggle-sidebar w-8 h-8 bg-red-600 text-black rounded font-black text-lg cursor-pointer transition-all duration-200 leading-none text-center p-0 shrink-0 fixed top-4 left-4 z-50" id="btnToggleSidebar" aria-label="Esconder barra lateral">☰</button>
+    <button class="btn-toggle-sidebar" id="btnToggleSidebar" aria-label="Esconder barra lateral">☰</button>
 
     <!-- Sidebar esquerda: categorias que se expandem/contraem -->
-    <aside class="sidebar w-80 bg-black border-r border-gray-700 p-6 overflow-y-auto shrink-0 sticky top-0 h-screen transition-all duration-300" id="sidebar-zambria">
-      <div class="sidebar-header flex flex-col items-center gap-2 mb-8 text-center">
-        <div class="site-title text-2xl font-black uppercase tracking-widest text-white">ZAMBRIA</div>
+    <aside class="sidebar" id="sidebar-zambria">
+      <div class="sidebar-header">
+        <div class="site-title">ZAMBRIA</div>
       </div>
-      <div class="site-subtitle text-xs text-red-600 uppercase tracking-widest mb-10 opacity-90 text-center">O Insólito Presente</div>
+      <div class="site-subtitle">O Insólito Presente</div>
 
       <!-- Categoria: UFOs e Aliens -->
       <div class="categoria-grupo">
-        <div class="categoria-titulo text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3 pl-1 border-l-3 border-red-600" id="categoria-ufo" role="button" tabindex="0" aria-expanded="true">UFOs e Aliens</div>
+        <div class="categoria-titulo" id="categoria-ufo" role="button" tabindex="0" aria-expanded="true">UFOs e Aliens</div>
         <ul class="lista-topicos" id="lista-ufo" style="display: block;">
           <li><a href="posts/ceus-vigiados-ovnis-brasil.html">Os Céus Vigiados: O Que a Força Aérea Deixou nos Arquivos do OVNI</a></li>
           <li><a href="posts/triangulo-negro-uap.html">Triângulo Negro: o silêncio dos arquivos e o que paira sobre o Oeste</a></li>
@@ -33,88 +33,172 @@
         </ul>
       </div>
 
-      <!-- Categoria: Arqueologia Antiga -->
+      <!-- Categoria: Arqueologia Antiga e Mistérios Históricos -->
       <div class="categoria-grupo">
-        <div class="categoria-titulo text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3 pl-1 border-l-3 border-red-600" id="categoria-arch" role="button" tabindex="0" aria-expanded="false">Arqueologia Antiga e Mistérios Históricos</div>
+        <div class="categoria-titulo" id="categoria-arch" role="button" tabindex="0" aria-expanded="false">Arqueologia Antiga e Mistérios Históricos</div>
         <ul class="lista-topicos" id="lista-arch" style="display: none;">
           <li><a href="posts/a-sombra-no-planalto.html">A Sombra no Planalto</a></li>
+          <li><a href="posts/o-di-rio-do-vigia.html">O Diário do Vigia</a></li>
         </ul>
       </div>
 
-      <!-- Categoria: Sobrenatural -->
+      <!-- Categoria: Sobrenatural e Paranormal -->
       <div class="categoria-grupo">
-        <div class="categoria-titulo text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3 pl-1 border-l-3 border-red-600" id="categoria-para" role="button" tabindex="0" aria-expanded="false">Sobrenatural e Paranormal</div>
+        <div class="categoria-titulo" id="categoria-para" role="button" tabindex="0" aria-expanded="false">Sobrenatural e Paranormal</div>
         <ul class="lista-topicos" id="lista-para" style="display: none;">
           <li><a href="posts/a-l-mpada-que-viu-demais.html">A Lâmpada que Viu Demais</a></li>
-          <li><a href="posts/a-l-mpada-que-viu-demais-revisao.html">A Lâmpada que Viu Demais — versão revista</a></li>
+          <li><a href="posts/o-olhar-de-pedra.html">O Olhar de Pedra</a></li>
         </ul>
       </div>
 
       <!-- Categoria: Criptozologia -->
       <div class="categoria-grupo">
-        <div class="categoria-titulo text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3 pl-1 border-l-3 border-red-600" id="categoria-crypto" role="button" tabindex="0" aria-expanded="false">Criptozologia</div>
+        <div class="categoria-titulo" id="categoria-crypto" role="button" tabindex="0" aria-expanded="false">Criptozologia</div>
         <ul class="lista-topicos" id="lista-crypto" style="display: none;">
           <li><span class="text-gray-500 text-sm">Sem posts publicados ainda</span></li>
         </ul>
       </div>
 
-      <!-- Categoria: Conspirações -->
+      <!-- Categoria: Conspirações e Coberturas -->
       <div class="categoria-grupo">
-        <div class="categoria-titulo text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3 pl-1 border-l-3 border-red-600" id="categoria-conspir" role="button" tabindex="0" aria-expanded="false">Conspirações e Coberturas</div>
+        <div class="categoria-titulo" id="categoria-conspir" role="button" tabindex="0" aria-expanded="false">Conspirações e Coberturas</div>
         <ul class="lista-topicos" id="lista-conspir" style="display: none;">
-          <li><a href="posts/2026-11-20-17-de-novembro-apagao-mundial.html">17 de Novembro: a noite em que o mundo se preparou para apagar</a></li>
-          <li><a href="posts/2026-11-20-17-de-novembro-apagao-mundial-revisao.html">17 de Novembro: a noite em que o mundo se preparou para apagar — versão revista</a></li>
+          <li><span class="text-gray-500 text-sm">Sem posts publicados ainda</span></li>
         </ul>
       </div>
 
-      <!-- Categoria: Fenômenos Naturais -->
+      <!-- Categoria: Fenômenos Naturais Inexplicáveis -->
       <div class="categoria-grupo">
-        <div class="categoria-titulo text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3 pl-1 border-l-3 border-red-600" id="categoria-nature" role="button" tabindex="0" aria-expanded="false">Fenômenos Naturais Inexplicáveis</div>
+        <div class="categoria-titulo" id="categoria-nature" role="button" tabindex="0" aria-expanded="false">Fenômenos Naturais Inexplicáveis</div>
         <ul class="lista-topicos" id="lista-nature" style="display: none;">
-          <li><a href="posts/2026-11-20-ceu-verde-paraiba-bolido.html">O Céu Verde sobre a Paraíba: a Noite em que um Bólido Cruzou o Nordeste</a></li>
+          <li><span class="text-gray-500 text-sm">Sem posts publicados ainda</span></li>
         </ul>
       </div>
 
-      <!-- Categoria: Contos -->
+      <!-- Categoria: Contos de Terror Adulto -->
       <div class="categoria-grupo">
-        <div class="categoria-titulo text-xs font-semibold uppercase tracking-wider text-gray-400 mb-3 pl-1 border-l-3 border-red-600" id="categoria-contos" role="button" tabindex="0" aria-expanded="false">Contos de Terror Adulto</div>
+        <div class="categoria-titulo" id="categoria-contos" role="button" tabindex="0" aria-expanded="false">Contos de Terror Adulto</div>
         <ul class="lista-topicos" id="lista-contos" style="display: none;">
           <li><a href="posts/a-ltima-noite-de-marte.html">A Última Noite de Marte</a></li>
-          <li><a href="posts/o-di-rio-do-vigia.html">O Diário do Vigia</a></li>
-          <li><a href="posts/o-olhar-de-pedra.html">O Olhar de Pedra</a></li>
-          <li><a href="posts/o-tom-das-3h14.html">O Tom das 3h14</a></li>
           <li><a href="posts/contos-criativos-001.html">Contos Criativos 001</a></li>
-          <li><a href="posts/revis-o-editorial-contos-criativos-001-md.html">Revisão editorial — contos-criativos-001.md</a></li>
         </ul>
       </div>
     </aside>
 
     <!-- Conteúdo principal -->
-    <main class="conteudo flex-1 p-12 max-w-5xl mx-auto w-full transition-all duration-300">
-      <section class="hero text-center mb-12 pb-8 border-b border-gray-700">
-        <h1 class="text-5xl font-black leading-tight text-white mb-2">ZAMBRIA</h1>
-        <p class="text-gray-400">O Insólito Presente — Estudos sobre fenômenos que ficam na fronteira entre o conhecido e o inexplicável.</p>
+    <main class="conteudo">
+      <section class="hero">
+        <h1>ZAMBRIA</h1>
+        <p>O Insólito Presente — Estudos sobre fenômenos que ficam na fronteira entre o conhecido e o inexplicável.</p>
       </section>
 
-      <section class="posts-list space-y-8">
-        <article class="post border-b border-gray-700 pb-8 last:border-b-0 last:pb-0">
-          <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-            <span class="categoria uppercase tracking-wider">ufos</span>
+      <section class="posts-list">
+        <article class="post">
+          <div class="post-meta">
+            <span class="categoria">ufos</span>
             <span>20/11/2026</span>
           </div>
-          <h2 class="text-2xl font-bold mb-4">Os Céus Vigiados: O Que a Força Aérea Deixou nos Arquivos do OVNI</h2>
-          <p class="text-gray-300">O Brasil guarda 743 registros oficiais de OVNIs de 1952 a 2016, mas a Força Aérea diz que nunca investigou sua natureza — apenas catalogou o silêncio.</p>
-          <a href="posts/ceus-vigiados-ovnis-brasil.html" class="text-red-600 hover:text-red-400 font-medium">Ler artigo →</a>
+          <h2><a href="posts/ovnis-e-uaps-quando-o-c-u-deixa-de-ser-identificado.html">OVNIs e UAPs: quando o céu deixa de ser identificado</a></h2>
+          <p>Pilotos da Marinha dos Estados Unidos vêm relatando, há décadas, encontros com objetos voadores que desafiam a explicação convencional.</p>
         </article>
 
-        <article class="post border-b border-gray-700 pb-8 last:border-b-0 last:pb-0">
-          <div class="post-meta flex gap-4 text-xs text-gray-400 mb-2">
-            <span class="categoria uppercase tracking-wider">ufos</span>
+        <article class="post">
+          <div class="post-meta">
+            <span class="categoria">ufos</span>
             <span>20/11/2026</span>
           </div>
-          <h2 class="text-2xl font-bold mb-4">Triângulo Negro: o silêncio dos arquivos e o que paira sobre o Oeste</h2>
-          <p class="text-gray-300">No fim de outubro de 2026, o governo dos Estados Unidos abriu o sétimo lote de documentos desclassificados sobre UAPs: 28 arquivos em PDF, memorandos e depoimentos, sem imagens e sem certezas.</p>
-          <a href="posts/triangulo-negro-uap.html" class="text-red-600 hover:text-red-400 font-medium">Ler artigo →</a>
+          <h2><a href="posts/triangulo-negro-uap.html">Triângulo Negro: o silêncio dos arquivos e o que paira sobre o Oeste</a></h2>
+          <p>No fim de outubro de 2026, o governo dos Estados Unidos abriu o sétimo lote de documentos desclassificados sobre UAPs: 28 arquivos em PDF, memorandos e depoimentos, sem imagens e sem certezas.</p>
+        </article>
+
+        <article class="post">
+          <div class="post-meta">
+            <span class="categoria">ufos</span>
+            <span>20/11/2026</span>
+          </div>
+          <h2><a href="posts/abdu-es-alien-genas-quando-eles-levam-voc.html">Abduções Alienígenas: quando eles levam você</a></h2>
+          <p>Existe um momento em que o céu deixa de ser apenas um cenário e se torna um palco...</p>
+        </article>
+
+        <article class="post">
+          <div class="post-meta">
+            <span class="categoria">ufos</span>
+            <span>20/11/2026</span>
+          </div>
+          <h2><a href="posts/o-tom-das-3h14.html">O Tom das 3h14</a></h2>
+          <p>Um rádio amador em uma fazenda isolada capta um sinal curto e repetido em uma frequência proibida, acompanhado de uma luz fixa acima da mata.</p>
+        </article>
+
+        <article class="post">
+          <div class="post-meta">
+            <span class="categoria">ufos</span>
+            <span>20/11/2026</span>
+          </div>
+          <h2><a href="posts/ufo-01-longo.html">OVNIs e UAPs: quando o céu deixa de ser identificado — versão longa</a></h2>
+          <p>Relatório aprofundado sobre os fenômenos aéreos não identificados e seus registros oficiais.</p>
+        </article>
+
+        <article class="post">
+          <div class="post-meta">
+            <span class="categoria">ufos</span>
+            <span>20/11/2026</span>
+          </div>
+          <h2><a href="posts/ceus-vigiados-ovnis-brasil.html">Os Céus Vigiados: O Que a Força Aérea Deixou nos Arquivos do OVNI</a></h2>
+          <p>O Brasil guarda 743 registros oficiais de OVNIs de 1952 a 2016, mas a Força Aérea diz que nunca investigou sua natureza — apenas catalogou o silêncio.</p>
+        </article>
+
+        <article class="post">
+          <div class="post-meta">
+            <span class="categoria">arqueologia</span>
+            <span>20/11/2026</span>
+          </div>
+          <h2><a href="posts/a-sombra-no-planalto.html">A Sombra no Planalto</a></h2>
+          <p>Uma expedição arqueológica descobre uma estrutura enterrada que não pertence a nenhuma civilização conhecida.</p>
+        </article>
+
+        <article class="post">
+          <div class="post-meta">
+            <span class="categoria">arqueologia</span>
+            <span>20/11/2026</span>
+          </div>
+          <h2><a href="posts/o-di-rio-do-vigia.html">O Diário do Vigia</a></h2>
+          <p>Um diário encontrado em uma mina abandonada registra acontecimentos que não deveriam ser possíveis.</p>
+        </article>
+
+        <article class="post">
+          <div class="post-meta">
+            <span class="categoria">sobrenatural</span>
+            <span>20/11/2026</span>
+          </div>
+          <h2><a href="posts/a-l-mpada-que-viu-demais.html">A Lâmpada que Viu Demais</a></h2>
+          <p>Uma lâmpada de rua em uma cidade pequena começa a mostrar imagens de pessoas que ainda não nasceram — ou que já morreram.</p>
+        </article>
+
+        <article class="post">
+          <div class="post-meta">
+            <span class="categoria">sobrenatural</span>
+            <span>20/11/2026</span>
+          </div>
+          <h2><a href="posts/o-olhar-de-pedra.html">O Olhar de Pedra</a></h2>
+          <p>Um olhar de pedra que observa de volta.</p>
+        </article>
+
+        <article class="post">
+          <div class="post-meta">
+            <span class="categoria">contos</span>
+            <span>20/11/2026</span>
+          </div>
+          <h2><a href="posts/a-ltima-noite-de-marte.html">A Última Noite de Marte</a></h2>
+          <p>A colônia marciana recebe um sinal.</p>
+        </article>
+
+        <article class="post">
+          <div class="post-meta">
+            <span class="categoria">contos</span>
+            <span>20/11/2026</span>
+          </div>
+          <h2><a href="posts/contos-criativos-001.html">Contos Criativos 001</a></h2>
+          <p>Conteúdo criativo baseado em pesquisa profunda dos temas do site.</p>
         </article>
       </section>
     </main>

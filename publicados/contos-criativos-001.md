@@ -1,9 +1,8 @@
 ---
-titulo: A Sombra no Planalto
-resumo: Uma expedição arqueológica descobre uma estrutura enterrada que não pertence a nenhuma civilização conhecida.
-categoria: arqueologia
-data: 2026-11-18
-slug: a-sombra-no-planalto
+title: "Contos Criativos 001"
+category: geral
+status: revisado
+data_auditor: 2026-11-21T14:58:15
 ---
 
 O Planalto Central guarda segredos que a vegetação esconde há milênios. Não é apenas o cerrado seco e as trilhas de jipe — é o silêncio antes de algo despertar.

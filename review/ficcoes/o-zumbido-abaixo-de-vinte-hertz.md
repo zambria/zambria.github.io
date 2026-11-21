@@ -1,0 +1,37 @@
+---
+titulo: "O Zumbido Abaixo de Vinte Hertz"
+resumo: "Um perito acústico é contratado para laudo prévio de demolição em uma fábrica têxtil abandonada e encontra um infrasom abaixo da audição que não deveria estar ali — e algo que respira dentro dele."
+categoria: "fenomenos-naturais"
+data: "2026-11-21"
+slug: "o-zumbido-abaixo-de-vinte-hertz"
+tipo: "ficcao"
+fonte_pesquisa: "Ars Technica; Perfect Circuit; Interesting Engineering"
+---
+
+Elias Moraes nunca acreditou em assombração, e esse era exatamente o motivo pelo qual a Demolidora Sul o tinha contratado. Chegou à Fábrica Cottoni pouco antes das sete da manhã de um sábado de julho, com o céu ainda cinzento sobre a cidadezinha do interior de Minas e o ar cheirando a poeira moída e ferrugem. Carregava um medidor de som Classe 1, um analisador de espectro, um gravador de campo e a indisposição secreta de quem passa a vida reduzindo o mundo a decibéis. O serviço era simples: um laudo prévio de ruído, exigência burocrática antes da implosão programada para a semana seguinte. NR-15, mapeamento de níveis sonoros, assinatura no final. Nada mais.
+
+A Cottoni fechara doze anos antes. Os teares pararam no meio da tecida, as bobinas de algodão secaram nas prateleiras, e o telhado de amianto começou a ceder em pedaços. Elias entrou pela portaria principal, com a porta empenada rangendo sobre os gonzos, e percorreu o salão de tecelagem com a lanterna. O lugar era grande, vazio, de pé-direito alto e paredes de tijolo aparente. O silêncio não era silêncio: tinha textura. Um zumbido baixo, quase imaginário, que ele primeiro atribuiu ao próprio ouvido — o tal zumbido que todo mundo ouve quando o mundo ao redor fica quieto demais.
+
+Começou pela recepção. Medição padrão: 32 decibéis, o vento nas folhas das árvores ao redor do prédio. Passou pelos escritórios, pelos banheiros interditados, pelo refeitório com as mesas viradas. Tudo dentro do esperado. Quando chegou ao salão de tecelagem, o medidor mudou de comportamento. O display piscava entre 28 e 31 decibéis — níveis abaixo de uma conversa sussurrada — mas o peso no peito de Elias aumentou. Não era barulho. Era algo que o corpo sentia antes de a mente nomear: uma pressão atrás dos olhos, um calafrio que subia pela nuca, a certeza nítida de que alguém estava parado alguns metros atrás dele, fora do campo de visão.
+
+Ele virou. Não havia ninguém.
+
+Elias não é do tipo que se deixa assombrar. Formado em acústica ambiental, cético por profissão e temperamento, passou a carreira explicando ranges de piso, vibrações de ar-condicionado e tubulações batendo nas paredes como fenômenos físicos, nunca sobrenaturais. Pegou o analisador de espectro e apontou o microfone para o centro do salão. O gráfico apareceu na tela: um pico limpo, isolado, em 18,9 hertz. Infrasom. Som abaixo do limiar da audição humana. O ouvido não capta, mas o corpo sente. Pesquisas — ele lembrava disso de um artigo lido anos atrás — associam essa frequência a sensações de apreensão, calafrios, depressão leve e, em alguns casos, à percepção de figuras vagas na visão periférica. O globo ocular humano ressoa por volta de 19 hertz; quando algo faz o olho vibrar nessa frequência, a visão borra nas bordas, e o cérebro interpreta a borrão como uma forma humana no canto do olho.
+
+Era física. Era apenas física. E ainda assim, Elias permaneceu no salão por mais de uma hora, sozinho, com o sol caindo lá fora e o medidor marcando o mesmo pico estável, 18,9 Hz, hora após hora. O vento não explicava aquilo sozinho. As dimensões do salão — o comprimento, a altura, a largura — criavam uma cavidade de ressonância. Um duto de ventilação rompido no sopradouro do telhado soprava ar sobre uma abertura do tamanho certo, como quem sopra sobre a boca de uma garrafa de vidro. O prédio inteiro estava se tornando um instrumento de sopro, e a nota que emitia era inaudível para os ouvidos, mas não para o estômago, para o peito, para a pele.
+
+Antes de sair, Elias encontrou algo que o analisador não mediu. Em uma gaveta trancada da antiga sala do engenheiro de produção — fechadura arrombada, provavelmente por moradores de rua ou curiosos, muito antes dele chegar — havia um laudo datado de 2014, assinado por um técnico de segurança do trabalho cujo nome ele não conseguiu ler, a tinta desbotada. O documento falava, em linguagem burocrática e seca, de "ruído de baixa frequência de origem não identificada" no salão de tecelagem, de funcionários pedindo remoção do setor na mesma semana, de três demissões por pedido próprio em quinze dias, e de um vigia noturno que se recusava a fazer rondas sozinho porque, nas palavras do laudo, "sentia-se observado do fundo do poço do elevador de cargas". O laudo nunca saiu da gaveta. Arquivado, esquecido, irrelevante para quem só assina papéis de demolição.
+
+Elias fechou a gaveta, guardou o papel no próprio bolso e saiu do prédio antes do escurecer completo. No dia seguinte, entregou o laudo da Cottoni. Ruído dentro dos limites legais. Nenhuma exposição acima dos valores de ação da NR-15. Assinatura no final. Recebeu o pagamento por transferência bancária. Não mencionou os 18,9 hertz em nenhum lugar do documento. Não há norma técnica para medo que não se ouve. Não há coluna em planilha de inspeção para "sensação de presença". O mundo oficial não tem categoria para isso, e Elias não se deu ao trabalho de inventar uma.
+
+Foi só em casa, três noites depois, com fones de ouvido e a gravação de campo do salão aberta no software de áudio, que ele isolou a faixa de 18,9 Hz e aumentou o ganho. Lá dentro, abaixo do ruído de fundo, abaixo do vento e do chassi vibrando do próprio prédio, havia algo mais. Uma modulação lenta, rítmica, quase imperceptível. Como uma respiração. Como algo que expira e inspira numa cadência que não é a de pulmões humanos.
+
+A Cottoni será implodida na semana que vem. O prédio cairá, o tijolo vira entulho, o duto de ventilação se amassa no chão. Mas a frequência não depende do prédio. Depende do vento que passa pelo vale, das dimensões do vazio deixado no solo, das proporções do espaço que alguém, um dia, vai construir no mesmo lugar. Qualquer estrutura com aqueles comprimentos e aquela altura vai ressoar em 18,9 hertz. Qualquer pessoa que ficar sozinha ali depois do escuro vai sentir o peso no peito, o calafrio na nuca, a figura cinzenta no canto do olho.
+
+O medo não saiu da fábrica. Elias o trouxe consigo, na gravação, e não tem pretensão de apagá-la.
+
+## Fontes de inspiração
+
+- Ars Technica, "Study: Infrasound likely a key factor in alleged hauntings" — sobre o engenheiro Vic Tandy e a frequência de 18,9 Hz associada a supostas assombrações.
+- Perfect Circuit, "Haunted Circuits: the Sound of Fear" — sobre ondas estacionárias infrassônicas, ressonância do globo ocular e o trabalho de Tandy no subsolo da Catedral de Coventry.
+- Interesting Engineering, "Tuning In to the Creepy 'Ghost Frequency'" — sobre infrasom abaixo de 20 Hz e seus efeitos fisiológicos relatados.

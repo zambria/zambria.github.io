@@ -1,3 +1,10 @@
+---
+title: "A L Mpada Que Viu Demais Revisao"
+category: geral
+status: revisado
+data_auditor: 2026-11-21T14:58:15
+---
+
 ## Revisão editorial — ZAMBRIA (O Insólito Presente)
 
 **Arquivo revisado:** a-l-mpada-que-viu-demais.md  

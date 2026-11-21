@@ -1,0 +1,39 @@
+---
+titulo: "A Colheita do Silêncio"
+resumo: "Durante a Operação Prato, em 1977, um agente da FAB documentou luzes que vinham do céu sobre Colares — até uma delas deixar algo para trás que não constava em nenhum relatório."
+categoria: "ufos"
+data: "2026-11-21"
+slug: "colheita-do-silencio"
+tipo: "ficcao"
+fonte_pesquisa: "Arquivo Nacional / FAB — Operação Prato (1977-1978); reportagens da BBC Brasil e Estadão sobre os documentos ufológicos liberados"
+---
+
+# A Colheita do Silêncio
+
+O registro oficial da Operação Prato ocupa seis relatórios, trezentas páginas e dezoito horas de filme guardados no Arquivo Nacional, em Brasília. O que não consta em nenhum deles é o outono em que o céu de Colares, no Pará, decidiu parar de fazer barulho.
+
+Outubro de 1977. O cheiro da maré baixa misturava-se ao de pimenta de cheiro queimada nas varandas e ao suor dos mosquitos que não saíam da pele. Os moradores de Colares, do Mosqueiro e de Ananindeua falavam de luzes que vinham do mato e do rio, de feixes que queimavam a pele, deixavam marcas em forma de mão nos braços e, em alguns casos, pequenos furos onde o sangue não coagulava direito. Chamavam aquilo de chupa-chupa. A Força Aérea chamou de operação. Eu, naquele tempo, era um segundo-sargento do Para-Sar com ordens de olhar para o céu e anotar o que não podia existir.
+
+A primeira semana passou em relatórios de avistamento. Pescadores de Ananindeua, moradores de Santo Antônio do Tauá, todos dizendo a mesma coisa com variações de tom — um disco, uma luz, um clarão que vinha baixo demais, devagar demais, silencioso demais. Eu ouvia, anotava, arquivava. A máquina fotográfica clicava no vazio. Até a noite em que o coronel Camilo Ferraz decidiu que não bastava coletar depoimentos; era preciso presenciar.
+
+Fomos para a ponta de um igarapé, fora de Colares, com binóculos, duas câmeras fotográficas e um gravador de fita. Esperamos. A noite do Pará não é escura de verdade — é cheia de pontos luminosos, vaga-lumes, reflexos da cidade lá longe. Por volta da uma e meia, a luz apareceu. Não vinha do alto como nos desenhos de revista ufológica; rastejou pelo horizonte sobre a água, parou a duzentos metros de nós e ficou ali, imóvel, do tamanho de uma laranja esticada ao braço. Os grilos pararam. Os sapos pararam. Até o vento parou, como se o ar estivesse segurando a respiração para não ofender o visitante.
+
+Não havia zumbido de motor, não havia trovão distante. Havia apenas a luz, branca com uma borda azulada, e o silêncio — um silêncio denso, quase físico, que empurrava os tímpanos para dentro. Levantei a câmera. O visor mostrava a luz nítida, sem tremer, sem desfocar, como se estivesse posando para a foto. Apertuei o disparo. O obturador clicou, mas no negativo não ficou nada além de uma mancha cinza onde a luz deveria estar.
+
+A luz desceu mais um pouco, tocou a superfície do rio sem fazer onda, e então subiu verticalmente, sumindo entre as nuvens em menos de três segundos. Quando o som voltou — grilos, água, nossa própria respiração ofegante —, percebi que algo tinha ficado. Não na areia. Não na água. Em mim.
+
+Tentei falar com o sargento ao meu lado. Abri a boca, movi a língua, senti o ar sair dos pulmões. Nada saiu. Não era surdez: eu ouvia perfeitamente o barulho dos outros, o chiado do gravador, o passo na lama. Era a voz que não saía. Como se algo tivesse colhido dela o que tinha de próprio, deixando apenas o tubo vazio.
+
+Nas semanas seguintes, voltei a Colares. Ou tentei voltar. O relatório oficial registra que o Para-Sar permaneceu quatro meses no litoral paraense, que coletou depoimentos, fotografou luzes não identificadas, encaminhou tudo ao Arquivo Nacional. O que o relatório não registra — e nunca registrará — é que cinco dos homens daquela equipe perderam a voz em circunstâncias que ninguém soube explicar. Dois falam hoje em sussurros, como se o ar faltasse nos pulmões. Três não falam mais nada.
+
+Eu ainda escrevo. Escrevo isto, na verdade, para deixar prova de que o silêncio não é apenas ausência. É uma colheita. As luzes de Colares não vieram nos visitar. Vieram recolher o que nos pertencia: o medo, a palavra, o eco da própria garganta. E deixaram, em troca, um vazio que não aparece em nenhum formulário da FAB, nem nas páginas do Arquivo Nacional, nem nas dezesseis horas de filme que alguém, um dia, decidirá ou não assistir.
+
+O último registro que faço é este: se você voltar para aquelas margens à noite, não grite. Não diga o seu nome. O que está no céu não precisa de prova de que você existe. Basta que você responda.
+
+O Arquivo Nacional guarda os papéis. O silêncio guarda o resto.
+
+## Fontes de inspiração
+
+- Força Aérea Brasileira — Operação Prato (1977-1978), investigação oficial sobre avistamentos de OVNIs em Colares, Pará; documentos liberados para consulta no Arquivo Nacional.
+- BBC Brasil (Brasil) — reportagem sobre a Operação Prato e a investigação da ditadura sobre fenômenos ufológicos.
+- Estadão / TecMundo — reportagem sobre a Operação Prato, seus documentos oficiais e fotos divulgadas pela Aeronáutica.

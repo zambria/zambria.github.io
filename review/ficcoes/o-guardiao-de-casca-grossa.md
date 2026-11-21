@@ -1,0 +1,53 @@
+---
+titulo: "O Guardião de Casca Grossa"
+resumo: "Um inspetor de segurança do trabalho é enviado a uma serraria desativada às margens de um rio no sul do Amazonas para laudar o local antes da demolição. O que ele encontra nas vigas de cumaru não consta de nenhuma tabela de NR."
+categoria: "criptozoologia"
+data: "2026-11-21"
+slug: "o-guardiao-de-casca-grossa"
+tipo: "ficcao"
+fonte_pesquisa: "SciELO (Boletim do Museu Paraense Emílio Goeldi) sobre o Mapinguari; Wikipedia pt (Mapinguari)"
+---
+
+O laudo chegaria na quinta-feira. O inspetor Velasco já havia escrito três quartos dele no caderno de campo, à luz de um lanterninha de pilha fraca, enquanto o sol se despedia atrás da copa fechada da floresta. A serraria Velho Chico estava desativada havia doze anos, segundo o prefeito do município vizinho, mas o contrato de demolição exigia um laudo de integridade estrutural assinado por alguém com assinatura no CREA. Velasco era esse alguém. Também era o homem que, aos quarenta e dois anos, tinha aprendido a não confiar em silêncios completos.
+
+Chegara pela manhã em uma caminhonete alugada, com o medidor de nível de pressão sonora no banco do passageiro — NR-15, ruído, proteção auditiva, tudo isso. Na cidade, o contato que lhe arrumara o serviço sussurrara que a serraria "não dava bom sono aos vigias". Velasco anotou a frase como folclore de interior, nada mais. Agora, ao anoitecer, o silêncio do lugar parecia menos ausência de som do que contenção.
+
+O cheiro chegou primeiro. Não era o cheiro de mofo e madeira apodrecida que se espera em uma serraria abandonada. Era mais forte, mais denso: alho podre misturado a carne em decomposição sob sol tropical, com um fundo de enxofre que arranhava o fundo da garganta. Velasco cobriu o nariz com a gola da camisa de manga longa e acendeu a lanterna de cabeça. O feixe iluminou vigas de cumaru escurecidas pelo tempo, serragem petrificada em camadas no chão, trilhos de carrinhos de carga enviesados pelo peso de anos. E marcas.
+
+Não eram marcas de ferramenta. Eram ranhuras profundas nas vigas principais, a dois metros de altura do piso, como se algo com garras de ferro tivesse se apoiado ali e se arrastado, deixando sulcos paralelos na madeira dura. Cumaru é uma das madeiras mais pesadas e resistentes da região. Algo arrancou lascas dela com a mão.
+
+Velasco encostou o polegar em uma das ranhuras. A madeira ainda estava úmida por dentro.
+
+Ele desceu ao piso inferior, onde ficava a câmara de secagem e o escritório do antigo dono. A porta do escritório estava aberta, dobradiças soltas. Dentro, sobre uma mesa coberta de pó, jaziam os restos de um caderno de ponto. As últimas páginas estavam rasgadas. Nas que restavam, nomes riscados a caneta azul, ao lado da palavra "saída" escrita de mão trêmula. O último nome legível era o de um vigia, datado de três semanas antes. Abaixo, alguém — ou algo — havia escrito, com o que parecia sangue seco ou tinta vermelha grossa: "não sobe mais. fica embaixo."
+
+Velasco fechou o caderno. O medidor de som no cinto emitiu um bip baixo, inesperado. Ele olhou para o display: 38 decibéis, pico instantâneo de 52, faixa de frequência abaixo de 20 hertz. Infrasom. Não havia maquinário ligado a quilômetros ao redor. Não havia gerador, não havia serra circular, não havia vento forte lá fora. Apenas o ar parado da serraria e aquele cheiro que agora impregnava suas roupas.
+
+Ele subiu de volta ao piso principal e caminhou em direção ao poço de descarte de resíduos, uma abertura retangular no chão coberta por uma grade de aço empenada. A lanterna atravessou as barras da grade e iluminou a escuridão abaixo. Nada. Apenas terra úmida e raízes que entravam pelas paredes de tijolo. Velasco se abaixou, aproximou o rosto da grade. E ouviu.
+
+Um raspinho. Devagar, rítmico, como unha de madeira contra madeira. Vinha de baixo. Não era rato. Não era gato-do-mato. O som tinha peso. Tinha intenção. Vinha de algo que se arrastava sob o piso da serraria, arrastando algo mais pesado que si mesmo.
+
+O medidor apitou de novo, dessa vez mais alto. 41 decibéis. O display piscava um número de frequência que não correspondia a nada na tabela de ruído ocupacional que Velasco conhecia. 18 hertz. O suficiente para ser sentido no peito, não ouvido no ouvido. O suficiente para causar náusea, ansiedade, a sensação de que alguém está observando da escuridão.
+
+Ele recuou. Ao se levantar, o feixe da lanterna capturou algo no alto, nas sombras entre as vigas do telhado. Uma massa de pelagem espessa, escura, úmida, presa à madeira como uma mancha de óleo. Dois pontos vermelhos refletiram a luz — não olhos de gato, não olhos de cachorro. Olhos que não piscavam. Um único ponto maior, central, na testa da criatura, ou algo que simulava um olho central. E abaixo, uma abertura vertical na altura do abdômen, como uma boca rasgada na carne, escura demais para ser apenas sombra.
+
+Velasco não gritou. Gritar exige ar, e o ar havia sumido de seus pulmões. Ele deu um passo atrás. O piso rangou. A criatura se moveu — não com a lentidão de um animal grande, mas com a pressa inquietada de algo que havia sido interrompido. Garras de gancho arrancaram lascas da viga de cumaru ao saltar. O cheiro de alho podre explodiu no ambiente, enjoativo, paralisante.
+
+Ele correu em direção à porta principal, sapatos pisando serragem que estalava como osso seco. Atrás dele, o som de algo grande deslocando-se nas vigas, acima da cabeça, acompanhando seu movimento. Não vinha do chão. Vinha do teto. Das paredes. De dentro da madeira mesma.
+
+Na porta de saída, Velasco parou. O medidor, agora em suas mãos trêmulas, marcava 45 decibéis e subindo. A frequência caía, 14, 12, 10 hertz — um som grave demais para ser produzido por cordas vocais humanas, um som que não vinha de fora, mas parecia nascer dentro do crânio. Ele olhou para trás, uma última vez.
+
+A serraria estava vazia. Apenas vigas, serragem, sombras. O cheiro ainda estava lá, mais fraco agora, como se a fonte tivesse se retirado para um lugar onde o vento não alcançava. Velasco abriu o caderno de campo, virou uma página em branco e escreveu, com a letra trêmula de quem não quer acreditar no que viu: "O laudo é favorável à demolição. Estrutura de cumaru em boas condições. Não há registro de atividade anormal. Recomendo uso de protetores auriculares para a equipe."
+
+Fechou o caderno. Desceu a rampa de madeira em direção à caminhonete. A porta do passageiro estava aberta — ele trancara antes de entrar. O medidor de som no banco piscava sozinho, agora sem ninguém por perto, marcando 19 hertz em um ambiente absoluto silêncio.
+
+Velasco entrou no veículo, ligou o motor e saiu sem olhar no espelho retrovisor. Na estrada de terra, nos primeiros quilômetros, algo raspou levemente a lateral da caminhonete. Ele acelerou. No espelho, ao fim da pista de serraria, uma sombra peluda permaneceu imóvel, de pé entre as árvores, com um único olho vermelho refletindo a luz da lua.
+
+O laudo será entregue amanhã. A demolição está marcada para daqui a duas semanas. Os operários que subirão nas vigas de cumaru com serrotes e cordas não sabem que a madeira ainda tem temperatura. Que algo, nas camadas mais profundas da serração, ainda respira. E que, quando a primeira árvore tombar sob o peso do maquinário, o cheiro de alho podre vai voltar — dessa vez, para todos.
+
+## Fontes de inspiração
+
+- SciELO — Boletim do Museu Paraense Emílio Goeldi, artigo sobre controvérsias em torno do Mapinguari no sudoeste amazônico (descrições da criatura: porte de dois metros ou mais, pelagem escura, garras em forma de gancho, olhos vermelhos, comportamento antropófago).
+- Wikipedia (pt) — verbete "Mapinguari": criatura lendária brasileira, descrita como gigante peludo com pés virados para trás e boca na altura do estômago, associada à memória da megafauna extinta (preguiças-gigantes).
+- Revistas regionais da Amazônia sobre a tradição oral do Mapinguari como guardião punitivo da floresta contra invasores.
+
+Todas as referências servem apenas como inspiração folclórica; os personagens, o enredo e os fatos narrados são fictícios.

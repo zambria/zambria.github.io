@@ -1,0 +1,79 @@
+---
+titulo: "A Frequência Silenciada"
+resumo: "Um ex-operador de rádio encontra, em uma estação de monitoramento abandonada no interior do Pará, uma transmissão que repete nomes — incluindo o seu. O silêncio oficial, descobre ele, não protege o país: protege o que ainda está no ar."
+categoria: "conspiracos"
+data: "2026-11-20"
+slug: "a-frequencia-silenciada"
+tipo: "ficcao"
+fonte_pesquisa: "Operação Prato / FAB (O Antagonista); luzes misteriosas no Sul do Brasil (Agência Brasil); eventos luminosos transitórios (National Geographic Brasil)"
+---
+
+Raimundo Nonato deixara de escutar o silêncio aos trinta e dois anos. Era essa, ao seu modo de ver, a única consequência duradoura dos dois anos que passara no 4º Centro de Comunicações da Aeronáutica, um prédio baixo de blocos de concreto erguido à beira da Transamazônica, perto de Altamira, onde o mato cresce sobre o asfalto mais rápido que a manutenção consegue varrê-lo. Não que o silêncio fosse absoluto, ali. Havia o zumbido dos geradores, o chiado dos receptores, o sopro constante do ar-condicionado que funcionava por Turno e meia e depois parava de vez, deixando o calor do Pará ocupar os cômodos como um invasor educado. Raimundo aprendera a distinguir cada ruído pelo nome. O que lhe restou, depois da dispensa, foi a incapacidade de suportar o silêncio verdadeiro — aquele em que não há aparelhos ligados, nem tráfego nas bandas, nem a promessa de uma voz do outro lado.
+
+Deixara o serviço em 1983, com patente de terceiro-sargento e um laudo psicológico que atestava "estabilidade dentro da média para o contingente", frase burocrática o suficiente para não levantar suspeitas e vaga demais para significar alguma coisa. Voltei para Belém, alugou um quartinho no Umarizal, e passou dez anos vendendo rádios de carro e consertando antenas de televisão. Vida comum. O tipo de vida que o Estado brasileiro gosta de ver nos ex-funcionários de instalações cujos nomes não constam nos guias turísticos.
+
+A coisa recomeçou em uma quinta-feira de outubro, quando Raimundo consertava um receptor antigo de ondas curtas que um cliente trouxera — um Philips de painel madeira, anos setenta, daqueles que pesam mais que um recém-nascido. Ele ligara o aparelho na bancada, ajustara a antena de fio, e sintonizara, por hábito mais que por intenção, a faixa entre 6 e 7 megahertz. Ali, entre o chiado de uma estação religiosa de língua espanhola e o frêmito de um transmissor naval, apareceu uma voz. Não uma voz ao acaso: uma mulher, dicção fria, lendo em português uma lista de nomes. CPFs, datas de nascimento, municípios de nascimento. Raimundo anotou os primeiros em um guardanapo de papel. Quando chegou ao seu próprio — Raimundo Nonato da Silva, nascido em 12 de março de 1951, Belém, Pará — desligou o receptor e ficou sentado, mãos apoiadas na bancada, ouvindo o nada.
+
+Na manhã seguinte, voltou à frequência. A voz continuava. Lerra nomes, pausava, repetia. Raimundo começou a gravar em fitas cassete. Passou semanas mapeando a transmissão: ocorria sempre entre duas e quatro da madrugada, durava cerca de vinte minutos, e não tinha identificação de chamada, nem indicativo, nem código de país. Apenas a voz, a lista, e depois o silêncio.
+
+Ele não era paranoico. Raimundo Nonato sabia o que era paranoia — vira colegas na Aeronáutica enlouquecerem por menos, perseguidos por sombras que eles próprios inventavam. Ele também sabia o que era uma estação número: aquelas transmissões misteriosas de ondas curtas, usadas por serviços de inteligência de meia dúzia de países para passar mensagens cifradas a agentes no campo. Ouvir uma no Pará não era, por si só, prova de crime algum. O estranho era o conteúdo. Estações número não lêem listas de nomes com CPF e data de nascimento. Elas emitem grupos de números, código Morse, tons. Uma voz que anuncia nomes de cidadãos brasileiros, de madrugada, em frequência não atribuída, é outra coisa. É um censo secreto. Ou uma lista de espera.
+
+Raimundo começou a procurar os outros nomes da lista. Não todos — seria impossível, seriam centenas —, mas alguns. Uma dona de casa de Ananindeua, encontrada morta na banheira, corte nos pulsos, versão oficial: suicídio. Um mecânico de Marabá, sumido durante uma pescaria no rio, corpo nunca encontrado. Uma professora de Santarém, internada em estado catatônico após afirmar, repetidamente, que "o céu estava chamando". Cada um dos que conseguiu localizar havia desaparecido, morrido ou perdido a cabeça em circunstâncias que a polícia arquivou sem explicação. Coincidências, claro. O mundo está cheio de coincidências. Também está cheio de arquivos que o Estado mantém trancados por "segurança nacional", e Raimundo aprendera, nos dois anos em Altamira, que segurança nacional, na prática, significa proteção a interesses que ninguém explica ao cidadão comum.
+
+Foi então que lembrou da Operação Prato.
+
+Não que soubesse muito — ninguém sabia, e ainda pouco se sabe. Em 1977, a Força Aérea Brasileira enviou militares à Ilha de Colares, no Pará, para investigar luzes que cruzavam os céus, aterrorizavam moradores, queimavam a pele, causavam paralisia e palidez. Relatos de sangue sugado, ataques de raios luminosos vindos do nada, objetos pairando baixo sobre rios e praias. O Capitão Uyrangê Hollanda chefiou a operação. Reuniu relatórios, desenhos, fotografias. Anos depois, antes de morrer — o laudo oficial dizia suicídio, Raimundo sempre achou conveniente — Hollanda afirmou que o fenômeno era real, que a inteligência estava por trás daquelas luzes, e que o material coletado jamais seria divulgado na íntegra. O silêncio oficial durou décadas. Quando parte dos documentos finalmente apareceu, estava incompleto, editado, vazio nas partes que importavam.
+
+Raimundo não acreditava em naves espaciais. Não precisava acreditar. O que importava era que o Estado brasileiro, em 1977, mobilizara a Aeronáutica para observar o céu amazônico e concluíra, publicamente, que nada de extraordinário havia sido comprovado. Nenhuma origem extraterrestre, nenhuma ameaça confirmada. Apenas luzes. Apenas memórias locais. Apenas documentos incompletos. A lição de Colares não era sobre alienígenas. Era sobre o que o silêncio consegue esconder quando todos concordam em não olhar.
+
+A voz na rádio, contudo, não parava de repetir seu nome.
+
+Raimundo decidiu ir até Altamira. A estação onde servira fora desativada no início dos anos oitenta, entregue à umidade e ao mato. Chegou no fim de uma tarde de chuva, o céu cinza sobre o rio, o cheiro de terra molhada e petróleo queimado. O prédio de concreto estava lá, janelas quebradas, portas arrancadas, grafites de bandas de rock e nomes de ex-namorados nas paredes. Ele entrou com uma lanterna e um gravador de bolso. O cheiro de mofo o recebeu como um velho conhecido.
+
+No setor de comunicações, os receptores ainda estavam sobre as mesas, cobertos de poeira e fezes de morcego. Raimundo ligou um gerador portátil, conectou um aparelho antigo — um daqueles da época, de válvula, pesado como um caixão —, estendeu o fio da antena pela janela quebrada. Ajustou a frequência. Aguardou.
+
+Às duas e treze da madrugada, a voz voltou.
+
+Dizia os nomes. Pausou. Disse o dele, Raimundo Nonato da Silva, nascido em 12 de março de 1951, Belém, Pará. Depois disso, mudou o tom. Não lia mais a lista. Falou diretamente para ele, com a mesma dicção fria de antes:
+
+— Você nos ouviu. Agora nós ouvimos você.
+
+Raimundo desligou o aparelho. Ficou sentado no escuro, ouvindo a própria respiração. Saiu do prédio antes das quatro. Não ligou o carro na hora; ficou parado no banco do motorista, vendo a névoa subir do rio, e pensou que deveria ter queimado aquelas fitas cassete. Deveria ter deixado o receptor quebrado. Deveria ter esquecido o nome na lista.
+
+Na semana seguinte, Raimundo parou de dormir. Não por medo — embora houvesse medo, claro, e ele não mentiria para si mesmo sobre isso —, mas porque, cada vez que fechava os olhos, ouvia a frequência dentro da cabeça. O chiado, a voz, os nomes. Dizia que o silêncio oficial não protegia o país. Protegia o que ainda estava transmitindo. Protegia o fato de que, em algum lugar entre 6 e 7 megahertz, uma voz lia nomes de pessoas que ainda estavam vivas, e isso significava que elas ainda não tinham cumprido o propósito para o qual haviam sido listadas.
+
+Ele começou a observar as pessoas na rua com novos olhos. A dona de casa da padaria. O motorista do ônibus. O garoto que vendia jornal no semáforo. Quantos deles, se perguntar, estariam também em alguma lista, transmitida de madrugada em frequência não atribuída, esperando a vez? O Estado mantém segredos. Isso não é teoria da conspiração; é rotina administrativa. Arquivos trancados, laudos editados, suicídios convenientes. A diferença, para Raimundo, era que agora o segredo não ficava trancado em um gabinete em Brasília. Estava no ar. Invisível. Gratuito. Qualquer um com um rádio antigo e insônia suficiente poderia sintonizar.
+
+Uma noite, gravou a transmissão novamente. Ouviu a fita pela manhã, fones de ouvido no volume máximo. Além da voz, havia algo debaixo dela — um subtexto de estática, um padrão repetitivo que não era fala nem música. Raimundo passou o áudio por um software de análise de espectro que baixara em uma lan-house. O padrão tinha frequência, duração, intervalo. Não era código Morse. Era algo mais próximo de uma assinatura biológica. Uma varredura de ondas cerebrais, transmitida por rádio.
+
+Ele não entendeu. Não queria entender. Queria apenas parar de ouvir seu nome.
+
+Desligou todos os receptores de casa. Vendeu o Philips de painel madeira. Comprou tampões de ouvido. Deixou a televisão ligada a noite toda, sem som, apenas a luz azul da tela refletida na parede. Funcionou por três noites. Na quarta, acordou com a voz sussurrando no ouvido direito, claro como se estivesse ao lado da cama:
+
+— Raimundo Nonato da Silva. Você não pode desligar o que já está sintonizado.
+
+Não ligou nenhuma luz. Não pegou o telefone. Ficou deitado, olhos abertos no escuro, ouvindo a própria respiração e, muito longe, o chiado de uma frequência que não existia mais em seu apartamento. Pela primeira vez em anos, sentiu inveja dos moradores de Colares. Pelo menos eles viram as luzes. Pelo menos souberam, por um instante, o que os perseguia. Raimundo só ouvia nomes. O dele, entre eles.
+
+No dia seguinte, queimou as fitas cassete no quintal do prédio. Assistiu o plástico derreter, a fita preta se encolher em bolas pegajosas, a fumaça cheirar a química queimada. Jogou as cinzas no ralo. Voltou para dentro, trancou a porta, e sentiu, pela primeira vez, alívio genuíno. O silêncio estava de volta. O silêncio verdadeiro, sem aparelhos, sem tráfego, sem promessa de voz do outro lado.
+
+Às duas da madrugada, o telefone tocou.
+
+Raimundo não tinha telefone fixo. O aparelho que tocava era um velho discador de mesa, cor laranja, que ele mantinha na estante como enfeite, sem linha, sem fio conectado. Tocou três vezes. Na quarta, Raimundo pegou o fone. Do outro lado, o chiado. Depois, a voz. Fria. Familiar.
+
+— Você queimou as fitas, Raimundo. Mas a lista continua. E seu nome ainda está nela.
+
+Desligou o fone. Deixou o aparelho cair no chão. O chiado continuou saindo do ouvido, mesmo com o aparelho desligado, mesmo sem linha. Raimundo abriu a janela. O ar de Belém entrava quente, cheio de cheiro de maresia e lixo acumulado. No céu, nada. Sem luzes, sem objetos, sem naves. Apenas as estrelas, indiferentes, e o vazio entre elas.
+
+Ele entendeu, então, o que o silêncio oficial realmente protegia. Não era a origem das luzes de Colares. Não era a existência de estações número ou de listas de nomes. Era o fato de que, uma vez que você ouve sua própria voz sendo lida por outra garganta, uma vez que seu nome entra na transmissão, o silêncio deixa de ser uma escolha. Vira condição. Você pode queimar fitas, vender rádios, trancar portas. Pode parar de escutar. Mas não pode desintonizar o que já está dentro de você.
+
+Raimundo Nonato ainda mora no Umarizal. Ainda vende rádios de carro. Ainda não dorme direito. Às vezes, nas madrugadas de chuva, quando o chiado da cidade abaixa e o silêncio se aproxima, ele jura ouvir, vindo de algum lugar entre as paredes, uma voz que lê seu nome — e, logo atrás, dezenas de outros nomes que ele não conhece, mas que, assim como ele, ainda estão vivos, ainda estão na lista, e ainda estão esperando.
+
+O céu, afinal, não é apenas cenário. Às vezes, é palco. E o público, neste caso, nunca sai do teatro.
+
+## Fontes de inspiração
+
+- O Antagonista — "O que foi a Operação Prato, a missão militar secreta que investigou luzes na Amazônia" (relatos sobre a Ilha de Colares, Pará, 1977; Capitão Uyrangê Hollanda; relatórios incompletos e silêncio oficial).
+- Agência Brasil — "Agência Brasil Explica: o que são as luzes misteriosas vistas no céu" (discussão sobre fenômenos aéreos não identificados, UAPs, e a ausência de explicação definitiva para parte dos relatos).
+- National Geographic Brasil — "O que são eventos luminosos transitórios e qual é a causa desse incrível fenômeno do céu" (fenômenos atmosféricos superiores, sprites, elfos e jatos; mistérios ainda sem explicação plena).
+
+Todas as fontes acima serviram apenas como inspiração para esta ficção. Personagens, eventos e transmissões são inventados. Nenhum trecho foi copiado integralmente de qualquer fonte externa.

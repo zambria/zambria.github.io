@@ -1,10 +1,8 @@
 ---
-titulo: "743 Registros, Zero Explicações: O Que o Arquivo Nacional Esconde Sobre o Que Voa Sobre o Brasil"
-resumo: "O Arquivo Nacional guarda 743 registros oficiais de OVNIs de 1952 a 2016, acessíveis a qualquer cidadão, mas a Força Aérea Brasileira afirma não investigar a natureza desses objetos — apenas catalogar o silêncio. Entre portarias, operações militares esquecidas e testemunhas que morrem sem resposta, o céu brasileiro segue sem dono e sem verdade."
-categoria: "ufos"
-data: "2026-11-20"
-slug: "743-registros-zero-explicacoes-arquivo-nacional"
-fonte_pesquisa: "drafts/2026-11-20-ufo-ovnis-brasil.md"
+title: "743 Registros, Zero Explicações"
+category: geral
+status: revisado
+data_auditor: 2026-11-21T14:58:15
 ---
 
 # 743 Registros, Zero Explicações

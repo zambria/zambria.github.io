@@ -1,8 +1,8 @@
 ---
-titulo: O silêncio dos arquivos: OVNIs, UAPs e o que o Estado se recusa a nomear
-resumo: Uma investigação sobre os arquivos oficiais de OVNIs e UAPs — o fundo brasileiro de 743 registros, o estudo da NASA e o relatório do AARO — e o silêncio que fica depois que todas as explicações oficiais são lidas.
-categoria: ufos
-data: 2026-11-19
+titulo: "O silêncio dos arquivos"
+resumo: "O silêncio dos arquivos"
+categoria: geral
+data: 2026-11-21
 slug: ovnis-uaps-o-silencio-dos-arquivos
 ---
 

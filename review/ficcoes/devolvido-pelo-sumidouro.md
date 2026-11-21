@@ -1,0 +1,87 @@
+---
+titulo: "Devolvido pelo Sumidouro"
+resumo: "Depois de uma tempestade, algo sobe das galerias de um sumidouro em Minas Gerais — e não vem sozinho."
+categoria: "contos-de-terror"
+data: "2026-11-21"
+slug: "devolvido-pelo-sumidouro"
+tipo: "ficcao"
+fonte_pesquisa: "Olhar Digital; Jornal Impresso Brasil; Agência Nacional de Águas (ANA)"
+---
+
+# Devolvido pelo Sumidouro
+
+Elias nunca gostou do sumidouro, embora fosse dele que dependesse boa parte do seu salário. Trabalhava para a prefeitura de um município a poucas dezenas de quilômetros de Pedro Leopoldo, no interior de Minas Gerais, e sua função era simples: depois de cada tempestade, ele ia até a beira do buraco cárstico onde o rio Samambaia desaparece na rocha, verificava se o leito não estava entupido de galhos e lama, e assinava um laudo atestando que a água continuava sua jornada subterrânea. Nunca questionou para onde ia. O laudo só exigia que ele confirmasse que a água havia sumido, não que ele entendesse o destino dela.
+
+A região é feita de calcário dissolvido pela chuva ao longo de milhares de anos. O solo lá não retém água como solo normal; ele a engole. Fendas, galerias, condutos invisíveis sob a terra compõem um sistema de drenagem que ninguém mapeou por completo. Peter Wilhelm Lund já anotara, em oitocentos e trinta e sete, que os rios por ali desaparecem de repente e reaparecem em lugares distantes, como se a própria terra tivesse decidir reescrever o curso das coisas. Na época, Lund falava de ossos de preguiças gigantes e tigres-dentes-de-sabre encontrados nas cavernas de Lagoa Santa. Elias, cento e oitenta e nove anos depois, só precisava assinar o papel e voltar para casa.
+
+O problema começou depois da chuva de fevereiro, a mais forte da década. O rio chegou subido, marrom, carregado de solo e de coisas que não devia carregar. Elias foi ao sumidouro pela manhã seguinte. A água ainda rugia na entrada da fenda, mas algo diferente vinha com ela: cheiro de úmido velho, de pedra que não vê o sol, de umidade que grudava na nuca. Entre os detritos na borda, ele encontrou uma mochila de couro rasgada, sem identificação, com o conteúdo desaparecido. Dentro dela havia apenas um punhado de areia fina, escura, que cheirava a fungo e a algo orgânico deixado para apodrecer no escuro.
+
+Elias guardou a mochila no porta-malas e não mencionou a ninguém.
+
+Seu irmão Marcos era mergulhador técnico. Sumira no sumidouro um ano antes, durante uma inspeção particular que fizera por conta própria — dizia que queria mapear as galerias até onde o ar permitisse. O Corpo de Bombeiros vasculhou a superfície, mergulhadores oficiais desceram até onde a visibilidade deixava, e nada encontraram. Não um corpo, não um equipamento, não um sinal de ar bolhando em ponto algum. O sumidouro simplesmente engoliu Marcos, e a prefeitura arquivou o caso como afogamento em local de difícil acesso. Elias nunca aceitou essa explicação. Um corpo não desaparece assim, sem deixar eco.
+
+Depois da tempestade, a areia da mochila levou Elias de volta ao buraco, dessa vez com uma lanterna e uma corda de segurança que não devia estar usando. Ele desceu alguns metros até a primeira câmara, onde a luz do dia ainda atingia o piso de lama. Lá, no centro da câmara, estava a mochila de Marcos — a mesma couro rasgado, a mesma fivela de prata oxidada. Mas desta vez não estava vazia. Dentro havia um relógio de pulso parado às três e vinte e dois da manhã, uma aliança de casamento com a gravação interna apagada pelo atrito, e um dedo humano, direito, anelar, a pele branca e inchada pela água, as unhas escurecidas como se tivessem sido pintadas com terra molhada.
+
+Elias não tocou no dedo. Deixou a mochila onde estava e subiu de volta correndo, o coração batendo contra as costelas como um pássaro preso numa gaiola de osso.
+
+Na semana seguinte, o sumidouro devolveu Marcos.
+
+Foi um pescador da vizinhança quem viu: na margem oposta da lagoa cárstica, a água se mexeu de um jeito que não deveria. Não foi correnteza, não foi peixe. Algo subiu, lento, arrastando-se sobre a lama, e saiu do rio para a terra. O pescador chegou perto o suficiente para reconhecer as roupas — a mesma camisa xadrez, a mesma bota de cano alto que Marcos usara no dia em que desapareceu — e perto o suficiente para perceber que a coisa que usava aquelas roupas não respirava direito. O peito subia e descia em intervalos longos demais, como quem estivesse aprendendo a funcionar novamente.
+
+Elias foi chamado. Encontrou Marcos sentado na margem, de costas para a água, olhando para nada. Estava quente. A pele tinha a temperatura de um corpo vivo, embora estivesse úmida de um jeito estranho, escorregadio, como se estivesse coberta por uma película fina de limo. Quando Elias o tocou no ombro, Marcos se virou. O rosto era o de seu irmão — o mesmo nariz torto, a mesma cicatriz no queixo, os mesmos olhos castanhos — mas o olhar estava ausente, como se estivesse vendo algo além do alcance de Elias.
+
+— Marcos? — Elias disse.
+
+Marcos piscou, devagar. Então abriu a boca e falou com a voz de Marcos, embora com uma estranheza metálica, como se as palavras estivessem vindo de debaixo d'água:
+
+— Desci muito fundo, Elias. Fui até onde o ar acaba. Vi coisas que não têm nome, coisas que esperam nas galerias porque não podem subir sozinhas. Elas precisam de alguém que convide. Alguém que as reconheça.
+
+Elias levou o irmão para casa. Não chamou a polícia. Não chamou o hospital. Não sabia explicar como um homem enterrado pela lama e pela água um ano inteiro poderia estar ali, quente e falando, e por isso decidiu manter o silêncio. O silêncio, aliás, era o que o sumidouro mais ensinava: algumas coisas são melhores deixadas onde caem.
+
+Nos primeiros dias, Marcos pareceu se recuperar. Comia, bebia, dormia. Mas Elias começou a notar detalhes que não fechavam. Marcos não piscava com a frequência normal. Seus passos soavam mais pesados do que deveriam, como se carregasse algo dentro do peito além dos pulmões. E, à noite, quando Elias acordava para ir ao banheiro, ouvia a respiração do irmão vindo de dois lugares ao mesmo tempo: do quarto, e do corredor, vindo da direção da cozinha, como se houvesse dois Marcos na casa e apenas um ocupasse a cama.
+
+Na terceira noite, Elias desceu para tomar água e encontrou Marcos parado na cozinha, de costas, olhando para a pia vazia. A torneira estava fechada, mas o ralo emitia um barulho de sucção, suave, contínuo, como se algo lá embaixo estivesse puxando o ar do encanamento. Marcos se virou. O rosto estava certo, mas a pele tinha ficado cinzenta, úmida, com aquela mesma textura de limo que Elias vira na margem do sumidouro.
+
+— A água levou a minha pele — disse Marcos, e desta vez a voz saía de ambos, da boca e de alguma coisa dentro da parede, de dentro do próprio ralo — , mas deixou a sua.
+
+Elias recuou. Marcos deu um passo em frente, e o chão rangeu sob o peso dele com um som de pedra se quebrando. Elias fugiu para o quarto, trancou a porta, e passou o resto da noite ouvindo algo arrastar-se pelo corredor, parando diante da fechadura, respirando naquela cadência estranha, longa demais, como quem reaprendesse a ser humano.
+
+De manhã, Marcos não estava mais na cama. Não havia sinais de saída — a porta continuava trancada por dentro, a janela fechada. Elias desceu as escadas devagar, a lanterna na mão, e encontrou o irmão na cozinha de novo, sentado à mesa, tomando café com as mãos trêmulas. O rosto estava normal outra vez. A cor voltara à pele. Quando Marcos o viu, sorriu, e o sorriso era o de sempre, o sorriso do irmão que Elias conhecera a vida toda.
+
+— Desculpe ter saído — disse Marcos. — Estive sonhando com o fundo.
+
+Elias não disse nada. Serviu café para si e se sentou do outro lado da mesa. Percebeu, então, que Marcos não tocava na xícara. Não bebia. O café esfriava diante dele, intocado, e o único som na cozinha era o do relógio da parede, marcando o tempo em passos regulares, três e vinte e dois da manhã repetindo-se em algum lugar abaixo do piso.
+
+Na semana seguinte, Elias voltou ao sumidouro. Não por obrigação da prefeitura. Por conta própria. Desceu com a corda, a lanterna, e uma faca de cabo de madeira presa ao cinto. Na primeira câmara, a mochila de Marcos ainda estava lá, mas o dedo tinha sumido. Em seu lugar, um pequeno montinho de areia escura, úmida, que emitia um calor fraco quando Elias aproximou a mão. Ele desceu mais, seguindo a galeria principal até onde a luz da lanterna não alcançava mais as paredes. O ar ficava mais pesado a cada passo, cheirando a calcário úmido e a algo doce, como carne deixada apodrecer em lugar fechado.
+
+No fundo de uma câmara maior, ele encontrou a segunda camada.
+
+Não era água, não exatamente. Era uma superfície escura, brilhante, que se movia sozinha, subindo e descendo como a respiração de algo enorme enterrado sob a rocha. Elias aproximou-se, cauteloso, e viu que a superfície não era líquida: era pele. Uma pele cinzenta, sem poros, sem cabelo, estendida sobre a galeria inteira como uma membrana viva. E nela, embutidos aqui e ali, estavam rostos. Rostos humanos, olhos fechados, bocas entreabertas, expressões de sono profundo ou de sufocamento lento. Um deles era Marcos. Outro era um menino desaparecido na vizinhança no ano passado. Outro, uma mulher cuja foto Elias vira no jornal, noticiada como vítima de um acidente de carro cujos restos nunca foram encontrados.
+
+Elias entendeu, então, para onde ia a água do sumidouro.
+
+Ela não ia para lugar nenhum. Ela descia até a membrana, e a membrana bebia. E, de vez em quando, a membrana devolvia — não os corpos, não exatamente, mas algo que usava as roupas, as vozes, as lembranças dos que tinham sido levados. Algo que precisava de um convite, de alguém que reconhecesse o rosto e abrisse a porta de casa.
+
+Elias voltou para trás. Não tocou em nada. Subiu amarrado à corda, o coração batendo forte, o ar dos pulmões parecendo cada vez mais grosso, como se as galerias estivessem enchendo de uma umidade que não vinha do mundo de cima.
+
+Quando chegou em casa, Marcos estava na sala, assistindo televisão no volume baixo. O rosto era o de Marcos. A voz era a de Marcos. Levantou-se para receber Elias, e Elias notou, no pulso do irmão, a aliança com a gravação apagada — a mesma aliança que estivera dentro da mochila na câmara, a mesma que Marcos usara quando desapareceu.
+
+— Você demorou — disse Marcos.
+
+Elias não respondeu. Foi para o quarto, fechou a porta, e permaneceu ali, sentado na beira da cama, ouvindo a respiração de seu irmão vindo da sala. Uma respiração. Duas. Três. Uma vindo da sala, outra vindo do corredor, outra ainda de dentro da parede, do ralo do banheiro, do sumidouro que agora parecia estar não mais a dezenas de quilômetros de distância, mas logo ali, do outro lado do gesso, esperando que Elias abrisse a porta e reconhecesse o rosto.
+
+Ele não abriu. Mas ouviu, naquela noite, algo rastejar pelo telhado, algo com peso demais para ser um ser humano, algo que cheirava a calcário úmido e a areia escura. E ouviu, também, sua própria voz — a voz exata de Elias — sussurrar do lado de fora da janela, chamando pelo nome dele, pedindo para entrar.
+
+No dia seguinte, a prefeitura recebeu o laudo assinado por Elias. Nele, ele atestava que o sumidouro estava seco, que a água havia encontrado outro caminho, que não havia mais perigo para a população. Assinou com o nome dele, com a letra dele, embora a mão que segurasse a caneta sentisse a pele fria, escorregadia, cada vez mais cinzenta.
+
+E Elias passou a dormir com a faca debaixo do travesseiro, ouvindo, no silêncio da casa, a própria respiração vindo de dois lugares ao mesmo tempo — e se perguntando qual dos dois Elias ainda era ele, e qual já havia sido devolvido pelo sumidouro, incompleto, errado, faminto.
+
+---
+
+## Fontes de inspiração
+
+- Olhar Digital, "Sob uma lagoa tranquila, cavernas escondem pistas que mudaram a história dos habitantes das Américas" — sobre o Parque Estadual do Sumidouro, entre Lagoa Santa e Pedro Leopoldo (MG), e o desaparecimento de águas em fissuras calcárias.
+- Jornal Impresso Brasil, "Fenômeno raro: Onde fica o rio que desaparece em Minas Gerais e para onde vai a água?" — sobre o Rio Samambaia e o relevo cárstico da região.
+- Agência Nacional de Águas (ANA), "ANA e SGB-CPRM usam corante inofensivo para investigar o trajeto da água na bacia do rio Verde Grande (MG/BA)" — sobre sumidouros, dolinas e cavernas no subsolo mineiro.
+
+Notas: os locais e o fenômeno geológico são reais; a história, os personagens e os eventos narrados são fictícios.

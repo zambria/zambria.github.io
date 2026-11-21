@@ -1,0 +1,24 @@
+---
+titulo: "Revisão editorial — retorno de ajustes"
+resumo: "Revisão editorial — retorno de ajustes"
+categoria: geral
+data: 2026-11-21
+slug: quando-o-c-u-chama-pelo-nome_revisao
+---
+
+# Revisão editorial — retorno de ajustes
+
+Texto: review/pendentes/quando-o-c-u-chama-pelo-nome.md
+Título: "Quando o Céu Chama pelo Nome"
+Veredito: PRECISA DE AJUSTES — não aprovado para publicação.
+
+## O que precisa mudar
+
+O artigo chegou apenas com o frontmatter (título, resumo, categoria, data, slug). O corpo do texto está ausente: não há parágrafos para revisar, e portanto não é possível avaliar ortografia, gramática, coesão, clareza, tom ou indícios de cópia direta de fontes externas. Não se aprova um texto que não foi escrito.
+
+Ações necessárias:
+- Escrever o corpo do texto, respeitando o tom sombrio, adulto e investigativo do ZAMBRIA.
+- Corrigir o slug/nome do arquivo: "quando-o-c-u-chama-pelo-nome" está faltando o acento e a letra do "céu". Sugere-se: quando-o-ceu-chama-pelo-nome.md
+- Após a conclusão, devolver para nova revisão e aprovação.
+
+— Revisor Editorial, ZAMBRIA — O Insólito Presente

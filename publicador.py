@@ -279,56 +279,111 @@ def gerar_html_post(titulo, categoria, data, corpo_html, resumo, slug):
 
 
 # --------------------------- index.html ---------------------------
-def artigo_index(slug, titulo, categoria, data, resumo):
+def categoria_para_id(categoria):
+    """Mapeia categoria do frontmatter para ID de seção no index.html."""
+    mapa = {
+        "ufos": "ufo",
+        "ufo": "ufo",
+        "arqueologia": "arch",
+        "arch": "arch",
+        "sobrenatural": "para",
+        "para": "para",
+        "criptozoologia": "crypto",
+        "crypto": "crypto",
+        "conspiracao": "conspir",
+        "conspiracoes": "conspir",
+        "conspir": "conspir",
+        "fenomenos": "nature",
+        "fenomenos-naturais": "nature",
+        "nature": "nature",
+        "contos": "contos",
+        "contos-de-terror": "contos",
+    }
+    return mapa.get(categoria.lower(), categoria.lower())
+
+
+def artigo_index_html(slug, titulo, categoria, data, resumo):
     return (
-        "<article class=\"post\">\n"
-        "        <div class=\"post-meta\">\n"
-        f"          <span class=\"categoria\">{html.escape(categoria)}</span>\n"
-        f"          <span>{html.escape(data)}</span>\n"
-        "        </div>\n"
-        f"        <h2><a href=\"posts/{slug}.html\">{html.escape(titulo)}</a></h2>\n"
-        f"        <p>{resumo}</p>\n"
-        "      </article>"
+        "<article class=\"post border-b border-gray-800 pb-4 last:border-b-0 last:pb-0\">\n"
+        "  <div class=\"post-meta flex gap-4 text-xs text-gray-400 mb-2\">\n"
+        f'    <span class="categoria uppercase tracking-wider">{html.escape(categoria)}</span>\n'
+        f'    <span>{html.escape(data)}</span>\n'
+        "  </div>\n"
+        f'  <h3 class="text-xl font-bold"><a href="posts/{slug}.html" class="text-white hover:text-red-400">{html.escape(titulo)}</a></h3>\n'
+        "</article>"
     )
 
 
 def atualizar_index(slug, titulo, categoria, data, resumo):
     texto = INDEX_FILE.read_text(encoding="utf-8")
-    novo = artigo_index(slug, titulo, categoria, data, resumo)
+    cat_id = categoria_para_id(categoria)
 
-    artigos_existentes = re.findall(
-        r"<article class=\"post\">.*?</article>", texto, re.DOTALL
-    )
-    artigos_existentes = [a for a in artigos_existentes if "Nenhum post publicado" not in a]
-
-    lista_partes = [novo] + artigos_existentes
-    lista = "\n".join(lista_partes)
-
-    # remove o bloco vazio quando já há pelo menos um post real
-    texto_sem_vazio = re.sub(
-        r"<div class=\"vazio\">.*?</div>\s*", "", texto, flags=re.DOTALL
-    )
-
-    marcador = "<section id=\"posts-lista\">"
-    pos = texto_sem_vazio.find(marcador)
-    if pos == -1:
-        log("AVISO: seção #posts-lista não encontrada no index.html.")
+    # 1. Adicionar article na seção main correspondente
+    secao_marcador = f'id="{cat_id}"'
+    pos_secao = texto.find(secao_marcador)
+    if pos_secao == -1:
+        log(f"AVISO: seção #{cat_id} não encontrada no index.html para categoria '{categoria}'.")
         return False
-    depois = texto_sem_vazio[pos + len(marcador):]
-    # retira comentário de placeholder e artigos antigos (já estão em lista)
-    depois = depois.replace(
-        "<!-- Posts serão injetados aqui pelo agente publicador -->", ""
-    )
-    depois = re.sub(r"<article class=\"post\">.*?</article>\s*", "", depois, flags=re.DOTALL)
-    depois = depois.strip()
-    texto_final = (
-        texto_sem_vazio[: pos + len(marcador)]
-        + "\n              "
-        + lista
-        + "\n            "
-        + depois
-    )
-    INDEX_FILE.write_text(texto_final, encoding="utf-8")
+
+    # Encontrar o div.space-y-4 dentro dessa seção
+    espaco_marcador = 'class="space-y-4"'
+    pos_espaco = texto.find(espaco_marcador, pos_secao)
+    if pos_espaco == -1:
+        log(f"AVISO: div.space-y-4 não encontrada na seção #{cat_id}.")
+        return False
+
+    # Inserir o novo article antes do fechamento do div.space-y-4
+    # Encontrar o fechamento </div> após pos_espaco
+    pos_fim_espaco = texto.find("</div>", pos_espaco)
+    if pos_fim_espaco == -1:
+        log("AVISO: não foi possível encontrar fechamento do space-y-4.")
+        return False
+
+    novo_article = artigo_index_html(slug, titulo, categoria, data, resumo)
+    texto = texto[:pos_fim_espaco] + "\n" + novo_article + "\n" + texto[pos_fim_espaco:]
+
+    # 2. Adicionar <li> na sidebar da categoria correspondente
+    # Procurar a <ul class="lista-topicos"> que vem após o categoria-titulo com nome correspondente
+    # Mapeia categoria para nome exibido na sidebar
+    nomes_categoria = {
+        "ufo": "UFOs e Aliens",
+        "arch": "Arqueologia Antiga e Mistérios Históricos",
+        "para": "Sobrenatural e Paranormal",
+        "crypto": "Criptozologia",
+        "conspir": "Conspirações e Coberturas",
+        "conspiracoes": "Conspirações e Coberturas",
+        "nature": "Fenômenos Naturais Inexplicáveis",
+        "contos": "Contos",
+    }
+    nome_cat = nomes_categoria.get(cat_id, categoria)
+
+    # Encontrar a <ul class="lista-topicos"> após o categoria-titulo com esse nome
+    pos_cat_titulo = texto.find(f'categoria-titulo', 0)
+    ul_encontrada = False
+    busca_desde = 0
+    while True:
+        pos_titulo = texto.find('categoria-titulo', busca_desde)
+        if pos_titulo == -1:
+            break
+        # Verificar se o nome da categoria aparece logo após
+        trecho = texto[pos_titulo:pos_titulo + 200]
+        if nome_cat.lower() in trecho.lower():
+            # Encontrar a <ul class="lista-topicos"> após este título
+            pos_ul = texto.find('class="lista-topicos"', pos_titulo)
+            if pos_ul != -1:
+                # Encontrar o fechamento </ul>
+                pos_fim_ul = texto.find("</ul>", pos_ul)
+                if pos_fim_ul != -1:
+                    novo_li = f'          <li><a href="posts/{slug}.html">{html.escape(titulo)}</a></li>\n'
+                    texto = texto[:pos_fim_ul] + novo_li + texto[pos_fim_ul:]
+                    ul_encontrada = True
+                    break
+        busca_desde = pos_titulo + 1
+
+    if not ul_encontrada:
+        log(f"AVISO: lista-topicos da categoria '{nome_cat}' não encontrada na sidebar.")
+
+    INDEX_FILE.write_text(texto, encoding="utf-8")
     return True
 
 
@@ -365,17 +420,42 @@ def publicar():
     estado = carregar_estado()
     estado = resetar_contador_diario(estado)
 
-    if limite_atingido(estado):
+    # Lê limite_diario do estado se existir, senão usa POSTS_POR_DIA
+    limite_diario = estado.get("limite_diario", POSTS_POR_DIA)
+
+    if estado.get("posts_hoje", 0) >= limite_diario:
         log(
-            f"Limite diário atingido ({estado['posts_hoje']}/{POSTS_POR_DIA}). "
+            f"Limite diário atingido ({estado['posts_hoje']}/{limite_diario}). "
             "Nenhum post publicado hoje."
         )
         salvar_estado(estado)
         return
 
     pendentes = sorted(PENDENTES_DIR.glob("*.md"))
-    if not pendentes:
+    # FILTRO DE QUALIDADE: exclui arquivos auxiliares (_aprovado.md, _revisao.md)
+    pendentes_base = []
+    for caminho in pendentes:
+        nome = caminho.name
+        if nome.endswith("_aprovado.md") or nome.endswith("_revisao.md"):
+            continue
+        pendentes_base.append(caminho)
+
+    if not pendentes_base:
         log("Nenhum conteúdo aprovado pendente em /review/.")
+        salvar_estado(estado)
+        return
+
+    # Só publica textos que tenham _aprovado.md ao lado
+    pendentes_aprovados = []
+    for caminho in pendentes_base:
+        aprovado = caminho.parent / (caminho.stem + "_aprovado.md")
+        if aprovado.exists():
+            pendentes_aprovados.append(caminho)
+        else:
+            log(f"Ignorado (sem aprovação do verificador): {caminho.name}")
+
+    if not pendentes_aprovados:
+        log("Nenhum conteúdo aprovado pelo verificador de qualidade.")
         salvar_estado(estado)
         return
 
@@ -442,11 +522,11 @@ def publicar():
         post_path.write_text(html_post, encoding="utf-8")
 
         if not atualizar_index(slug, titulo, categoria, data, resumo):
-            salvar_estado(estado)
-            return
+            log(f"AVISO: index.html não atualizado para {slug}, mas o post foi gerado.")
+            # não para o loop: o post já está em posts/ e o .md será movido
 
-        # arquiva o fonte em /publicados/ e remove de /review/
-        destino = PUBLICADOS_DIR / caminho.name
+        # arquiva o fonte em /review/publicados/ e remove de /review/
+        destino = REVIEW_DIR / "publicados" / caminho.name
         shutil.move(str(caminho), str(destino))
 
         arquivos_git.extend([str(post_path), str(INDEX_FILE), str(destino), str(ESTADO_FILE)])
@@ -464,7 +544,7 @@ def publicar():
     arquivos_git.append(str(ESTADO_FILE))
     arquivos_git = list(dict.fromkeys(arquivos_git))  # dedupe, ordem preservada
 
-    remover = [str(p) for p in pendentes[:publicados_hoje]]
+    remover = [str(p) for p in pendentes_aprovados[:publicados_hoje]]
     mensagem = f"[Publicador] Publica {publicados_hoje} post(s): {', '.join(Path(a).stem for a in arquivos_git if a.endswith('.html'))}"
     if commit_e_push(arquivos_git, mensagem, remover=remover):
         log("Publicação concluída com sucesso.")

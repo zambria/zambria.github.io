@@ -1,0 +1,80 @@
+{
+  "agente": "auditor-estrutural-continua-zambria",
+  "repositorio": "C:\\Users\\erico\\zambria.github.io",
+  "executado_em": "2026-11-21T16:16:05",
+  "rodada": 4,
+  "timer_minutos": 2.0,
+  "verificacoes": [
+    {
+      "nome": "Site rodando",
+      "ok": true,
+      "problema": null,
+      "evidencia": "index.html válido (10362 bytes)",
+      "sugere_correcao": null
+    },
+    {
+      "nome": "CSS carregando",
+      "ok": true,
+      "problema": null,
+      "evidencia": "style.css válido (4895 bytes, assinatura ZAMBRIA)",
+      "sugere_correcao": null
+    },
+    {
+      "nome": "Sem posts duplicados",
+      "ok": true,
+      "problema": null,
+      "evidencia": "17 post(s) HTML, todos com títulos únicos.",
+      "sugere_correcao": null,
+      "detalhes": {
+        "total": 17
+      }
+    },
+    {
+      "nome": "Links válidos",
+      "ok": true,
+      "problema": null,
+      "evidencia": "107 link(s) interno(s) verificado(s), todos resolvendo.",
+      "sugere_correcao": null,
+      "detalhes": {
+        "total_links": 107
+      }
+    },
+    {
+      "nome": "Estrutura de pastas",
+      "ok": true,
+      "problema": null,
+      "evidencia": "drafts, review, posts, publicados presentes.",
+      "sugere_correcao": null
+    },
+    {
+      "nome": "Frontmatter válido",
+      "ok": true,
+      "problema": null,
+      "evidencia": "60 arquivo(s) .md com frontmatter válido.",
+      "sugere_correcao": null,
+      "detalhes": {
+        "total": 60
+      }
+    },
+    {
+      "nome": "Posts publicados com HTML correspondente",
+      "ok": true,
+      "problema": null,
+      "evidencia": "15 post(s) publicado(s) com HTML correspondente.",
+      "sugere_correcao": null,
+      "detalhes": {
+        "total": 15
+      }
+    }
+  ],
+  "reparacoes_aplicadas": 0,
+  "reparacoes_detalhes": [],
+  "resumo": {
+    "total": 7,
+    "ok": 7,
+    "problemas": 0,
+    "problemas_lista": []
+  },
+  "status_geral": "ok",
+  "aprovado": true
+}
