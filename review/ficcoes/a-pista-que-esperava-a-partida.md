@@ -1,0 +1,37 @@
+---
+titulo: "A Pista Que Esperava a Partida"
+resumo: "No discoporto simbólico de Barra do Garças, o vigia noturno observa luzes descerem da Serra do Roncador há vinte anos sem que nada pouse. Até a noite em que uma luz cruza a pista e não pára — e ele percebe que a pista nunca foi construída para chegadas."
+categoria: "ufos"
+data: "2026-11-21"
+slug: "a-pista-que-esperava-a-partida"
+tipo: "ficcao"
+fonte_pesquisa: "Barra do Garças discoporto luzes misteriosas Serra do Roncador"
+---
+
+# A Pista Que Esperava a Partida
+
+Barra do Garças, Mato Grosso. Quinhentos e dezesseis quilômetros de Cuiabá, bem no centro do sertão. Ali existe uma pista de asfalto de mil e duzentos metros, luzes de borda que piscam ao entardecer, um pequeno terminal de madeira e vidro que nunca atendeu um voo comercial, e uma placa enferrujada que ninguém se lembra de ler: Discoporto. Inaugurado em 1995 como um aeroporto simbólico para naves de outro planeta — o primeiro do mundo, diziam as manchetes locais. Vinte anos se passaram. Nenhum disco pousou. Nenhum sinal oficial. Apenas luzes.
+
+Eu sou o vigia. Meu nome é Sérgio. Nos papéis da prefeitura, minha função é impedir que curiosos entrem na pista à noite e que vândalos quebrem as lâmpadas de borda. Na prática, minha função é observar o céu sobre a Serra do Roncador e anotar, num caderno que ninguém lê, cada ponto luminoso que desce da montanha e some sem deixar vestígios.
+
+Desde que comecei, em 2005, anotei dezenas de entradas. Todas iguais. Luz branca ou amarela, movimento silencioso, subida ou descida em linha reta ou em ângulos que nenhum avião faria, desaparecimento repentino sobre a mata. Moradores da cidade contam histórias mais antigas ainda. Disseram-me que, em julho de 1846, um barão navegando pelo Rio Cuiabá viu um objeto maior que a luz da Lua se partir em três e seguir direções aleatórias pelo céu. Disseram que a serra é cheia de histórias: luzes, desaparecimentos, inscrições rupestres, cidades subterrâneas. Eu não creio em cidades subterrâneas. Creio no que vejo. E vejo luzes que não se explicam.
+
+O rádio da cabine só capta estática. O caderno não tem fim porque não tem começo. Todas as noites, às duas e meia da manhã, subo ao telhado do terminal com os binóculos e espero. A pista fica abaixo, vazia, refletindo o luar como uma faca deitada no chão. A cada luz que desço da serra, eu anoto: data, horário, cor, direção, duração. Nunca escrevi uma conclusão, porque não há nenhuma. Apenas a repetição.
+
+Até a noite em que a luz não parou.
+
+Foi numa sexta de julho, o ar parado, o cheiro de poeira quente ainda no chão. Uma esfera branca apareceu sobre a borda da Serra do Roncador, maior que as outras, mais brilhante. Desceu em linha reta, sem piscar, sem som, alinhada exatamente com a cabeceira zero nove da pista. Eu esperei a desaceleração. Espero sempre a desaceleração — é o que separa uma luz de um avião, um balão, um satélite. Ela não desacelerou. Cruzou o limiar da pista a uns duzentos metros de altura, não mais que isso, e seguiu em frente, entrando no mato do outro lado, em direção ao sertão profundo. Sem som. Sem fumaça. Sem nenhum rastro no solo que eu pudesse ver daqui.
+
+Desci correndo, peguei a picape velha da prefeitura e segui na direção dela. Dirigi quinze minutos pelo escuro, luzes apagadas para não assustar o que quer que fosse, e não encontrei nada. Não havia pegadas, não havia marcas de pouso, não havia nem uma ponta de metal ou de luz no chão. Só a mata, o silêncio e o cheiro de terra seca. Voltei ao amanhecer. O caderno estava aberto na minha cadeira, uma página nova, em branco. Eu não lembro de ter deixado aberto.
+
+Foi então que entendi. Nós nunca esperávamos uma chegada. O discoporto não foi construído para receber visitantes. Foi construído para que pudéssemos assistir, ano após ano, sem fazer nada, enquanto algo que já estava aqui se preparava para ir embora. As luzes que vimos durante vinte anos não eram sinais de boas-vindas. Eram o adeus de quem nunca pertenceu a este lugar, e que agora, finalmente, estava saindo pela porta da frente.
+
+Fechei o caderno. Não vou mais anotar nada. O céu sobre Barra do Garças continua com suas luzes, e a pista continua vazia, esperando uma partida que ninguém ousa nomear. Algum dia, o que estiver aqui terá ido. E o discoporto permanecerá — um asfalto inutilizado no meio do sertão, um monumento silencioso a uma despedida que fingimos ser uma espera.
+
+## Fontes de inspiração
+
+- Reportagem sobre ufoturismo em Mato Grosso, com destaque para o discoporto de Barra do Garças e a Serra do Roncador (primeirapagina.com.br).
+- Reportagem sobre as luzes estranhas de Barra do Garças e o discoporto inaugurado em 1995 (atualmt.com.br).
+- Matéria sobre o primeiro aeroporto para OVNIs do mundo, em Barra do Garças (g1.globo.com).
+
+Todas as referências acima tratam do fenômeno como relato e imaginário local, não como fato comprovado. Esta é uma obra de ficção.

@@ -1,0 +1,47 @@
+---
+titulo: "O Que Vive no Fundo do Poço Seco"
+resumo: "Ao herdar uma fazenda abandonada no interior, um homem encontra um poço seco com marcas recentes nas paredes. Algo renova aquelas marcas todas as noites, e ele decide descer para ver até onde levam."
+categoria: "criptozoologia"
+data: "2026-11-21"
+slug: "o-que-vive-no-fundo-do-poco-seco"
+tipo: "ficcao"
+fonte_pesquisa: "nenhuma"
+---
+
+O avô não deixou testamento, só a chave de uma fazenda que ninguém da família quis visitar nos últimos vinte anos. Quando cheguei ao portão de ferrugem, o silêncio já não era apenas ausência de barulho. Era um silêncio com peso, o tipo que se apoia nos ombros e dificulta a respiração. A casa estava intacta debaixo da poeira, os móveis cobertos por lonas encarquilhadas, e no quintal, a alguns passos da varanda, ficava o poço.
+
+Seco, segundo todos os vizinhos. Seco há décadas, disseram. Uma boca de pedra aberta na terra, com uma tampa de madeira torta apoiada em cima, meio apodrecida.
+
+Tirei a tampa. O cheiro que subiu não era de mofo nem de água parada. Era um cheiro de terra molhada que nunca viu chuva, misturado a algo metálico, como sangue seco aquecido ao sol. Ilumini o interior com a lanterna. As paredes de pedra irregulares subiam cerca de seis metros até desmoronar em um fundo de terra batida. Poço seco, de fato. Nenhuma gota de água.
+
+O que me prendeu não foi a ausência de água, mas as marcas.
+
+Ranhuras profundas nas pedras, paralelas, como se algo tivesse subido — ou descido — agarrando-se às arestas com garras. Não eram marcas de corda. Não eram de homem. Eram recentes: a poeira acumulada nas fendas havia sido removida, e nas ranhuras mais baixas vi fragmentos de terra úmida que não condiziam com a aridez do entorno.
+
+Fechei o poço naquela noite. No dia seguinte, as marcas estavam mais altas.
+
+Não contei a ninguém. O interior não é lugar para explicações; é lugar para aceitar o que está diante dos olhos. Voltei ao poço ao anoitecer, desta vez com corda e uma lanterna de mão. Desci até o fundo. A terra batida cedia sob as botas. Nas paredes, próximo ao nível do solo original, as ranhuras continuavam além da alvenaria, como se a pedra tivesse cedido lugar a uma abertura natural — um túnel estreito, escuro, que soprava uma corrente de ar gelada contra o rosto.
+
+Não entrei no túnel. Subi.
+
+Na varanda, o cachorro do vizinho — um vira-lata mestiço que late de tudo — ficou quieto, deitado, recusando-se a olhar na direção do quintal. Quando me virei, vi que as ranhuras da tampa de madeira também estavam ali, pequenas, recentes, como se algo tivesse se apoiado na tampa do lado de fora, esperando.
+
+O idoso da casa vizinha apareceu na porta ao fim da semana. Não se apresentou. Disse apenas que o avô encheu o poço de pedras nos anos setenta, depois tirou as pedras, depois encheu de novo. Que naqueles anos animais sumiam nas fazendas da região: cabras, cachorros, um bezerro. Nunca encontraram corpos. Só rastros que levavam para dentro da terra e paravam ali, sem continuar de outro lado.
+
+— Alguma coisa saiu daquela terra — disse o velho, sem olhar para mim. — E alguma coisa ainda não terminou de subir.
+
+Naquela noite, não consegui dormir. O silêncio da fazenda agora soava como contenção de respiração. Coloquei uma cadeira ao lado do poço e fiquei esperando, com a lanterna apontada para a tampa de madeira. Por volta das duas da manhã, ouvi. Um arrasto lento, vindo de baixo da terra, como algo pesado deslizando sobre pedra. A tampa tremeu. Uma ranhura apareceu na madeira, ao lado das outras, fresca.
+
+Não levantei da cadeira. Não acendi a lanterna de novo. Deixei que o arrasto continuasse, sabendo que, se me levantasse, estaria de frente para o que quer que esteja subindo. E se permanecesse sentado, estaria apenas mais perto quando ele decidir que a cadeira também é um degrau.
+
+De manhã, as marcas nas paredes do poço tinham avançado mais um metro. E no fundo da terra batida, onde antes só havia silêncio, vi duas pequenas depressões, simétricas, como se algo tivesse se apoiado ali com as duas mãos para empurrar o próprio corpo para cima.
+
+O poço não é seco. Ele só está respirando.
+
+Não sei por quanto tempo fiquei ali, sentado na cadeira, ouvindo a terra se mover debaixo dos meus pés. Quando finalmente voltei para a casa, deixei a luz do quintal acesa. Não serve para enxergar melhor. Serve para que, quando algo deixar de ser terra e passar a ter forma, eu veja o suficiente para correr — ou para aceitar que correr não adiantaria nada.
+
+---
+
+## Fontes de inspiração
+
+Nenhuma fonte externa foi utilizada; esta é uma obra de ficção original.

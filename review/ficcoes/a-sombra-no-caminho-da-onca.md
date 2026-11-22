@@ -1,0 +1,32 @@
+---
+titulo: "A Sombra no Caminho da Onça"
+resumo: "Uma bióloga que monitora onças-pintadas com armadilhas fotográficas no Pantanal registra algo que caminha nas trilhas dos felinos — e não é onça, nem gente."
+categoria: "criptozoologia"
+data: "2026-11-21"
+slug: "a-sombra-no-caminho-da-onca"
+tipo: "ficcao"
+fonte_pesquisa: "G1 — Camera traps no Pantanal; Biological Conservation — Estimativa de densidade de onças no Pantanal"
+status: "pendente de curadoria"
+---
+
+Mariana Varella conhecia cada curva da trilha que subia do rio Cuiabá em direção à cordilheira de vergalhões. Passara treze meses no Pantanal mato-grossense instalando armadilhas fotográficas — caixas de plástico camufladas, sensores de infravermelho, disparo por movimento — com o objetivo de catalogar onças-pintadas no entorno de Porto Jofre. Seu trabalho era paciente e silencioso: trocar cartões SD, revisar datas e horas impressas em cada registro, separar onças de jaguatiricas, ariranhas de quatis. Até encontrar o arquivo que não deveria existir.
+
+Era 18 de outubro, 3h17 da manhã. A câmera 7, presa a um angico na beira de um alagado, registrou uma figura ereta na trilha. Não tinha manchas de onça. Não tinha movimentos de gente. A sombra vinha de costas, desproporcional — braços muito longos, joelhos dobrados no lado errado, um tronco que se alongava em direção a uma cabeça que a escuridão recusava a definir. Durou três quadros, menos de dois segundos, e sumiu.
+
+Mariana olhou a imagem três vezes no visor pequeno da câmera. Verificou o número do equipamento. Verificou o relógio. 3h17.
+
+O procedimento padrão seria ignorar um registro assim — falha de sensor, reflexo da lua na água, um galho balançando diante do infravermelho. Mas Mariana não ignorou. Nos dias seguintes, revisou os cartões anteriores. A figura reapareceu em 14 de outubro, na câmera 3, novamente às 3h17, alguns metros mais próxima da lente do que na vez anterior. E em 11 de outubro, na câmera 5, parada no centro do quadro, olhando para baixo como se contasse os próprios passos. Câmeras diferentes. Mesma hora. Mesmo deslocamento silencioso em direção a um ponto que Mariana não sabia nomear.
+
+Ela começou a andar pelas trilhas de dia, procurando pegadas. Encontrou. Na lama mole de um trecho seco do rio, uma marca que não batia com nenhum animal do bioma: pé largo, cinco dedos alongados, traços finos que poderiam ser garras ou simplesmente sulcos da secura, mas dispostos em uma ordem que nenhum mamífero do Pantanal usa. Não era onça. Não era jaguatirica, não era tamanduá, não era homem. Mariana tirou fotos das pegadas com o celular e, à noite, comparou com livros de rastros. Nada.
+
+Algo mais mudou. Onde a figura passara, os uivos noturnos de onça cessaram. Os cães de campo, que latejavam a cada passo na mata, passaram a recusar-se a sair do barraco ao anoitecer. Mariana arregimentou coragem e checou a câmera 9, instalada em uma árvore caída próximo ao acampamento. Ela estava no chão, arrancada da casca, apontada agora para o próprio barraco. Seu último arquivo, 3h17 da manhã, mostrava Mariana dormindo na rede. Do lado de fora do quadro, apenas um ombro cinza e imóvel, parado na escuridão entre duas árvores.
+
+Ela voltou aos cartões do primeiro mês, os que havia revisado quando ainda acreditava que só encontraria onças. Olhou com atenção as bordas, as sombras nos cantos de cada imagem. A coisa já estava lá desde o início — um ponto escuro na linha da mata, uma forma que se movia entre os quadros quando ninguém prestava atenção. Mariana não havia visto porque não sabia o que procurava. Agora que sabia, não havia mais como não ver.
+
+Na última noite, deixou a câmera 1 ligada no quarto do barraco, apontada para a porta de madeira. Foi dormir cedo, roupa ainda úmida do dia. Acordou exatamente às 3h17. O arquivo existia. A porta estava aberta. A rede estava vazia. E na trilha atrás do barraco, a sombra estava de pé, olhando diretamente para a lente.
+
+O mistério nunca foi o que aquilo era. O mistério é que já a observava muito antes de Mariana apontar a primeira câmera para a mata.
+
+## Fontes de inspiração
+
+As pesquisas de campo se limitaram a referência pública sobre o uso de armadilhas fotográficas no monitoramento de onças-pintadas no Pantanal (reportagem do G1 sobre camera traps na fauna silvestre e o estudo de densidade de onças publicado em Biological Conservation). Serviram apenas como cenário para a ficção; personagens, enredo e reviravolta são criação original.

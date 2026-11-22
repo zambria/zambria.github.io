@@ -1,0 +1,39 @@
+---
+titulo: "A Chuva de Peixes de Yoro"
+resumo: "Em Yoro, Honduras, peixes caem do céu todos os anos. Até o ano em que caíram errados."
+categoria: "fenomenos-naturais"
+data: "2026-11-21"
+slug: "a-chuva-de-peixes-de-yoro"
+tipo: "ficcao"
+fonte_pesquisa: "CNN Brasil e Lluvia de peces (Wikipedia) — fenômeno real de Yoro, Honduras"
+status: "pendente de curadoria"
+---
+
+Na última semana de maio, os moradores de Yoro paravam de olhar para o chão e começavam a olhar para o céu. Não era apenas o antecipar da estação das chuvas no centro de Honduras. Era a espera da Lluvia de Peces, o evento pelo qual a cidade era conhecida: pequenas sardinas prateadas caíam sobre as ruas, os telhados e os quintais depois das fortes tempestades, ainda vivas, ainda se debatendo, como se o céu tivesse decidido vomitar o rio.
+
+Eu cheguei três dias antes da primeira tempestade prevista. Não vinha como crente, nem como cético. Vinha porque a ciência não conseguia responder, e a não-resposta me interessava mais do que qualquer explicação pronta. Aluguei um quarto na casa de uma viúva que secava milho no alpendre e passei as primeiras noites ouvindo o trovão rolar sobre as colinas, enquanto ela rezava em voz baixa pelos peixes que viriam.
+
+Quando a chuva começou, não foi água. Foi peixes.
+
+Não todos iguais aos descritos nos relatos. A maioria eram mesmo as sardinas miúdas, prateadas, que se contorciam no asfalto quente e cheiravam a lama de rio. Mas entre elas, caíram outros. Peixes sem nome, de cor escura, com olhos muito grandes para o crânio e barbatanas que pareciam dedos. Um deles ainda se movia quando o peguei, e não se debatia como um peixe debatia — pulsava, como se tivesse um segundo coração escondido sob as escamas.
+
+Não sou biólogo, mas sei o suficiente para reconhecer o que não pertence. Não havia rio perto o bastante para explicar aquilo, nenhuma tromba d'água registrada nos relatórios meteorológicos, nenhum lago a menos de setenta quilômetros que pudesse ter sido sugado pelo vento. Os peixes caíam sobre Yoro como correspondência endereçada a alguém que não estava lá para recebê-la.
+
+Na segunda noite, a chuva voltou. Desta vez, mais escuros. Mais inteiros. Um morador me disse que eles não cheiravam a rio, cheiravam a fundo de poço, a coisa que ficou enterrada por muito tempo. Outro disse que os peixes olhavam para cima, não para baixo, como se ainda esperassem algo do céu.
+
+Comecei a coletá-los. Guardei em potes de vidro, enchi com formalina, anotei medidas, tirei fotos que a câmera não conseguiu focar direito — as imagens saíam borradas, como se os peixes recusassem a ser registrados. Na terceira noite, percebi o padrão: eles não caíam aleatoriamente. Caiam em linhas retas sobre a rua principal, formando sulcos que ninguém havia traçado, apontando todos para a mesma direção, para o norte, para algo que estava além das montanhas e que não aparecia em nenhum mapa.
+
+O prefeito dizia que era bênção. O padre dizia que era milagre. Eu dizia que era entrega.
+
+Na quarta manhã, os peixes não pararam de cair. E um deles, o maior, abriu a boca quando eu me aproximei e emitiu um som que não veio da água — veio do ar, um ronco baixo, abaixo de vinte hertz, daqueles que o ouvido não capta mas o estômago sente. Entendi então que eles não haviam sido trazidos de um rio, de um lago ou do mar. Eles haviam sido devolvidos. Algo que está abaixo de Yoro, ou além dela, estava usando a chuva como correio, e nós estávamos assinando o recibo.
+
+Peguei o último pote, fechei a tampa e saí da cidade antes da quinta tempestade. No espelho retrovisor, vi o céu se fechar sobre as ruas, cinza e paciente, esperando a próxima entrega. E soube, com a certeza fria de quem não tem mais a quem contar, que os peixes continuariam caindo — e que, cedo ou tarde, algum deles começaria a respirar fora da água.
+
+## Fontes de inspiração
+
+Consultado como referência factual para o fenômeno real que inspira a ficção:
+
+- CNN Brasil, "Chuva de peixes: entenda o estranho fenômeno que acontece em Honduras" — relatos de moradores de Yoro sobre a Lluvia de Peces e hipóteses meteorológicas, incluindo trombas d'água.
+- Lluvia de peces (Wikipedia, verbete em inglês) — descrição do fenômeno anual em Yoro, Honduras, e as explicações oferecidas, entre as meteorológicas e as milagrosas.
+
+A história é ficção. Personagens, enredo, atmosfera e reviravolta são criações próprias; nenhum trecho foi copiado de fontes externas.

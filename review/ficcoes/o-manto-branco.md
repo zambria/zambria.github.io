@@ -1,0 +1,77 @@
+---
+titulo: "O Manto Branco"
+resumo: "Em uma cidade da Serra da Mantiqueira, uma névoa densa desce em certos dias de inverno que não se comporta como neblina comum: absorve sons, distorce o tempo e engole quem entra nela. Um cartógrafo que chega para mapear a região descobre que o manto branco não é um acidente do clima — é algo que escolhe o que apagar."
+categoria: "fenomenos-naturais"
+data: "2026-11-21"
+slug: "o-manto-branco"
+tipo: "ficcao"
+fonte_pesquisa: "G1 - Mar de nevoa cobre Serra do Curral, BH (nuvem orográfica); Portal6 - Cidade que desaparece na neblina, Campos do Jordão; perfil.com - Neblina na serra gaúcha e catarinense"
+---
+
+Juliano Marins nunca havia visto neblina assim. Chegara a São Lourenço da Serra — um nome inventado para um ponto no mapa que ninguém procura — no fim de uma tarde de junho, com o porta-malas do carro cheio de equipamentos de cartografia e a cabeça cheia de relatórios meteorológicos que não explicavam nada. A cidade ficava a mil e duzentos metros de altitude, abraçada por montanhas de basalto e araucárias, o tipo de lugar onde o Brasil finge ser a Europa para turistas de fim de semana. Hotéis de madeira, chocolates artesanais, trilhas balizadas. Tudo cenário. Tudo verdadeiro, até a névoa chegar.
+
+Não foi uma chegada gradual. Juliano estava na varenda da pousada, bebendo um vinho ruim de garrafa, quando viu o manto branco descer do alto da serra como um lençol puxado por mãos invisíveis. Um momento o céu estava azul e limpo, o frio cortante mas seco, e no momento seguinte a visibilidade caiu para menos de dez metros. Não era a neblina comum da Mantiqueira, aquela que sobe devagar do vale, úmida e previsível. Era algo mais denso, mais branco, mais quieto. Os sons da cidade — o farol de um carro, o latido de um cachorro, a risada de turistas na praça — pararam de repente, como se alguém tivesse desligado o volume do mundo.
+
+Juliano fechou a janela. O vidro embaçou sozinho, sem aquecimento dentro do quarto, sem respiração contra ele. Ele passou a mão na superfície e sentiu umidade, mas não a umidade comum da condensação. Era uma umidade gelada, quase oleosa, que deixava um resíduo branco nos dedos quando ele enxugava.
+
+Na manhã seguinte, a névoa ainda estava lá. Não havia sinais de sol. Não havia horizonte. O vilarejo parecia recortado do resto do mundo, uma ilha branca em meio ao nada. Juliano saiu para trabalhar. Carregava o GPS, o drone, as impressões de mapas de satélite. O plano era simples: mapear as trilhas secundárias da serra, aquelas que não constavam nos guias turísticos, e entregar o relatório à prefeitura dentro de uma semana. Serviço burocrático, inofensivo. O tipo de serviço que um cartógrafo faz quando não quer pensar demais no que está desenhando.
+
+Ele caminhou pela trilha do Mirante do Cristo, a mais movimentada, aquela com grade de metal e placa de advertência. Dez minutos de caminhada, e a névoa já o havia isolado de tudo. Não via a pousada. Não via a igreja. Não via mais nada além de árvores cinzentas e o chão úmido sob as botas. O silêncio era total. Nem pássaros. Nem vento. A névoa absorvia cada som antes que ele chegasse aos ouvidos de Juliano.
+
+Foi então que notou algo estranho no GPS. O marcador de posição piscava, mas as coordenadas não faz sentido. Latitude e longitude mudavam sozinhas, saltando de um ponto para outro como se o aparelho estivesse lendo mapas de lugares diferentes ao mesmo tempo. Juliano parou, olhou ao redor, e viu que a árvore à sua frente — uma araucária de tronco torto, casca descascando — era a mesma que havia passado cinco minutos antes. Ou parecia a mesma. Na névoa branca, todas as araucárias eram iguais. Todos os troncos cinzentos. Todas as sombras ausentes.
+
+Ele virou-se para voltar. Caminhou na direção oposta, confiando na memória do caminho. Dez minutos. Vinte. Nada. A pousada não aparecia. A trilha não aparecia. Apenas névoa, árvores, e o próprio fôlego branco no ar gelado.
+
+Juliano acelerou o passo. O coração batia forte, mas o som parecia abafado, como se ouvisse debaixo d'água. Ele começou a correr. Escorregou no chão molhado, se levantou, continuou. O tempo não passava — ou passava demais. Não havia sol para marcar as horas. Não havia som para marcar o ritmo. A névoa não se movia. Ela estava em todo lugar e em nenhum lugar, ao mesmo tempo.
+
+Após o que pareceu uma hora, Juliano avistou uma luz à frente. Amarela, fraca, piscando. Uma lanterna, talvez. Ou o farol de um carro parado na estrada. Ele correu em direção à luz, gritando, a voz saindo rouca e estranha, ofegante no próprio ouvido. Quando chegou perto, não havia nada. Apenas um tronco de árvore caído, coberto de musgo, e ao redor dele um círculo de nevoea ligeiramente mais espessa, como se algo tivesse estado ali e agora tivesse saído.
+
+Juliano parou. Respirou com dificuldade. Ouviu, então, o próprio nome.
+
+Não era gritado. Era dito, baixo, próximo, com uma voz que soava como a dele mesmo, mas mais velha, mais cansada. "Juliano." Mais uma vez. "Juliano Marins."
+
+Ele olhou ao redor. Não havia ninguém. Apenas a névoa branca, densa, absorvendo o som de sua respiração, o batimento do coração, o medo.
+
+Foi quando notou que sua mão esquerda estava fria. Não o frio comum do inverno serrano. Um frio que começava nos dedos e subia pelo braço, entorpecendo, tornando a pele branca, translúcida. Ele olhou para a mão. Os dedos estavam mais longos do que deveria. As unhas, mais escuras. A pele, fina como papel velho. Ele sacudiu o braço, bateu a mão na coxa, e a sensação voltou ao normal — ou quase. Ainda parecia que algo estava faltando ali, como se uma parte dele tivesse ficado para trás na névoa.
+
+Juliano decidiu parar. Sentou-se no chão, encostado a uma árvore, e tirou o celular do bolso. Sem sinal. Sem bateria — ou pelo menos, o aparelho dizia que tinha bateria, mas a tela não ligava. Ele tentou acender a lanterna do celular. Nada. A névoa parecia sugar a luz antes que ela saísse do aparelho.
+
+Ele fechou os olhos. Esperou. Pensou em desmaiar. Pensou em dormir. Se dormisse na névoa, talvez não acordasse. Ou acordaria em outro lugar. Ou não acordaria como Juliano Marins.
+
+Passou-se um tempo — ele não sabia quanto. A névoa começou a clarear. Não sumiu. Apenas se tornou menos densa, permitindo que ele visse alguns metros à frente. Juliano se levantou, pernas trêmulas, e começou a caminhar na direção que acreditava ser a da cidade. Caminhou por muito tempo. Encontrou uma cerca de arame farpado. Um poste de luz sem lâmpada. Um banco de praça quebrado, coberto de musgo branco. Coisas que não lembravam de ter visto na véspera.
+
+Quando finalmente chegou à praça central de São Lourenço da Serra, estava escuro. Não o escuro da noite, mas um escuro diferente, como se o sol tivesse se posto horas atrás e ninguém tivesse acendido as luzes. A igreja estava lá, com o relógio parado às três e dezessete. A praça estava vazia. Nenhum turista. Nenhum morador. Nenhum carro. Apenas o manto branco ainda pairava nas ruas, como se estivesse esperando algo.
+
+Juliano entrou na pousada. O quarto estava como ele deixara — cama desfeita, garrafa de vinho vazia, mapas espalhados. Mas algo estava errado. O espelho do banheiro estava embaçado, e no vidro, escrito com o dedo, uma frase: "Você saiu errado."
+
+Não havia data. Não havia assinatura. Apenas a frase, e ao redor dela, um círculo de umidade que não secava.
+
+Juliano passou a noite acordado, sentado na cama, ouvindo o silêncio. De vez em quando, ouvia passos no corredor. Não passos de hóspede. Passos de alguém que andava descalço, devagar, arrastando os pés no carpete. Quando se aproximava da porta, paravam. Quando ele se levantava para olhar, cessavam.
+
+Na manhã seguinte, a névoa ainda estava lá. Mais densa do que antes. Mais branca. Juliano olhou para o espelho. Seu rosto parecia normal, mas quando piscou, a imagem refletida piscou um segundo depois. Não ao mesmo tempo. Um segundo depois.
+
+Ele entendeu, então, o que o manto branco realmente era. Não era neblina. Não era nuvem orográfica. Não era um fenômeno meteorológico comum da Serra da Mantiqueira. Era algo que vinha de cima da serra, de algum lugar acima dos mil e duzentos metros, que descia em certos dias de inverno para escolher o que levar e o que devolver. Algo que não matava — pelo menos não imediatamente. Algo que apagava. Que tirava pessoas do lugar delas e as colocava em outro lugar, parecido, mas não igual. Que deixava cópias atrás, versões frias e brancas que continuavam a vida enquanto o original se perdia na névoa.
+
+Juliano pegou o carro. Dirigiu lentamente pelas ruas da cidade, faróis baixos, visibilidade quase zero. Passou pela praça. Viu o banco quebrado. Viu a cerca de arame. Viu, ao lado da igreja, uma figura parada sob a névoa, imóvel, de costas, usando roupas que pareciam as dele — calça jeans, jaqueta de couro, botas. Ele parou o carro. Desligou o motor. O silêncio voltou, absoluto.
+
+A figura não se movia. Juliano abriu a porta. Saiu. Caminhou em direção à figura, passos lentos, coração acelerado, o frio subindo pelos pés. Quando chegou perto o suficiente, viu que não era ninguém. Era apenas um poste de luz, uma árvore, um jogo de sombras criado pela névoa. Uma ilusão de óptica. Nada mais.
+
+Ele voltou ao carro. Liga o motor. O painel acendeu. O GPS piscou. As coordenadas mostravam um lugar que não existia em nenhum mapa. Juliano desligou o aparelho. Colocou as mãos no volante. Respirou fundo.
+
+A névoa estava lá fora, esperando. O manto branco não saía da cidade. Ele não saía das ruas, das praças, das varandas. Ele apenas esperava, branco e silencioso, por quem estivesse distraído o suficiente para caminhar na direção errada.
+
+Juliano deu a partida. Saiu da praça em direção à estrada que levava para fora da serra. O carro atravessou a névoa, faróis cortando o branco, e por um instante ele achou que via, no espelho retrovisor, a figura parada na igreja, ainda lá, ainda de costas, ainda esperando.
+
+Ele não olhou de novo. Dirigiu até o limite da visibilidade, e continuou dirigindo.
+
+Não sabe se saiu da cidade. Não sabe se chegou a algum lugar. Sabe apenas que, desde aquele dia, suas mãos ficam frias à noite, e que, quando olha para o espelho, a imagem reflete um segundo depois do que ele faz. E sabe que, em certos dias de inverno, quando a neblina desce sobre a Serra da Mantiqueira e o mundo fica silencioso, é melhor não sair de casa. Porque o manto branco não precisa de convidado. Ele apenas precisa de alguém que esteja no lugar errado, na hora errada, com o mapa errado na mão.
+
+O resto, a névoa cuida sozinha.
+
+## Fontes de inspiração
+
+- G1 — "Mar de nevoa cobre Serra do Curral em BH; entenda o fenômeno" (nuvem orográfica, nevoeiro denso em serras, umidade que condensa em altitudes elevadas; explicação meteorológica convencional que a ficção reinterpreta).
+- Portal6 — "Cidade que desaparece na neblina em certos dias do ano" (Campos do Jordão, Serra da Mantiqueira; névoa intensa que reduz visibilidade a quase zero e altera sons e paisagem).
+- perfil.com — "O que provoca a neblina na serra gaúcha e catarinense" (resfriamento do solo, condensação do vapor d'água, neblina noturna de outono e inverno).
+
+Todas as fontes acima serviram apenas como inspiração para esta ficção. Personagens, eventos, a cidade de São Lourenço da Serra e o manto branco são inventados. Nenhum trecho foi copiado integralmente de qualquer fonte externa.

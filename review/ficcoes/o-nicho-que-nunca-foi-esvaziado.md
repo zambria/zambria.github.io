@@ -1,0 +1,38 @@
+---
+titulo: "O Nicho Que Nunca Foi Esvaziado"
+resumo: "Um homem reabre uma galeria colonial selada sob sua casa em Ouro Preto e encontra um nicho de escravo que o capataz nunca esvaziou. Não estava vazio. E não continha ouro."
+categoria: "contos-de-terror"
+data: "2026-11-21"
+slug: "o-nicho-que-nunca-foi-esvaziado"
+tipo: "ficcao"
+fonte_pesquisa: "G1 e Estado de Minas (reportagens sobre as galerias subterrâneas de Ouro Preto)"
+---
+
+A casa ficava no fim de uma ladeira de pedras irregulares em Ouro Preto, Minas Gerais, e o corretor omitiu um detalhe: no porão, a boca de uma galeria antiga estava entupida de entulho e terra batida. Quando perguntei, ele riu — um riso seco de quem repete uma piada ouvida de outros corretores — e disse que o subsolo daquela cidade é um queijo suíço de túneis do século XVIII, que toda casa velha tem uma mina debaixo do quintal e que ninguém mais se importa com isso. Peguei as chaves no mesmo dia. Não sou homem de acreditar em subterrâneos nem em maldições antigas. Sou, porém, homem de porão, e porões fecharam-se sobre mim durante boa parte da vida adulta.
+
+O que me fez descer naquela primeira noite não foi curiosidade histórica. Foi o cheiro. Um odor de umidade pesada, de pedra úmida e de algo adocicado que não conseguia nomear, subindo pelas frestas do assoalho do porão como se a casa respirasse de baixo para cima. Peguei uma lanterna, uma pá e um cinzel, e comecei a desentupir a abertura.
+
+A galeria existia mesmo. Um corredor baixo e estreito, esculpido na rocha por mãos que já não existem, seguindo um filão de quartzo que alguém decidiu valer a pena seguir. As paredes tinham o aspecto de queijos roídos: sulcos de picareta, cunhas de ferro, marcas de marreta que ecoam séculos depois. Em volta de Ouro Preto, a Universidade Federal de Ouro Preto já catalogou mais de duzentas e setenta estruturas subterrâneas; estima-se que sejam trezentas e cinquenta, algumas delas entrando em quintais de casas particulares, sob igrejas barrocas e casarões coloniais. Minha casa era apenas mais um ponto na superfície de um labirinto que ninguém terminou de desenhar.
+
+Desci mais do que devia. A cada curva, o ar ficava mais frio e o cheiro adocicado mais forte. Minha lanterna iluminava nichos retalhados na parede esquerda — buracos quadrados, rasos, destinados, segundo contam, aos escravizados que extraíam o ouro. O escravo mais forte tinha o nicho maior; o mais fraco, o menor. Quando o capataz vinha recolher a produção, cada nicho tinha que estar cheio. Quem não entregava, era castigado. Esta é a história que os guias contam aos turistas nas minas iluminadas e visiteiadas, aquelas com trilhas de luz e placas de metal. Não contei comigo encontrar um nicho que não constava em nenhuma planta.
+
+Era um buraco maior que os outros, cerca de um metro de profundidade, localizado numa câmara lateral onde o teto havia baixado o suficiente para obrigar qualquer um a entrar de joelhos. O nicho estava cheio. Não de ouro, não de pedras. Estava cheio de terra compacta, misturada com algo escuro e fibroso que, à luz da lanterna, se assemelhava a raízes — ou a cabelos muito longos e finos, úmidos, que não se soltavam ao toque. Tirei a terra com as mãos, devagar, sentindo a textura grudenta grudar nos dedos, e no fundo, abaixo de tudo, havia algo duro, branco e poroso. Um osso? Não exatamente. Tinha a forma de um maxilar, mas dentes demais, dispostos em fileiras que não correspondiam a nenhuma boca humana que eu conhecesse.
+
+Fiquei ali de joelhos, olhando para aquilo, e foi então que o eco mudou.
+
+Não foi um barulho. Foi o silêncio. O som da minha respiração parou de voltar das paredes. O corredor, segundos antes cheio de pequenos ruídos — o gotejar de água, o ranger da madeira antiga, o próprio chiado da lanterna — ficou absolutamente mudo. Como se algo ali dentro tivesse segurado a respiração, esperando que eu terminasse de olhar.
+
+Saí da galeria antes que o fim da tarde tomasse o porão. Voltei no dia seguinte com uma pá maior, com uma câmera, com a intenção de documentar o nicho, fotografar o osso, talvez avisar alguém — a prefeitura, a universidade, não fazia diferença. Quando desci, o nicho estava vazio.
+
+Não vazio de terra. Vazio de tudo. As paredes do buraco estavam limpas, lisas, como se alguém tivesse esfregado o interior com uma escova de aço durante a noite. O osso sumira. A terra sumira. Até o cheiro adocicado havia desaparecido, substituído pelo odor normal de umidade de mina.
+
+Fui embora da casa naquela mesma semana. Não vendi o imóvel — não consigo imaginar quem compraria um porão que dá para um labirinto colonial onde algo, alguma vez, decidiu preencher um nicho de escravo com ossos que não eram ossos e depois os recolheu sozinho. A casa ainda está lá, no fim da ladeira, com a boca da galeria novamente selada pelo tempo e pelo entulho. De vez em quando, passo em frente à ladeira à noite e olho para a janela do porão. A luz está acesa dentro. Eu não deixei luz acesa. Alguém, ou algo, desceu mais fundo e acendeu para mim.
+
+O subsolo de Ouro Preto guarda mais de duas mil minas, segundo alguns registros, a maioria abandonada há mais de cem anos. São galerias de extração, caminhos de ventilação, túneis de desvio de água, esculpidos por pessoas que não tinham escolha e que, em muitos casos, nunca viram a superfície novamente. A maior parte desse subsolo está mapeada apenas na cabeça de quem nunca saiu de lá. O que aprendi naquela câmara de teto baixo não está em nenhum laudo da universidade, em nenhuma placa de turismo, em nenhuma história de guia: alguns nichos foram preenchidos não para guardar ouro, mas para guardar algo que o capataz, vivo ou morto, ainda não terminou de recolher. E quando você olha para dentro de um nicho que nunca foi esvaziado, você não está apenas olhando para o passado. Está se apresentando para aquilo que ainda espera, de joelhos, no escuro abaixo dos seus pés.
+
+## Fontes de inspiração
+
+- G1 / Jornal Nacional — reportagem sobre mina do século XVIII encontrada em Ouro Preto após desabamento de parte de uma casa (janeiro de 2023), com depoimentos sobre as mais de 170 minas registradas na serra da cidade e o risco de fadiga das estruturas subterrâneas.
+- Estado de Minas — reportagem sobre o labirinto secreto sob as ruas de Ouro Preto, com mais de 270 galerias catalogadas pela UFOP desde 1994, estimativa de cerca de 350 estruturas, o trabalho de escravizados nas galerias coloniais e a história de Chico Rei.
+
+Todos os fatos acima serviram apenas como inspiração geográfica e histórica. A narrativa, os personagens e os eventos descritos são ficcionais.

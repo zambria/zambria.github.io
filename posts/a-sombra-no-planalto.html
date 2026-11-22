@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Sombra no Planalto</title>
+  <link rel="stylesheet" href="../style.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937131805632227" crossorigin="anonymous"></script>
+</head>
+<body class="bg-black text-white font-sans leading-relaxed min-h-screen">
+  <div class="site-shell flex min-h-screen transition-all duration-300" id="site-shell">
+    <button class="btn-toggle-sidebar" id="btnToggleSidebar" aria-label="Esconder barra lateral">☰</button>
+    <aside class="sidebar" id="sidebar-zambria">
+      <div class="site-title">ZAMBRIA</div>
+      <div class="site-subtitle">O Insólito Presente</div>
+      <nav class="nav-posts">
+        <a href="../index.html" style="display:block; margin-bottom:2rem; color:var(--text); text-decoration:none; border-bottom:1px solid var(--border); padding-bottom:0.5rem;">← Voltar ao início</a>
+      </nav>
+    </aside>
+    <main class="conteudo">
+      <article class="post">
+        <div class="post-meta">
+          <span class="categoria">arqueologia</span>
+          <span>2026-11-18</span>
+          <span>Leitura: ~5 min</span>
+        </div>
+        <h2>A Sombra no Planalto</h2>
+        <div class="texto">
+          <div class="post-meta">
+          <span class="categoria">arqueologia</span>
+          <span>2026-11-18</span>
+          <span>Leitura: ~1 min</span>
+        </div>
+        
+        <div class="texto">
+          <p>O Planalto Central guarda segredos que a vegetação esconde há milênios. Não é apenas o cerrado seco e as trilhas de jipe — é o silêncio antes de algo despertar.</p>
+<div class="comentario-agente">Não há registro confortável para isso. Não há mesmo.</div>
+<p>A equipe de arqueólogos liderada por Dra. Elisa Marquez não estava procurando por ovnis. Estavam mapeando um sítio pré-colonial quando o radar de penetração no solo capturou uma anomalia: uma câmara perfeitamente circular, a dez metros de profundidade, sem entrada visível e sem sinais de ferramentas humanas.</p>
+<p>Quando romperam a camada de argila vermelha, encontraram algo que nenhum deles conseguia classificar. Paredes lisas, sem marcas de picareta. Um piso que refletia a luz das lanternas como se fosse polido ontem. E no centro, um pedestal de pedra com gravações que não correspondiam a nenhuma língua indígena registrada no Brasil.</p>
+<p>O que realmente deixou Elisa sem fôlego não foi a estrutura em si. Foi a sensação de que o local estava vazio — não no sentido de abandonado, mas no sentido de que algo havia saído de lá recentemente, levando consigo todo o ar, todo o som, toda a presença.</p>
+<p>Os moradores da vila mais próxima falam, em voz baixa, de luzes que descem do céu nas noites sem lua. De pessoas que entram na mata e voltam dias depois sem memória de onde estiveram. Eles chamam o lugar de &quot;a garganta da terra&quot; e avisam: não se deve escavar onde a terra não quer ser aberta.</p>
+<p>Elisa guardou as gravações em um cofre. Toda noite, antes de dormir, ela ouve um ruído baixo vindo da caixa — como se algo estivesse tentando sair.</p>
+<div class="fontes">
+<h4>Fontes consultadas</h4>
+<p>Nenhuma fonte registrada no conteúdo.</p>
+</div>
+        </div>
+        <p class="resumo">O Planalto Central guarda segredos que a vegetação esconde há milênios. Não é apenas o cerrado seco e as trilhas de jipe — é o silêncio antes de algo despertar.</p>
+        </div>
+      </article>
+    </main>
+  </div>
+  <script>
+    /* Botão de esconder/mostrar sidebar inteira */
+    const btn = document.getElementById('btnToggleSidebar');
+    const shell = document.querySelector('.site-shell');
+    btn.addEventListener('click', () => {
+      shell.classList.toggle('sidebar-hidden');
+      if (shell.classList.contains('sidebar-hidden')) {
+        btn.textContent = '≡';
+        btn.setAttribute('aria-label', 'Mostrar barra lateral');
+      } else {
+        btn.textContent = '☰';
+        btn.setAttribute('aria-label', 'Esconder barra lateral');
+      }
+    });
+
+    /* Animação cascata das abas de categoria */
+    const titulos = document.querySelectorAll('.categoria-titulo');
+    titulos.forEach((titulo) => {
+      const lista = titulo.nextElementSibling;
+      if (!lista || !lista.classList.contains('lista-topicos')) return;
+      const itens = Array.from(lista.querySelectorAll('li'));
+
+      function abrir() {
+        lista.style.display = 'block';
+        lista.style.visibility = 'visible';
+        void lista.offsetHeight;
+        itens.forEach((li, i) => {
+          li.style.animation = 'none';
+          li.offsetHeight;
+          li.style.animation = `slideFadeIn 0.3s ease forwards`;
+          li.style.animationDelay = `${i * 70}ms`;
+        });
+        titulo.setAttribute('aria-expanded', 'true');
+      }
+
+      function fechar() {
+        const ultimo = itens.length - 1;
+        itens.forEach((li, i) => {
+          li.style.animation = 'none';
+          li.offsetHeight;
+          li.style.animation = `slideFadeOut 0.2s ease forwards`;
+          li.style.animationDelay = `${i * 60}ms`;
+        });
+        setTimeout(() => {
+          lista.style.display = 'none';
+          lista.style.visibility = 'hidden';
+          itens.forEach(li => { li.style.animation = 'none'; });
+        }, ultimo * 60 + 250);
+        titulo.setAttribute('aria-expanded', 'false');
+      }
+
+      titulo.addEventListener('click', () => {
+        const aberto = lista.style.display === 'block';
+        if (aberto) {
+          fechar();
+        } else {
+          abrir();
+        }
+      });
+
+      titulo.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          titulo.click();
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+---
+titulo: "Aguarda no Fundo"
+resumo: "O vigia noturno de uma represa desativada começa a ouvir algo respirar debaixo da água. O que emerge não deixa provas — apenas silêncio e a certeza de que algo o observa do fundo."
+categoria: "criptozoologia"
+data: "2026-11-21"
+slug: "aguarda-no-fundo"
+tipo: "ficcao"
+fonte_pesquisa: "Folha de S.Paulo (caso Billings, 1975); blog História & Outras Histórias (criaturas das águas do Brasil)"
+---
+
+# Aguarda no Fundo
+
+A represa do Córrego da Várzea foi desativada em 1987, e desde então só restam o concreto rachado, as comportas emperradas e eu, o último vigia contratado para impedir que curiosos e ladrões de cobre entrem onde não devem. Minha rotina é simples: andar o perímetro às dez da noite, registrar no ponto, caminhar de volta ao escritório, fechar a porta com duas chaves e esperar o amanhecer na cadeira de lona, com o rádio ligado em alguma frequência que só transmite chiado. Até a terceira semana de outubro, nada disso tinha nome. Agora tem.
+
+Começou com um barulho.
+
+Não é o gênero de barulho que se descarta logo de cara. Não foi um tronco caindo, não foi uma garrafa plástica batendo na parede do canal de descarga, não foi o eco de um pássaro noturno. Por volta da uma e meia da madrugada, enquanto percorria a passarela de acesso à torre de captação, ouvi algo arrastar-se debaixo da água. Um som grosso, úmido, como um corpo grande deslizando sobre lama, seguido de um grunhido curto — profundo demais para ser de peixe, organizado demais para ser correnteza. Liguei a lanterna. A luz cortou a superfície preta e não encontrou nada. Apenas o reflexo da lua sobre a água parada, e a sensação súbita de que a escuridão, debaixo daquela ponte de concreto, estava olhando para mim.
+
+Na semana seguinte, aconteceu novamente. E na seguinte. Sempre no mesmo horário, sempre perto da mesma vigia, sempre quando o vento abaixa e o silêncio se torna denso o suficiente para ser tocado. Comecei a prestar atenção nos detalhes que antes ignorava: as redes de pesca abandonadas nas ilhas do rio Pequeno — ou o que restou delas — rasgadas de um jeito que nenhuma rede se rasga sozinha, como se algo grande e forte tivesse se debatido ali e sumido. Os pescadores da região, quando ainda vinham, contavam histórias que eu atribuía à bebida ou ao exagero típico de quem passa noites inteiras sentado à beira d'água. Diziam que havia um "monstro" na represa, que ninguém sabia precisar a forma ou o tamanho, mas que assustava, arrebentava redes e afugentava os peixes. A polícia, na época, não confirmou nada. Também não afastou a possibilidade.
+
+Eu ria dessas histórias. Agora não rio mais.
+
+Há quatro noites, resolvi ficar mais tempo na passarela. Levei uma lanterna mais potente, um caderno e a teimosia de quem acha que todo mistério tem uma explicação razoável. À uma e vinte e sete da manhã, o som voltou. Mais alto desta vez. Mais próximo. Liguei a lanterna e apontei para a superfície, exatamente no ponto onde as águas se tornam mais escuras, mais profundas, perto da parede de contenção original do córrego. Por alguns segundos, não vi nada. Então, a água se moveu.
+
+Não foi um peixe. Não foi uma tartaruga. Algo grande, escuro e brilhante rompeu a superfície com uma lentidão deliberada, como se quisesse ser visto, e afundou de volta antes que eu pudesse distinguir contornos. Vi apenas um brilho de pele úmida, ou talvez escamas, e um par de olhos — se é que eram olhos — refletindo a luz de forma que nenhum animal conhecido reflete. Depois, silêncio total. Nenhum respingo, nenhuma onda, nenhum eco. Apenas a água quieta, como se nada tivesse acontecido.
+
+Voltei para o escritório e não consegui escrever no ponto. Minhas mãos tremiam demais para segurar a caneta. Não por medo simples, mas por reconhecimento. Há algo naquela represa que não pertence ao catálogo de animais que conheço, e algo pior: ele sabe que estou aqui. Sabe meus passos, sabe meus horários, sabe quando desço a passarela e quando volto para a cadeira de lona. O rádio, que antes só emitia chiado, começou a trazer, entre os intervalos de estática, sons que não são de nenhuma estação — respirações pesadas, arrastos de pedra, gemidos que parecem humanos mas não são. Desliguei o aparelho. O som continuou na minha cabeça.
+
+Não conto isso a ninguém. Quem levaria a sério o relato de um vigia noturno de uma represa desativada que diz ouvir coisas debaixo da água? A curadoria do silêncio oficial é eficiente: não confirma, não nega, simplesmente ignora. E enquanto ignora, aquilo embaixo continua a crescer, a se alimentar, a esperar.
+
+Ontem, pela primeira vez, o grunhido não veio da água. Veio do outro lado da porta do escritório.
+
+Fico aqui, escrevendo isso com a lanterna de punho apontada para a fechadura, ouvindo algo arrastar-se lentamente no lado de fora, algo úmido e pesado que não deixa pegadas no chão de concreto. Não vou abrir a porta. Não vou descer à passarela. Não vou acender a luz principal, porque não quero que whatever esteja lá fora saiba exatamente onde estou. Só quero registrar, enquanto ainda há tempo, que o silêncio da represa do Córrego da Várzea nunca foi vazio. Sempre foi apenas uma pausa — uma respiração contida — antes de algo subir.
+
+E agora, acho que terminou de respirar.
+
+## Fontes de inspiração
+
+Este é um conto de ficção. Não trata de eventos reais, e os nomes, locais e personagens são inventados. A atmosfera foi embasada em duas pesquisas de campo públicas:
+
+- Folha de S.Paulo, "Monstro apavora banhistas e pescadores na Billings" (abril de 2014), reportagem sobre relatos de um ser não identificado na Represa Billings, Grande São Paulo, com menções a pescadores, redes arrebentadas e o silêncio oficial sobre o caso.
+- Blog "História & Outras Histórias", "Criaturas monstruosas das águas do Brasil" (março de 2012), compilação de relatos históricos sobre monstros aquáticos, homens marinhos e poços temidos nas águas brasileiras.
+
+Nenhum trecho foi copiado integralmente dessas fontes; todos os elementos narrativos são criações originais.
+
+---
+
+**Categoria:** criptozoologia | **Status:** pendente de curadoria | **Caminho:** review/ficcoes/aguarda-no-fundo.md

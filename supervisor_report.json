@@ -1,0 +1,77 @@
+{
+  "agente": "supervisor-fiscal-zambria",
+  "site": "https://zambria.github.io",
+  "repositorio": "C:\\Users\\erico\\zambria.github.io",
+  "executado_em": "2026-11-18T11:25:10",
+  "tom_editorial": "sério, sombrio, adulto formal, sarcástico às vezes",
+  "limite_posts_dia": 2,
+  "verificacoes": [
+    {
+      "nome": "CSS carregado",
+      "ok": true,
+      "problema": null,
+      "evidencia": "GET https://zambria.github.io/style.css -> HTTP 200, 4897 bytes",
+      "sugere_correcao": null
+    },
+    {
+      "nome": "Botão da sidebar",
+      "ok": true,
+      "problema": null,
+      "evidencia": "botao=True, js_toggle=True, aside=True",
+      "sugere_correcao": null,
+      "detalhes": {
+        "botao_presente": true,
+        "js_toggle_presente": true,
+        "aside_presente": true
+      }
+    },
+    {
+      "nome": "Posts ausentes / duplicados",
+      "ok": false,
+      "problema": "placeholder 'Nenhum post publicado ainda' visível apesar de já haver post(s) publicado(s)",
+      "evidencia": "online=['ovnis-e-uaps-quando-o-c-u-deixa-de-ser-identificado'], local=['ovnis-e-uaps-quando-o-c-u-deixa-de-ser-identificado']",
+      "sugere_correcao": "Remover entradas duplicadas do index.html, apagar o bloco <div class=\"vazio\"> quando houver posts, reenviar os posts faltantes e garantir que o publicador injete cada post uma única vez.",
+      "detalhes": {
+        "posts_online": [
+          "ovnis-e-uaps-quando-o-c-u-deixa-de-ser-identificado"
+        ],
+        "posts_locais": [
+          "ovnis-e-uaps-quando-o-c-u-deixa-de-ser-identificado"
+        ],
+        "duplicados": [],
+        "ausentes_online": [],
+        "extras_online": [],
+        "placeholder_vazio_visivel": true,
+        "total_online": 1,
+        "total_locais": 1
+      }
+    },
+    {
+      "nome": "Limite de 2 posts por dia",
+      "ok": true,
+      "problema": null,
+      "evidencia": "1/2 posts hoje (total 1, última 2026-11-18).",
+      "sugere_correcao": null,
+      "detalhes": {
+        "posts_hoje": 1,
+        "ultima_publicacao": "2026-11-18",
+        "total_publicados": 1,
+        "hoje": "2026-11-18",
+        "limite": 2
+      }
+    },
+    {
+      "nome": "Estrutura de pastas",
+      "ok": true,
+      "problema": null,
+      "evidencia": "drafts, review, posts, publicados presentes em zambria.github.io",
+      "sugere_correcao": null
+    }
+  ],
+  "resumo": {
+    "total": 5,
+    "ok": 4,
+    "problemas": 1
+  },
+  "status_geral": "com_problemas"
+}

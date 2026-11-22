@@ -1,0 +1,30 @@
+---
+titulo: "O Chapéu de Abas Largas"
+resumo: "Em uma vila ribeirinha do baixo Amazonas, uma enfermeira atende moças que voltam do rio após a festa junina grávidas e silenciosas. Ela ri da lenda do boto encantado — até a noite em que dança com um homem de branco que nunca tira o chapéu."
+categoria: "criptozoologia"
+data: "2026-11-21"
+slug: "o-chapeu-de-abas-largas"
+tipo: "ficcao"
+fonte_pesquisa: "Wikipedia pt (Lenda do boto); Toda Matéria (Lenda do boto-cor-de-rosa)"
+---
+
+A gravidez de Luzia não durava nove meses. Durava o tempo de uma festa junina — uma noite de fogueira, quadrilha e uísque barato, seguida por um amanhecer de vestido molhado na margem do rio. Enedina, enfermeira do posto de Vila Nova do Ramal, atendera a menina naqueles termos: dezoito anos, solteira, desacompanhada, grávida de algo que o ultrassom não conseguia datar com precisão. Luzia não chorava. Faltava apenas a lágrima, o resto ela entregava inteiro: dançara com um homem de branco, chapéu de abas largas, passo de dança que ninguém ensinara ali, e antes do sol subir ele a levara ao rio, mergulhara com ela, e a trouxera de volta quando o céu já clareava. "Ele não tirava o chapéu", sussurrou Luzia, como se isso fosse o detalhe importante, e não o fato de estar grávida sem ter deitado com homem algum.
+
+Enedina riu por dentro. Lenda de interior, história para manter menina solteira longe do escuro, explicação conveniente para gravidez indesejada em terra de igreja e falta de preservativo. Ela havia saído de Belém com esse ceticismo de mala pronta, e dois anos no posto só o haviam confirmado. Até que Luzia não foi a última.
+
+Três semanas depois apareceu Iracema, dezenove, mesma história, mesmo vestido branco úmido na beira da água, mesma recusa em nomear um pai. E depois Mariazinha, e depois a filha do feirante, e depois a mulher do próprio vigia do posto, que nunca saíra de casa naquela festa porque estava com febre — mas apareceu na margem do rio às cinco da manhã, grávida, com areia do leito do rio entre os dedos dos pés e um chapéu de palha abandonado na cama.
+
+Enedina começou a anotar. Não nos prontuários oficiais — aqueles seguiam a tabela, o laudo, o código da CID. Anotou num caderno de capa dura que comprou na cidade: nome, idade, data da festa, data do aparecimento na margem, semanas de gestação segundo o toque e a barriga. Todas grávidas de oito meses e meio, exatamente, não importa quando foram encontradas. Todas com o mesmo olhar distante, como quem ouviu uma música que só ela consegue ouvir. E, quando Enedina convenceu três delas a deixar examinar a nuca do recém-nascido, encontrara a mesma coisa: uma pequena depressão na base do crânio, um buraco de poucos milímetros, úmido, como uma brânquia que não fechara direito. Espiráculo. O orifício que a lenda diz que a transformação não consegue apagar.
+
+O cheiro chegava antes deles. Enedina passou a reconhecê-lo nos prontuários: algas podres, enxofre, o odor de peixe deixado ao sol por dias demais. As mães falavam dele também — não como cheiro, mas como presença. Um homem de branco, chapéu sempre baixo, dança magnética, voz de rio profundo. Nenhuma delas via o rosto. Todas saíam da festa com ele. Todas voltavam do rio sozinhas, ou quase.
+
+Enedina era cética até a noite de São Pedro, em Vila dos Pescadores, a sessenta quilômetros rio abaixo. Foi a trabalho — vacinação, nada mais — mas a festa aconteceu de qualquer forma, fogueira na praça, sanfona desafinada, cerveja quente em copo de plástico. Ela dançou com um homem de branco, chapéu de abas largas que segurava a sombra sobre o rosto, passo leve demais para um homem que bebera tanto. Cheirava a rio, a lama úmida, a algo que vivera debaixo d'água por muito tempo. Não tirou o chapéu quando ela pediu, sorriu, disse que o chapéu era parte do traje. Ela aceitou andar com ele até a beira do rio, só para ver até onde o convite ia. Ele parou na água. Ela parou atrás dele. O feixe da lanterna de celular iluminou a superfície escura, e algo se moveu abaixo — não peixe, não jacaré, algo grande, cinzento, de pele lisa, que subiu e desceu com um ritmo de respiração que não era humano. O homem não se virou. Disse apenas: "Ela está pronta. O rio já escolheu." Enedina voltou sozinha para a cidade. Não bebeu água da torneira por uma semana.
+
+Dois meses depois Enedina atrasou a menstruação. Fez o teste de farmácia às escondidas, luz do banheiro do posto, resultado positivo. Nunca deitara com homem algum desde que saíra de Belém — exceto a dança à beira do rio, exceto o chapéu que nunca caiu, exceto a respiração cinzenta debaixo d'água. Oito meses e meio depois, daria à luz. Não procurou médico. Não procurou ninguém. Comprou um caderno novo, escreveu o nome da menina que ainda não existia, e na nuca da própria cabeça, no espelho do banheiro, procurou — sem encontrar — qualquer depressão, qualquer buraco, qualquer marca de espiráculo.
+
+A conclusão é fria e não oferece consolo: o rio não afoga as mulheres que leva. Ele empresta a forma de homem, deixa uma semente, traz a menina de volta com a barriga cheia de água e de outro mundo. O boto encantado não é explicação para gravidez fora do casamento. É explicação para o que nasce quando a água decide ter filha. Enedina guarda o vestido branco de Luzia em um armário trancado no posto. Todo dia de festa junina, ela coloca o vestido sobre a cadeira da sala de espera e deixa a janela aberta. Ainda não chegou ninguém. Ainda.
+
+## Fontes de inspiração
+
+- Wikipedia — "Lenda do boto": relato do boto-cor-de-rosa que se transforma em homem elegante nas festas juninas, usa chapéu para esconder o orifício respiratório na cabeça, seduz moças e as leva ao fundo do rio.
+- Toda Matéria — "Lenda do boto-cor-de-rosa": origem indígena da lenda amazônica, o boto como conquistador de festas de santos populares, o chapéu que oculta o espiráculo.

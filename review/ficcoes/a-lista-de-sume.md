@@ -1,0 +1,67 @@
+---
+titulo: "A Lista de Sumé"
+resumo: "Uma arqueóloga decifra um padrão nos petróglifos da Pedra do Ingá que não é calendário nem mapa: é uma lista de nomes. E o próximo da fila é o dela."
+categoria: "arqueologia"
+data: "2026-11-21"
+slug: "a-lista-de-sume"
+tipo: "ficcao"
+fonte_pesquisa: "Wikipedia - Pedra do Ingá; Iconografia da História - Pedra do Ingá; G1/Globo Reporter - Pedra do Ingá
+---
+
+## A Lista de Sumé
+
+O paredão de gnaisse tem quatro metros de altura e quarenta e seis de comprimento, exposto ao sol do agreste paraibano como uma ferida que se recusa a cicatrizar. Dr. Marta Velloso passou os últimos dez anos deitada de bruços sobre aquela rocha, de lupa na mão e escova de cerdas macias entre os dedos, tentando convencer a si mesma de que os sulcos eram apenas isso: sulcos. Marca de mãos antigas, gesto ritual, nada mais. A Pedra do Ingá, ou itacoatiara — "pedra pintada", em tupi — é disso feita: de hipóteses que se acumulam sem nunca se estabilizar. Mapa astronômico, calendário solar, representação da constelação de Órion, ou ainda a passagem de Sumé, o semideus que, segundo a lenda local, teria andado por aqui deixando pegadas na rocha. Cada pesquisador traz a sua crença e leva embora uma interpretação diferente. Nenhuma provada. Nenhuma descartada.
+
+Marta não acreditava em lendas. Acreditava em estratigrafia, em datação, em repetibilidade. E, no entanto, algo naquela pedra a inquietava de forma que nenhum artigo acadêmico conseguia nomear.
+
+Foi na terceira semana de setembro, sob uma luz rasteira que tornava os relevos quase tridimensionais, que ela notou o padrão nos pequenos círculos da porção superior do paredão. Durante séculos, todos os que estudaram a pedra os leram como fases da lua — sombra, sem sombra, metade de sombra — um calendário lunar rude, gentil, inofensivo. Marta, dessa vez, não olhou para a luz. Olhou para a escuridão entre os círculos.
+
+Cada círculo pequeno vinha acompanhado de um traço vertical curto, riscado de cima para baixo, como se alguém tivesse marcado presença. Não um, não dois. Dezenove deles, alinhados em sequência quase perfeita, separados por intervalos regulares. Dezenove riscos. Dezenove marcas. E, abaixo de cada uma, um símbolo maior, abstrato, que ninguém havia conseguido decifrar: uma espécie de ovo partido, com duas linhas radiais que saíam do centro como braços estendidos.
+
+Ela fotografou, sobrepôs imagens, comparou com os registros dos anos anteriores. Não havia como negar: os traços verticais não estavam ali desde sempre. Alguns eram mais recentes — a pátina da rocha ao redor deles era mais clara, o sulco menos desgastado pelo tempo. Alguém, ou algo, havia adicionado marcas à Pedra do Ingá depois de ela ser tombada como patrimônio. Depois de ser cercada, vigiada, estudada.
+
+Marta começou a cruzar datas. Pegou a lista de óbitos não resolvidos da região do agreste paraibano dos últimos dez anos, os desaparecimentos arquivados como "sumidos", os corpos encontrados sem causa aparente nos campos ao redor do rio. Dezenove nomes. Dezenove datas. Cada uma coincidindo, com precisão de assombrar, com a posição de um dos círculos e com o estado de desgaste de seu respectivo traço vertical. O primeiro risco mais antigo correspondia a um homem encontrado desidratado no mato, em 2016, com os pés descalços e uma pedra pequena apertada na mão direita. O nono, a uma mulher que saiu de casa para buscar lenha e nunca voltou, em 2021. O décimo oitavo, a um adolescente cujo corpo apareceu boiando no açude, sem sinais de violência, apenas com a expressão de quem tivesse visto algo que não deveria existir.
+
+Não era calendário. Não era mapa. Era uma lista.
+
+E o décimo nono risco — o último, o mais claro de todos, quase brilhante sob o sol — datava de ontem.
+
+Marta passou a noite inteira revisando as anotações, sobrepondo o mapa das gravuras com o registro de nascimentos da região. Procurava uma regra, um critério, algo que distinguisse os nomes na lista dos que ficavam de fora. Não encontrou idade em comum, não encontrou profissão, não encontrou parentesco. Havia idosos e crianças, homens e mulheres, crentes e descrentes. A única constante era a pedra. A única conexão era aquele símbolo do ovo partido, esculpido debaixo de cada nome, como se fosse uma assinatura. Ou uma marca de propriedade.
+
+Ela decidiu ir até o local ao amanhecer. Leveu câmera, régua, lanternas, e uma caneta de tinta permanente — uma insensatez, soube no momento em que a tirou da mochila, mas não conseguiu resistir. Precisava marcar, para si, o ponto exato onde o décimo nono risco terminava. Precisava de uma referência.
+
+Quando chegou à Pedra do Ingá, o sol ainda não havia subido totalmente sobre o agreste. A neblina baixa grudava nas pedras, e o silêncio era do tipo que o ouvido começa a inventar sons para preencher. Marta aproximou-se do paredão e passou os dedos pelos sulcos, como quem lê braile em uma língua que não entende.
+
+O décimo nono traço estava ali, claro, recente, incontestável. Ela apoiou a régua sobre a rocha e encostou a ponta da caneta logo abaixo dele, onde deveria ficar o símbolo do ovo partido — exceto que o símbolo não estava pronto. Havia apenas o início do risco, uma linha curva interrompida a meio caminho, como se quem estivesse gravando tivesse sido surpreendido no meio do trabalho. Ou como se a própria pedra estivesse escrevendo, devagar, um traço de cada vez.
+
+Marta encostou a caneta na rocha para completar o desenho. Para fechá-lo. Para entender, enfim, o que aquilo significava.
+
+Foi então que notou, gravado ao lado do décimo nono círculo, um símbolo menor que ela não vira antes. Um traço vertical. Um único traço, do mesmo comprimento e inclinação dos outros dezenove. E, abaixo dele, não o ovo partido de sempre, mas algo diferente: dois círculos unidos por uma linha fina, como um par de olhos. Ou como uma abstração de um rosto.
+
+Ela tirou o celular, abriu o aplicativo de notas, digitou seu nome completo. Marta Velloso. Comparou, letra por letra, com as sequências de sulcos que havia catalogado ao longo da década. Não havia correspondência direta — a pedra não escrevia em alfabeto, jamais escreveria. Mas quando sobrepôs a imagem do novo símbolo ao seu próprio nome, algo se alinhou. Dois círculos, uma linha. Marta. Duas sílabas accentuadas, um nome dividido ao meio.
+
+O coração dela desacelerou, não acelerou. Foi uma constatação fria, quase aliviada, como quem chega ao fim de uma longa busca e descobre que o destino era óbvio desde o começo.
+
+Ela tirou a caneta da rocha e deu dois passos para trás. O paredão inteiro, sob a luz crescente, parecia diferente agora. Os dezenove símbolos do ovo partido, antes aleatórios, formavam uma sequência crescente de complexidade. Cada um um pouco mais detalhado que o anterior. Como quem aprende a desenhar. Como quem se aquece para a obra principal.
+
+O décimo nono estava inacabado. O símbolo abaixo dele, com os dois círculos e a linha, estava mais completo do que qualquer outro. E ao lado, esculpido com a mesma precisão dos traços mais antigos, quase imperceptível entre as fissuras naturais do gnaisse, havia um vigésimo círculo. Pequeno. Sem traço vertical ainda. Sem símbolo abaixo. Apenas o círculo, esperando.
+
+Marta olhou para as próprias mãos. Tremiam, levemente. Ela fechou os punhos para não ver o tremor.
+
+Não sabia quem, ou o quê, estava adicionando marcas à Pedra do Ingá. Não sabia se os dezenove nomes já estavam mortos quando a pedra os gravou, ou se a pedra os matou depois de escrevê-los. Não sabia se Sumé era um homem, um deus, uma mentira contada para acalmar os curiosos. Sabia apenas uma coisa, e ela era suficiente: a pedra não havia terminado de escrever. E o próximo círculo estava vazio porque ainda faltava preencher o nome.
+
+Ela guardou a caneta, fechou a mochila e começou a caminhar de volta ao carro. Não olhou para trás. Não precisava. Havia sentido, na nuca, o peso de um símbolo sendo concluído — o vigésimo traço vertical, nascendo do silêncio da rocha, riscando o próprio nome dela de cima para baixo, como se alguém, ou alguma coisa, estivesse marcando presença.
+
+A Pedra do Ingá continua ali, no agreste paraibano, debaixo do sol e da neblina, com seus dezenove nomes gravados e um vigésimo círculo esperando ser preenchido. Turistas tiram fotos, arqueólogos escrevem artigos, ufólogos falam de lasers extraterrestres, e ninguém consegue explicar por que, de vez em quando, um novo sulco aparece onde antes não havia nada.
+
+A pergunta não é quem fez as inscrições. A pergunta é: quem será o próximo a ler o próprio nome na pedra, e quanto tempo terá entre a leitura e o fim?
+
+---
+
+## Fontes de inspiração
+
+- Wikipedia — "Pedra do Ingá": monumento arqueológico (itacoatiara) no município de Ingá, Paraíba, com inscrições rupestres de significado desconhecido, figuras que sugerem animais, humanos e constelações como Órion; hipóteses de calendário solar e arqueoastronomia.
+- Iconografia da História — "Pedra do Ingá: um tesouro arqueológico no agreste paraibano": teorias sobre a autoria dos símbolos (índios Cariri, fenícios, continentes submersos), a lenda de Sumé e a ausência de explicação definitiva.
+- G1 / Globo Reporter — "A pedra com inscrições misteriosas que até hoje intrigam cientistas": descoberta das inscrições no início do século 18, círculos associados às fases da lua, ausência de conclusão científica.
+
+Todos os fatos acima serviram apenas como inspiração. A narrativa, os personagens e os eventos são ficcionalizados.

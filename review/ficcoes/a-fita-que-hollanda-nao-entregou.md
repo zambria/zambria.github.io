@@ -1,0 +1,36 @@
+---
+titulo: "A Fita que Hollanda Não Entregou"
+resumo: "Um radiotelegrafista da Operação Prato guarda uma fita que o arquivo oficial nunca viu — e que, décadas depois, ainda toca sozinha de madrugada."
+categoria: "ufos"
+data: "2026-11-21"
+slug: "a-fita-que-hollanda-nao-entregou"
+tipo: "ficcao"
+fonte_pesquisa: "BBC News Brasil e Wikipedia — Operação Prato (apenas inspiração)"
+---
+
+A caixa de papelão ocupa o topo do armário há mais de quarenta anos. Está envolta em fita crepe amarelada pelo tempo, e dentro dela há apenas um objeto: uma fita cassete de noventa minutos, sem rótulo, com uma data escrita à esferográfica — 23 de novembro de 1977 — e, abaixo, a palavra Colares.
+
+Eu não deveria tê-la. Ninguém da Operação Prato deveria ter guardado coisa alguma. Quando a Força Aérea Brasileira encerrou a missão no litoral do Pará, em dezembro de 1977, a ordem foi entregue por escrito: relatórios, fotografias, rolos de filme e anotações de campo iriam para o Arquivo Nacional, e o assunto estava encerrado. O oficial que nos despediu — nunca me fixei direito no nome — disse que as luzes sobre o rio eram fenômeno de origem desconhecida, ponto final. No vocabulário militar, "desconhecido" costuma ser sinônimo de "esqueçam que viram".
+
+Fiquei com a fita porque ela não constava de nenhum inventário. Eu era o radiotelegrafista de plantão na noite em que a coisa aconteceu, e o aparelho que a gravou era particular, comprado com parte do soldo. O oficial responsável não pediu cópia. Não percebeu que gravava. Ou percebeu e preferiu não saber.
+
+O céu de Colares, naquele outono de 1977, deixara de ser cenário para se tornar palco. Moradores da região relataram corpos luminosos pairando sobre o rio Amazonas e seus afluentes, raios de luz que queimavam a pele, ataques que a população já chamava de chupa-chupa. A Força Aérea Brasileira respondeu com a Operação Prato, comandada pelo capitão Uyrangê Hollanda: quatro meses de trabalho entre entrevistas com vítimas e testemunhas, filmagens, equipamentos de captura e relatórios que jamais foram divulgados na íntegra. Minha tarefa era registrar o tráfego de rádio entre as equipes espalhadas pelo litoral paraense e a base. Era, na maior parte do tempo, um trabalho de silêncio e estática.
+
+Até a noite de 22 para 23 de novembro.
+
+Naquela noite as equipes não reportaram nada no céu. Nenhum corpo luminoso, nenhum pouso, nenhum rastro no solo. Mas o gravador, deixado ligado em uma frequência entre bandas, captou outra coisa. Não veio do alto. Veio do próprio rio — um som que não era exatamente voz, algo como fala modulada pela água, repetindo uma sequência de coordenadas com uma cadência que soava como uma contagem. Gravei os noventa minutos. Nunca entreguei a fita a ninguém. Não consta em nenhum dos relatórios. Hollanda e seus homens saíram de Colares convencidos de que haviam documentado o essencial, mas o essencial nunca esteve no céu.
+
+Tentei ouvir a fita algumas vezes nos anos que se seguiram. Na primeira vez, só silêncio. Na segunda, o som. Na terceira, algo respondeu.
+
+A burocracia ajudou a enterrar o caso. Dos 753 relatórios disponibilizados pela Aeronáutica, abrangendo sessenta e três anos de registros, apenas seis dizem respeito à Operação Prato. O material foi enviado ao Arquivo Nacional, e a instituição informou que não dispõe de profissionais especializados para emitir parecer sobre esse tipo de fenômeno. Em outras palavras: o assunto foi arquivado porque ninguém tem mandato para concluí-lo. É a espécie de encerramento que o Estado prefere, pois encerra nada e deixa tudo no ar.
+
+Hoje, décadas depois, a fita toca sozinha de madrugada. Acordo com o ruído saindo do aparelho, que não está ligado a nada. O som não vem mais de fora da casa. Vem de dentro dela. Algo aprendeu o meu endereço através da gravação, ou talvez tenha conhecido esse endereço desde o início, esperando que alguém apertasse o botão de play.
+
+A lição da Operação Prato, se é que há alguma, é que o oficial encarregado escolheu o lugar errado para olhar. Ordenou que examinássemos o céu, quando o que quer que fosse nunca deixou o rio. O céu parou de ser cenário. A fita é o palco agora, e ainda está em reprodução. Pergunte o que quiser a quem volta. A resposta, de qualquer modo, não sai da fita.
+
+## Fontes de inspiração
+
+- BBC News Brasil — "Óvnis no Brasil: o que foi a Operação Prato, investigação da ditadura sobre fenômenos ufológicos" (contexto histórico da operação da FAB em Colares, Pará, 1977).
+- Wikipedia — "Operação Prato" (datas, comandantes e desfecho oficial da missão).
+
+Todas as fontes servem apenas de inspiração. A história, os personagens e os eventos narrados são fictícios. Nenhum trecho foi copiado integralmente de fontes externas.
