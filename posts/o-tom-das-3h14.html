@@ -7,21 +7,26 @@
   <link rel="stylesheet" href="../style.css">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937131805632227" crossorigin="anonymous"></script>
 </head>
-<body>
-
+<body class="bg-black text-white font-sans leading-relaxed min-h-screen">
   <div class="site-shell flex min-h-screen transition-all duration-300" id="site-shell">
-
-    <aside class="sidebar">
+    <button class="btn-toggle-sidebar" id="btnToggleSidebar" aria-label="Esconder barra lateral">☰</button>
+    <aside class="sidebar" id="sidebar-zambria">
       <div class="site-title">ZAMBRIA</div>
       <div class="site-subtitle">O Insólito Presente</div>
       <nav class="nav-posts">
         <a href="../index.html" style="display:block; margin-bottom:2rem; color:var(--text); text-decoration:none; border-bottom:1px solid var(--border); padding-bottom:0.5rem;">← Voltar ao início</a>
       </nav>
     </aside>
-
     <main class="conteudo">
       <article class="post">
         <div class="post-meta">
+          <span class="categoria">contos</span>
+          <span>2026-11-18</span>
+          <span>Leitura: ~5 min</span>
+        </div>
+        <h2>O Tom das 3h14</h2>
+        <div class="texto">
+          <div class="post-meta">
           <span class="categoria">contos</span>
           <span>2026-11-18</span>
           <span>Leitura: ~5 min</span>
@@ -69,14 +74,12 @@
 Todos os dias, exatamente às 3h14, o rádio do porão ligava sozinho.
 
 Não era um rádio comum...</p>
+        </div>
       </article>
     </main>
-
   </div>
 
-
   <script>
-    /* Botão de esconder/mostrar sidebar inteira */
     const btn = document.getElementById('btnToggleSidebar');
     const shell = document.querySelector('.site-shell');
     btn.addEventListener('click', () => {
@@ -89,60 +92,6 @@ Não era um rádio comum...</p>
         btn.setAttribute('aria-label', 'Esconder barra lateral');
       }
     });
-
-    /* Animação cascata das abas de categoria */
-    const titulos = document.querySelectorAll('.categoria-titulo');
-    titulos.forEach((titulo) => {
-      const lista = titulo.nextElementSibling;
-      if (!lista || !lista.classList.contains('lista-topicos')) return;
-      const itens = Array.from(lista.querySelectorAll('li'));
-
-      function abrir() {
-        lista.style.display = 'block';
-        lista.style.visibility = 'visible';
-        void lista.offsetHeight;
-        itens.forEach((li, i) => {
-          li.style.animation = 'none';
-          li.offsetHeight;
-          li.style.animation = `slideFadeIn 0.3s ease forwards`;
-          li.style.animationDelay = `${i * 70}ms`;
-        });
-        titulo.setAttribute('aria-expanded', 'true');
-      }
-
-      function fechar() {
-        const ultimo = itens.length - 1;
-        itens.forEach((li, i) => {
-          li.style.animation = 'none';
-          li.offsetHeight;
-          li.style.animation = `slideFadeOut 0.2s ease forwards`;
-          li.style.animationDelay = `${i * 60}ms`;
-        });
-        setTimeout(() => {
-          lista.style.display = 'none';
-          lista.style.visibility = 'hidden';
-          itens.forEach(li => { li.style.animation = 'none'; });
-        }, ultimo * 60 + 250);
-        titulo.setAttribute('aria-expanded', 'false');
-      }
-
-      titulo.addEventListener('click', () => {
-        const aberto = lista.style.display === 'block';
-        if (aberto) {
-          fechar();
-        } else {
-          abrir();
-        }
-      });
-
-      titulo.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          titulo.click();
-        }
-      });
-    });
   </script>
-
 </body>
 </html>
