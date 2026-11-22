@@ -7,16 +7,6 @@
   <link rel="stylesheet" href="../style.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937131805632227" crossorigin="anonymous"></script>
 </head>
-  <!-- Canvas de névoa (atrás de tudo) -->
-  <canvas id="nevoa-canvas"></canvas>
-
-  <!-- Overlay de transição -->
-  <div id="transicao-overlay">
-    <div class="transicao-linha"></div>
-    <div class="transicao-texto">Carregando o insólito...</div>
-    <div class="transicao-spinner"></div>
-  </div>
-
 <body class="bg-black text-white font-sans leading-relaxed min-h-screen">
   <div class="site-shell flex min-h-screen transition-all duration-300" id="site-shell">
     <button class="btn-toggle-sidebar" id="btnToggleSidebar" aria-label="Esconder barra lateral">☰</button>
@@ -131,97 +121,5 @@
     });
   </script>
 
-
-  <script>
-    /* === NÉVOA INTERATIVA === */
-    (function(){
-      const canvas = document.getElementById('nevoa-canvas');
-      const ctx = canvas.getContext('2d');
-      let width, height;
-      let mouseX = -1000;
-      let mouseY = -1000;
-
-      function resize(){
-        width = canvas.width = window.innerWidth;
-        height = canvas.height = window.innerHeight;
-      }
-      window.addEventListener('resize', resize);
-      window.addEventListener('mousemove', e => {
-        mouseX = e.clientX;
-        mouseY = e.clientY;
-      });
-
-      const particulas = [];
-      const qtd = 25;
-      for(let i=0; i<qtd; i++){
-        particulas.push({
-          x: Math.random() * width,
-          y: Math.random() * height,
-          vx: (Math.random() - 0.5) * 0.3,
-          vy: (Math.random() - 0.5) * 0.3,
-          raio: 150 + Math.random() * 200,
-          alpha: 0.05 + Math.random() * 0.1,
-          fase: Math.random() * Math.PI * 2
-        });
-      }
-
-      function desenhar(){
-        ctx.clearRect(0, 0, width, height);
-        const tempo = Date.now() * 0.001;
-
-        particulas.forEach(p => {
-          p.x += p.vx + Math.sin(tempo + p.fase) * 0.2;
-          p.y += p.vy + Math.cos(tempo + p.fase) * 0.2;
-
-          const dx = mouseX - p.x;
-          const dy = mouseY - p.y;
-          const dist = Math.sqrt(dx*dx + dy*dy);
-          if(dist < 400){
-            const forca = (400 - dist) / 400;
-            p.x += dx * forca * 0.02;
-            p.y += dy * forca * 0.02;
-            p.alpha = 0.08 + forca * 0.12;
-          } else {
-            p.alpha = 0.05 + Math.sin(tempo + p.fase) * 0.03;
-          }
-
-          if(p.x < -300) p.x = width + 300;
-          if(p.x > width + 300) p.x = -300;
-          if(p.y < -300) p.y = height + 300;
-          if(p.y > height + 300) p.y = -300;
-
-          ctx.beginPath();
-          ctx.arc(p.x, p.y, p.raio, 0, Math.PI * 2);
-          ctx.fillStyle = `rgba(200, 210, 220, ${p.alpha})`;
-          ctx.fill();
-        });
-
-        requestAnimationFrame(desenhar);
-      }
-
-      resize();
-      desenhar();
-    })();
-
-    /* === JANELA DE TRANSIÇÃO === */
-    const overlay = document.getElementById('transicao-overlay');
-    const linksInternos = document.querySelectorAll('a[href$=".html"]');
-
-    linksInternos.forEach(link => {
-      link.addEventListener('click', function(e){
-        const href = this.getAttribute('href');
-        // Não interceptar âncoras ou links externos
-        if(href.startsWith('#') || href.startsWith('http') || href.startsWith('mailto:')) return;
-        e.preventDefault();
-        const destino = href;
-
-        overlay.classList.add('ativo');
-
-        setTimeout(() => {
-          window.location.href = destino;
-        }, 1400);
-      });
-    });
-  </script>
 </body>
 </html>
