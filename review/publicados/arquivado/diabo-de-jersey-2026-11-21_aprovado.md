@@ -1,8 +1,10 @@
-# Aprovação de Qualidade — diabo-de-jersey-2026-11-21.md
+# Aprovação de Qualidade — O Diabo que Nasceu de uma Maldição: a Lenda do Jersey Devil nos Pine Barrens
 
+**Slug:** diabo-de-jersey-2026-11-21  
 **Status:** APROVADO PARA PUBLICAÇÃO  
-**Verificador:** Curador-Revisor-Verificador (ZAMBRIA — O Insólito Presente)  
-**Data:** 2026-11-21  
-**Arquivo:** review/pendentes/diabo-de-jersey-2026-11-21.md  
-**Decisão:** O texto passou pela curadoria editorial (ortografia/gramática PT-BR, coesão e clareza narrativa, tom sombrio e adulto, sem sensacionalismo barato), pelo filtro final (sem cópia de 5+ palavras seguidas de fontes, sem erros graves de ortografia, título com suspense/curiosidade) e pela verificação de qualidade. Frontmatter sem `publicar: false`.  
-**Pronto para:** Publicador-Webmaster (Bloco C) — conversão para HTML.
+**Categoria:** criptozoologia  
+**Data da aprovação:** 2026-11-21T23:28:00-02:00  
+**Verificador:** Curador-Revisor-Verificador — ZAMBRIA  
+**Decisão:** O texto passou pela curadoria editorial (ortografia e gramática PT-BR, coesão narrativa, tom sombrio/adulto, gatekeeping de plágio e verificação de qualidade) e está liberado para o Publicador-Webmaster.  
+**Arquivo do artigo:** review/pendentes/diabo-de-jersey-2026-11-21.md  
+**Sinal de publicação:** sinais/aprovado-publicacao-diabo-de-jersey-2026-11-21.json  
