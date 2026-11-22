@@ -96,6 +96,18 @@
     {"id": "matinta-pereira", "categoria": "para", "titulo": "Matinta Pereira", "ultimo_uso": null},
     {"id": "mapinguari", "categoria": "crypto", "titulo": "Mapinguari", "ultimo_uso": null},
     {"id": "mula-sem-cabeca", "categoria": "para", "titulo": "Mula-sem-cabeça", "ultimo_uso": null},
-    {"id": "pisadeira", "categoria": "para", "titulo": "Pisadeira", "ultimo_uso": null}
+    {"id": "pisadeira", "categoria": "para", "titulo": "Pisadeira", "ultimo_uso": null},
+    {"id": "ufo-brasil-ubatuba", "categoria": "ufo", "titulo": "Caso Ubatuba — O Disco que se Desintegrou (1957)", "palavras_chave": ["ubatuba", "sao paulo", "ovni", "disco voador", "1957", "metal estranho"], "ultimo_uso": null},
+    {"id": "crypto-boto-cor-de-rosa", "categoria": "crypto", "titulo": "Boto Cor-de-Rosa — O Encantado dos Rios", "palavras_chave": ["boto", "cor-de-rosa", "amazonas", "encantado", "lenda", "rio"], "ultimo_uso": null},
+    {"id": "para-luz-mansa", "categoria": "para", "titulo": "Luz Mansa — As Luzes que Não Queimam", "palavras_chave": ["luz mansa", "maranhao", "piaui", "luz misteriosa", "noite", "serra"], "ultimo_uso": null},
+    {"id": "para-cabeca-de-cuia", "categoria": "para", "titulo": "Cabeça de Cuia — A Entidade Sem Corpo", "palavras_chave": ["cabeca de cuia", "mato grosso", "entidade", "folclore", "sombra"], "ultimo_uso": null},
+    {"id": "para-negrinho-pastoreio", "categoria": "para", "titulo": "Negrinho do Pastoreio — O Menino que Ajuda dos Campos", "palavras_chave": ["negrinho do pastoreio", "rio grande do sul", "menino", "escravo", "protecao"], "ultimo_uso": null},
+    {"id": "crypto-iara", "categoria": "crypto", "titulo": "Iara — Senhora das Águas e dos Encantos", "palavras_chave": ["iara", "senhora das aguas", "tupi", "agua", "encanto", "rio"], "ultimo_uso": null},
+    {"id": "ufo-contato-terceiro-grau-brasil", "categoria": "ufo", "titulo": "Contato de Terceiro Grau no Brasil — Registros e Testemunhos", "palavras_chave": ["contato terceiro grau", "brasil", "ovni", "testemunha", "contato proximo"], "ultimo_uso": null},
+    {"id": "nature-chuva-de-sangue", "categoria": "nature", "titulo": "Chuva de Sangue — Quando o Céu Chora Vermelho", "palavras_chave": ["chuva de sangue", "fenomeno", "vermelho", "ceu", "misterio", "brasil"], "ultimo_uso": null},
+    {"id": "conspir-fab-arquivos-ovnis", "categoria": "conspir", "titulo": "Arquivos Secretos da FAB — OVNIs nos Documentos da Força Aérea", "palavras_chave": ["fab", "forca aerea brasileira", "ovni", "arquivo secreto", "documento", "desclassificado"], "ultimo_uso": null},
+    {"id": "para-encantado-igarape", "categoria": "para", "titulo": "Encantados dos Igarapés — Seres das Águas Amazônicas", "palavras_chave": ["encantado", "igarapes", "amazonia", "seres das aguas", "folclore", "norte"], "ultimo_uso": null},
+    {"id": "nature-bola-de-fogo", "categoria": "nature", "titulo": "Bola de Fogo — Meteoros e Fenômenos Luminosos no Céu", "palavras_chave": ["bola de fogo", "meteoro", "luminoso", "ceu", "fenomeno natural", "brasil"], "ultimo_uso": null},
+    {"id": "crypto-cabra-de-prata", "categoria": "crypto", "titulo": "Cabra de Prata — A Besta do Interior Paulista", "palavras_chave": ["cabra de prata", "sao paulo", "besta", "criptozoologia", "interior", "folclore"], "ultimo_uso": null}
   ]
 }
