@@ -24,6 +24,8 @@ Para a ciência, o chupa-cabra nunca existiu [1]. A explicação mais aceita apo
 
 Mesmo 20 anos depois, ufólogos envolvidos no caso não têm opinião definitiva [1]. A cabra de prata — seja qual for o nome que se dê a ela — fica como uma lenda do interior paulista, de ataques noturnos em áreas rurais, de animais encontrados secos e de uma pergunta que ninguém conseguiu responder com certeza: o que, afinal, estava matando os rebanhos de São Roque e Ribeirão Branco?
 
+A cabra de prata — ou chupa-cabra, como ficou mais conhecida — ficou como uma lenda do interior paulista, de ataques noturnos em áreas rurais, de animais encontrados secos, com barriga cortada e sem os pés [1]. O pânico mobilizou investigações policiais e atraiu a atenção de ufólogos, que registraram dezenas de ataques em São Roque, Araçoiaba da Serra, Ribeirão Branco, Sorocaba e Pereiras [1]. Para a ciência, o chupa-cabra nunca existiu; a explicação mais aceita aponta para cães e coiotes com sarna, e as mortes como obra de predadores comuns [1]. Os inquéritos policiais foram arquivados sem autoria, e mesmo vinte anos depois ufólogos envolvidos no caso não têm opinião definitiva [1]. O que permanece, depois que o medo esfria, é a pergunta sem resposta: o que, afinal, estava matando os rebanhos do interior de São Paulo? E por que, ainda hoje, há quem feche as portas ao escurecer, temendo algo que ninguém conseguiu nomear com certeza [1][2]?
+
 ## Fontes
 
 1. Diário do Litoral — "Chupa-cabra: criatura vampiresca que assustou os brasileiros nos anos 90 existiu ou foi um delírio coletivo?". https://www.diariodolitoral.com.br/nacional/brasil/chupa-cabra-criatura-vampiresca-que-assustou-os-brasileiros-nos-anos-90-existiu-ou-foi-um-delirio-coletivo

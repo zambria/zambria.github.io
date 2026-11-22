@@ -30,6 +30,8 @@ Há versões que contam que ela era uma guerreira bonita e corajosa, transformad
 
 A Iara é uma lenda de atração e de perda, de um canto que não se deve ouvir e de águas que não devolvem o que levam. O que arrepia não é a sereia em si, mas o silêncio que segue aquele que se aproxima demais da superfície do rio — e a certeza de que, nos fundos da Amazônia, há coisas que esperam ser ouvidas.
 
+A Iara é, antes de tudo, uma lenda sobre a voz que não se deve ouvir [1][2][3][4]. Seu canto maravilhoso exerce uma atração irresistível sobre os homens, arrastando-os para os fundos dos rios amazônicos, de onde não retornam — ou retornam enlouquecidos, incapazes de resistir à voz doce que veio da sereia [2][3][4]. Há quem diga que ela era uma guerreira bonita e corajosa, transformada em sereia durante uma noite de lua cheia [3]. Há quem relate que, após a morte, uma pessoa "botada" por um boto-vermelho pode ser transformada pela Iara em boto-vermelho, se seu corpo for posto à mercê das águas [1]. No Norte do Brasil, o canto da Iara representa a perdição dos pescadores, e quem olhar para a superfície dos rios e vir a bela sereia será arrastado para seu palácio de cristais verdes, no fundo das águas [4]. O que fica, depois que o canto se cala, é o silêncio do rio — e a dúvida de quantos que se aproximam demais da água jamais voltarão para contá-lo [1][2][3][4].
+
 ## Fontes
 
 1. Wikipédia — "Iara". https://pt.wikipedia.org/wiki/Iara

@@ -26,6 +26,8 @@ Há histórias de pescadores que desapareceram durante uma viagem por um rio que
 
 Os encantados são lembrados como punidores e protetores, como o mundo visível e o invisível que se tocam à beira da água.
 
+Os encantados não são apenas personagens de história; são o próprio limite entre o mundo visível e o invisível que se toca à beira da água [1][2][3]. Ribeirinhos da Amazônia acreditam que algumas pessoas não morrem — são levadas para um mundo invisível, escondido logo abaixo da superfície, onde viveriam seres conhecidos como encantados [1][2]. Eles aparecem durante o dia ou à noite, geralmente nas horas sagradas (6h, 12h, 18h e 24h), à beira de um igarapé, nas matas, nos rios [2]. Quando os humanos se tornam gananciosos e desrespeitosos com a natureza, os seres encantados revelam-se para defendê-la [2]. Há histórias de pescadores que desapareceram em rios que conheciam desde a infância, cujas canoas nunca foram encontradas, e para quem moradores dizem que foram levados pelos encantados para cidades escondidas sob os rios, parecidas com as dos homens, mas muito mais belas [2]. Em Ananindeua, no Pará, conta-se que, à meia-noite, aparece nos igarapés uma sereia de cabelos pretos e longos — e que à meia-noite ninguém deve se aproximar dos igarapés [3]. O que fica, depois que a água volta ao seu curso, é a certeza de que os rios da Amazônia guardam mais do que se enxerga [1][2][3].
+
 ## Fontes
 
 1. Scribd — "Encantados: seres que nascem nas águas e matas de Igarapé-Miri, Amazônia". https://pt.scribd.com/document/830236747/Encantados-seres-que-nascem-nas-aguas-e-matas-de-Igarape-Miri-Amazonia

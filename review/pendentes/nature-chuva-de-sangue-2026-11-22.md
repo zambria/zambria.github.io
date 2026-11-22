@@ -26,6 +26,8 @@ Na Europa e em partes da América Latina, a explicação mais comum para a chuva
 
 A associação cultural do vermelho com perigo, sangue e catástrofe faz com que o fenômeno ganhe destaque imediato sempre que ocorre [2]. Não é um sinal de apocalipse: é a atmosfera devolvendo, na forma de chuva, o que o vento levantou do solo. O que fica, depois que a cor some, é a lembrança de que o céu, por vezes, chora de vermelho — e que não precisamos de sobrenatural para sentir arrepio.
 
+Apesar de todo o aparato científico, a chuva de sangue continua a assustar porque toca um medo antigo: o de que o céu esteja ferido, sangrando [1][2]. A associação cultural do vermelho com perigo, sangue e catástrofe faz com que o fenômeno ganhe destaque imediato sempre que ocorre, transformando uma explicação atmosférica em presságio [2]. O episódio de Kerala, em 2001, com semanas de chuva vermelha forte o suficiente para manchar roupas, mostra como o inexplicável — mesmo quando explicado — deixa marcas na imaginação coletiva [1][3]. E, cada vez que o céu se colora de vermelho sobre uma cidade, há quem se lembre de que a natureza, por si só, já é capaz de produzir arrepios sem precisar do sobrenatural [1][2][3][4].
+
 ## Fontes
 
 1. BBC News Brasil — "'Chuva de sangue': o que é e por que o fenômeno acontece". https://bbc.com/portuguese/articles/c72g7v10z02o

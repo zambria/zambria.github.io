@@ -26,6 +26,8 @@ A lenda surgiu no século XIX, de origem africana e cristã, contada por brasile
 
 O que arrepia no Negrinho do Pastoreio não é um monstro, mas a crueldade de um adulto contra uma criança e a ideia de que, sob a terra ou sob as formigas, algo ainda protege os pequenos e os esquecidos.
 
+O Negrinho do Pastoreio é, acima de tudo, uma lenda sobre a infância roubada pela escravidão e sobre a proteção que vem de onde não se espera [1][2][3]. Um menino sem nome, sem padrinhos, sem família, que se dizia afilhado da Virgem Maria — exatamente aquele que a sociedade mais desprezava foi o escolhido para ser amparado [1][3]. O formigueiro onde foi deixado para morrer tornou-se, paradoxalmente, o lugar de seu renascimento, com a pele lisa e a Virgem ao seu lado [1][3]. Considerado santo das causas perdidas, o Negrinho é ainda hoje invocado por quem perdeu algo e não consegue encontrar: acende-se uma vela, pede-se sua ajuda, e acredita-se que o menino escravo ainda caminha pelos campos do sul com o cavalo baio [1]. O arrepio da lenda não está no sobrenatural em si, mas na crueldade de um adulto contra uma criança indefesa — e na certeza de que, mesmo assim, algo ainda protege os pequenos e os esquecidos [2][3].
+
 ## Fontes
 
 1. Palácio Piratini (Governo do Rio Grande do Sul) — "A Lenda do Negrinho do Pastoreio". https://palaciopiratini.rs.gov.br/a-lenda-do-negrinho-do-pastoreiro

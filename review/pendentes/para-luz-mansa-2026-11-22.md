@@ -28,6 +28,8 @@ No imaginário popular, essas luzes se associam à "Mãe do Ouro", esfera de luz
 
 O que se sabe é que os relatos se acumulam, que a luz surge sempre no mesmo ponto — em Barras, o local conhecido como Salto de Pedra tornou-se referência para quem tenta explicar o que acontece [3] — e que, para quem vive no sertão, o céu noturno não é mais apenas escuridão: é um lugar onde algo se move, silencioso, sem explicação fechada.
 
+O que torna as luzes mansas mais inquietantes do que um simples ponto luminoso no céu é o comportamento que as testemunhas atribuem a elas: a capacidade de acompanhar, de parar quando a pessoa pára, de mudar de direção sem ruído [1][3]. No sertão do Piauí e do Maranhão, essa luz não é apenas um objeto no céu — é uma presença que observa, que sinaliza, que não se deixa explicar pelas ferramentas disponíveis [2][3]. Enquanto não houver um laudo oficial conclusivo, o fenômeno permanece no limbo entre a atmosfera e o imaginário, e o céu noturno do interior brasileiro continua a guardar luzes que ninguém consegue nomear com certeza [1][2][3].
+
 ## Fontes
 
 1. Diário em Foco — "O fenômeno das luzes misteriosas que aparecem no céu do interior do Maranhão". https://diarioemfoco.com.br/o-fenomeno-das-luzes-misteriosas-que-aparecem-no-ceu-do-interior-do-maranhao

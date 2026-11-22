@@ -28,6 +28,8 @@ A lenda do Cabeça de Cuia ganhou notoriedade no Piauí no final do século XIX 
 
 O Cabeça de Cuia é uma lenda de culpa e de punição, de uma mãe que não perdoa a crueldade do filho e de um rio que guarda o que nele se lança. O que arrepia não é apenas a criatura com cabeça de cuia, mas a ideia de que a maldição tenha um prazo — 49 anos, sete Marias — e de que, enquanto esse prazo não se cumpra, as águas do Parnaíba e do Poti continuem a esconder algo que volta, ciclicamente, à superfície.
 
+A maldição de Cabeça de Cuia não é apenas a punição de um filho cruel; é a história de uma mãe que, mesmo na morte, não perdoa, e de um rio que se torna testemunha e cúmplice [1][2]. Crispim, condenado a vagar por 49 anos sob a forma de criatura com cabeça de cuia, representa a culpa que não se deixa enterrar — ela afunda no Parnaíba e ressurge, a cada sete anos, na busca pelas sete Marias virgens [1][2]. O fato de a lenda ter sido reconhecida como Patrimônio Cultural Imaterial do Piauí em 2023 mostra que, para o povo piauiense, o Cabeça de Cuia é mais que um monstro: é parte da memória das águas que cercam Teresina [1]. E ainda hoje, às margens do Parnaíba e do Poti, há quem evite o rio à noite, com medo de encontrar, nas águas escuras, uma cabeça grande semelhante a uma cuia [1][2].
+
 ## Fontes
 
 1. Wikipédia — "Cabeça de Cuia". https://pt.wikipedia.org/wiki/Cabe%C3%A7a_de_Cuia

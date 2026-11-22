@@ -30,6 +30,8 @@ O boto verdadeiro — Inia geoffrensis — é um animal real, ameaçado pela deg
 
 O que fica da história é o limiar entre o animal e o homem, entre a noite e o amanhecer, entre o que se pode nomear e o que escapa ao nome. O boto-cor-de-rosa não mata nem assombra no sentido clássico; ele seduz e some. E no seu rastro fica a dúvida que percorre os rios da Amazônia: quantos homens que dançam nos bailes de lua cheia são, de fato, homens? E quem volta para a água antes do amanhecer leva consigo algo que nunca mais retorna?
 
+Mais do que uma história de sedução, o boto-cor-de-rosa funciona como um espelho das águas amazônicas: um lembrete de que o rio guarda o que lhe é confiado e devolve, às vezes, em forma de homem [1][2]. Nas comunidades ribeirinhas, o cuidado em tirar o chapéu de um desconhecido no baile de lua cheia não é apenas superstição; é um código de proteção contra o que se disfarça de familiar [1]. O boto real, Inia geoffrensis, segue ameaçado pela degradação dos rios, e com ele se apaga parte da lenda que o tornou visível [2]. O que fica, quando a música acaba e a noite se vai, é a certeza de que algumas belezas são perigosas justamente porque parecem inofensivas.
+
 ## Fontes
 
 1. Wikipédia — "Lenda do boto". https://pt.wikipedia.org/wiki/Lenda_do_boto
