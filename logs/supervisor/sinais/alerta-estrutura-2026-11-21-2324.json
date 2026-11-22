@@ -1,0 +1,54 @@
+{
+  "data": "2026-11-21T23:24:00-02:00",
+  "job": "supervisor-fiscal-zambria",
+  "tipo": "inconsistencia-estrutural",
+  "severidade": "critica",
+  "pipeline_travado": false,
+  "origem": "Supervisor Fiscal (Bloco D)",
+  "problemas": [
+    {
+      "arquivo": "index.html (links posts/)",
+      "descricao": "27 links quebrados: href aponta para arquivos .html inexistentes em posts/. Os respectivos .md existem em review/ficcoes/ mas nunca foram publicados como HTML. Ex: posts/a-chuva-de-peixes-de-yoro.html, posts/o-laudo-da-frequencia-19.html, posts/o-turno-das-3h17.html, posts/o-zumbido-serrado-da-marcenaria.html.",
+      "referencia_6b": "Passo 6 (item 2) / 6B-f"
+    },
+    {
+      "arquivo": "posts/*.html",
+      "descricao": "Script de animacao cascata (slideFadeIn/slideFadeOut) ausente em 149 de 204 posts (apenas 55/204 possuem).",
+      "referencia_6b": "Passo 6B-b"
+    }
+  ],
+  "estrutura_site": {
+    "index_html_sincronizado_com_posts": "parcial (todos os 204 posts estao linkados, mas ha 27 links quebrados para arquivos inexistentes)",
+    "posts_total": 204,
+    "links_quebrados": 27,
+    "botao_toggle_fixo": "presente, fora do aside, position:fixed (style.css), z-index:9999",
+    "script_balanceado_index_html": true,
+    "posts_com_script_balanceado": "204/204",
+    "posts_com_animacao_cascata": "55/204",
+    "classes_inconsistentes_topicos_lista": false,
+    "onclick_toggleCategoria": false,
+    "toggle_dentro_do_aside": false
+  },
+  "ficcoes": {
+    "review_ficcoes_contem_o_laudo_do_turno_da_noite": true,
+    "o_laudo_do_turno_da_noite_publicar_false": true,
+    "ignorar_para_publicacao": true,
+    "regra_seguranca_primeira_historia_aplicada": true
+  },
+  "aprovados_parados": {
+    "aprovados_publicados_excluindo_arquivado": 151,
+    "aprovados_pendentes": 0,
+    "posts_publicados": 204,
+    "alerta_conteudo_parado": false,
+    "erro_fluxo_pendentes": false
+  },
+  "jobs": {
+    "monitorados": 5,
+    "ativos": 5,
+    "pausados": 0,
+    "erro_persistente": 0,
+    "jobs_json_alterado": false
+  },
+  "destinatarios": ["Curador-Chefe (ciencia)", "Publicador-Webmaster (correcao imediata)"],
+  "solicitacao": "Corrigir links quebrados no index.html (publicar os 27 posts faltantes ou remover os links) e restaurar o script de animacao cascata (slideFadeIn/slideFadeOut) nos 149 posts que falta. Correcao imediata de responsabilidade do Publicador-Webmaster; ciencia do Curador-Chefe. Nao interrompe o pipeline. Alerta persistente desde o ciclo anterior (23:07) ainda nao resolvido."
+}

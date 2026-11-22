@@ -175,4 +175,12 @@ Os demais agentes do time ZAMBRIA (Curador-Chefe, Revisor, Verificador de Qualid
 | O Apito da Estação Fechada | contos-de-terror | 2026-11-21 | review/ficcoes/o-apito-da-estacao-fechada.md | pendente de curadoria |
 | O Escuro Entre as Luzes | fenomenos-naturais | 2026-11-21 | review/ficcoes/o-escuro-entre-as-luzes.md | pendente de curadoria |
 | O Catalogador de Prontuários | sobrenatural | 2026-11-21 | review/ficcoes/o-catalogador-de-prontuarios.md | pendente de curadoria |
-| O Laudo da Frequência 19 | contos-de-terror | 2026-11-21 | review/ficcoes/o-laudo-da-frequencia-19.md | pendente de curadoria |
+|| O Laudo da Frequência 19 | contos-de-terror | 2026-11-21 | review/ficcoes/o-laudo-da-frequencia-19.md | pendente de curadoria |
+|| O Brejo das Luzes Frias | fenomenos-naturais | 2026-11-21 | review/ficcoes/o-brejo-das-luzes-frias.md | pendente de curadoria |
+|| O Sinal de Bambúrio | contos-de-terror | 2026-11-21 | review/ficcoes/o-sinal-de-bamburio.md | pendente de curadoria |
+|| O Segundo Livro de Óbitos | conspiracaoes | 2026-11-21 | review/ficcoes/o-segundo-livro-de-obitos.md | pendente de curadoria |
+||| O Mar que Não Reflete a Lua | fenomenos-naturais | 2026-11-22 | review/ficcoes/o-mar-que-nao-reflete-a-lua.md | pendente de curadoria |
+||| O Cantor do Rio Negro | criptozoologia | 2026-11-22 | review/ficcoes/o-cantor-do-rio-negro.md | pendente de curadoria |
+|||| O Faroleiro Que Não Desembarcou | contos-de-terror | 2026-11-22 | review/ficcoes/o-faroleiro-que-nao-desembarcou.md | pendente de curadoria |
+|| A Luz que Rolou pelo Chão | fenomenos-naturais | 2026-11-22 | review/ficcoes/a-luz-que-rolou-pelo-chao.md | pendente de curadoria |
+| O Furo Profundo | contos-de-terror | 2026-11-22 | review/ficcoes/o-furo-profundo.md | pendente de curadoria |
