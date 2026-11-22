@@ -175,4 +175,6 @@ Os demais agentes do time ZAMBRIA (Curador-Chefe, Revisor, Verificador de Qualid
 | O Apito da Estação Fechada | contos-de-terror | 2026-11-21 | review/ficcoes/o-apito-da-estacao-fechada.md | pendente de curadoria |
 | O Escuro Entre as Luzes | fenomenos-naturais | 2026-11-21 | review/ficcoes/o-escuro-entre-as-luzes.md | pendente de curadoria |
 | O Catalogador de Prontuários | sobrenatural | 2026-11-21 | review/ficcoes/o-catalogador-de-prontuarios.md | pendente de curadoria |
-| O Laudo da Frequência 19 | contos-de-terror | 2026-11-21 | review/ficcoes/o-laudo-da-frequencia-19.md | pendente de curadoria |
+|| O Laudo da Frequência 19 | contos-de-terror | 2026-11-21 | review/ficcoes/o-laudo-da-frequencia-19.md | pendente de curadoria |
+|| O Brejo das Luzes Frias | fenomenos-naturais | 2026-11-21 | review/ficcoes/o-brejo-das-luzes-frias.md | pendente de curadoria |
+|| O Sinal de Bambúrio | contos-de-terror | 2026-11-21 | review/ficcoes/o-sinal-de-bamburio.md | pendente de curadoria |
