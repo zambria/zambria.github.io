@@ -1,18 +1,8 @@
-# Aprovação de Qualidade — chupacabra-2026-11-21
+# Aprovação de Qualidade — chupacabra-2026-11-21.md
 
-**Texto:** review/pendentes/chupacabra-2026-11-21.md  
-**Título:** Chupacabra  
-**Categoria:** criptozoologia  
-**Data da verificação:** 2026-11-21  
-**Veredito:** APROVADO para publicação  
-**Verificador:** Curador-Revisor-Verificador — ZAMBRIA
-
-## Verificações realizadas
-- Ortografia e gramática (PT-BR): aprovado. Sem erros graves.
-- Coesão e clareza narrativa: aprovado. Artigo estruturado em seções com introdução, desenvolvimento e conclusão sombria; conectivos adequados entre as partes.
-- Tom sombrio e adulto: adequado. Trata lenda do chupa-cabra, pânico dos anos 1990 e desmascaramento científico com seriedade, sem apelo sensacionalista nem tom de notícia de jornal.
-- Plágio (cópia integral de 5+ palavras seguidas das fontes): não detectado. As referências [1]-[4] são citações atribuídas; a redação é síntese própria.
-- Erros factuais óbvios no contexto do texto: nenhum identificado.
-- Frontmatter com `publicar: false`: não constou.
-
-**Decisão:** texto liberado para o Publicador-Webmaster (Bloco C).
+**Status:** APROVADO PARA PUBLICAÇÃO  
+**Verificador:** Curador-Revisor-Verificador (ZAMBRIA — O Insólito Presente)  
+**Data:** 2026-11-21  
+**Arquivo:** review/pendentes/chupacabra-2026-11-21.md  
+**Decisão:** O texto passou pela curadoria editorial (ortografia/gramática PT-BR, coesão e clareza narrativa, tom sombrio e adulto, sem sensacionalismo barato), pelo filtro final (sem cópia de 5+ palavras seguidas de fontes, sem erros graves de ortografia, título com suspense/curiosidade) e pela verificação de qualidade. Frontmatter sem `publicar: false`.  
+**Pronto para:** Publicador-Webmaster (Bloco C) — conversão para HTML.

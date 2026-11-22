@@ -219,7 +219,8 @@
       "total_buscas": 1,
       "fontes_encontradas": 2,
       "ultimo_relatorio": "pesquisas/2026-11-21-arch-11.md",
-      "status": "atualizado"
+      "status": "atualizado",
+      "direcao_proxima_execucao": "Pesquisador Profundo: aprofundar arch-11 'Antes do Dilúvio' — investigar civilizações antediluvianas e mitos do dilúvio em diferentes culturas, evidências geológicas de inundações catastróficas antigas, possíveis vestígios de cidades ou estruturas anteriores ao dilúvio, e hipóteses sobre uma civilização avançada pré-diluviana; buscar fontes acadêmicas, arqueológicas e geológicas; evitar ruído de notícias policiais ou políticas."
     },
     "para-01": {
       "ultima_busca": "2026-11-21T08:33:00-03:00",
@@ -229,11 +230,11 @@
       "status": "atualizado"
     },
     "para-02": {
-      "ultima_busca": "2026-11-21T08:33:00-03:00",
-      "total_buscas": 1,
-      "fontes_encontradas": 1,
-      "ultimo_relatorio": "pesquisas/2026-11-21-para-02.md",
-      "status": "atualizado"
+      "ultima_busca": "2026-11-21T20:40:00-02:00",
+      "total_buscas": 6,
+      "fontes_encontradas": 13,
+      "ultimo_relatorio": "review/pendentes/mentes-que-movem-objetos-2026-11-21.md",
+      "status": "escrito"
     },
     "para-03": {
       "ultima_busca": "2026-11-21T08:33:00-03:00",

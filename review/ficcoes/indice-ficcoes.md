@@ -147,5 +147,29 @@ Os demais agentes do time ZAMBRIA (Curador-Chefe, Revisor, Verificador de Qualid
 |||| A Fita que Hollanda Não Entregou | ufos | 2026-11-21 | review/ficcoes/a-fita-que-hollanda-nao-entregou.md | pendente de curadoria |
 |||||| A Seca que Trouxe Vozes | fenomenos-naturais | review/ficcoes/a-seca-que-trouxe-vozes.md | pendente de curadoria |
 |||||| A Água que o Poço Devolveu | fenomenos-naturais | review/ficcoes/a-agua-que-o-poco-devolveu.md | pendente de curadoria |
-| O Município que Não Está no Mapa | conspiracoes | 2026-11-21 | review/ficcoes/o-municipio-que-nao-esta-no-mapa.md | pendente de curadoria |
-| O Encantado do Igarapé | criptozoologia | 2026-11-21 | review/ficcoes/o-encantado-do-igarape.md | pendente de curadoria |
+|| O Município que Não Está no Mapa | conspiracoes | 2026-11-21 | review/ficcoes/o-municipio-que-nao-esta-no-mapa.md | pendente de curadoria |
+|| O Encantado do Igarapé | criptozoologia | 2026-11-21 | review/ficcoes/o-encantado-do-igarape.md | pendente de curadoria |
+||| A Sombra no Caminho da Onça | criptozoologia | 2026-11-21 | review/ficcoes/a-sombra-no-caminho-da-onca.md | pendente de curadoria |
+|| O Gravador de Silêncios | contos-de-terror | 2026-11-21 | review/ficcoes/o-gravador-de-silencios.md | pendente de curadoria |
+||| A Chuva que Trouxe Escamas | fenomenos-naturais | 2026-11-21 | review/ficcoes/a-chuva-que-trouxe-escamas.md | pendente de curadoria |
+||||| O Que a Pororoca Deixou na Lama | contos-de-terror | 2026-11-21 | review/ficcoes/o-que-a-pororoca-deixou-na-lama.md | pendente de curadoria |
+||||| O Estrondo da Costa | fenomenos-naturais | 2026-11-21 | review/ficcoes/o-estrondo-da-costa.md | pendente de curadoria |
+| A Pintura Que Não Estava Ontem | arqueologia | 2026-11-21 | review/ficcoes/a-pintura-que-nao-estava-ontem.md | pendente de curadoria |
+| Os Faróis que Nunca Chegam | fenomenos-naturais | 2026-11-21 | review/ficcoes/os-farois-que-nunca-chegam.md | pendente de curadoria |
+| O Turno das 3h17 | contos-de-terror | 2026-11-21 | review/ficcoes/o-turno-das-3h17.md | pendente de curadoria |
+| O Alvo Sem Assinatura | ufos | 2026-11-21 | review/ficcoes/o-alvo-sem-assinatura.md | pendente de curadoria |
+|| O Canto que Não Tem Assinatura | criptozoologia | 2026-11-21 | review/ficcoes/o-canto-sem-assinatura.md | pendente de curadoria |
+|| A Chuva de Peixes de Yoro | fenomenos-naturais | 2026-11-21 | review/ficcoes/a-chuva-de-peixes-de-yoro.md | pendente de curadoria |
+| O Canto Abaixo da Hematita | fenomenos-naturais | review/ficcoes/o-canto-abaixo-da-hematita.md | pendente de curadoria |
+| As Mãos Que Apertavam os Olhos | arqueologia | 2026-11-21 | review/ficcoes/as-maos-que-apertavam-os-olhos.md | pendente de curadoria |
+|| O Porteiro Noturno do Edifício Vago | contos-de-terror | 2026-11-21 | review/ficcoes/o-porteiro-noturno-edificio-vago.md | pendente de curadoria |
+|| O Guarda-Noturno do Depósito 13 | contos-de-terror | 2026-11-21 | review/ficcoes/o-guarda-noturno-do-deposito-13.md | pendente de curadoria |
+| Os Quadros que o Ácido Não Apagou | contos-de-terror | 2026-11-21 | review/ficcoes/os-quadros-que-o-acido-nao-apagou.md | pendente de curadoria |
+|| A Névoa das Três e Dezessete | fenomenos-naturais | 2026-11-21 | review/ficcoes/a-nevoa-das-tres-e-dezessete.md | pendente de curadoria |
+|| O Cheiro que Vem Antes do Silêncio | criptozoologia | 2026-11-21 | review/ficcoes/o-cheiro-que-vem-antes-do-silencio.md | pendente de curadoria |
+|| O Fragmento de Ubatuba | ufos | 2026-11-21 | review/ficcoes/o-fragmento-de-ubatuba.md | pendente de curadoria |
+| O Zumbido Serrado da Marcenaria | contos-de-terror | 2026-11-21 | review/ficcoes/o-zumbido-serrado-da-marcenaria.md | pendente de curadoria |
+|| O Que Pisca nos Montes da Terra | fenomenos-naturais | review/ficcoes/o-que-pisca-nos-montes-da-terra.md | pendente de curadoria |
+|| O Sino da Igreja Submersa | sobrenatural | 2026-11-21 | review/ficcoes/o-sino-da-igreja-submersa.md | pendente de curadoria |
+|| O Espectro do Brocken | fenomenos-naturais | review/ficcoes/o-espectro-do-brocken.md | pendente de curadoria |
+| O Apito da Estação Fechada | contos-de-terror | 2026-11-21 | review/ficcoes/o-apito-da-estacao-fechada.md | pendente de curadoria |

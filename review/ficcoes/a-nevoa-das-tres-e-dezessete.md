@@ -1,0 +1,40 @@
+---
+titulo: "A Névoa das Três e Dezessete"
+resumo: "No vale de Barra do Alumbre, a névoa desce sempre às 3h17 e chama nomes próprios. Um homem volta para descobrir o que levou o tio — e descobre o que a névoa deixa no lugar de quem some."
+categoria: "fenomenos-naturais"
+data: "2026-11-21"
+slug: "a-nevoa-das-tres-e-dezessete"
+tipo: "ficcao"
+fonte_pesquisa: "NOAA National Weather Service (How Fog Forms); Simepar/AEN (nevoeiros por ponto de orvalho); EM — lendas mineiras"
+status: "pendente de curadoria"
+---
+
+Voltei a Barra do Alumbre na segunda semana de outubro, depois que meu tio Rafael saiu de casa para comprar fósforos e nunca mais cruzou a ponte do rio. Não houve velório, não houve corpo. Apenas uma bota esquerda, úmida, deixada na beira da estrada que desce para o vale, encontrada às três e dezessete da manhã de um dia 31 de outubro. O relógio do ponto de ônibus parou naquele minuto e ninguém conseguiu consertá-lo desde então.
+
+Barra do Alumbre é um daqueles vilarejos que o mapa esqueceu: trezentas casas, uma igreja sem padre, uma estação meteorológica abandonada desde 1998. Fica num recuo da serra onde o ar frio escorrega pelas encostas ao anoitecer e se acumula no fundo do vale. Lá, segundo todos, a névoa não se comporta como névoa.
+
+Comecei minha investigação pelos cadernos da estação. Havia vinte e dois volumes, um por ano, de 1976 a 1998. Cada entrada da noite seguia o mesmo padrão: "Névoa iniciou 03:17, duração média de 23 minutos, direção do vale para a serra." Não importava a estação, não importava se choveu ou secou durante o dia. A névoa começava às três e dezessete em ponto, ano após ano, como se o vale respirasse em um horário fixo.
+
+Os moradores não falam muito dela. Chamam-na de "a névoa que chama". A regra é simples: não responda quando ela pronunciar seu nome. Quem responde deixa de ser visto por dias ou semanas, até ser encontrado na estrada de terra, descalço, com a roupa encharcada embora não tenha chovido, falando línguas que nunca aprendeu — ou não falando mais nada. Chamam esses de devolvidos. Dona Isa, a coveira, contou que o marido dela respondeu em 1984. Apareceu três dias depois, caminhando em círculos sobre a estrada por seis horas, até o sol nascer. Não disse uma palavra. Morreu duas semanas depois, com as mãos sempre frias, mesmo no verão.
+
+Fui ao cemitério para ver os jazigos. Todos estão voltados para o vale. "Para ver o que volta", disse Dona Isa, sem parar de varrer folhas secas. "A névoa leva, mas costuma devolver. O problema é o que volta no lugar."
+
+Na primeira noite, montei um gravador de fita na beira do vale, a trezentos metros da última casa. Liguei às 3h10. As primeiras sete minutos capturaram apenas o som dos meus próprios passos e a respiração. Às 3h17, a névoa desceu do alto da encosta como um lençol úmido, silenciosa, e nela ouvi meu nome. Pronunciado pela voz da minha mãe, morta há doze anos.
+
+Não respondi. Desliguei o gravador e voltei para a casa na mesma hora.
+
+Na segunda noite, desci até o centro do vale com o gravador ligado e uma lanterna. A névoa começou pontualmente. Vi meu tio Rafael parado no ponto mais baixo, de costas, a roupa ensopada, pés descalços sobre a lama. Quando se virou, não havia rosto — apenas pele lisa onde deveriam estar olhos, nariz e boca, exceto um corte fino, como de lâmina, que se abriu para sussurrar: "Você respondeu por mim."
+
+Corri. Não olhei para trás.
+
+Esta manhã, abri o vigésimo terceiro caderno da estação — aquele que eu mesmo comecei ontem à noite. A última entrada está escrita com a minha letra, mas não me lembro de tê-la escrito: "3 de novembro — névoa iniciou 03:17. Eduardo respondeu."
+
+Fora da janela, o ar está esfriando. O ponto de orvalho será atingido em minutos. Do lado de fora da porta, alguém bate três vezes e pronuncia meu nome com a minha própria voz.
+
+Não vou responder. Mas já não tenho certeza de que sou eu quem está do lado de dentro.
+
+## Fontes de inspiração
+
+- NOAA National Weather Service — "How Fog Forms": explica o nevoeiro de radiação e o valley fog (nevoeiro de vale), formado pelo ar frio e denso que desce das encostas e se acumula no fundo dos vales em noites de céu limpo e vento fraco.
+- Simepar / Agência Estadual de Notícias do Paraná — "Neblina que baixa, sol que racha": formação de nevoeiros por condensação quando a temperatura do ar atinge o ponto de orvalho, comuns em áreas rurais e vales.
+- EM (Estado de Minas) — reportagens sobre lendas mineiras (Procissão das Almas, Porteira do Óleo, assombrações de Minas Gerais): base atmosférica para o interior mineiro e suas tradições de assombração noturna.
