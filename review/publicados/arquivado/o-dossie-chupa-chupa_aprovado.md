@@ -1,6 +1,6 @@
 # Aprovação de Qualidade — o-dossie-chupa-chupa
 
-**Data:** 2026-11-21 21:40  
+**Data:** 2026-11-21 21:56  
 **Veredito:** APROVADO  
 **Avaliado por:** Curador-Revisor-Verificador (ZAMBRIA — O Insólito Presente)  
 **Arquivo:** review/ficcoes/o-dossie-chupa-chupa.md  
@@ -21,4 +21,4 @@
 
 ## Decisão
 
-Aprovado para publicação. O texto está em `review/ficcoes/o-dossie-chupa-chupa.md` e pronto para o Publicador-Webmaster (Bloco C).
+Aprovado para publicação. O texto está em review/ficcoes/o-dossie-chupa-chupa.md e pronto para o Publicador-Webmaster (Bloco C).

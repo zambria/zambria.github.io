@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Estação que Ouvia de Volta — ZAMBRIA</title>
+  <link rel="stylesheet" href="../style.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937131805632227" crossorigin="anonymous"></script>
+</head>
+<body class="bg-black text-white font-sans leading-relaxed min-h-screen">
+  <div class="site-shell flex min-h-screen transition-all duration-300" id="site-shell">
+    <button class="btn-toggle-sidebar" id="btnToggleSidebar" aria-label="Esconder barra lateral">☰</button>
+    <aside class="sidebar" id="sidebar-zambria">
+      <div class="site-title">ZAMBRIA</div>
+      <div class="site-subtitle">O Insólito Presente</div>
+      <nav class="nav-posts">
+        <a href="../index.html" style="display:block; margin-bottom:2rem; color:var(--text); text-decoration:none; border-bottom:1px solid var(--border); padding-bottom:0.5rem;">← Voltar ao início</a>
+      </nav>
+    </aside>
+    <main class="conteudo">
+      <article class="post">
+        <div class="post-meta">
+          <span class="categoria">conspiracos</span>
+          <span>2026-11-21</span>
+          <span>Leitura: ~5 min</span>
+        </div>
+        <h2>A Estação que Ouvia de Volta</h2>
+        <div class="texto">
+Tenho setenta e dois anos e acordo toda madrugada com a certeza de que uma antena está girando dentro do crânio. Não é zumbido — deixei isso registrado no laudo médico e os médicos assinaram sem ler. É eco. Começou em 1983, na Estação de Tropodifusão do Sertão, que os homens da tropa chamavam de Postão: uma caixa de concreto, antenas de malha e arame farpado a sessenta quilômetros de qualquer cidade que aparecesse em mapa. Eu tinha vinte e quatro anos, era recém-saído da escola de sargentos e acreditava na doutrina que me ensinaram: o ar acima do horizonte funciona como um espelho imperfeito. Sinais de micro-ondas atirados nele retornam, distorcidos, a centenas de quilômetros. Tropodifusão. Comunicação além do alcance da vista. Gerações de militares entediados falando com postos na Amazônia através de uma bolha de ar quente.
+
+A primeira anomalia aconteceu numa madrugada de julho. O fone de ouvido trouxe uma voz dentro do ruído branco. Dizia meu nome completo — Luís Alberto Moraes — sem sotaque que eu reconhecesse. Estava sozinho na estação; o operador mais próximo ficava a duzentos quilômetros, e o enlace era ponto a ponto, não um canal aberto para vozes aleatórias. Desliguei o receptor. Na manhã seguinte, o oficial de serviço riu da minha queixa: interferência troposférica, fading, bolhas de ar quente. Chame de outro nome: a estação estava nos ouvindo de volta.
+
+O Postão ficava no sertão paraibano, numa planície de terra vermelha onde o silêncio tem peso. Duas parabólicas apontavam levemente acima do horizonte, varrendo a troposfera em busca de uma reflexão. Transmissores de alta potência, salas blindadas, fitas magnéticas rodando dia e noite. A história oficial era simples: um enlace de emergência para a Amazônia, caso a rede satelital colapsasse — Guerra Fria, sobrevivência a um conflito nuclear. O coronel Antunes, na véspera da minha transferência, sussurrou a versão verdadeira: não havia outra estação do outro lado da linha. A ponta receptora era a própria atmosfera. Eles não enviavam mensagens para algum lugar. Enviavam iscas para o ar, e algo, nas irregularidades da troposfera, respondia.
+
+Havia outros casos antes de mim, omitidos dos relatórios. O técnico João, no turno da noite de 1985, pediu demissão depois de perceber que as gravações de suas próprias transmissões continham respostas duas semanas antes de ele enviar a mensagem. Outro operador perfurou os próprios tímpanos com uma chave de fenda para parar de ouvir o nome dele sussurrado entre as portadoras. Na sala de arquivo, encontrei fitas de 1972 com vozes de homens que ainda não haviam nascido. O ar não apenas devolvia o sinal. Devolvia o tempo, ou algo que se fazia de tempo.
+
+Comecei a gravar tudo. Uma noite, transmiti uma frase simples, em código aberto: "Estou aqui. Estou sozinho." A resposta veio em português perfeito, com a minha voz, três segundos depois do eco atmosférico normal: "Você não está sozinho. Está aqui com a gente. Não desligue o receptor." Desliguei o transmissor. Saí da estação no dia seguinte e nunca mais assinei um laudo de rádio.
+
+Anos depois, continuo gravando o silêncio da casa. Quando deito, o ruído de fundo do quarto tem cadência de transmissão. O que assusta não é a possibilidade de haver algo escutando no ar. É perceber que a resposta fala com a nossa voz para que não reconheçamos o estranho. O Postão foi desativado em 1987, substituído por satélites, e dizem que o terreno está vazio. Passo de carro às vezes, à noite, e vejo, na escuridão entre os arbustos, o brilho fraco de uma parabólica apontada para o céu — e ouço, nítido, meu próprio nome saindo de um alto-falante que não tem energia.
+
+## Fontes de inspiração
+
+- Tropospheric scatter (en.wikipedia.org/wiki/Tropospheric_scatter): método militar de comunicação além do horizonte por dispersão de sinais de micro-ondas na troposfera, usado nas décadas de 1950 a 1970 e substituído por satélites.
+- Tropodifusão (pt.wikipedia.org/wiki/Tropodifusão): reflexão e refração de sinais de radiofrequência por irregularidades da troposfera, permitindo transmissão além do horizonte.
+
+Todos os nomes, locais e eventos desta narrativa são fictícios.
+        </div>
+      </article>
+    </main>
+  </div>
+
+  <script>
+    const btn = document.getElementById('btnToggleSidebar');
+    const shell = document.querySelector('.site-shell');
+    btn.addEventListener('click', () => {
+      shell.classList.toggle('sidebar-hidden');
+      if (shell.classList.contains('sidebar-hidden')) {
+        btn.textContent = '≡';
+        btn.setAttribute('aria-label', 'Mostrar barra lateral');
+      } else {
+        btn.textContent = '☰';
+        btn.setAttribute('aria-label', 'Esconder barra lateral');
+      }
+    });
+  </script>
+</body>
+</html>

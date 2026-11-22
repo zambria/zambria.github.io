@@ -1,6 +1,6 @@
 # Aprovação de Qualidade — o-bebedor-da-noite
 
-**Data:** 2026-11-21 21:40  
+**Data:** 2026-11-21 21:56  
 **Veredito:** APROVADO  
 **Avaliado por:** Curador-Revisor-Verificador (ZAMBRIA — O Insólito Presente)  
 **Arquivo:** review/ficcoes/o-bebedor-da-noite.md  
@@ -21,4 +21,4 @@
 
 ## Decisão
 
-Aprovado para publicação. O texto está em `review/ficcoes/o-bebedor-da-noite.md` e pronto para o Publicador-Webmaster (Bloco C).
+Aprovado para publicação. O texto está em review/ficcoes/o-bebedor-da-noite.md e pronto para o Publicador-Webmaster (Bloco C).

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mar de Leite — ZAMBRIA</title>
   <link rel="stylesheet" href="../style.css">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937131805632227" crossorigin="anonymous">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937131805632227" crossorigin="anonymous"></script>
 </head>
 <body class="bg-black text-white font-sans leading-relaxed min-h-screen">
   <div class="site-shell flex min-h-screen transition-all duration-300" id="site-shell">
@@ -74,76 +74,6 @@ Todas as fontes acima serviram apenas como inspiração factual; a narrativa, os
         btn.setAttribute('aria-label', 'Esconder barra lateral');
       }
     });
-  
-    <script>
-    /* Botão de esconder/mostrar sidebar inteira */
-    const btn = document.getElementById('btnToggleSidebar');
-    const shell = document.querySelector('.site-shell');
-    btn.addEventListener('click', () => {
-      shell.classList.toggle('sidebar-hidden');
-      if (shell.classList.contains('sidebar-hidden')) {
-        btn.textContent = '≡';
-        btn.setAttribute('aria-label', 'Mostrar barra lateral');
-      } else {
-        btn.textContent = '☰';
-        btn.setAttribute('aria-label', 'Esconder barra lateral');
-      }
-    });
-
-    /* Animação cascata das abas de categoria */
-    const titulos = document.querySelectorAll('.categoria-titulo');
-    titulos.forEach((titulo) => {
-      const lista = titulo.nextElementSibling;
-      if (!lista || !lista.classList.contains('lista-topicos')) return;
-      const itens = Array.from(lista.querySelectorAll('li'));
-
-      function abrir() {
-        lista.style.display = 'block';
-        lista.style.visibility = 'visible';
-        void lista.offsetHeight;
-        itens.forEach((li, i) => {
-          li.style.animation = 'none';
-          li.offsetHeight;
-          li.style.animation = `slideFadeIn 0.3s ease forwards`;
-          li.style.animationDelay = `${i * 70}ms`;
-        });
-        titulo.setAttribute('aria-expanded', 'true');
-      }
-
-      function fechar() {
-        const ultimo = itens.length - 1;
-        itens.forEach((li, i) => {
-          li.style.animation = 'none';
-          li.offsetHeight;
-          li.style.animation = `slideFadeOut 0.2s ease forwards`;
-          li.style.animationDelay = `${i * 60}ms`;
-        });
-        setTimeout(() => {
-          lista.style.display = 'none';
-          lista.style.visibility = 'hidden';
-          itens.forEach(li => { li.style.animation = 'none'; });
-        }, ultimo * 60 + 250);
-        titulo.setAttribute('aria-expanded', 'false');
-      }
-
-      titulo.addEventListener('click', () => {
-        const aberto = lista.style.display === 'block';
-        if (aberto) {
-          fechar();
-        } else {
-          abrir();
-        }
-      });
-
-      titulo.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          titulo.click();
-        }
-      });
-    });
   </script>
-  </script>
-</script>
 </body>
 </html>

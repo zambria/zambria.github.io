@@ -1,6 +1,24 @@
-# Aprovação de Qualidade — nr-15-turno-da-noite.md
+# Aprovação de Qualidade — nr-15-turno-da-noite
 
-**Data:** 2026-11-21T21:40:00-02:00  
-**Status:** APROVADO  
-**Verificador:** Curador-Revisor-Verificador do ZAMBRIA  
-**Decisão:** História independente de ficção (review/ficcoes/) aprovada para entrada no fluxo de curadoria. Não há `publicar: false` no frontmatter; tom sombrio e adulto adequado ao ZAMBRIA; sem cópia de 5+ palavras de fontes de inspiração. Está apta para publicação.
+**Data:** 2026-11-21 21:57  
+**Veredito:** APROVADO  
+**Avaliado por:** Curador-Revisor-Verificador (ZAMBRIA — O Insólito Presente)  
+**Arquivo:** review/ficcoes/nr-15-turno-da-noite.md  
+**Título:** NR-15, Turno da Noite  
+**Tópico:** nr-15-turno-da-noite  
+**Categoria:** contos-de-terror  
+
+## Verificações realizadas
+
+| Verificação | Resultado |
+|---|---|
+| Ortografia e gramática (PT-BR) | Aprovado — sem erros graves |
+| Coesão e clareza narrativa | Aprovado — estrutura introdutório → desenvolvimento → conclusão |
+| Tom sombrio e adulto | Adequado — não soa como notícia jornalística nem sensacionalismo barato |
+| Plágio (5+ palavras seguidas de fontes de inspiração) | Não detectado — texto com síntese própria |
+| Erros factuais óbvios no contexto | Nenhum detectado |
+| Frontmatter `publicar: false` | Ausente — não há bloqueio automático |
+
+## Decisão
+
+Aprovado para publicação. O texto está em review/ficcoes/nr-15-turno-da-noite.md e pronto para o Publicador-Webmaster (Bloco C).

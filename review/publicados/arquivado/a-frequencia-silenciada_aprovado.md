@@ -1,6 +1,6 @@
 # Aprovação de Qualidade — a-frequencia-silenciada
 
-**Data:** 2026-11-21 21:40  
+**Data:** 2026-11-21 21:56  
 **Veredito:** APROVADO  
 **Avaliado por:** Curador-Revisor-Verificador (ZAMBRIA — O Insólito Presente)  
 **Arquivo:** review/ficcoes/a-frequencia-silenciada.md  
@@ -21,4 +21,4 @@
 
 ## Decisão
 
-Aprovado para publicação. O texto está em `review/ficcoes/a-frequencia-silenciada.md` e pronto para o Publicador-Webmaster (Bloco C).
+Aprovado para publicação. O texto está em review/ficcoes/a-frequencia-silenciada.md e pronto para o Publicador-Webmaster (Bloco C).
