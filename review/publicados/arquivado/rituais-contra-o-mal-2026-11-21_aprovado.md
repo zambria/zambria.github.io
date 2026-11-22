@@ -1,18 +1,18 @@
-# Aprovação de Qualidade — rituais-contra-o-mal-2026-11-21
+# Aprovação de Qualidade — rituais-contra-o-mal-2026-11-21.md
 
-**Texto:** review/pendentes/rituais-contra-o-mal-2026-11-21.md  
-**Título:** Rituais Contra o Mal  
+**Artigo:** review/pendentes/rituais-contra-o-mal-2026-11-21.md  
+**Título:** Rituais Contra o Mal: A Arte de Expulsar o Invisível  
 **Categoria:** sobrenatural  
-**Data da verificação:** 2026-11-21  
-**Veredito:** APROVADO para publicação  
-**Verificador:** Curador-Revisor-Verificador — ZAMBRIA
+**Status:** APROVADO para publicação  
+**Verificador:** Curador-Revisor-Verificador (ZAMBRIA — Bloco B)  
+**Data:** 2026-11-21T23:50:00-02:00  
 
-## Verificações realizadas
-- Ortografia e gramática (PT-BR): aprovado. Sem erros graves.
-- Coesão e clareza narrativa: aprovado. Artigo estruturado em seções com introdução, desenvolvimento e conclusão sombria; conectivos adequados entre as partes.
-- Tom sombrio e adulto: adequado. Trata exorcismo católico, benzeduras e proteção popular com seriedade, sem apelo sensacionalista nem tom de notícia de jornal.
-- Plágio (cópia integral de 5+ palavras seguidas das fontes): não detectado. As referências [1]-[4] são citações atribuídas; a redação é síntese própria.
-- Erros factuais óbvios no contexto do texto: nenhum identificado.
-- Frontmatter com `publicar: false`: não constou.
+**Decisão:** Texto aprovado pela Verificação de Qualidade.  
+- Frontmatter sem `publicar: false`.  
+- Título com suspense/curiosidade.  
+- Tom sombrio, adulto, formal.  
+- Sem erros graves de ortografia; sem erros factuais óbvios no contexto.  
+- Sem cópia integral de 5+ palavras seguidas das fontes listadas.  
+- Fontes anexadas ao artigo.
 
-**Decisão:** texto liberado para o Publicador-Webmaster (Bloco C).
+O texto está pronto para o Publicador-Webmaster (Bloco C).
