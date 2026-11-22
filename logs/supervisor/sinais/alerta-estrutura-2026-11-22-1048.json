@@ -1,0 +1,32 @@
+{
+  "data": "2026-11-22T10:48:00-02:00",
+  "origem": "supervisor-fiscal-zambria",
+  "tipo": "estrutura",
+  "severidade": "media",
+  "descricao": "Links quebrados e HTML malformado no index.html",
+  "itens": [
+    {
+      "linha": 313,
+      "href": "posts/a-ltima-noite-de-marte.html",
+      "problema": "arquivo nao existe em posts/ (link quebrado)"
+    },
+    {
+      "linha": 314,
+      "href": "posts/o-di-rio-do-vigia.html",
+      "problema": "arquivo nao existe em posts/ (link quebrado)"
+    },
+    {
+      "linha": 154,
+      "href": "posts/2026-11-20-menina-da-turfeira.html",
+      "problema": "aspas escapadas no final do atributo href"
+    },
+    {
+      "linha": 221,
+      "href": "posts/2026-11-20-selos-e-sombras-bigfoot-governo.html",
+      "problema": "aspas escapadas no final do atributo href"
+    }
+  ],
+  "solicitacao": "Corrigir links quebrados e atributos href malformados no index.html",
+  "encaminhado_para": "publicador-webmaster-zambria",
+  "curador_chefe_copia": true
+}
