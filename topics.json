@@ -86,6 +86,16 @@
     {"id": "ufo-11", "categoria": "ufo", "titulo": "Luzes Que Não Mentem", "ultimo_uso": null},
     {"id": "ufo-12", "categoria": "ufo", "titulo": "O Quarto Grau", "ultimo_uso": null},
     {"id": "crypto-09", "categoria": "crypto", "titulo": "Pés Virados na Floresta", "ultimo_uso": null},
-    {"id": "arch-12", "categoria": "arch", "titulo": "A Escrita Que Não Fala", "ultimo_uso": null}
+    {"id": "arch-12", "categoria": "arch", "titulo": "A Escrita Que Não Fala", "ultimo_uso": null},
+    {"id": "operacao-prato", "categoria": "ufo", "titulo": "Operação Prato — Colares, Pará (1977)", "ultimo_uso": null},
+    {"id": "caso-varginha", "categoria": "ufo", "titulo": "Caso Varginha — O ET de Varginha (1996)", "ultimo_uso": null},
+    {"id": "discos-trindade", "categoria": "ufo", "titulo": "Caso da Ilha da Trindade (1958)", "ultimo_uso": null},
+    {"id": "geoglifos-acre", "categoria": "arch", "titulo": "Geoglifos do Acre", "ultimo_uso": null},
+    {"id": "pedra-gavea", "categoria": "arch", "titulo": "Pedra da Gávea (RJ)", "ultimo_uso": null},
+    {"id": "boiuna-cobra-grande", "categoria": "crypto", "titulo": "Boiuna / Cobra Grande", "ultimo_uso": null},
+    {"id": "matinta-pereira", "categoria": "para", "titulo": "Matinta Pereira", "ultimo_uso": null},
+    {"id": "mapinguari", "categoria": "crypto", "titulo": "Mapinguari", "ultimo_uso": null},
+    {"id": "mula-sem-cabeca", "categoria": "para", "titulo": "Mula-sem-cabeça", "ultimo_uso": null},
+    {"id": "pisadeira", "categoria": "para", "titulo": "Pisadeira", "ultimo_uso": null}
   ]
 }
