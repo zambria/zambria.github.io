@@ -108,6 +108,16 @@
     {"id": "conspir-fab-arquivos-ovnis", "categoria": "conspir", "titulo": "Arquivos Secretos da FAB — OVNIs nos Documentos da Força Aérea", "palavras_chave": ["fab", "forca aerea brasileira", "ovni", "arquivo secreto", "documento", "desclassificado"], "ultimo_uso": null},
     {"id": "para-encantado-igarape", "categoria": "para", "titulo": "Encantados dos Igarapés — Seres das Águas Amazônicas", "palavras_chave": ["encantado", "igarapes", "amazonia", "seres das aguas", "folclore", "norte"], "ultimo_uso": null},
     {"id": "nature-bola-de-fogo", "categoria": "nature", "titulo": "Bola de Fogo — Meteoros e Fenômenos Luminosos no Céu", "palavras_chave": ["bola de fogo", "meteoro", "luminoso", "ceu", "fenomeno natural", "brasil"], "ultimo_uso": null},
-    {"id": "crypto-cabra-de-prata", "categoria": "crypto", "titulo": "Cabra de Prata — A Besta do Interior Paulista", "palavras_chave": ["cabra de prata", "sao paulo", "besta", "criptozoologia", "interior", "folclore"], "ultimo_uso": null}
-  ]
-}
+    {"id": "crypto-cabra-de-prata", "categoria": "crypto", "titulo": "Cabra de Prata — A Besta do Interior Paulista", "palavras_chave": ["cabra de prata", "sao paulo", "besta", "criptozoologia", "interior", "folclore"], "ultimo_uso": null},
+      {"id": "pedra-do-inga", "categoria": "arch", "titulo": "Pedra do Ingá — As Inscrições Que Não Falam (Paraíba)", "palavras_chave": ["pedra do inga", "paraiba", "arqueologia", "petroglifos", "inscricao antiga"], "ultimo_uso": null},
+      {"id": "fawcett-cidade-z", "categoria": "arch", "titulo": "Expedição Fawcett — A Cidade Perdida de Z (Mato Grosso)", "palavras_chave": ["percy fawcett", "cidade de z", "mato grosso", "desaparecimento", "amazonia"], "ultimo_uso": null},
+      {"id": "minhocao", "categoria": "crypto", "titulo": "Minhocão — A Serpente Gigante dos Pântanos", "palavras_chave": ["minhocao", "serpente gigante", "pantanal", "criptozoologia", "brasil"], "ultimo_uso": null},
+      {"id": "fantasma-teatro-amazonas", "categoria": "para", "titulo": "O Fantasma do Teatro Amazonas (Manaus)", "palavras_chave": ["teatro amazonas", "manaus", "fantasma", "sobrenatural", "amazonas"], "ultimo_uso": null},
+      {"id": "ovni-brasilia", "categoria": "ufo", "titulo": "OVNIs nos Céus de Brasília", "palavras_chave": ["ovni", "brasilia", "distrito federal", "avistamento", "disco voador"], "ultimo_uso": null},
+      {"id": "mar-de-leite", "categoria": "nature", "titulo": "Mar de Leite — Bioluminescência no Oceano", "palavras_chave": ["mar de leite", "bioluminescencia", "oceano", "fenomeno natural", "ciencia"], "ultimo_uso": null},
+      {"id": "projeto-blue-beam", "categoria": "conspir", "titulo": "Projeto Blue Beam — A Simulação do Fim dos Tempos", "palavras_chave": ["projeto blue beam", "conspiracao", "serges monast", "simulacao", "tecnologia"], "ultimo_uso": null},
+      {"id": "homem-do-chapeu", "categoria": "para", "titulo": "O Homem do Chapéu — Visitas na Paralisia do Sono", "palavras_chave": ["homem do chapeu", "paralisia do sono", "visitante sombrio", "sobrenatural", "pesquisa"], "ultimo_uso": null},
+      {"id": "ovni-florianopolis", "categoria": "ufo", "titulo": "OVNIs em Florianópolis — Ilha da Magia", "palavras_chave": ["ovni", "florianopolis", "santa catarina", "ilha da magia", "avistamento"], "ultimo_uso": null},
+      {"id": "sucuri-gigante-amazonas", "categoria": "crypto", "titulo": "A Sucuri Gigante da Amazônia", "palavras_chave": ["sucuri gigante", "amazonia", "cobra enorme", "criptozoologia", "relatos"], "ultimo_uso": null}
+      ]
+    }
