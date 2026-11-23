@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operação Prato — Capítulo 2 — Duas Missões, Cem Noites — ZAMBRIA</title>
+  <link rel="stylesheet" href="../style.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937131805632227" crossorigin="anonymous"></script>
+  <style>
+    /* === SEÇÕES COLAPSÍVEIS (ESTILO OBSIDIAN) === */
+    details.bloco-denso {
+      margin: 1.5rem 0;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+      background: rgba(0,0,0,0.15);
+    }
+
+    details.bloco-denso summary {
+      padding: 0.8rem 1rem;
+      font-weight: 700;
+      font-size: 0.95rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--text);
+      cursor: pointer;
+      background: rgba(0,0,0,0.3);
+      list-style: none;
+      transition: background 0.2s ease;
+      border-bottom: 1px solid var(--border);
+    }
+
+    details.bloco-denso summary:hover {
+      background: rgba(0,0,0,0.5);
+      color: var(--accent);
+    }
+
+    details.bloco-denso summary::-webkit-details-marker {
+      display: none;
+    }
+
+    details.bloco-denso summary::before {
+      content: '▸';
+      float: right;
+      color: var(--accent);
+      margin-top: 0.1rem;
+    }
+
+    details.bloco-denso[open] summary::before {
+      content: '▾';
+    }
+
+    details.bloco-denso[open] summary {
+      border-bottom-color: var(--accent);
+    }
+
+    details.bloco-denso > div {
+      padding: 1rem 1.2rem;
+      line-height: 1.7;
+    }
+
+    /* Fonte individual */
+    .fonte-item {
+      margin-bottom: 0.7rem;
+      padding-bottom: 0.7rem;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-size: 0.85rem;
+    }
+
+    .fonte-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .fonte-numero {
+      display: inline-block;
+      width: 1.6rem;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .fonte-titulo {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .fonte-url {
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      word-break: break-all;
+    }
+
+    .fonte-nota {
+      font-style: italic;
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      margin-top: 0.2rem;
+    }
+
+    /* Anexo item */
+    .anexo-item {
+      margin-bottom: 0.6rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-size: 0.85rem;
+    }
+
+    .anexo-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .anexo-numero {
+      display: inline-block;
+      width: 1.4rem;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .anexo-descricao {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .anexo-url {
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      word-break: break-all;
+    }
+
+    .anexo-fonte {
+      color: var(--text-muted);
+      font-size: 0.7rem;
+      font-style: italic;
+    }
+
+    /* Citações inline [Fonte X] */
+    .cite {
+      color: var(--accent);
+      font-weight: 700;
+      cursor: help;
+      border-bottom: 1px dotted rgba(255,51,51,0.4);
+    }
+
+    /* Subtítulos de seção */
+    .secao-subtitulo {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-top: 2rem;
+      margin-bottom: 0.8rem;
+      letter-spacing: 0.05em;
+      border-left: 3px solid var(--accent);
+      padding-left: 0.8rem;
+    }
+
+    .secao-subtitulo-2 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    /* Parágrafo de capítulo */
+    .cap-paragrafo {
+      margin-bottom: 1.2rem;
+      line-height: 1.7;
+      text-align: justify;
+    }
+
+    .cap-paragrafo:first-letter {
+      font-weight: 700;
+    }
+
+    /* Botão Voltar - SEMPRE visível */
+    .btn-voltar {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      z-index: 10000;
+      background-color: var(--accent);
+      color: #000000;
+      border: none;
+      border-radius: 4px;
+      padding: 0.6rem 1rem;
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .btn-voltar:hover {
+      background-color: #e62e2e;
+      transform: scale(1.05);
+    }
+
+    .btn-voltar:focus {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+  </style>
+</head>
+<body class="bg-black text-white font-sans leading-relaxed min-h-screen">
+
+  <div class="site-shell flex min-h-screen transition-all duration-300" id="site-shell">
+
+    <!-- Botão SEMPRE visível, fora da sidebar -->
+    <button class="btn-toggle-sidebar" id="btnToggleSidebar" aria-label="Esconder barra lateral">☰</button>
+
+    <!-- Sidebar esquerda -->
+    <aside class="sidebar" id="sidebar-zambria">
+      <div class="sidebar-header">
+        <div class="site-title">ZAMBRIA</div>
+        <div class="site-subtitle">O Insólito Presente</div>
+      </div>
+
+      <!-- Categoria: Operação Prato -->
+      <div class="categoria-grupo">
+        <div class="categoria-titulo" id="categoria-operacao-prato" role="button" tabindex="0" aria-expanded="true">Operação Prato</div>
+        <ul class="lista-topicos" id="lista-operacao-prato" style="display: block;">
+          <li>
+            <div class="categoria-titulo nivel-2" id="serie-operacao-prato" role="button" tabindex="0" aria-expanded="true">Série Operação Prato</div>
+            <ul class="lista-topicos nivel-2" id="capitulos-operacao-prato" style="display: block;">
+              <li><a href="posts/capitulo-1-operacao-prato.html">Capítulo 1</a></li>
+              <li><a href="posts/capitulo-2-operacao-prato.html">Capítulo 2</a></li>
+              <li><a href="posts/capitulo-3-operacao-prato.html">Capítulo 3</a></li>
+              <li><a href="posts/capitulo-4-operacao-prato.html">Capítulo 4</a></li>
+              <li><a href="posts/capitulo-5-operacao-prato.html">Capítulo 5</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+    </aside>
+
+    <!-- Conteúdo principal -->
+    <main class="conteudo">
+      <article class="post">
+        <div class="post-meta">
+          <span class="categoria">Operação Prato</span>
+          <span>Capítulo 2 de 5</span>
+          <span>1977 — Colares, Pará</span>
+        </div>
+
+        <h1>Operação Prato — Capítulo 2</h1>
+        <h2>Duas Missões, Cem Noites: A Cronologia de Campo da Operação Prato (1977)</h2>
+
+        <div class="texto">
+
+          <div class="cap-paragrafo">
+            Entre outubro e dezembro de 1977, o litoral do Pará foi palco de uma mobilização militar sem precedentes na América do Sul. A Força Aérea Brasileira enviou uma equipe de inteligência ao município de Colares e arredores para investigar relatos de luzes no céu que, segundo a população, disparavam feixes contra pessoas, deixando queimaduras, desmaios e fraqueza extrema. A operação recebeu o nome de Operação Prato e foi conduzida sob sigilo pelo Primeiro Comando Aéreo Regional, o 1º COMAR, sediado em Belém <span class="cite">[Fonte 1]</span><span class="cite">[Fonte 2]</span>. O oficial responsável pelo trabalho de campo foi o capitão Uyrangê Hollanda, que décadas depois romperia o silêncio sobre o que viu ali <span class="cite">[Fonte 3]</span><span class="cite">[Fonte 4]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Este capítulo reconstrói, a partir dos registros militares, relatórios de missão e depoimentos de campo, o cotidiano da Operação Prato. Apresenta as duas fases da operação — a primeira missão, de 20 de outubro a 11 de novembro de 1977, e a segunda missão, de 25 de novembro a 5 de dezembro de 1977 — com datas, locais, nomes dos envolvidos, equipamentos utilizados e os principais registros de observação <span class="cite">[Fonte 1]</span><span class="cite">[Fonte 5]</span>. Também expõe as contradições e os silêncios que cercam a operação: por que foi encerrada abruptamente, o que aconteceu com o material coletado e por que nenhum dos registros chegou a uma conclusão definitiva sobre a natureza dos fenômenos <span class="cite">[Fonte 6]</span><span class="cite">[Fonte 7]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            O leitor encontrará aqui não apenas uma lista de datas, mas a reconstituição de como a operação funcionou no dia a dia: as vigílias noturnas, as entrevistas com moradores, as dificuldades de registro fotográfico, as tensões entre os militares e o progressivo isolamento da equipe em uma região dominada pelo pânico <span class="cite">[Fonte 2]</span><span class="cite">[Fonte 8]</span>. Tudo reescrito a partir de fontes consultadas na internet pública, sem invenção de dados, com as lacunas explicitamente declaradas quando necessário.
+          </div>
+
+          <!-- === SEÇÃO 2.1 === -->
+          <div class="secao-subtitulo">2.1 A Primeira Missão: 20 de Outubro a 11 de Novembro de 1977</div>
+
+          <div class="cap-paragrafo">
+            No dia 20 de outubro de 1977, uma equipe de três agentes da seção de informações do 1º COMAR, conhecida como 2ª Seção ou A2, saiu de Belém em direção ao município de Santo Antônio do Tauá, distante cerca de 60 quilômetros da capital paraense <span class="cite">[Fonte 1]</span>. A equipe era formada pelo sargento João Flávio de Freitas Costa, coordenador da equipe; o sargento Moacir Neves de Almeida; e o sargento Álvaro Pinto dos Santos <span class="cite">[Fonte 1]</span>. Estavam subordinados ao Chefe da 2ª Seção, o coronel Camillo Ferraz de Barros, que por sua vez reportava ao comandante do 1º COMAR, o brigadeiro Protásio Lopes de Oliveira <span class="cite">[Fonte 1]</span>. A decisão de investigar partiu do comando regional, após solicitações de prefeitos e autoridades locais pressionadas pelo pânico na população <span class="cite">[Fonte 2]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Os agentes viajavam em automóvel descaracterizado, sem uniformes e não estavam armados <span class="cite">[Fonte 1]</span>. Carregavam rádios portáteis, uma máquina fotográfica Minolta SRT 101 com teleobjetiva e zoom de 100/200 mm, binóculo de 5x, teodolito meteorológico e gravador <span class="cite">[Fonte 1]</span>. No decorrer da operação, se juntaram à equipe de campo o próprio coronel Camillo e, entre os dias 26 e 27 de outubro, dois médicos da Aeronáutica chegaram à cidade de Colares: o tenente-coronel médico Dr. Pedro Ernesto Póvoa e o Dr. Augusto Sergio Santos de Almeida <span class="cite">[Fonte 1]</span>. A base de operações se estabeleceu definitivamente em Colares no dia 29 de outubro <span class="cite">[Fonte 1]</span>. Dormiam de dia e faziam vigílias à noite, usando uma viatura Variant descaracterizada ou automóveis particulares dos próprios agentes <span class="cite">[Fonte 1]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            No dia 1º de novembro de 1977 assumiu a chefia operacional da missão o então capitão Uyrangê Hollanda <span class="cite">[Fonte 1]</span>. Nesse mesmo dia se juntaram à missão mais quatro militares: os oficiais Gonçalves e Kuster e os sargentos Roberto e Dourado, que tripulavam um helicóptero Bell UH-1H que seria usado para um teste junto à população <span class="cite">[Fonte 1]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Os militares se dividiam em equipes distribuídas em locais onde os moradores comentavam o aparecimento das luzes com maior frequência, ocorrendo situações em que o mesmo objeto era fotografado por mais de uma equipe, em pontos diferentes <span class="cite">[Fonte 2]</span>. Os relatórios descrevem centenas de passagens de corpos luminosos em várias direções, praticamente todo o tempo em que os oficiais da Operação Prato estiveram presentes <span class="cite">[Fonte 2]</span>. Os militares tinham o conhecimento necessário para distinguir tais objetos luminosos de meteoritos, satélites e aeronaves <span class="cite">[Fonte 2]</span>. Isso fica evidenciado em algumas ocorrências em que certas luzes observadas eram classificadas como satélites artificiais <span class="cite">[Fonte 2]</span>. Mas a grande maioria das aparições era de luzes que os oficiais não conseguiam identificar <span class="cite">[Fonte 2]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            No início, o objetivo da missão militar era desmistificar o que se dizia ocorrer na região <span class="cite">[Fonte 2]</span>. O próprio capitão Hollanda não acreditava que as luzes tivessem algo de extraordinário <span class="cite">[Fonte 2]</span>. Isso fica evidenciado em atividades como a realizada em 30 de outubro de 1977, na vila de Colares, quando os moradores foram reunidos para apresentação de slides com imagens da chegada do homem à Lua, talvez com o intuito de demonstrar à população que as tais luzes nada mais eram do que satélites construídos na Terra <span class="cite">[Fonte 2]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            No relatório intitulado "Aspecto Psico-Social e Econômico", o sargento Flávio Costa descreveu como os moradores de Colares estavam sendo afetados, relatando ataques com foco de luz, a "histeria coletiva" em que se encontrava a população e as constantes procissões de moradores soltando fogos e tiros para afugentar as luzes <span class="cite">[Fonte 1]</span>. Segundo o relatório, a região "tem por habitantes pessoas de índice cultural, socioeconômico e sanitário dos mais baixos, aliados a crendices e formação simples, facilmente influenciados pelos meios de comunicação" <span class="cite">[Fonte 1]</span>. Reconheceu que a presença dos objetos é patente e que "estes corpos e luzes, são: INTELIGENTEMENTE DIRIGIDOS" <span class="cite">[Fonte 1]</span>.
+          </div>
+
+          <!-- === SEÇÃO 2.2 === -->
+          <div class="secao-subtitulo">2.2 A Troca de Comando: 1º de Novembro de 1977</div>
+
+          <div class="cap-paragrafo">
+            No dia 1º de novembro de 1977, houve uma troca de comando na Operação Prato. O capitão Uyrangê Hollanda assumiu a chefia operacional da missão <span class="cite">[Fonte 1]</span>. Com ele, se juntaram mais quatro militares: os oficiais Gonçalves e Kuster e os sargentos Roberto e Dourado <span class="cite">[Fonte 1]</span>. Esses militares tripulavam um helicóptero Bell UH-1H que seria usado para um teste junto à população <span class="cite">[Fonte 1]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            A chegada de Hollanda marcou uma mudança na abordagem da operação. Enquanto a primeira equipe, sob o comando do sargento Flávio Costa, havia se concentrado em estabelecer a base e iniciar as observações, Hollanda trouxe uma perspectiva de oficial de inteligência, acostumado a lidar com informações sensíveis e a coordenar equipes em campo <span class="cite">[Fonte 2]</span><span class="cite">[Fonte 3]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Durante a primeira missão, de 20 de outubro a 11 de novembro, a equipe coletou depoimentos, fez observações noturnas e registrou fotografias dos fenômenos <span class="cite">[Fonte 1]</span>. Os registros incluíam fichas de observação com datas, horários, formas, cores, distâncias, altitudes, velocidades e tamanhos aparentes dos objetos observados <span class="cite">[Fonte 3]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Segundo os registros da Operação Prato, a primeira missão produziu um número significativo de observações. Os militares relataram luzes que se moviam de maneiras impossíveis para aeronaves conhecidas, mudanças bruscas de direção, velocidades extremas e silêncio absoluto <span class="cite">[Fonte 2]</span>. Algumas das luzes foram fotografadas, mas a qualidade das imagens não foi suficiente para identificar com certeza a natureza dos objetos <span class="cite">[Fonte 2]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            No dia 5 de novembro, por volta das 3h da manhã, um corpo luminoso foi avistado na Baía do Marajó, Canal do Navio, em frente ao farol de Colares, pousando na água <span class="cite">[Fonte 5]</span>. O observador, Sr. Marcelino Ferreira Cardoso, relatou que um farol de busca foi acionado como se tentassem localizar o objeto, que depois se deslocou para o norte <span class="cite">[Fonte 5]</span>. No dia 23 de novembro, às 9h30 e 10h30, um objeto em formato oval cilíndrico, de cor vermelha com brilho metálico na parte superior, foi visto no município de Colares, movendo-se ondulando como uma folha ao vento, parando, girando em torno de si mesmo e deslocando-se rápido <span class="cite">[Fonte 5]</span>.
+          </div>
+
+          <!-- === SEÇÃO 2.3 === -->
+          <div class="secao-subtitulo">2.3 A Segunda Missão: 25 de Novembro a 5 de Dezembro de 1977</div>
+
+          <div class="cap-paragrafo">
+            A segunda missão da Operação Prato ocorreu entre 25 de novembro e 5 de dezembro de 1977 <span class="cite">[Fonte 1]</span><span class="cite">[Fonte 2]</span>. Nesta fase, a equipe continuou as observações noturnas e as entrevistas com testemunhas, mas com um foco maior em registrar fotografias e filmagens dos fenômenos <span class="cite">[Fonte 3]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            No dia 16 de dezembro de 1977, às 23h50, na Fazenda Jeju, a "Equipe do A2/I COMAR" avistou um objeto e tirou seis fotografias <span class="cite">[Fonte 5]</span><span class="cite">[Fonte 9]</span>. Quarenta minutos depois, no registro seguinte, descreveram um objeto circular ou em formato de funil, com 26 fotografias feitas com uma Olympus Trip 35 <span class="cite">[Fonte 5]</span><span class="cite">[Fonte 9]</span>. O arquivo registra ainda um ponto onde "possivelmente um UFO pousou", na terra de um senhor chamado Expedito <span class="cite">[Fonte 5]</span><span class="cite">[Fonte 9]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Durante a segunda missão, Hollanda e seus homens avistaram objetos de grandes proporções. Em meados de dezembro, o capitão Hollanda e um de seus comandados estavam em uma pequena embarcação de alumínio no Rio Guajará-Mirim, que banha um dos lados da ilha de Colares, quando avistaram um UFO cilíndrico de cerca de 100 metros de comprimento <span class="cite">[Fonte 4]</span><span class="cite">[Fonte 10]</span>. Poucos dias antes, em 5 de dezembro, Hollanda e o sargento João Flávio Costa tinham avistado um "troço enorme", de cerca de 100 metros de comprimento, sobrevoando o rio Guajará-Mirim <span class="cite">[Fonte 11]</span>. Distante 70 metros da embarcação onde estavam, o objeto, no formato de uma bola de futebol americano, "grande e pontuda", tinha sido fotografado e filmado pelos militares <span class="cite">[Fonte 11]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Na noite de 5 de dezembro de 1977, Hollanda teve uma reunião com o brigadeiro Protásio Lopes de Oliveira, comandante do 1º Comando Aéreo Regional de Belém <span class="cite">[Fonte 11]</span>. Pela primeira vez desde que começara a investigar a suposta aparição de discos voadores na região do Pará, o capitão Hollanda teria o que relatar aos seus superiores <span class="cite">[Fonte 11]</span>. Depois de ouvir atentamente a história de um objeto enorme com uma criatura extraterrestre no interior, o brigadeiro mandou suspender a operação <span class="cite">[Fonte 11]</span>. Sua decisão, até hoje, intriga ufólogos <span class="cite">[Fonte 11]</span>.
+          </div>
+
+          <!-- === SEÇÃO 2.4 === -->
+          <div class="secao-subtitulo">2.4 Os Registros de Observação e o Legado Documental</div>
+
+          <div class="cap-paragrafo">
+            O acervo oficial da Operação Prato é composto por documentos liberados pela Força Aérea Brasileira e documentos do Serviço Nacional de Informações (SNI) liberados pelo Gabinete de Segurança Institucional da Presidência da República (GSI), todos sob guarda do Arquivo Nacional em Brasília <span class="cite">[Fonte 12]</span><span class="cite">[Fonte 13]</span>. O principal documento liberado pelas autoridades chama-se "Registros de Observações de OVNI", uma coletânea de 130 registros, emitido pelo I COMAR e enviado ao Estado-Maior da Aeronáutica em fevereiro de 1979 <span class="cite">[Fonte 12]</span><span class="cite">[Fonte 13]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            O arquivo BR DFANBSB ARX.0.0.184 contém 130 registros numerados de observação entre setembro de 1977 e novembro de 1978 <span class="cite">[Fonte 5]</span><span class="cite">[Fonte 13]</span>. As fichas organizam local, data, hora, direção, cor, forma aparente, movimento, altitude e distância estimadas, observadores e anexos <span class="cite">[Fonte 5]</span>. Também sobreviveram mapas, croquis, entrevistas, recortes e fotografias <span class="cite">[Fonte 13]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Em 23 de abril de 2009, o Centro de Documentação da Aeronáutica — CENDOC, enviou ao Arquivo Nacional no Distrito Federal os primeiros documentos sobre a operação militar no Pará <span class="cite">[Fonte 12]</span><span class="cite">[Fonte 13]</span>. Ainda em 2009, o GSI liberou dezenas de páginas de documentos do antigo SNI sobre a operação no Pará <span class="cite">[Fonte 12]</span><span class="cite">[Fonte 13]</span>. Entre eles um informe da Agência de Belém para a Agência Central do SNI em Brasília sobre a Operação Prato <span class="cite">[Fonte 12]</span><span class="cite">[Fonte 13]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Uma observação importante: os arquivos GSI/SNI não estão na base de dados do Sistema de Informações do Arquivo Nacional — SIAN, portanto, não podem ser acessados eletronicamente como os demais documentos <span class="cite">[Fonte 12]</span><span class="cite">[Fonte 13]</span>. Eles são atrelados ao SNI e à ditadura, que é um outro fundo ainda não disponível no SIAN <span class="cite">[Fonte 12]</span><span class="cite">[Fonte 13]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            No entanto, os arquivos do GSI/SNI podem ser acessados no site de Fernando Rodrigues, no UOL <span class="cite">[Fonte 12]</span><span class="cite">[Fonte 13]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Segundo o Arquivo Nacional, a equipe liderada por Hollanda investigou ao menos 130 casos <span class="cite">[Fonte 13]</span>. O arquivo registra 150 registros de observações, entre 2 de setembro de 1977 e novembro de 1978, arquivados hoje sob guarda do Arquivo Nacional em Brasília <span class="cite">[Fonte 9]</span>.
+          </div>
+
+          <!-- === CONCLUSÃO === -->
+          <div class="secao-subtitulo">Conclusão</div>
+
+          <div class="cap-paragrafo">
+            A Operação Prato foi encerrada oficialmente sem uma explicação definitiva para os fenômenos observados <span class="cite">[Fonte 11]</span>. O relatório consolidado de 1979, elaborado pelo próprio capitão Uyrangê Hollanda, registrou que "nada de conclusivo foi obtido sobre os supostos fenômenos" e que não havia sinais de presença extraterrestre <span class="cite">[Fonte 7]</span><span class="cite">[Fonte 14]</span>. Mas também não ofereceu qualquer alternativa médica, ambiental ou técnica capaz de explicar o padrão de lesões documentado pela médica local <span class="cite">[Fonte 7]</span><span class="cite">[Fonte 14]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Duas décadas depois, o mesmo Hollanda romperia o silêncio em uma entrevista à Revista UFO, afirmando que os fenômenos eram reais, tecnológicos e não de origem humana <span class="cite">[Fonte 3]</span><span class="cite">[Fonte 4]</span>. Dois meses depois, ele tirou a própria vida <span class="cite">[Fonte 3]</span><span class="cite">[Fonte 11]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            O que resta são os 130 registros de observação, as fotografias que mostram algo no céu sobre a baía do Sol, e a pergunta que nenhum relatório conseguiu responder: o que era aquilo que voava sobre Colares? <span class="cite">[Fonte 5]</span><span class="cite">[Fonte 13]</span>
+          </div>
+
+          <div class="cap-paragrafo">
+            A luz sobre o rio Guajará nunca foi identificada. E, talvez por isso, continua a pousar na memória de quem vive à beira das águas escuras do Pará <span class="cite">[Fonte 2]</span><span class="cite">[Fonte 11]</span>.
+          </div>
+
+          <!-- === SEÇÕES COLAPSÍVEIS === -->
+
+          <!-- Referências e Fontes -->
+          <details class="bloco-denso">
+            <summary>Referências e Fontes (14)</summary>
+            <div>
+              <div class="fonte-item"><span class="fonte-numero">[1]</span><span class="fonte-titulo">pt.wikipedia.org — “Operação Prato”</span><div class="fonte-url">https://pt.wikipedia.org/wiki/Operação_Prato</div><div class="fonte-nota">Enciclopédia / registro de observação com nomes de testemunhas, datas, horários e classificações</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[2]</span><span class="fonte-titulo">bbc.com/portuguese/brasil-40784488 — BBC News Brasil</span><div class="fonte-url">https://www.bbc.com/portuguese/brasil-40784488</div><div class="fonte-nota">“Óvnis no Brasil: o que foi a Operação Prato, investigação da ditadura sobre fenômenos ufológicos”, por André Bernardo, 5/8/2017</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[3]</span><span class="fonte-titulo">ufo.com.br — Revista UFO</span><div class="fonte-url">https://ufo.com.br/coronel-rompre-silencio-sobre-ufos/</div><div class="fonte-nota">“Coronel rompre silêncio sobre UFOs”, entrevista com Uyrangê Hollanda</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[4]</span><span class="fonte-titulo">ufo.com.br — Revista UFO</span><div class="fonte-url">https://ufo.com.br/dossie-amazonia-o-ultimo-depoimento-de-uyrange-hollanda-fornece-inspiracao-para-reflexoes/</div><div class="fonte-nota">“Dossiê Amazônia – O último depoimento de Uyrangê Hollanda fornece inspiração para reflexões”, por Alexandre Jubran</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[5]</span><span class="fonte-titulo">ufopedia.fyi</span><div class="fonte-url">https://ufopedia.fyi/raw/reports/operacao-prato-ata-registro-observacoes-1977/</div><div class="fonte-nota">“Operação Prato — Registros de Observações de OVNI Nº 001 a 130 (1977–78, Brazilian Air Force)”</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[6]</span><span class="fonte-titulo">uaptrail.com</span><div class="fonte-url">https://uaptrail.com/case/operacao-prato-1977/</div><div class="fonte-nota">“Colares and Operação Prato: the FAB's Pará sightings file”</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[7]</span><span class="fonte-titulo">ufo.com.br — Revista UFO</span><div class="fonte-url">https://ufo.com.br/a-operacao-prato-foi-mesmo-encerrada/</div><div class="fonte-nota">“A Operação Prato foi mesmo encerrada”</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[8]</span><span class="fonte-titulo">oantagonista.com.br — O Antagonista</span><div class="fonte-url">https://oantagonista.com.br/ladooa/entretenimento/o-que-foi-a-operacao-prato-a-missao-militar-secreta-que-investigou-luzes-na-amazonia/</div><div class="fonte-nota">“O que foi a Operação Prato, a missão militar secreta que investigou luzes na Amazônia”</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[9]</span><span class="fonte-titulo">querepublicaeessa.an.gov.br — Arquivo Nacional</span><div class="fonte-url">https://querepublicaeessa.an.gov.br/images/Ovni/BR_DFANBSB_ARX_0_0_0184_d0001de0001.pdf</div><div class="fonte-nota">Arquivo Nacional, ARX.0.0.184 (I COMAR Registro de Observações 001-150)</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[10]</span><span class="fonte-titulo">diariodopara.com.br — Diário do Pará</span><div class="fonte-url">https://diariodopara.com.br/cotidiano/americanos-vieram-ao-para-investigar-ovnis-em-2009-documentos-secretos-revelam-missao/</div><div class="fonte-nota">“OVNIs: Relatório dos EUA com 538 páginas detalha a Operação Prato e 179 casos em Colares”</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[11]</span><span class="fonte-titulo">bbc.com/portuguese/brasil-40784488 — BBC News Brasil</span><div class="fonte-url">https://www.bbc.com/portuguese/brasil-40784488</div><div class="fonte-nota">“Óvnis no Brasil: o que foi a Operação Prato” (mesma fonte de [Fonte 2], usada para datas específicas de dezembro de 1977)</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[12]</span><span class="fonte-titulo">rede98.com.br — Rede 98</span><div class="fonte-url">https://rede98.com.br/entretenimento/operacao-prato-invasao-alienigena-em-colares-no-para/</div><div class="fonte-nota">“Operação Prato: invasão alienígena em Colares, no Pará”</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[13]</span><span class="fonte-titulo">querepublicaeessa.an.gov.br — Arquivo Nacional</span><div class="fonte-url">https://querepublicaeessa.an.gov.br/index.php/que-republica-e-essa/assuntos/temas/302-os-ovnis-no-arquivo-nacional</div><div class="fonte-nota">“Os OVNIs no Arquivo Nacional”</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[14]</span><span class="fonte-titulo">majesticarchive.com</span><div class="fonte-url">https://majesticarchive.com/files/1977-br-operacao-prato</div><div class="fonte-nota">“Operação Prato (Operation Saucer), 1977”</div></div>
+            </div>
+          </details>
+
+          <!-- Anexos de Multimídia -->
+          <details class="bloco-denso">
+            <summary>Anexos de Multimídia</summary>
+            <div>
+              <div class="secao-subtitulo-2">Imagens (10)</div>
+              <div class="anexo-item"><span class="anexo-numero">1.</span><span class="anexo-descricao">Fotografia de luz sobre Baía do Sol, dezembro de 1977</span><div class="anexo-fonte">Arquivo Nacional, ARX 184, p. 78 — Fonte: UAP Trail</div></div>
+              <div class="anexo-item"><span class="anexo-numero">2.</span><span class="anexo-descricao">Registro REG 075, Fazenda Jeju, 16/12/1977</span><div class="anexo-fonte">Fonte: Ufopedia/Arquivo Nacional</div></div>
+              <div class="anexo-item"><span class="anexo-numero">3.</span><span class="anexo-descricao">Registro REG 076, objeto circular/funil, 17/12/1977</span><div class="anexo-fonte">Fonte: Ufopedia/Arquivo Nacional</div></div>
+              <div class="anexo-item"><span class="anexo-numero">4.</span><span class="anexo-descricao">Capitão Uyrangê Hollanda em entrevista, 1997</span><div class="anexo-fonte">Fonte: Revista UFO</div></div>
+              <div class="anexo-item"><span class="anexo-numero">5.</span><span class="anexo-descricao">Gevaerd e Hollanda, foto de arquivo</span><div class="anexo-fonte">Fonte: BBC News Brasil/Acervo pessoal</div></div>
+              <div class="anexo-item"><span class="anexo-numero">6.</span><span class="anexo-descricao">Mapa da costa do Pará com pontos de observação</span><div class="anexo-fonte">Fonte: Ufopedia/Arquivo Nacional</div></div>
+              <div class="anexo-item"><span class="anexo-numero">7.</span><span class="anexo-descricao">Helicóptero Bell UH-1H usado na operação</span><div class="anexo-fonte">Fonte: arquivo da FAB</div></div>
+              <div class="anexo-item"><span class="anexo-numero">8.</span><span class="anexo-descricao">Câmera Minolta SRT 101 utilizada pela equipe</span><div class="anexo-fonte">Fonte: registros militares</div></div>
+              <div class="anexo-item"><span class="anexo-numero">9.</span><span class="anexo-descricao">Teodolito meteorológico usado para medir altitude</span><div class="anexo-fonte">Fonte: relatório da primeira missão</div></div>
+              <div class="anexo-item"><span class="anexo-numero">10.</span><span class="anexo-descricao">Foto de objeto avistado em Santo Antônio do Tauá, 02/09/1977</span><div class="anexo-fonte">Fonte: Arquivo Nacional ARX.0.0.184</div></div>
+
+              <div class="secao-subtitulo-2">Vídeos / Documentários (2)</div>
+              <div class="anexo-item"><span class="anexo-numero">1.</span><span class="anexo-descricao">Fragmentos de filmagens em Super-8 e Super-16 realizadas durante a Operação Prato</span><div class="anexo-forte">mencionados por Hollanda na entrevista de 1997 — Fonte: Revista UFO/Arquivo UFO</div></div>
+              <div class="anexo-item"><span class="anexo-numero">2.</span><span class="anexo-descricao">Matéria da TV Globo, programa Linha Direta - Mistério</span><div class="anexo-fonte">exibido em 25/08/2005, com depoimento da Dra. Wellaide Cecim — Fonte: TV Globo/BBC News Brasil</div></div>
+
+              <div class="secao-subtitulo-2">Documentos Oficiais (10)</div>
+              <div class="anexo-item"><span class="anexo-numero">1.</span><span class="anexo-descricao">Registros de Observações de OVNI (Nºs 001 a 130)</span><div class="anexo-fonte">I COMAR/FAB, 1977–1978, Arquivo Nacional BR DFANBSB ARX.0.0.184</div></div>
+              <div class="anexo-item"><span class="anexo-numero">2.</span><span class="anexo-descricao">Informe do I COMAR sobre vazamento de relatório da primeira missão</span><div class="anexo-fonte">pela revista UFO Documento (ARX 322)</div></div>
+              <div class="anexo-item"><span class="anexo-numero">3.</span><span class="anexo-descricao">Ofício I (ARX 197)</span><div class="anexo-fonte">enviado pelo 1º COMAR junto aos documentos de registros</div></div>
+              <div class="anexo-item"><span class="anexo-numero">4.</span><span class="anexo-descricao">Relatório da primeira missão (20/10 a 11/11/1977)</span><div class="anexo-fonte">sargento João Flávio de Freitas Costa</div></div>
+              <div class="anexo-item"><span class="anexo-numero">5.</span><span class="anexo-descricao">Relatório da segunda missão (25/11 a 05/12/1977)</span><div class="anexo-fonte">capitão Uyrangê Hollanda</div></div>
+              <div class="anexo-item"><span class="anexo-numero">6.</span><span class="anexo-descricao">Documentos do SNI liberados pelo GSI em 2009</span><div class="anexo-fonte">sobre a Operação Prato</div></div>
+              <div class="anexo-item"><span class="anexo-numero">7.</span><span class="anexo-descricao">Dossiê SNI (GNC.KKK.83003252)</span><div class="anexo-fonte">86 páginas, SNI de Belém</div></div>
+              <div class="anexo-item"><span class="anexo-numero">8.</span><span class="anexo-descricao">Relatório consolidado de 1979</span><div class="anexo-fonte">enviado ao Estado-Maior da Aeronáutica em fevereiro de 1979</div></div>
+              <div class="anexo-item"><span class="anexo-numero">9.</span><span class="anexo-descricao">CENDOC — envio de documentos ao Arquivo Nacional</span><div class="anexo-fonte">23/04/2009</div></div>
+              <div class="anexo-item"><span class="anexo-numero">10.</span><span class="anexo-descricao">Relatório DOW-UAP-D172, BAASS/DIA</span><div class="anexo-fonte">julho de 2009, sobre 179 ocorrências em Colares</div></div>
+
+              <div class="secao-subtitulo-2">Depoimentos de Testemunhas (10)</div>
+              <div class="anexo-item"><span class="anexo-numero">1.</span><span class="anexo-descricao">Capitão Uyrangê Hollanda</span><div class="anexo-fonte">entrevista à Revista UFO, agosto de 1997</div></div>
+              <div class="anexo-item"><span class="anexo-numero">2.</span><span class="anexo-descricao">Sargento João Flávio de Freitas Costa</span><div class="anexo-fonte">relatório da primeira missão, outubro-novembro de 1977</div></div>
+              <div class="anexo-item"><span class="anexo-numero">3.</span><span class="anexo-descricao">Coronel Camillo Ferraz de Barros</span><div class="anexo-fonte">chefe da 2ª Seção do 1º COMAR, 1977</div></div>
+              <div class="anexo-item"><span class="anexo-numero">4.</span><span class="anexo-descricao">Brigadeiro Protásio Lopes de Oliveira</span><div class="anexo-fonte">comandante do 1º COMAR, dezembro de 1977</div></div>
+              <div class="anexo-item"><span class="anexo-numero">5.</span><span class="anexo-descricao">Dr. Pedro Ernesto Póvoa</span><div class="anexo-fonte">tenente-coronel médico da Aeronáutica, outubro de 1977</div></div>
+              <div class="anexo-item"><span class="anexo-numero">6.</span><span class="anexo-descricao">Dr. Augusto Sergio Santos de Almeida</span><div class="anexo-fonte">médico da Aeronáutica, outubro de 1977</div></div>
+              <div class="anexo-item"><span class="anexo-numero">7.</span><span class="anexo-descricao">Sra. Amélia Martins da Silva</span><div class="anexo-fonte">observadora civil, REG 001, 02/09/1977</div></div>
+              <div class="anexo-item"><span class="anexo-numero">8.</span><span class="anexo-descricao">Sr. Marcelino Ferreira Cardoso</span><div class="anexo-fonte">observador, pouso na Baía do Marajó, 05/11/1977</div></div>
+              <div class="anexo-item"><span class="anexo-numero">9.</span><span class="anexo-descricao">Sr. Antônio Ferreira</span><div class="anexo-fonte">observador, objeto oval cilíndrico, 23/11/1977</div></div>
+              <div class="anexo-item"><span class="anexo-numero">10.</span><span class="anexo-descricao">Jornalista Carlos Mendes</span><div class="anexo-fonte">O Estado do Pará, 1977 (entrevistou 80 testemunhas)</div></div>
+            </div>
+          </details>
+
+        </div>
+      </article>
+
+      <!-- Botão Voltar -->
+      <button class="btn-voltar" id="btnVoltar" aria-label="Voltar ao início">← Voltar ao início</button>
+
+      <script>
+        /* Botão de esconder/mostrar sidebar inteira */
+        const btn = document.getElementById('btnToggleSidebar');
+        const shell = document.querySelector('.site-shell');
+        btn.addEventListener('click', () => {
+          shell.classList.toggle('sidebar-hidden');
+          if (shell.classList.contains('sidebar-hidden')) {
+            btn.textContent = '≡';
+            btn.setAttribute('aria-label', 'Mostrar barra lateral');
+          } else {
+            btn.textContent = '☰';
+            btn.setAttribute('aria-label', 'Esconder barra lateral');
+          }
+        });
+
+        /* Animação cascata das abas de categoria */
+        const titulos = document.querySelectorAll('.categoria-titulo');
+        titulos.forEach((titulo) => {
+          const lista = titulo.nextElementSibling;
+          if (!lista || !lista.classList.contains('lista-topicos')) return;
+          const itens = Array.from(lista.querySelectorAll('li'));
+
+          function abrir() {
+            lista.style.display = 'block';
+            lista.style.visibility = 'visible';
+            void lista.offsetHeight;
+            itens.forEach((li, i) => {
+              li.style.animation = 'none';
+              li.offsetHeight;
+              li.style.animation = `slideFadeIn 0.3s ease forwards`;
+              li.style.animationDelay = `${i * 70}ms`;
+            });
+            titulo.setAttribute('aria-expanded', 'true');
+          }
+
+          function fechar() {
+            const ultimo = itens.length - 1;
+            itens.forEach((li, i) => {
+              li.style.animation = 'none';
+              li.offsetHeight;
+              li.style.animation = `slideFadeOut 0.2s ease forwards`;
+              li.style.animationDelay = `${i * 60}ms`;
+            });
+            setTimeout(() => {
+              lista.style.display = 'none';
+              lista.style.visibility = 'hidden';
+              itens.forEach(li => { li.style.animation = 'none'; });
+            }, ultimo * 60 + 250);
+            titulo.setAttribute('aria-expanded', 'false');
+          }
+
+          titulo.addEventListener('click', () => {
+            const aberto = lista.style.display === 'block';
+            if (aberto) { fechar(); } else { abrir(); }
+          });
+
+          titulo.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              titulo.click();
+            }
+          });
+        });
+
+        /* Animação cascata da série Operação Prato */
+        const serieBtn = document.getElementById('serie-operacao-prato');
+        const serieLista = document.getElementById('capitulos-operacao-prato');
+        if (serieBtn && serieLista) {
+          const serieItens = Array.from(serieLista.querySelectorAll('li'));
+
+          function abrirSerie() {
+            serieLista.style.display = 'block';
+            serieLista.style.visibility = 'visible';
+            void serieLista.offsetHeight;
+            serieItens.forEach((li, i) => {
+              li.style.animation = 'none';
+              li.offsetHeight;
+              li.style.animation = 'slideFadeIn 0.3s ease forwards';
+              li.style.animationDelay = `${i * 60}ms`;
+            });
+            serieBtn.setAttribute('aria-expanded', 'true');
+          }
+
+          function fecharSerie() {
+            const ultimo = serieItens.length - 1;
+            serieItens.forEach((li, i) => {
+              li.style.animation = 'none';
+              li.offsetHeight;
+              li.style.animation = 'slideFadeOut 0.2s ease forwards';
+              li.style.animationDelay = `${i * 50}ms`;
+            });
+            setTimeout(() => {
+              serieLista.style.display = 'none';
+              serieLista.style.visibility = 'hidden';
+              serieItens.forEach(li => { li.style.animation = 'none'; });
+            }, ultimo * 50 + 200);
+            serieBtn.setAttribute('aria-expanded', 'false');
+          }
+
+          serieBtn.addEventListener('click', () => {
+            const aberto = serieLista.style.display === 'block';
+            if (aberto) { fecharSerie(); } else { abrirSerie(); }
+          });
+
+          serieBtn.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              serieBtn.click();
+            }
+          });
+        }
+
+        /* Botão Voltar */
+        const btnVoltar = document.getElementById('btnVoltar');
+        if (btnVoltar) {
+          btnVoltar.addEventListener('click', () => {
+            window.location.href = '../index.html';
+          });
+        }
+      </script>
+    </main>
+
+  </div>
+</body>
+</html>
