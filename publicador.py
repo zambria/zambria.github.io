@@ -421,7 +421,7 @@ def publicar():
     estado = resetar_contador_diario(estado)
 
     # Lê limite_diario do estado se existir, senão usa POSTS_POR_DIA
-    limite_diario = estado.get("limite_diario", POSTS_POR_DIA)
+    limite_diario = estado.get("limite_diario") or POSTS_POR_DIA
 
     if estado.get("posts_hoje", 0) >= limite_diario:
         log(
@@ -462,7 +462,7 @@ def publicar():
     publicados_hoje = 0
     arquivos_git = []
 
-    for caminho in pendentes:
+    for caminho in pendentes_aprovados:
         if publicados_hoje >= POSTS_POR_DIA:
             break
 
