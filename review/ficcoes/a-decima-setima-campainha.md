@@ -27,6 +27,8 @@ Os moradores de Catas Altas, a poucos quilômetros dali, chamavam aquilo de "o c
 
 Dezessete. O número o acompanhava desde a infância.
 
+Renato desceu mais um lance de escada e parou diante da marca de água na parede — uma linha escura que corria horizontalmente a mais de um metro acima do piso, o nível que a inundação atingiu naquela noite de dezembro. Passou o dedo pelo risco e trouxe o cheiro de lama e ferro velho. O medidor disparou um pico súbito, um daqueles sons abaixo de vinte hertz que se sente nos ossos antes de ouvir, e por um momento ele jurou que a marca de água se movia, subindo devagar, como se o nível ainda estivesse subindo ali embaixo, depois de nove décadas.
+
 Renato instalou o primeiro sensor no nível oito, numa galeria onde a madeira dos suportes emplitara como osso queimado. O segundo, no nível nove, perto da porta de madeira pesada que selava o acesso aos trechos alagados. O terceiro, mais abaixo, onde a escada de metal desaparecia na água escura e imóvel. Enquanto apertava os parafusos, ouviu o primeiro sino.
 
 Não foi um eco. Não veio de cima. Soou perto, do lado de dentro da água, um toque curto de metal sobre metal, seguido de silêncio. Renato desligou as lanternas por um instante. No escuro absoluto, o zumbido da montanha tornou-se mais forte, e ele sentiu um cheiro de ozônio — ou de sangue velho; nunca soube distinguir bem a diferença.

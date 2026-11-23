@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>O Poço Sem Eco — Capítulo 1 — Sobrenatural</title>
+  <title>O Poço Sem Eco — Sobrenatural — ZAMBRIA</title>
   <link rel="stylesheet" href="../style.css">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937131805632227" crossorigin="anonymous"></script>
   <style>
-    /* === SECOES COLAPSAVEIS (ESTILO OBSIDIAN) === */
+    /* === SEÇÕES COLAPSÍVEIS (ESTILO OBSIDIAN) === */
     details.bloco-denso {
       margin: 1.5rem 0;
       border: 1px solid var(--border);
@@ -28,39 +28,20 @@
       transition: background 0.2s ease;
       border-bottom: 1px solid var(--border);
     }
-    details.bloco-denso summary:hover { background: rgba(0,0,0,0.5); color: var(--accent); }
+    details.bloco-denso summary:hover {
+      background: rgba(0,0,0,0.5);
+      color: var(--accent);
+    }
     details.bloco-denso summary::-webkit-details-marker { display: none; }
-    details.bloco-denso summary::before { content: '▸'; float: right; color: var(--accent); margin-top: 0.1rem; }
-    details.bloco-denso[open] summary::before { content: '▾'; }
+    details.bloco-denso summary::before {
+      content: '\25B8'; float: right; color: var(--accent); margin-top: 0.1rem;
+    }
+    details.bloco-denso[open] summary::before { content: '\25BE'; }
     details.bloco-denso[open] summary { border-bottom-color: var(--accent); }
-    details.bloco-denso > div { padding: 1rem 1.2rem; line-height: 1.7; }
-    /* Fonte individual */
-    .fonte-item {
-      margin-bottom: 0.7rem;
-      padding-bottom: 0.7rem;
-      border-bottom: 1px solid rgba(255,255,255,0.05);
-      font-size: 0.85rem;
+    details.bloco-denso > div {
+      padding: 1rem 1.2rem; line-height: 1.7;
     }
-    .fonte-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
-    .fonte-numero { display: inline-block; width: 1.6rem; color: var(--accent); font-weight: 700; }
-    .fonte-titulo { font-weight: 600; color: var(--text); }
-    .fonte-url { color: var(--text-muted); font-size: 0.8rem; word-break: break-all; }
-    .fonte-nota { font-style: italic; color: var(--text-muted); font-size: 0.75rem; margin-top: 0.2rem; }
-    /* Anexo item */
-    .anexo-item {
-      margin-bottom: 0.6rem;
-      padding-bottom: 0.6rem;
-      border-bottom: 1px solid rgba(255,255,255,0.05);
-      font-size: 0.85rem;
-    }
-    .anexo-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
-    .anexo-numero { display: inline-block; width: 1.4rem; color: var(--accent); font-weight: 700; }
-    .anexo-descricao { font-weight: 600; color: var(--text); }
-    .anexo-url { color: var(--text-muted); font-size: 0.75rem; word-break: break-all; }
-    .anexo-fonte { color: var(--text-muted); font-size: 0.7rem; font-style: italic; }
-    /* Citacoes inline [Fonte X] */
-    .cite { color: var(--accent); font-weight: 700; cursor: help; border-bottom: 1px dotted rgba(255,51,51,0.4); }
-    /* Subtitulos de secao */
+    /* Subtítulos de seção */
     .secao-subtitulo {
       font-size: 1.1rem; font-weight: 700; color: var(--text);
       margin-top: 2rem; margin-bottom: 0.8rem; letter-spacing: 0.05em;
@@ -68,56 +49,73 @@
     }
     .secao-subtitulo-2 {
       font-size: 1rem; font-weight: 600; color: var(--text-muted);
-      margin-top: 1.5rem; margin-bottom: 0.5rem; text-transform: uppercase;
-      letter-spacing: 0.08em;
+      margin-top: 1.5rem; margin-bottom: 0.5rem;
+      text-transform: uppercase; letter-spacing: 0.08em;
     }
-    /* Paragrafo de capitulo */
+    /* Parágrafo de capítulo */
     .cap-paragrafo {
       margin-bottom: 1.2rem; line-height: 1.7; text-align: justify;
     }
     .cap-paragrafo:first-letter { font-weight: 700; }
-    /* Botao Voltar - SEMPRE visivel */
+    /* Registro de arquivo */
+    .arquivo-registro {
+      margin: 1.5rem 0; padding: 1rem 1.2rem;
+      border-left: 3px solid var(--text-muted);
+      background: rgba(255,255,255,0.03); font-size: 0.95rem;
+      line-height: 1.7; text-align: justify;
+    }
+    .arquivo-registro strong { color: var(--accent); }
+    /* Botão Voltar - SEMPRE visível */
     .btn-voltar {
       position: fixed; top: 1rem; right: 1rem; z-index: 10000;
       background-color: var(--accent); color: #000000; border: none;
       border-radius: 4px; padding: 0.6rem 1rem; font-size: 0.9rem;
       font-weight: 700; cursor: pointer; transition: all 0.2s ease;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.3); text-decoration: none;
-      display: inline-flex; align-items: center; gap: 0.5rem;
+      text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
     }
     .btn-voltar:hover { background-color: #e62e2e; transform: scale(1.05); }
     .btn-voltar:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
+    /* Citações inline */
+    .cite {
+      color: var(--accent); font-weight: 700; cursor: help;
+      border-bottom: 1px dotted rgba(255,51,51,0.4);
+    }
+
   </style>
 </head>
 <body class="bg-black text-white font-sans leading-relaxed min-h-screen">
+
   <div class="site-shell flex min-h-screen transition-all duration-300" id="site-shell">
+
     <button class="btn-toggle-sidebar" id="btnToggleSidebar" aria-label="Esconder barra lateral">☰</button>
+
     <aside class="sidebar" id="sidebar-zambria">
       <div class="sidebar-header">
         <div class="site-title">ZAMBRIA</div>
         <div class="site-subtitle">O Insólito Presente</div>
       </div>
-            <div class="categoria-grupo">
+
+      <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-sobrenatural" role="button" tabindex="0" aria-expanded="false">Sobrenatural</div>
         <ul class="lista-topicos" id="lista-sobrenatural" style="display: none;">
-          <li>
-            <div class="categoria-titulo nivel-2" id="serie-sobrenatural" role="button" tabindex="0" aria-expanded="false">Série Sobrenatural</div>
-            <ul class="lista-topicos nivel-2" id="capitulos-sobrenatural" style="display: none;">
-              <li><a href="capitulo-1-sobrenatural-o-po-co-sem-eco.html">Capítulo 1 — O Poço Sem Eco</a></li>
-            </ul>
-          </li>
+          <li><a href="posts/capitulo-1-sobrenatural-o-po-co-sem-eco.html">O Poço Sem Eco</a></li>
         </ul>
       </div>
+
     </aside>
+
     <main class="conteudo">
-            <article class="post">
+      <article class="post">
         <div class="post-meta">
           <span class="categoria">Sobrenatural</span>
-          <span>Capítulo 1 de 1 — Sobrenatural — 2026</span>
-          <span>ZAMBRIA — O Insólito Presente</span>
+          <span>Capítulo 1 de 1</span>
+          <span>2026-11-23 — Local não informado</span>
         </div>
+
         <h1>O Poço Sem Eco</h1>
         <h2>Uma geóloga mapeia poços abandonados no sertão e encontra um que engole o som. Quando desce para medir o fundo, descobre que o poço não é um buraco — é um ouvido, e agora ele ouviu ela.</h2>
+
         <div class="texto">
           <div class="cap-paragrafo">Elisa saiu da cidade quando o sol ainda era uma mancha branca sobre o horizonte, e a estrada de terra engoliu o carro aos poucos. Levou dois dias desde a capital até o último posto de combustível, e mais cinco horas de estrada de chão batido até Santo Antônio do Poço Seco, nome que a prefeitura havia removido dos mapas oficiais mas que ainda estava pintado à mão em uma placa de madeira torta, quase ilhível sob o pó. Ela não era do tipo que acredita em lendas. Elisa era geóloga, recém-formada, contratada por uma consultoria ambiental para fazer o levantamento de poços abandonados na região — cadastrar, medir profundidade, avaliar risco de desabamento, entregar um relatório técnico em PDF que ninguém leria. O sertão era o tipo de lugar onde o mapa mentia por omissão: o que não constava no papel não existia para o Estado, e, portanto, não podia machucar ninguém.</div>
           <div class="cap-paragrafo">O primeiro poço que ela encontrou estava a três quilômetros do centro do povoado, cercado por pedras brancas e uma cerca de arame farpado caída. O segundo, um pouco mais adiante, tinha a boca entupida de mato e pedaços de telha quebrada. O terceiro era apenas uma depressão no chão, disfarçada por capim. Elisa anotava cada um no caderno, tirava fotos, marcava coordenadas no GPS. Tudo seguia o protocolo. Até ela encontrar o quarto.</div>
@@ -166,120 +164,82 @@
           <div class="cap-paragrafo">O poço não respondeu. Não precisava. Ouvidos não respondem. Ouvidos apenas guardam o que ouviram, e esperam o momento certo de usar isso contra quem os despertou.</div>
           <div class="cap-paragrafo">O sol se pôs sobre Santo Antônio do Poço Seco. O povoado ficou escuro. As luzes se acenderam uma a uma nas casas de taipa, e atrás de cada janela, moradores que nunca olhavam para strangers mantiveram as cortinas fechadas. A placa de madeira torta, quase ilhível sob o pó, continuava ali: Santo Antônio do Poço Seco. Um nome que a prefeitura removeu dos mapas, mas que a terra nunca esqueceu.</div>
           <div class="cap-paragrafo">E a cem metros abaixo da superfície, em uma parede lisa, escura e quente como pele, algo respirou de volta.</div>
-          <h2>Fontes de inspiração</h2>
-          <div class="cap-paragrafo">- Departamento Nacional de Obras Contra as Secas (DNOCS), &quot;Do Brasil Colonial aos dias atuais: uma história sobre o desenvolvimento dos poços no Nordeste&quot;, gov.br — histórico sobre poços, cacimbas e perfurações no semiárido brasileiro; uso apenas como pano de fundo real para o cenário do sertão.</div>
-          <div class="cap-paragrafo">- Física StackExchange, discussão sobre profundidade em que o som de um objeto cessa de ser audível em um poço — referência ao fenômeno acústico de som que desaparece em cavidades profundas; usado como inspiração para o silêncio do poço.</div>
+          <div class="secao-subtitulo">Fontes de inspiração</div>
+          <div class="cap-paragrafo">- Departamento Nacional de Obras Contra as Secas (DNOCS), "Do Brasil Colonial aos dias atuais: uma história sobre o desenvolvimento dos poços no Nordeste", gov.br — histórico sobre poços, cacimbas e perfurações no semiárido brasileiro; uso apenas como pano de fundo real para o cenário do sertão.
+- Física StackExchange, discussão sobre profundidade em que o som de um objeto cessa de ser audível em um poço — referência ao fenômeno acústico de som que desaparece em cavidades profundas; usado como inspiração para o silêncio do poço.</div>
           <div class="cap-paragrafo">Nenhum texto foi copiado destas fontes. A história é ficção original.</div>
         </div>
+
+        <button class="btn-voltar" id="btnVoltar" onclick="window.location.href='../index.html';" aria-label="Voltar ao início">← Voltar ao início</button>
       </article>
-      <button class="btn-voltar" id="btnVoltar" onclick="window.location.href='../index.html';" aria-label="Voltar ao início">← Voltar ao início</button>
-      <script>
-        const btn = document.getElementById('btnToggleSidebar');
-        const shell = document.querySelector('.site-shell');
-        btn.addEventListener('click', () => {
-          shell.classList.toggle('sidebar-hidden');
-          if (shell.classList.contains('sidebar-hidden')) {
-            btn.textContent = '≡';
-            btn.setAttribute('aria-label', 'Mostrar barra lateral');
-          } else {
-            btn.textContent = '☰';
-            btn.setAttribute('aria-label', 'Esconder barra lateral');
-          }
-        });
-        const titulos = document.querySelectorAll('.categoria-titulo');
-        titulos.forEach((titulo) => {
-          const lista = titulo.nextElementSibling;
-          if (!lista || !lista.classList.contains('lista-topicos')) return;
-          if (titulo.id === 'serie-sobrenatural') return;
-          const itens = Array.from(lista.querySelectorAll('li'));
-          function abrir() {
-            lista.style.display = 'block';
-            lista.style.visibility = 'visible';
-            void lista.offsetHeight;
-            itens.forEach((li, i) => {
-              li.style.animation = 'none';
-              li.offsetHeight;
-              li.style.animation = 'slideFadeIn 0.3s ease forwards';
-              li.style.animationDelay = `${i * 70}ms`;
-            });
-            titulo.setAttribute('aria-expanded', 'true');
-          }
-          function fechar() {
-            const ultimo = itens.length - 1;
-            itens.forEach((li, i) => {
-              li.style.animation = 'none';
-              li.offsetHeight;
-              li.style.animation = 'slideFadeOut 0.2s ease forwards';
-              li.style.animationDelay = `${i * 60}ms`;
-            });
-            setTimeout(() => {
-              lista.style.display = 'none';
-              lista.style.visibility = 'hidden';
-              itens.forEach(li => { li.style.animation = 'none'; });
-            }, ultimo * 60 + 250);
-            titulo.setAttribute('aria-expanded', 'false');
-          }
-          titulo.addEventListener('click', () => {
-            const aberto = lista.style.display === 'block';
-            if (aberto) { fechar(); } else { abrir(); }
-          });
-          titulo.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter' || e.key === ' ') {
-              e.preventDefault();
-              titulo.click();
-            }
-          });
-        });
-        const serieBtn = document.getElementById('serie-sobrenatural');
-        const serieLista = document.getElementById('capitulos-sobrenatural');
-        if (serieBtn && serieLista) {
-          const serieItens = Array.from(serieLista.querySelectorAll('li'));
-          function abrirSerie() {
-            serieLista.style.display = 'block';
-            serieLista.style.visibility = 'visible';
-            void serieLista.offsetHeight;
-            serieItens.forEach((li, i) => {
-              li.style.animation = 'none';
-              li.offsetHeight;
-              li.style.animation = 'slideFadeIn 0.3s ease forwards';
-              li.style.animationDelay = `${i * 60}ms`;
-            });
-            serieBtn.setAttribute('aria-expanded', 'true');
-          }
-          function fecharSerie() {
-            const ultimo = serieItens.length - 1;
-            serieItens.forEach((li, i) => {
-              li.style.animation = 'none';
-              li.offsetHeight;
-              li.style.animation = 'slideFadeOut 0.2s ease forwards';
-              li.style.animationDelay = `${i * 50}ms`;
-            });
-            setTimeout(() => {
-              serieLista.style.display = 'none';
-              serieLista.style.visibility = 'hidden';
-              serieItens.forEach(li => { li.style.animation = 'none'; });
-            }, ultimo * 50 + 200);
-            serieBtn.setAttribute('aria-expanded', 'false');
-          }
-          serieBtn.addEventListener('click', () => {
-            const aberto = serieLista.style.display === 'block';
-            if (aberto) { fecharSerie(); } else { abrirSerie(); }
-          });
-          serieBtn.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter' || e.key === ' ') {
-              e.preventDefault();
-              serieBtn.click();
-            }
-          });
-        }
-        const btnVoltar = document.getElementById('btnVoltar');
-        if (btnVoltar) {
-          btnVoltar.addEventListener('click', () => {
-            window.location.href = '../index.html';
-          });
-        }
-      </script>
     </main>
+
+    <script>
+      const btn = document.getElementById('btnToggleSidebar');
+      const shell = document.querySelector('.site-shell');
+      btn.addEventListener('click', () => {
+        shell.classList.toggle('sidebar-hidden');
+        if (shell.classList.contains('sidebar-hidden')) {
+          btn.textContent = '≡';
+          btn.setAttribute('aria-label', 'Mostrar barra lateral');
+        } else {
+          btn.textContent = '☰';
+          btn.setAttribute('aria-label', 'Esconder barra lateral');
+        }
+      });
+
+      const titulos = document.querySelectorAll('.categoria-titulo');
+      titulos.forEach((titulo) => {
+        const lista = titulo.nextElementSibling;
+        if (!lista || !lista.classList.contains('lista-topicos')) return;
+        if (titulo.id === 'categoria-sobrenatural') return;
+        const itens = Array.from(lista.querySelectorAll('li'));
+        function abrir() {
+          lista.style.display = 'block';
+          lista.style.visibility = 'visible';
+          void lista.offsetHeight;
+          itens.forEach((li, i) => {
+            li.style.animation = 'none';
+            li.offsetHeight;
+            li.style.animation = 'slideFadeIn 0.3s ease forwards';
+            li.style.animationDelay = `${i * 70}ms`;
+          });
+          titulo.setAttribute('aria-expanded', 'true');
+        }
+        function fechar() {
+          const ultimo = itens.length - 1;
+          itens.forEach((li, i) => {
+            li.style.animation = 'none';
+            li.offsetHeight;
+            li.style.animation = 'slideFadeOut 0.2s ease forwards';
+            li.style.animationDelay = `${i * 60}ms`;
+          });
+          setTimeout(() => {
+            lista.style.display = 'none';
+            lista.style.visibility = 'hidden';
+            itens.forEach(li => { li.style.animation = 'none'; });
+          }, ultimo * 60 + 250);
+          titulo.setAttribute('aria-expanded', 'false');
+        }
+        titulo.addEventListener('click', () => {
+          const aberto = lista.style.display === 'block';
+          if (aberto) { fechar(); } else { abrir(); }
+        });
+        titulo.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            titulo.click();
+          }
+        });
+      });
+
+      const btnVoltar = document.getElementById('btnVoltar');
+      if (btnVoltar) {
+        btnVoltar.addEventListener('click', () => {
+          window.location.href = '../index.html';
+        });
+      }
+    </script>
   </div>
 </body>
 </html>
