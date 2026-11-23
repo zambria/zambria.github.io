@@ -136,39 +136,6 @@
       font-style: italic;
     }
 
-    /* Nota do curador */
-    .nota-curador {
-      background: var(--accent-glow);
-      border-left: 4px solid var(--accent);
-      padding: 1rem 1.5rem;
-      margin: 1.5rem 0;
-      font-size: 0.9rem;
-      color: var(--text);
-    }
-
-    .nota-curador h4 {
-      margin-top: 0;
-      color: var(--accent);
-      font-size: 0.9rem;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-    }
-
-    .nota-curador p {
-      margin: 0.5rem 0 0 0;
-      line-height: 1.6;
-    }
-
-    .nota-curador ul {
-      margin: 0.5rem 0 0 1.2rem;
-      padding: 0;
-    }
-
-    .nota-curador li {
-      margin-bottom: 0.4rem;
-      line-height: 1.5;
-    }
-
     /* Citações inline [Fonte X] */
     .cite {
       color: var(--accent);
@@ -208,6 +175,38 @@
 
     .cap-paragrafo:first-letter {
       font-weight: 700;
+    }
+
+    /* Botão Voltar - SEMPRE visível */
+    .btn-voltar {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      z-index: 10000;
+      background-color: var(--accent);
+      color: #000000;
+      border: none;
+      border-radius: 4px;
+      padding: 0.6rem 1rem;
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .btn-voltar:hover {
+      background-color: #e62e2e;
+      transform: scale(1.05);
+    }
+
+    .btn-voltar:focus {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
     }
   </style>
 </head>
@@ -611,19 +610,11 @@
             </div>
           </details>
 
-          <!-- Nota do Curador -->
-          <div class="nota-curador">
-            <h4>Nota do Curador-Revisor-Verificador (Bloco B)</h4>
-            <p>Aprovação técnica CONDICIONAL (exceção de profundidade). O texto atinge 49.159 caracteres sem frontmatter (≥ 20.000 exigidos) e cumpre todos os demais critérios de aprovação integral, exceto a quantidade de fontes distintas: são 26 listadas; o padrão de aprovação plena exige pelo menos 30. Faltam 4 fontes distintas.</p>
-            <p><strong>Itens pendentes para aprovação integral:</strong></p>
-            <ul>
-              <li>Fontes distintas: incluir pelo menos 4 fontes adicionais (total alvo: 30+).</li>
-            </ul>
-            <p><strong>Demais critérios verificados:</strong> 12 fontes primárias (≥ 10), 10 imagens com descrição e fonte, 2 vídeos/documentários com descrição e fonte, 10 documentos oficiais, 10 depoimentos de testemunhas com nomes e datas, 123 citações inline [Fonte X] em afirmações de fato, frontmatter sem publicar: false, título com suspense adequado ao tom sombrio, ortografia e coesão preservadas, sem indícios de plágio (5+ palavras idênticas a fonte externa).</p>
-            <p style="margin-top:1rem;"><strong>A decisão final de publicação cabe ao usuário (Erico). O Publicador-Webmaster só deverá publicar após autorização explícita.</strong></p>
-          </div>
 
         </div>
+      <!-- Botão Voltar -->
+      <button class="btn-voltar" id="btnVoltar" aria-label="Voltar ao início">← Voltar ao início</button>
+
       </article>
 
       <script>
