@@ -447,7 +447,14 @@
       "fontes_encontradas": 0,
       "ultimo_relatorio": "pesquisas/2026-11-21-arch-12.md",
       "status": "atualizado",
-      "direcao_proxima_execucao": "Pesquisador Profundo: aprofundar arch-12 'A Escrita Que Não Fala' — investigar escritas indecifráveis e artefatos epigráficos (pedra do Ingá na Paraíba, disco de Festos, manuscrito Voynich, rongorongo de Rapa Nui, inscrições de sambaqui), registros de símbolos não decodificados no Brasil e no mundo, hipóteses de origem e tentativas de decifração; evitar ruído de notícias policiais ou políticas; buscar fontes acadêmicas, museus e sítios arqueológicos."
+      "direcao_proxima_execucao": "Pesquisador Profundo: aprofundar arch-12 'A Escrita Que Não Fala' — investigar escritas indecifráveis e artefatos epigráficos (pedra do Ingá na Paraíba, disco de Festos, manuscrito Voynich, rongorongo de Rapa Nui, inscrições de sambaqui), registros de símbolos não decodificados no Brasil e no mundo, hipóteses de origem e tentativas de decifração; evitar ruído de notícias policiais ou políticas; buscar fontes acadêmicas, museus e sítios arqueológicos"
+    },
+    "continentes-perdidos": {
+      "ultima_busca": "2026-11-23T19:58:00-03:00",
+      "total_buscas": 16,
+      "fontes_encontradas": 49,
+      "ultimo_relatorio": "entregas-pesquisa/continentes-perdidos-capitulo-1-atlantida-2026-11-23.md, entregas-pesquisa/continentes-perdidos-capitulo-2-lemuria-2026-11-23.md, entregas-pesquisa/continentes-perdidos-capitulo-3-conexoes-legado-2026-11-23.md",
+      "status": "entregue"
     }
   }
 }
