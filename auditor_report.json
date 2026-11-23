@@ -1,15 +1,15 @@
 {
   "agente": "auditor-estrutural-continua-zambria",
   "repositorio": "C:\\Users\\erico\\zambria.github.io",
-  "executado_em": "2026-11-23T06:17:11",
-  "rodada": 6,
+  "executado_em": "2026-11-23T19:32:37",
+  "rodada": 7,
   "timer_minutos": 2.0,
   "verificacoes": [
     {
       "nome": "Site rodando",
       "ok": true,
       "problema": null,
-      "evidencia": "index.html válido (10328 bytes)",
+      "evidencia": "index.html válido (41993 bytes)",
       "sugere_correcao": null
     },
     {
@@ -23,20 +23,20 @@
       "nome": "Sem posts duplicados",
       "ok": true,
       "problema": null,
-      "evidencia": "10 post(s) HTML, todos com títulos únicos.",
+      "evidencia": "62 post(s) HTML, todos com títulos únicos.",
       "sugere_correcao": null,
       "detalhes": {
-        "total": 10
+        "total": 62
       }
     },
     {
       "nome": "Links válidos",
       "ok": true,
       "problema": null,
-      "evidencia": "84 link(s) interno(s) verificado(s), todos resolvendo.",
+      "evidencia": "256 link(s) interno(s) verificado(s), todos resolvendo.",
       "sugere_correcao": null,
       "detalhes": {
-        "total_links": 84
+        "total_links": 256
       }
     },
     {
@@ -67,8 +67,13 @@
       }
     }
   ],
-  "reparacoes_aplicadas": 0,
-  "reparacoes_detalhes": [],
+  "reparacoes_aplicadas": 44,
+  "reparacoes_detalhes": [
+    {
+      "acao": "consertar_links",
+      "consertados": 44
+    }
+  ],
   "resumo": {
     "total": 7,
     "ok": 7,
