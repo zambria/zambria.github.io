@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O Poço Sem Eco — Capítulo 1 — Sobrenatural</title>
+  <link rel="stylesheet" href="../style.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937131805632227" crossorigin="anonymous"></script>
+  <style>
+    /* === SECOES COLAPSAVEIS (ESTILO OBSIDIAN) === */
+    details.bloco-denso {
+      margin: 1.5rem 0;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+      background: rgba(0,0,0,0.15);
+    }
+    details.bloco-denso summary {
+      padding: 0.8rem 1rem;
+      font-weight: 700;
+      font-size: 0.95rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--text);
+      cursor: pointer;
+      background: rgba(0,0,0,0.3);
+      list-style: none;
+      transition: background 0.2s ease;
+      border-bottom: 1px solid var(--border);
+    }
+    details.bloco-denso summary:hover { background: rgba(0,0,0,0.5); color: var(--accent); }
+    details.bloco-denso summary::-webkit-details-marker { display: none; }
+    details.bloco-denso summary::before { content: '▸'; float: right; color: var(--accent); margin-top: 0.1rem; }
+    details.bloco-denso[open] summary::before { content: '▾'; }
+    details.bloco-denso[open] summary { border-bottom-color: var(--accent); }
+    details.bloco-denso > div { padding: 1rem 1.2rem; line-height: 1.7; }
+    /* Fonte individual */
+    .fonte-item {
+      margin-bottom: 0.7rem;
+      padding-bottom: 0.7rem;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-size: 0.85rem;
+    }
+    .fonte-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    .fonte-numero { display: inline-block; width: 1.6rem; color: var(--accent); font-weight: 700; }
+    .fonte-titulo { font-weight: 600; color: var(--text); }
+    .fonte-url { color: var(--text-muted); font-size: 0.8rem; word-break: break-all; }
+    .fonte-nota { font-style: italic; color: var(--text-muted); font-size: 0.75rem; margin-top: 0.2rem; }
+    /* Anexo item */
+    .anexo-item {
+      margin-bottom: 0.6rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-size: 0.85rem;
+    }
+    .anexo-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    .anexo-numero { display: inline-block; width: 1.4rem; color: var(--accent); font-weight: 700; }
+    .anexo-descricao { font-weight: 600; color: var(--text); }
+    .anexo-url { color: var(--text-muted); font-size: 0.75rem; word-break: break-all; }
+    .anexo-fonte { color: var(--text-muted); font-size: 0.7rem; font-style: italic; }
+    /* Citacoes inline [Fonte X] */
+    .cite { color: var(--accent); font-weight: 700; cursor: help; border-bottom: 1px dotted rgba(255,51,51,0.4); }
+    /* Subtitulos de secao */
+    .secao-subtitulo {
+      font-size: 1.1rem; font-weight: 700; color: var(--text);
+      margin-top: 2rem; margin-bottom: 0.8rem; letter-spacing: 0.05em;
+      border-left: 3px solid var(--accent); padding-left: 0.8rem;
+    }
+    .secao-subtitulo-2 {
+      font-size: 1rem; font-weight: 600; color: var(--text-muted);
+      margin-top: 1.5rem; margin-bottom: 0.5rem; text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    /* Paragrafo de capitulo */
+    .cap-paragrafo {
+      margin-bottom: 1.2rem; line-height: 1.7; text-align: justify;
+    }
+    .cap-paragrafo:first-letter { font-weight: 700; }
+    /* Botao Voltar - SEMPRE visivel */
+    .btn-voltar {
+      position: fixed; top: 1rem; right: 1rem; z-index: 10000;
+      background-color: var(--accent); color: #000000; border: none;
+      border-radius: 4px; padding: 0.6rem 1rem; font-size: 0.9rem;
+      font-weight: 700; cursor: pointer; transition: all 0.2s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3); text-decoration: none;
+      display: inline-flex; align-items: center; gap: 0.5rem;
+    }
+    .btn-voltar:hover { background-color: #e62e2e; transform: scale(1.05); }
+    .btn-voltar:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
+  </style>
+</head>
+<body class="bg-black text-white font-sans leading-relaxed min-h-screen">
+  <div class="site-shell flex min-h-screen transition-all duration-300" id="site-shell">
+    <button class="btn-toggle-sidebar" id="btnToggleSidebar" aria-label="Esconder barra lateral">☰</button>
+    <aside class="sidebar" id="sidebar-zambria">
+      <div class="sidebar-header">
+        <div class="site-title">ZAMBRIA</div>
+        <div class="site-subtitle">O Insólito Presente</div>
+      </div>
+            <div class="categoria-grupo">
+        <div class="categoria-titulo" id="categoria-sobrenatural" role="button" tabindex="0" aria-expanded="false">Sobrenatural</div>
+        <ul class="lista-topicos" id="lista-sobrenatural" style="display: none;">
+          <li>
+            <div class="categoria-titulo nivel-2" id="serie-sobrenatural" role="button" tabindex="0" aria-expanded="false">Série Sobrenatural</div>
+            <ul class="lista-topicos nivel-2" id="capitulos-sobrenatural" style="display: none;">
+              <li><a href="capitulo-1-sobrenatural-o-po-co-sem-eco.html">Capítulo 1 — O Poço Sem Eco</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <main class="conteudo">
+            <article class="post">
+        <div class="post-meta">
+          <span class="categoria">Sobrenatural</span>
+          <span>Capítulo 1 de 1 — Sobrenatural — 2026</span>
+          <span>ZAMBRIA — O Insólito Presente</span>
+        </div>
+        <h1>O Poço Sem Eco</h1>
+        <h2>Uma geóloga mapeia poços abandonados no sertão e encontra um que engole o som. Quando desce para medir o fundo, descobre que o poço não é um buraco — é um ouvido, e agora ele ouviu ela.</h2>
+        <div class="texto">
+          <div class="cap-paragrafo">Elisa saiu da cidade quando o sol ainda era uma mancha branca sobre o horizonte, e a estrada de terra engoliu o carro aos poucos. Levou dois dias desde a capital até o último posto de combustível, e mais cinco horas de estrada de chão batido até Santo Antônio do Poço Seco, nome que a prefeitura havia removido dos mapas oficiais mas que ainda estava pintado à mão em uma placa de madeira torta, quase ilhível sob o pó. Ela não era do tipo que acredita em lendas. Elisa era geóloga, recém-formada, contratada por uma consultoria ambiental para fazer o levantamento de poços abandonados na região — cadastrar, medir profundidade, avaliar risco de desabamento, entregar um relatório técnico em PDF que ninguém leria. O sertão era o tipo de lugar onde o mapa mentia por omissão: o que não constava no papel não existia para o Estado, e, portanto, não podia machucar ninguém.</div>
+          <div class="cap-paragrafo">O primeiro poço que ela encontrou estava a três quilômetros do centro do povoado, cercado por pedras brancas e uma cerca de arame farpado caída. O segundo, um pouco mais adiante, tinha a boca entupida de mato e pedaços de telha quebrada. O terceiro era apenas uma depressão no chão, disfarçada por capim. Elisa anotava cada um no caderno, tirava fotos, marcava coordenadas no GPS. Tudo seguia o protocolo. Até ela encontrar o quarto.</div>
+          <div class="cap-paragrafo">Ficava às margens de um córrego seco, debaixo de um imburaneira seca cujos galhos apontavam para o céu como dedos quebrados. A boca do poço era de alvenaria, circular, cerca de noventa centímetros de diâmetro, sem tampa. Ao redor, o solo estava intacto: nenhuma pegada, nenhuma folha, nenhum inseto. O silêncio ali não era apenas ausência de barulho. Era algo mais denso, como se o ar tivesse peso e recusasse a se mover.</div>
+          <div class="cap-paragrafo">Elisa aproximou-se e olhou para dentro. A escuridão era absoluta. Ela acendeu a lanterna e direcionou o feixe para baixo. A luz se perdeu antes de tocar qualquer superfície. Não há como descrever aquilo senão como um engolimento: a lanterna não revelava paredes, não mostrava umidade, não refletia em nenhuma pedra. O feixe simplesmente desaparecia, como se o poço não tivesse fundo, ou como se o fundo estivesse além do alcance da luz física.</div>
+          <div class="cap-paragrafo">Ela deu um passo atrás. O coração acelerou, mas ela ignorou. Profissionais não ficam assustados com buracos no chão.</div>
+          <div class="cap-paragrafo">— Boa tarde — disse ela, em voz alta, para testar.</div>
+          <div class="cap-paragrafo">A palavra saiu de sua boca e morreu no ar. Não houve eco. Não houve reverberação. Não houve sequer o leve retorno que qualquer cavidade, por mais rasa que seja, devolve à voz humana. Elisa repetiu: — Boa tarde.</div>
+          <div class="cap-paragrafo">Novamente, nada. O som não voltou. Parecia ter sido sugado no momento em que saiu de seus lábios, absorvido pelas paredes invisíveis do poço como um lençol absorve vinho derramado.</div>
+          <div class="cap-paragrafo">Ela voltou ao carro, pegou o gravador de campo — um aparelho pequeno, usado para registrar entrevistas e sons ambientais — e amarrou-o a uma corda de nylon com um peso de metal na ponta. Baixou o aparelho lentamente, ouvindo o deslizar da corda entre as luvas. Quando o gravador estava a uns dez metros de profundidade, Elisa apertou o botão de gravação e disse, em voz alta, para que o microfone captasse:</div>
+          <div class="cap-paragrafo">— Teste. Um, dois, três. Está me ouvindo?</div>
+          <div class="cap-paragrafo">Deixou o aparelho ali por dois minutos, então o puxou de volta. A fita — ou o arquivo digital, não importava — estava limpa. Não havia a própria voz dela. Não havia o barulho da corda. Não havia o vento. Havia apenas um ruído branco, baixo, quase imperceptível, e por baixo dele, algo que não era vento nem corda nem aparelho: uma respiração. Lenta. Profunda. Não humana.</div>
+          <div class="cap-paragrafo">Elisa desligou o gravador. Fitou o poço por um longo tempo. A respiração, se é que havia sido uma respiração, não estava na fita quando ela ouviu novamente no carro. Ou talvez estivesse, e ela não quisesse admitir. Ela decidiu voltar no dia seguinte com equipamento melhor: fita métrica de cem metros, câmera com luz potente, capacete, corda de escalada. Foi o que o protocolo exigia para poços de profundidade desconhecida. Foi também o que a mataria, se ela tivesse entendido o que o poço era.</div>
+          <div class="cap-paragrafo">No dia seguinte, o povoado estava mais silencioso ainda. Elisa cruzou com três pessoas na rua de terra: um homem idoso parado na porta de uma casa de taipa, uma mulher com um balde na cabeça e uma criança nua brincando com um pedaço de arame. Nenhum deles olhou para ela. A mulher com o balde desviou o caminho para não passar perto do poço. A criança, quando Elisa se aproximou para perguntar algo, parou de brincar, fitou o poço na direção certa mesmo sem saber onde ele ficava, e começou a chorar sem soluçar — apenas lágrimas, silenciosamente, como se já soubesse de algo que Elisa ainda não sabia.</div>
+          <div class="cap-paragrafo">Ela não perguntou nada mais. Voltar ao poço era a única coisa que importava.</div>
+          <div class="cap-paragrafo">A descida começou às dez da manhã. Elisa amarrou a corda a uma árvore seca ao lado da boca do poço, colocou o capacete, acionou a câmera presa ao peito e começou a descer. As primeiras paredes apareceram aos cinco metros: rocha escura, lisa, úmida, sem as irregularidades que o calcário da região costumava apresentar. A temperatura caiu. Aos dez metros, o feixe da lanterna ainda não encontrava o fundo. Aos vinte, Elisa parou para medir. A fita métrica continuava saindo do carretel, metro após metro, e a rocha continuava lisa, escura, úmida, sem nenhuma mudança.</div>
+          <div class="cap-paragrafo">Aos cinquenta metros, Elisa sentiu o primeiro calafrio. Não era frio de profundidade — poços desse tipo costumam ser frescos, mas não gelados. Este era um frio que subia das pernas para o peito, como se algo estivesse retirando o calor de seu corpo peça por peça. Ela olhou para cima. A boca do poço era um círculo de luz cada vez menor, e o céu azul que ela vira ao sair de casa parecia uma mentira de outra vida.</div>
+          <div class="cap-paragrafo">A voz dela saiu abafada:</div>
+          <div class="cap-paragrafo">— Elisa Silva, geóloga, registro de campo, poço número quatro, Santo Antônio do Poço Seco. Profundidade cinquenta metros. Sem sinal de fundo.</div>
+          <div class="cap-paragrafo">Nada voltou. Não havia eco a essa profundidade — era esperado —, mas também não havia o barulho da própria respiração dela refletindo nas paredes. O som morria ao sair da máscara de oxigênio — ela não usava máscara de oxigênio; o som morria ao sair de sua garganta e não encontrava retorno. Era como falar dentro de um travesseiro feito de vácuo.</div>
+          <div class="cap-paragrafo">Ela continuou descendo.</div>
+          <div class="cap-paragrafo">Aos oitenta metros, a corda tremeu. Não foi o vento — não há vento a oitenta metros abaixo do solo. Foi um movimento lateral, sutil, como se algo do lado de fora da corda a tivesse tocado e solto. Elisa parou, ficou imóvel, escutou. O silêncio do poço não era vazio. Era cheio. Havia algo ali dentro dela, preenchendo cada centímetro de escuridão, algo que não se via mas se sentia, como a presença de alguém parado atrás de você em um quarto escuro.</div>
+          <div class="cap-paragrafo">— Quem está aí? — perguntou.</div>
+          <div class="cap-paragrafo">Nada.</div>
+          <div class="cap-paragrafo">Ela continuou. Aos cem metros, o carretel da fita métrica estava quase vazio. A rocha permanecia a mesma: lisa, escura, úmida, sem camadas, sem fósseis, sem nenhuma das marcas que a geologia deixa nas paredes de um poço. Era uma superfície impossível — ou uma superfície que não queria ser lida. Elisa apertou o botão da câmera, registrou a parede, e sentiu o cheiro. Não era umidade. Não era mofo. Era o cheiro de sangue seco misturado a terra antiga, um cheiro que não deveria existir a cem metros de profundidade em um poço seco no meio do sertão.</div>
+          <div class="cap-paragrafo">O carretel acabou.</div>
+          <div class="cap-paragrafo">Elisa ficou suspensa a cem metros abaixo da superfície, sem saber onde terminava o poço, com a câmera filmando uma parede que não revelava nada, e o silêncio — esse silêncio que não era silêncio, mas algo ouvindo-a — preenchendo o espaço ao redor. Ela agarrou a corda com ambas as mãos, fechou os olhos, e desceu mais dois metros, segurando na corda abaixo do último ponto medido, buscando o fundo com os pés.</div>
+          <div class="cap-paragrafo">Seus pés não encontraram nada.</div>
+          <div class="cap-paragrafo">Ela desceu mais um metro. Mais um. A corda balançou. A parede, agora tão perto que ela podia tocá-la, era lisa como espelho escuro. Elisa estendeu a mão e encostou os dedos na rocha. A superfície estava quente. Não morna — quente, como pele recém-tirada do sol, como algo vivo.</div>
+          <div class="cap-paragrafo">Ela retirou a mão rápido demais. A corda tremeu novamente, dessa vez com força, e Elisa sentiu um sopro de ar subir do poço, direto no rosto. Um sopro que cheirava a maresia. Maresia, no sertão, a centenas de quilômetros do oceano, a cem metros abaixo do solo. Elisa prendeu a respiração. O sopro parou. O silêncio voltou.</div>
+          <div class="cap-paragrafo">Foi então que ela ouviu.</div>
+          <div class="cap-paragrafo">Não veio de cima. Não veio do lado. Veio de baixo — de onde não havia fundo, de onde a fita métrica acabara, de onde a luz se perdia. Uma palavra. Não em português. Não em nenhuma língua que Elisa conhecesse. Uma sílaba grave, arrastada, que vibrou nos ossos do crânio dela e não nos tímpanos. A palavra soou como um nome. O nome dela. Elisa.</div>
+          <div class="cap-paragrafo">Ela subiu.</div>
+          <div class="cap-paragrafo">A subida foi mais longa que a descida. Cada metro parecia dobrar de tamanho. A corda, que antes deslizava suave nas mãos, agora parecia pesada, úmida, quase viva. Elisa subiu com os braços trêmulos, a respiração curta, o coração batendo forte demais para o silêncio ao redor. Quando ela chegou aos cinquenta metros, olhou para cima e viu a boca do poço — um círculo de luz tão pequeno que parecia um olho fechado. Ela subiu mais. Aos trinta metros, o calor voltou. Aos vinte, ela ouviu o vento acima, real, finalmente real, e chorou sem perceber.</div>
+          <div class="cap-paragrafo">Aos dez metros, algo segurou seu tornozelo.</div>
+          <div class="cap-paragrafo">Não foi a corda. Não foi uma rocha. Foi uma mão — fria, grossa, com dedos que não se doberam na direção certa — que envolveu seu tornozelo direito e puxou. Elisa gritou. O som saiu de sua garganta e morreu no ar, absorvido pelas paredes, não alcançando a superfície. Ela chutou, se debateu, agarrou a corda com ambas as mãos, e a mão soltou. Não se soltou por fraqueza. Soltou porque quis. Elisa subiu os últimos dez metros como se o próprio inferno estivesse empurrando suas costas, e quando seus dedos alcançaram a borda de alvenaria, ela se puxou para fora, rolou sobre o solo seco, e vomitou.</div>
+          <div class="cap-paragrafo">O sol ainda estava alto. O povoado estava lá, a alguns metros, com suas casas de taifa e seus moradores que não a olharam. O gravador estava no chão, ao lado da mochila. A fita métrica estava enrolada no carretel, completa, cem metros inteiros, como se nunca tivesse saído do carretel. A corda estava amarrada à árvore seca, intacta.</div>
+          <div class="cap-paragrafo">Elisa deitou-se no chão e respirou. O ar do sertão era quente, seco, cheiro de poeira e capim queimado. Era o ar mais bonito que ela já havia respirado.</div>
+          <div class="cap-paragrafo">Ela se levantou com as pernas trêmulas, pegou o gravador, a mochila, a lanterna. Olhou para o poço pela última vez. A boca de alvenaria estava ali, circular, inofensiva, sem nenhum sinal de que algo tivesse saído dela. Sem nenhuma marca de mãos. Elisa deu um passo para trás. Depois outro. Virou as costas e começou a caminhar em direção ao carro.</div>
+          <div class="cap-paragrafo">Não chegou ao carro.</div>
+          <div class="cap-paragrafo">A caminho, Elisa parou. Ouviu algo. Não com os ouvidos — algo mais profundo, um reconhecimento que não vinha do mundo externo. Ela parou no meio da estrada de terra, fitou o horizonte, e entendeu. O poço não era um buraco. Nunca havia sido. Buracos são vazios, ausências, falta de algo. O poço de Santo Antônio do Poço Seco era um ouvido. Um órgão enorme, enterrado há quem sabe quantos milênios sob o sertão, com a boca voltada para o céu, esperando que alguém se aproximasse o suficiente, falasse alto o suficiente, descesse o suficiente para ser ouvido.</div>
+          <div class="cap-paragrafo">Elisa tinha falado. Tinha descido. Tinha dito seu nome em voz alta a cem metros de profundidade, dentro de uma parede que era pele, em um silêncio que era ouvido.</div>
+          <div class="cap-paragrafo">Ela não chegou ao carro porque o poço não a deixava sair. Não havia cadeado, não havia corrente, não havia monstro segurando seu braço. Havia apenas o entendimento frio de que o ouvido agora a conhecia pelo nome, e ouvidos que ouvem não esquecem. Ouvidos que ouvem esperam.</div>
+          <div class="cap-paragrafo">Elisa voltou andando em direção ao poço. Seus pés sabiam o caminho melhor do que sua vontade. Ela parou à beira da boca de alvenaria, olhou para dentro, e viu a escuridão absoluta acolhê-la como quem vê um velho amigo depois de muitos anos. Ela não gritou. Não chorou. Não rezou. Elisa apenas inspirou, cheirou o ar quente do sertão pela última vez, e disse, tão baixo quanto conseguiu, apenas para si mesma:</div>
+          <div class="cap-paragrafo">— Ainda estou aqui.</div>
+          <div class="cap-paragrafo">O poço não respondeu. Não precisava. Ouvidos não respondem. Ouvidos apenas guardam o que ouviram, e esperam o momento certo de usar isso contra quem os despertou.</div>
+          <div class="cap-paragrafo">O sol se pôs sobre Santo Antônio do Poço Seco. O povoado ficou escuro. As luzes se acenderam uma a uma nas casas de taipa, e atrás de cada janela, moradores que nunca olhavam para strangers mantiveram as cortinas fechadas. A placa de madeira torta, quase ilhível sob o pó, continuava ali: Santo Antônio do Poço Seco. Um nome que a prefeitura removeu dos mapas, mas que a terra nunca esqueceu.</div>
+          <div class="cap-paragrafo">E a cem metros abaixo da superfície, em uma parede lisa, escura e quente como pele, algo respirou de volta.</div>
+          <h2>Fontes de inspiração</h2>
+          <div class="cap-paragrafo">- Departamento Nacional de Obras Contra as Secas (DNOCS), &quot;Do Brasil Colonial aos dias atuais: uma história sobre o desenvolvimento dos poços no Nordeste&quot;, gov.br — histórico sobre poços, cacimbas e perfurações no semiárido brasileiro; uso apenas como pano de fundo real para o cenário do sertão.</div>
+          <div class="cap-paragrafo">- Física StackExchange, discussão sobre profundidade em que o som de um objeto cessa de ser audível em um poço — referência ao fenômeno acústico de som que desaparece em cavidades profundas; usado como inspiração para o silêncio do poço.</div>
+          <div class="cap-paragrafo">Nenhum texto foi copiado destas fontes. A história é ficção original.</div>
+        </div>
+      </article>
+      <button class="btn-voltar" id="btnVoltar" onclick="window.location.href='../index.html';" aria-label="Voltar ao início">← Voltar ao início</button>
+      <script>
+        const btn = document.getElementById('btnToggleSidebar');
+        const shell = document.querySelector('.site-shell');
+        btn.addEventListener('click', () => {
+          shell.classList.toggle('sidebar-hidden');
+          if (shell.classList.contains('sidebar-hidden')) {
+            btn.textContent = '≡';
+            btn.setAttribute('aria-label', 'Mostrar barra lateral');
+          } else {
+            btn.textContent = '☰';
+            btn.setAttribute('aria-label', 'Esconder barra lateral');
+          }
+        });
+        const titulos = document.querySelectorAll('.categoria-titulo');
+        titulos.forEach((titulo) => {
+          const lista = titulo.nextElementSibling;
+          if (!lista || !lista.classList.contains('lista-topicos')) return;
+          if (titulo.id === 'serie-sobrenatural') return;
+          const itens = Array.from(lista.querySelectorAll('li'));
+          function abrir() {
+            lista.style.display = 'block';
+            lista.style.visibility = 'visible';
+            void lista.offsetHeight;
+            itens.forEach((li, i) => {
+              li.style.animation = 'none';
+              li.offsetHeight;
+              li.style.animation = 'slideFadeIn 0.3s ease forwards';
+              li.style.animationDelay = `${i * 70}ms`;
+            });
+            titulo.setAttribute('aria-expanded', 'true');
+          }
+          function fechar() {
+            const ultimo = itens.length - 1;
+            itens.forEach((li, i) => {
+              li.style.animation = 'none';
+              li.offsetHeight;
+              li.style.animation = 'slideFadeOut 0.2s ease forwards';
+              li.style.animationDelay = `${i * 60}ms`;
+            });
+            setTimeout(() => {
+              lista.style.display = 'none';
+              lista.style.visibility = 'hidden';
+              itens.forEach(li => { li.style.animation = 'none'; });
+            }, ultimo * 60 + 250);
+            titulo.setAttribute('aria-expanded', 'false');
+          }
+          titulo.addEventListener('click', () => {
+            const aberto = lista.style.display === 'block';
+            if (aberto) { fechar(); } else { abrir(); }
+          });
+          titulo.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              titulo.click();
+            }
+          });
+        });
+        const serieBtn = document.getElementById('serie-sobrenatural');
+        const serieLista = document.getElementById('capitulos-sobrenatural');
+        if (serieBtn && serieLista) {
+          const serieItens = Array.from(serieLista.querySelectorAll('li'));
+          function abrirSerie() {
+            serieLista.style.display = 'block';
+            serieLista.style.visibility = 'visible';
+            void serieLista.offsetHeight;
+            serieItens.forEach((li, i) => {
+              li.style.animation = 'none';
+              li.offsetHeight;
+              li.style.animation = 'slideFadeIn 0.3s ease forwards';
+              li.style.animationDelay = `${i * 60}ms`;
+            });
+            serieBtn.setAttribute('aria-expanded', 'true');
+          }
+          function fecharSerie() {
+            const ultimo = serieItens.length - 1;
+            serieItens.forEach((li, i) => {
+              li.style.animation = 'none';
+              li.offsetHeight;
+              li.style.animation = 'slideFadeOut 0.2s ease forwards';
+              li.style.animationDelay = `${i * 50}ms`;
+            });
+            setTimeout(() => {
+              serieLista.style.display = 'none';
+              serieLista.style.visibility = 'hidden';
+              serieItens.forEach(li => { li.style.animation = 'none'; });
+            }, ultimo * 50 + 200);
+            serieBtn.setAttribute('aria-expanded', 'false');
+          }
+          serieBtn.addEventListener('click', () => {
+            const aberto = serieLista.style.display === 'block';
+            if (aberto) { fecharSerie(); } else { abrirSerie(); }
+          });
+          serieBtn.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              serieBtn.click();
+            }
+          });
+        }
+        const btnVoltar = document.getElementById('btnVoltar');
+        if (btnVoltar) {
+          btnVoltar.addEventListener('click', () => {
+            window.location.href = '../index.html';
+          });
+        }
+      </script>
+    </main>
+  </div>
+</body>
+</html>

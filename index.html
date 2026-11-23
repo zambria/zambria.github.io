@@ -70,9 +70,36 @@
           <li>
             <div class="categoria-titulo nivel-2" id="serie-continentes-perdidos" role="button" tabindex="0" aria-expanded="false">Série Continentes Perdidos</div>
             <ul class="lista-topicos nivel-2" id="capitulos-continentes-perdidos" style="display: none;">
-              <li><a href="posts/capitulo-1-continentes-perdidos.html">Capítulo 1 — Atlântida</a></li>
-              <li><a href="entregas-pesquisa/continentes-perdidos-capitulo-2-lemuria-2026-11-23.md">Capítulo 2 — Lemúria</a></li>
-              <li><a href="entregas-pesquisa/continentes-perdidos-capitulo-3-conexoes-legado-2026-11-23.md">Capítulo 3 — Conexões e Legado</a></li>
+              <li><a href="capitulo-1-continentes-perdidos.html">Capítulo 1 — Atlântida</a></li>
+              <li><a href="capitulo-2-continentes-perdidos.html">Capítulo 2 — Lemúria</a></li>
+              <li><a href="capitulo-3-continentes-perdidos.html">Capítulo 3 — Conexões e Legado</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Categoria: Arqueologia -->
+      <div class="categoria-grupo">
+        <div class="categoria-titulo" id="categoria-arqueologia" role="button" tabindex="0" aria-expanded="false">Arqueologia</div>
+        <ul class="lista-topicos" id="lista-arqueologia" style="display: none;">
+          <li>
+            <div class="categoria-titulo nivel-2" id="serie-arqueologia" role="button" tabindex="0" aria-expanded="false">Série Arqueologia</div>
+            <ul class="lista-topicos nivel-2" id="capitulos-arqueologia" style="display: none;">
+              <li><a href="capitulo-1-arqueologia-o-geoglifo-que-nao-estava-no-mapa.html">Capítulo 1 — O Geoglifo que Não Estava no Mapa</a></li>
+              <li><a href="capitulo-2-arqueologia-a-camada-abaixo-do-ocre.html">Capítulo 2 — A Camada Abaixo do Ocre</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Categoria: Sobrenatural -->
+      <div class="categoria-grupo">
+        <div class="categoria-titulo" id="categoria-sobrenatural" role="button" tabindex="0" aria-expanded="false">Sobrenatural</div>
+        <ul class="lista-topicos" id="lista-sobrenatural" style="display: none;">
+          <li>
+            <div class="categoria-titulo nivel-2" id="serie-sobrenatural" role="button" tabindex="0" aria-expanded="false">Série Sobrenatural</div>
+            <ul class="lista-topicos nivel-2" id="capitulos-sobrenatural" style="display: none;">
+              <li><a href="capitulo-1-sobrenatural-o-po-co-sem-eco.html">Capítulo 1 — O Poço Sem Eco</a></li>
             </ul>
           </li>
         </ul>
@@ -109,7 +136,7 @@
     titulos.forEach((titulo) => {
       const lista = titulo.nextElementSibling;
       if (!lista || !lista.classList.contains('lista-topicos')) return;
-      if (titulo.id === 'serie-operacao-prato' || titulo.id === 'serie-sete-alem') return;
+      if (titulo.id === 'serie-operacao-prato' || titulo.id === 'serie-sete-alem' || titulo.id === 'serie-arqueologia' || titulo.id === 'serie-sobrenatural') return;
       const itens = Array.from(lista.querySelectorAll('li'));
 
       function abrir() {
@@ -246,6 +273,94 @@
         if (e.key === 'Enter' || e.key === ' ') {
           e.preventDefault();
           serieBtnSete.click();
+        }
+      });
+    }
+
+    /* Animação cascata da série Arqueologia */
+    const serieBtnArq = document.getElementById('serie-arqueologia');
+    const serieListaArq = document.getElementById('capitulos-arqueologia');
+    if (serieBtnArq && serieListaArq) {
+      const serieItensArq = Array.from(serieListaArq.querySelectorAll('li'));
+      function abrirSerieArq() {
+        serieListaArq.style.display = 'block';
+        serieListaArq.style.visibility = 'visible';
+        void serieListaArq.offsetHeight;
+        serieItensArq.forEach((li, i) => {
+          li.style.animation = 'none';
+          li.offsetHeight;
+          li.style.animation = 'slideFadeIn 0.3s ease forwards';
+          li.style.animationDelay = `${i * 60}ms`;
+        });
+        serieBtnArq.setAttribute('aria-expanded', 'true');
+      }
+      function fecharSerieArq() {
+        const ultimo = serieItensArq.length - 1;
+        serieItensArq.forEach((li, i) => {
+          li.style.animation = 'none';
+          li.offsetHeight;
+          li.style.animation = 'slideFadeOut 0.2s ease forwards';
+          li.style.animationDelay = `${i * 50}ms`;
+        });
+        setTimeout(() => {
+          serieListaArq.style.display = 'none';
+          serieListaArq.style.visibility = 'hidden';
+          serieItensArq.forEach(li => { li.style.animation = 'none'; });
+        }, ultimo * 50 + 200);
+        serieBtnArq.setAttribute('aria-expanded', 'false');
+      }
+      serieBtnArq.addEventListener('click', () => {
+        const aberto = serieListaArq.style.display === 'block';
+        if (aberto) { fecharSerieArq(); } else { abrirSerieArq(); }
+      });
+      serieBtnArq.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          serieBtnArq.click();
+        }
+      });
+    }
+
+    /* Animação cascata da série Sobrenatural */
+    const serieBtnSob = document.getElementById('serie-sobrenatural');
+    const serieListaSob = document.getElementById('capitulos-sobrenatural');
+    if (serieBtnSob && serieListaSob) {
+      const serieItensSob = Array.from(serieListaSob.querySelectorAll('li'));
+      function abrirSerieSob() {
+        serieListaSob.style.display = 'block';
+        serieListaSob.style.visibility = 'visible';
+        void serieListaSob.offsetHeight;
+        serieItensSob.forEach((li, i) => {
+          li.style.animation = 'none';
+          li.offsetHeight;
+          li.style.animation = 'slideFadeIn 0.3s ease forwards';
+          li.style.animationDelay = `${i * 60}ms`;
+        });
+        serieBtnSob.setAttribute('aria-expanded', 'true');
+      }
+      function fecharSerieSob() {
+        const ultimo = serieItensSob.length - 1;
+        serieItensSob.forEach((li, i) => {
+          li.style.animation = 'none';
+          li.offsetHeight;
+          li.style.animation = 'slideFadeOut 0.2s ease forwards';
+          li.style.animationDelay = `${i * 50}ms`;
+        });
+        setTimeout(() => {
+          serieListaSob.style.display = 'none';
+          serieListaSob.style.visibility = 'hidden';
+          serieItensSob.forEach(li => { li.style.animation = 'none'; });
+        }, ultimo * 50 + 200);
+        serieBtnSob.setAttribute('aria-expanded', 'false');
+      }
+      serieBtnSob.addEventListener('click', () => {
+        const aberto = serieListaSob.style.display === 'block';
+        if (aberto) { fecharSerieSob(); } else { abrirSerieSob(); }
+      });
+      serieBtnSob.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          serieBtnSob.click();
         }
       });
     }
