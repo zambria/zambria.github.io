@@ -1,0 +1,10 @@
+{
+  "agente": "Curador-Revisor-Verificador",
+  "bloco": "B",
+  "slug": "caso-varginha-1996-o-roswell-brasileiro",
+  "titulo": "Caso Varginha 1996 — O Roswell Brasileiro que Nunca Morreu",
+  "caminho_aprovado": "review/pendentes/caso-varginha-1996-o-roswell-brasileiro_aprovado.md",
+  "status": "aprovado_tecnico",
+  "data_aprovacao": "2026-11-23T00:14:00-02:00",
+  "proximo_agente": "Usuario_decisao_final"
+}
