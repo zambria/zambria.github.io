@@ -8,7 +8,7 @@
 | A Camada Abaixo do Ocre | arqueologia | 2026-11-23 | review/ficcoes/a-camada-abaixo-do-ocre.md | pendente de curadoria |
 | O Registro 151 | ufos | 2026-11-23 | review/ficcoes/o-registro-151.md | publicado |
 || A Chuva que Trazia Ossos | fenomenos-naturais | 2026-11-23 | review/ficcoes/a-chuva-que-traya-ossos.md | publicado |
-| A Voz no Poço de Ventilação | contos-de-terror | 2026-11-23 | review/ficcoes/a-voz-no-poco-de-ventilacao.md | pendente de curadoria |
+|| A Voz no Poço de Ventilação | contos-de-terror | 2026-11-23 | review/ficcoes/a-voz-no-poco-de-ventilacao.md | publicado |
 | As Luzes do Brejo | fenomenos-naturais | 2026-11-23 | review/ficcoes/as-luzes-do-brejo.md | pendente de curadoria |
 | O Animal de Carajás | criptozoologia | 2026-11-23 | review/ficcoes/o-animal-de-carajas.md | pendente de curadoria |
 | O Zumbido de Pedra Branca | fenomenos-naturais | 2026-11-23 | review/ficcoes/o-zumbido-de-pedra-branca.md | pendente de curadoria |
@@ -46,3 +46,5 @@
 ||| As Luzes de Antes do Tremor | fenomenos-naturais | 2026-11-23 | review/ficcoes/as-luzes-de-antes-do-tremor.md | pendente de curadoria |
 ||| A Figura que Não Estava na Rocha | arqueologia | 2026-11-23 | review/ficcoes/a-figura-que-nao-estava-na-rocha.md | pendente de curadoria |
 || O Controle Que Respondeu de Volta | ufos | 2026-11-23 | review/ficcoes/o-controle-que-respondeu-de-volta.md | pendente de curadoria |
+| O Gemido das Pedras de Espinhaço | fenomenos-naturais | 2026-11-23 | review/ficcoes/o-gemido-das-pedras-de-espinhaco.md | pendente de curadoria |
+| O Recebedor de Cartas Não Endereçadas | contos-de-terror | 2026-11-23 | review/ficcoes/o-recebedor-de-cartas-nao-enderecadas.md | pendente de curadoria |
