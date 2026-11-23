@@ -334,6 +334,13 @@
           titulo.click();
         }
       });
+        /* Botão Voltar */
+        const btnVoltar = document.getElementById('btnVoltar');
+        if (btnVoltar) {
+          btnVoltar.addEventListener('click', (e) => {
+            window.location.href = '../index.html';
+          });
+        }
     });
   </script>
 </body>
