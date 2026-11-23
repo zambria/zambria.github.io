@@ -149,7 +149,7 @@
     titulos.forEach((titulo) => {
       const lista = titulo.nextElementSibling;
       if (!lista || !lista.classList.contains('lista-topicos')) return;
-      if (titulo.id === 'serie-operacao-prato' || titulo.id === 'serie-sete-alem' || titulo.id === 'serie-arqueologia' || titulo.id === 'serie-sobrenatural') return;
+      if (titulo.id === 'serie-operacao-prato' || titulo.id === 'serie-sete-alem' || titulo.id === 'serie-arqueologia' || titulo.id === 'serie-sobrenatural' || titulo.id === 'serie-continentes-perdidos' || titulo.id === 'serie-contos-de-terror') return;
       const itens = Array.from(lista.querySelectorAll('li'));
 
       function abrir() {

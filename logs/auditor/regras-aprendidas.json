@@ -1,0 +1,56 @@
+{
+  "gerado_em": "2026-11-23T08:00:00-03:00",
+  "ciclo": 1,
+  "regras": [
+    {
+      "regra": "Sempre excluir do loop genérico .categoria-titulo os ids das divs de série (nivel-2) de cada categoria",
+      "padrao": "if (titulo.id === 'serie-XXX') return; dentro de titulos.forEach antes de ler nextElementSibling",
+      "paginas_afetadas": "index.html + todos posts/capitulo-*.html que contenham sidebar com serie-XXX",
+      "correcao_aplicada": "index.html: adicionada exclusao de serie-continentes-perdidos e serie-contos-de-terror; capitulo-1-contos-de-terror.html: adicionada exclusao de serie-contos-de-terror",
+      "status": "aplicado"
+    },
+    {
+      "regra": "Auditar index.html + 100% dos posts/capitulo-*.html quando qualquer problema for reportado em so um arquivo",
+      "padrao": "cada capitulo e HTML autonomo; corrigir um nao corrige os outros",
+      "paginas_afetadas": "todo o site",
+      "correcao_aplicada": "varredura completa de 17 arquivos (index + 16 capitulos) contra KEB v1.0",
+      "status": "aplicado"
+    },
+    {
+      "regra": "Abas/categorias da sidebar SEMPRE iniciam contraídas (aria-expanded='false', style='display: none'); so o usuario expande",
+      "padrao": "nenhum aria-expanded='true' nem style='display: block' por default em nenhum arquivo",
+      "paginas_afetadas": "index.html + todos posts/capitulo-*.html",
+      "correcao_aplicada": "verificado: 0 ocorrencias de expansao por default",
+      "status": "mantido"
+    },
+    {
+      "regra": "Links entre capitulos usam caminho relativo sem prefixo posts/ (ex: capitulo-2.html, nunca posts/capitulo-2.html)",
+      "paginas_afetadas": "todos posts/capitulo-*.html",
+      "correcao_aplicada": "verificado: 0 ocorrencias de posts/capitulo nos capitulos",
+      "status": "mantido"
+    },
+    {
+      "regra": "Botao Voltar sempre com onclick direto no HTML + event listener JS como backup",
+      "paginas_afetadas": "todos posts/capitulo-*.html",
+      "correcao_aplicada": "verificado em 16/16 capitulos",
+      "status": "mantido"
+    },
+    {
+      "regra": "animationDelay sempre com template literal (crase): ${i * N}ms, nunca aspas simples",
+      "paginas_afetadas": "todos arquivos com animacao cascata",
+      "correcao_aplicada": "verificado em todos os 17 arquivos",
+      "status": "mantido"
+    }
+  ],
+  "keb_status": {
+    "KEB_01_ids_duplicados": "nenhum duplicado em nenhum arquivo",
+    "KEB_02_script_aninhado": "nenhum",
+    "KEB_03_prefixo_posts_duplicado": "nenhum",
+    "KEB_04_botao_voltar": "presente em 16/16 capitulos",
+    "KEB_05_sidebar_contraida": "17/17 arquivos ok",
+    "KEB_06_categorias_sidebar": "abaixo do cabecalho ZAMBRIA, todas contraídas por default",
+    "KEB_07_exclusao_serie_loop": "corrigido em index.html e capitulo-1-contos-de-terror.html",
+    "KEB_08_background_image": "bg-zambria.jpg presente no style.css",
+    "KEB_10_z_index_toggle": "z-index: 9999 no style.css"
+  }
+}

@@ -327,6 +327,7 @@
         /* Animação cascata das abas de categoria */
         const titulos = document.querySelectorAll('.categoria-titulo');
         titulos.forEach((titulo) => {
+          if (titulo.id === 'serie-contos-de-terror') return;
           const lista = titulo.nextElementSibling;
           if (!lista || !lista.classList.contains('lista-topicos')) return;
           const itens = Array.from(lista.querySelectorAll('li'));
