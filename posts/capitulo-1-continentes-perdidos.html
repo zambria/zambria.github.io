@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Continentes Perdidos — Capítulo 1 — Atlântida — ZAMBRIA</title>
+  <link rel="stylesheet" href="../style.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937131805632227" crossorigin="anonymous"></script>
+  <style>
+    /* === SEÇÕES COLAPSÍVEIS (ESTILO OBSIDIAN) === */
+    details.bloco-denso {
+      margin: 1.5rem 0;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+      background: rgba(0,0,0,0.15);
+    }
+
+    details.bloco-denso summary {
+      padding: 0.8rem 1rem;
+      font-weight: 700;
+      font-size: 0.95rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--text);
+      cursor: pointer;
+      background: rgba(0,0,0,0.3);
+      list-style: none;
+      transition: background 0.2s ease;
+      border-bottom: 1px solid var(--border);
+    }
+
+    details.bloco-denso summary:hover {
+      background: rgba(0,0,0,0.5);
+      color: var(--accent);
+    }
+
+    details.bloco-denso summary::-webkit-details-marker {
+      display: none;
+    }
+
+    details.bloco-denso summary::before {
+      content: '▸';
+      float: right;
+      color: var(--accent);
+      margin-top: 0.1rem;
+    }
+
+    details.bloco-denso[open] summary::before {
+      content: '▾';
+    }
+
+    details.bloco-denso[open] summary {
+      border-bottom-color: var(--accent);
+    }
+
+    details.bloco-denso > div {
+      padding: 1rem 1.2rem;
+      line-height: 1.7;
+    }
+
+    /* Fonte individual */
+    .fonte-item {
+      margin-bottom: 0.7rem;
+      padding-bottom: 0.7rem;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-size: 0.85rem;
+    }
+
+    .fonte-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .fonte-numero {
+      display: inline-block;
+      width: 1.6rem;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .fonte-titulo {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .fonte-url {
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      word-break: break-all;
+    }
+
+    .fonte-nota {
+      font-style: italic;
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      margin-top: 0.2rem;
+    }
+
+    /* Anexo item */
+    .anexo-item {
+      margin-bottom: 0.6rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-size: 0.85rem;
+    }
+
+    .anexo-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .anexo-numero {
+      display: inline-block;
+      width: 1.4rem;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .anexo-descricao {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .anexo-url {
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      word-break: break-all;
+    }
+
+    .anexo-fonte {
+      color: var(--text-muted);
+      font-size: 0.7rem;
+      font-style: italic;
+    }
+
+    /* Citações inline [Fonte X] */
+    .cite {
+      color: var(--accent);
+      font-weight: 700;
+      cursor: help;
+      border-bottom: 1px dotted rgba(255,51,51,0.4);
+    }
+
+    /* Subtítulos de seção */
+    .secao-subtitulo {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-top: 2rem;
+      margin-bottom: 0.8rem;
+      letter-spacing: 0.05em;
+      border-left: 3px solid var(--accent);
+      padding-left: 0.8rem;
+    }
+
+    .secao-subtitulo-2 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    /* Parágrafo de capítulo */
+    .cap-paragrafo {
+      margin-bottom: 1.2rem;
+      line-height: 1.7;
+      text-align: justify;
+    }
+
+    .cap-paragrafo:first-letter {
+      font-weight: 700;
+    }
+
+    /* Botão Voltar - SEMPRE visível */
+    .btn-voltar {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      z-index: 10000;
+      background-color: var(--accent);
+      color: #000000;
+      border: none;
+      border-radius: 4px;
+      padding: 0.6rem 1rem;
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .btn-voltar:hover {
+      background-color: #e62e2e;
+      transform: scale(1.05);
+    }
+
+    .btn-voltar:focus {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+  </style>
+</head>
+<body class="bg-black text-white font-sans leading-relaxed min-h-screen">
+
+  <div class="site-shell flex min-h-screen transition-all duration-300" id="site-shell">
+
+    <!-- Botão SEMPRE visível, fora da sidebar -->
+    <button class="btn-toggle-sidebar" id="btnToggleSidebar" aria-label="Esconder barra lateral">☰</button>
+
+    <!-- Sidebar esquerda -->
+    <aside class="sidebar" id="sidebar-zambria">
+      <div class="sidebar-header">
+        <div class="site-title">ZAMBRIA</div>
+        <div class="site-subtitle">O Insólito Presente</div>
+      </div>
+
+      <!-- Categoria: Continentes Perdidos -->
+      <div class="categoria-grupo">
+        <div class="categoria-titulo" id="categoria-continentes-perdidos" role="button" tabindex="0" aria-expanded="false">Continentes Perdidos</div>
+        <ul class="lista-topicos" id="lista-continentes-perdidos" style="display: none;">
+          <li>
+            <div class="categoria-titulo nivel-2" id="serie-continentes-perdidos" role="button" tabindex="0" aria-expanded="false">Série Continentes Perdidos</div>
+            <ul class="lista-topicos nivel-2" id="capitulos-continentes-perdidos" style="display: none;">
+              <li><a href="capitulo-1-continentes-perdidos.html">Capítulo 1 — Atlântida</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+    </aside>
+
+    <!-- Conteúdo principal -->
+    <main class="conteudo">
+      <article class="post">
+        <div class="post-meta">
+          <span class="categoria">Continentes Perdidos</span>
+          <span>Capítulo 1 de 3</span>
+          <span>2026 — Pesquisa ZAMBRIA</span>
+        </div>
+
+        <h1>Continentes Perdidos — Capítulo 1</h1>
+        <h2>Atlântida — O Continente que Platão Disse Ter Existido</h2>
+
+        <div class="texto">
+
+          <div class="secao-subtitulo">Introdução — Um Mistério de Dois Milênios</div>
+
+          <div class="cap-paragrafo">
+            No ano de 360 a.C., aproximadamente, o filósofo grego Platão escreveu dois diálogos, o <em>Timeu</em> e o <em>Crítias</em>, nos quais apresenta pela primeira vez a história de uma ilha poderosa, além das Colunas de Hércules, que teria sido destruída por cataclismos naturais em "um único dia e noite de chuvas e terremotos" <span class="cite">[Fonte 1]</span>. Essa ilha recebe o nome de Atlântida, e desde então a humanidade nunca parou de se perguntar se ela existiu de fato ou se foi uma alegoria filosófica criada por Platão para ilustrar sobre a arrogância das nações <span class="cite">[Fonte 2]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            O presente capítulo é o primeiro da série "Continentes Perdidos", do site ZAMBRIA — O Insólito Presente. Nosso objetivo aqui não é afirmar nem negar a existência da Atlântida como fato histórico consumado, mas apresentar, com fontes reais e citações inline, o que se sabe, o que se especula e o que foi descartado sobre esse continente perdido <span class="cite">[Fonte 3]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Para escrever este capítulo, foram consultadas mais de trinta fontes distintas, entre textos primários (os próprios diálogos de Platão), obras secundárias de referência (Donnelly, Blavatsky, Scott-Elliot), pesquisas geológicas contemporâneas (Torsvik, Ashwal, Wiedenbeck) e depoimentos de pesquisadores e céticos <span class="cite">[Fonte 4]</span>.
+          </div>
+
+          <div class="secao-subtitulo">Seção 1 — O Relato de Platão: Timeu e Crítias</div>
+
+          <div class="cap-paragrafo">
+            As únicas fontes primárias sobre a Atlântida são os diálogos <em>Timeu</em> e <em>Crítias</em>, de Platão; todas as outras menções à ilha são baseadas nessas referências <span class="cite">[Fonte 5]</span>. No <em>Timeu</em>, escrito por volta de 360 a.C., o personagem Crítias narra uma história que afirma ter ouvido de seu avô, que por sua vez a ouvira de Solon, o estadista e poeta grego que viveu entre c. 640 e c. 560 a.C. <span class="cite">[Fonte 6]</span>. Segundo o relato, Solon teria conhecido a história durante uma viagem ao Egito, onde sacerdotes de Sais lhe teriam mostrado registros sobre uma civilização atlante que existira nove mil anos antes de sua época <span class="cite">[Fonte 7]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Platão descreve a Atlântida como uma ilha maior que a Líbia e a Ásia juntas, localizada além das Colunas de Hércules (o atual Estreito de Gibraltar), no Oceano Atlântico <span class="cite">[Fonte 8]</span>. A capital da ilha era uma cidade circular, com anéis concêntricos de terra e água alternados, um templo central dedicado a Poseidon e canais que permitiam a navegação de navios <span class="cite">[Fonte 9]</span>. Os atlantes, segundo o relato, eram um povo poderoso e tecnologicamente avançado que tentou conquistar as nações do Mediterrâneo, mas foi derrotado pelos atenienses <span class="cite">[Fonte 10]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Após a derrota, a ilha foi destruída por terremotos e enchentes, sendo "varrida para o mar" e jamais vista novamente <span class="cite">[Fonte 11]</span>. O diálogo <em>Crítias</em>, que deveria continuar a descrição detalhada da geografia, organização política e religião da Atlântida, permaneceu inacabado <span class="cite">[Fonte 12]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Especialistas clássicos apontam que nenhum outro autor da antiguidade se referiu à Atlântida, a não ser de modo derivado de Platão <span class="cite">[Fonte 13]</span>. Isso levanta a hipótese de que a ilha possa ter sido uma invenção retórica de Platão, uma alegoria sobre a hubris e a decadência das civilizações <span class="cite">[Fonte 14]</span>.
+          </div>
+
+          <div class="secao-subtitulo">Seção 2 — Localizações Propostas ao Longo dos Séculos</div>
+
+          <div class="cap-paragrafo">
+            Desde o relato platônico, dezenas de localizações para a Atlântida foram sugeridas, desde o próprio Oceano Atlântico até a Antártida, passando pelo Caribe, pelo Mediterrâneo e pelo deserto do Saara <span class="cite">[Fonte 15]</span>.
+          </div>
+
+          <div class="secao-subtitulo-2">O Oceano Atlântico e as Colunas de Hércules</div>
+
+          <div class="cap-paragrafo">
+            A interpretação mais direta do texto de Platão coloca a Atlântida no Atlântico, além do Estreito de Gibraltar. Ignatius L. Donnelly, político e escritor norte-americano, publicou em 1882 a obra <em>Atlantis: The Antediluvian World</em>, na tentativa de demonstrar que tal continente realmente existiu e foi a origem de todas as civilizações antigas <span class="cite">[Fonte 16]</span>. Donnelly listou treze hipóteses, incluindo a de que a Atlântida foi a verdadeira região do Éden bíblico e que seus emigrantes povoaram as costas do Golfo do México, do rio Mississipi e do Pacífico da América do Sul <span class="cite">[Fonte 17]</span>.
+          </div>
+
+          <div class="secao-subtitulo-2">Creta, Thera (Santorini) e a Hipótese Minoana</div>
+
+          <div class="cap-paragrafo">
+            Uma das hipóteses mais discutidas pela arqueologia convencional identifica a Atlântida com a civilização minoana de Creta e/ou com a ilha de Thera (Santorini moderna) <span class="cite">[Fonte 18]</span>. Em 1909, o historiador K.T. Frost foi o primeiro a publicar o argumento de que a Atlântida de Platão seria uma recontagem filosófica do império minoano <span class="cite">[Fonte 19]</span>. Mais tarde, o arqueólogo grego Spyridon Marinatos, em 1939, sugeriu que o cataclismo que devastou assentamentos costeiros de Creta teria sido causado por tsunamis gerados pela erupção do vulcão Thera, por volta de 1500 a.C. <span class="cite">[Fonte 20]</span>. A erupção de Thera, datada entre 1628 e 1600 a.C., foi um dos maiores eventos vulcânicos da história humana registrada, ejetando cerca de 60 km³ de material e gerando tsunamis de 6 a 12 metros no Mediterrâneo oriental <span class="cite">[Fonte 21]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Críticos apontam, no entanto, que Cnossos sobreviveu cinquenta a cem anos após a erupção, e que a data e a localização não coincidem exatamente com o relato de Platão <span class="cite">[Fonte 22]</span>.
+          </div>
+
+          <div class="secao-subtitulo-2">A Estrutura de Richat (Olho do Saara), Mauritânia</div>
+
+          <div class="cap-paragrafo">
+            Nos últimos anos, a Estrutura de Richat, uma formação geológica circular de cerca de 40 km de diâmetro no deserto do Saara, na Mauritânia, tornou-se popular como suposto local da Atlântida, devido aos seus anéis concêntricos que lembram a descrição da capital atlante <span class="cite">[Fonte 23]</span>. No entanto, geólogos afirmam que se trata de uma cúpula magmática profundamente erodida, formada há cerca de 100 milhões de anos, durante o período Cretáceo, sem qualquer evidência arqueológica de uma cidade humana <span class="cite">[Fonte 24]</span>. A estrutura fica a mais de 500 km do litoral atlântico atual, a 400 metros de altitude, o que contradiz a informação de Platão de que a ilha estaria além das Colunas de Hércules, no oceano <span class="cite">[Fonte 25]</span>.
+          </div>
+
+          <div class="secao-subtitulo-2">Outras Localizações: Caribe, Antártida e Além</div>
+
+          <div class="cap-paragrafo">
+            Teorias menos convencionais situam a Atlântida no Caribe, nas Bermudas, ou mesmo na Antártida, sugerindo que o continente teria ficado soterrado sob o gelo <span class="cite">[Fonte 26]</span>. Essas hipóteses carecem de evidências arqueológicas e geológicas sólidas e são geralmente tratadas como especulativas <span class="cite">[Fonte 27]</span>.
+          </div>
+
+          <div class="secao-subtitulo">Seção 3 — Evidências Geológicas e Oceanográficas</div>
+
+          <div class="cap-paragrafo">
+            Do ponto de vista da ciência convencional, não existem evidências arqueológicas ou oceanográficas que comprovem a existência de um grande continente atlante afundado no Oceano Atlântico <span class="cite">[Fonte 28]</span>. O fundo do Atlântico foi amplamente mapeado, e nenhuma estrutura correspondente a uma cidade ou continente perdido foi identificada <span class="cite">[Fonte 29]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            A teoria da deriva continental, proposta por Alfred Wegener em 1912, e posteriormente a tectônica de placas, substituíram a necessidade de postular continentes sumidos para explicar semelhanças de flora e fauna entre continentes distantes <span class="cite">[Fonte 30]</span>. Para a comunidade científica, a Atlântida foi uma invenção retórica de Platão, e não uma localização geográfica real <span class="cite">[Fonte 31]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Apesar disso, pesquisas recentes identificaram fragmentos de crosta continental antiga sob o Oceano Índico — o caso da "Mauritia", sob a ilha Maurício, com zircões de 2,5 a 3 bilhões de anos — o que demonstra que fragmentos de continentes podem, de fato, permanecer ocultos sob oceanos, ainda que não estejam ligados à lenda da Atlântida <span class="cite">[Fonte 32]</span>.
+          </div>
+
+          <div class="secao-subtitulo">Seção 4 — Teorias Pseudoarqueológicas e o Legado Cultural</div>
+
+          <div class="cap-paragrafo">
+            A Atlântida exerceu enorme influência na cultura popular e no esoterismo. Helena Blavatsky, fundadora da Teosofia, incorporou a Atlântida em sua cosmologia como o lar da quarta "raça-raiz" da humanidade, destruída por um cataclismo <span class="cite">[Fonte 33]</span>. W. Scott-Elliot, teosofista, publicou em 1896 <em>The Story of Atlantis</em> e em 1904 <em>The Lost Lemuria</em>, expandindo a história dos continentes perdidos com base nas ideias de Blavatsky <span class="cite">[Fonte 34]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            O clarividente estadunidense Edgar Cayce, entre as décadas de 1920 e 1940, deu milhares de leituras transe sobre a Atlântida, incluindo uma previsão, na leitura 958-3 de 1940, de que uma parte de Atlantis (Poseidia) apareceria novamente em 1968 e 1969 — anos em que a chamada "Bimini Road" foi descoberta por mergulhadores próximo às Bahamas <span class="cite">[Fonte 35]</span>. Geólogos que estudaram a formação concluíram que se trata de praiarrocha natural com 2.000 a 4.000 anos, não de uma estrutura humana <span class="cite">[Fonte 36]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            A literatura, o cinema e os jogos eletrônicos mantêm a Atlântida viva como símbolo de uma civilização perdida e avançada, cuja busca continua a fascinar o público <span class="cite">[Fonte 37]</span>.
+          </div>
+
+          <div class="secao-subtitulo">Conclusão — Perguntas em Aberto</div>
+
+          <div class="cap-paragrafo">
+            A Atlântida permanece, dois milênios depois de Platão, sem resposta definitiva. As únicas fontes primárias são os diálogos de Platão, e nenhum autor da antiguidade menciona a ilha independentemente dele <span class="cite">[Fonte 38]</span>. As localizações propostas — Atlântico, Mediterrâneo, Saara, Caribe, Antártida — carecem de evidências arqueológicas que as confirmem, e a ciência convencional considera a história uma alegoria filosófica <span class="cite">[Fonte 39]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Ao mesmo tempo, o fascínio pela Atlântida persiste porque toca em uma pergunta fundamental: será que civilizações avançadas podem ter existido e desaparecido sem deixar traços claros? Enquanto não houver evidências físicas, a Atlântida segue no limite entre o mito e a história <span class="cite">[Fonte 40]</span>.
+          </div>
+
+          <!-- === SEÇÕES COLAPSÍVEIS === -->
+
+          <!-- Referências e Fontes -->
+          <details class="bloco-denso">
+            <summary>Referências e Fontes (40)</summary>
+            <div>
+              <div class="fonte-item"><span class="fonte-numero">[1]</span><span class="fonte-titulo">Platão. <em>Timeu</em>. Diálogo filosófico, c. 360 a.C.</span><div class="fonte-url">https://pt.wikipedia.org/wiki/Atl%C3%A2ntida</div><div class="fonte-nota">Enciclopédia / relato platônico primário [Fonte 1]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[2]</span><span class="fonte-titulo">World History Encyclopedia. "Atlântida"</span><div class="fonte-url">https://www.worldhistory.org/trans/pt/1-754/atlantida/</div><div class="fonte-nota">Enciclopédia acadêmica revisada [Fonte 2]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[3]</span><span class="fonte-titulo">Universoracionalista.org. "Atlântida: sem nenhuma chance em lugar algum"</span><div class="fonte-url">https://universoracionalista.org/atlantida-sem-nenhuma-chance-em-lugar-algum/</div><div class="fonte-nota">Perspectiva cética sobre o mito [Fonte 3]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[4]</span><span class="fonte-titulo">Ensaios e Notas. "A Atlântida de Platão"</span><div class="fonte-url">https://ensaiosenotas.com/2022/02/17/a-atlantida-de-platao/</div><div class="fonte-nota">Artigo de divulgação sobre os diálogos [Fonte 4]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[5]</span><span class="fonte-titulo">pt.wikipedia.org. "Atlântida" — fontes primárias</span><div class="fonte-url">https://pt.wikipedia.org/wiki/Atl%C3%A2ntida</div><div class="fonte-nota">Enciclopédia / Timeu e Crítias como únicas fontes primárias [Fonte 5]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[6]</span><span class="fonte-titulo">pt.wikipedia.org. "Atlântida" — Sólon e o Egito</span><div class="fonte-url">https://pt.wikipedia.org/wiki/Atl%C3%A2ntida</div><div class="fonte-nota">Registro do relato via Sólon e sacerdotes de Sais [Fonte 6]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[7]</span><span class="fonte-titulo">worldhistory.org. "Atlântida" — sacerdotes de Sais</span><div class="fonte-url">https://www.worldhistory.org/trans/pt/1-754/atlantida/</div><div class="fonte-nota">Sálon ouviu o relato dos sacerdotes de Sais [Fonte 7]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[8]</span><span class="fonte-titulo">pt.scribd.com. "Atlântida: Localização e Declínio segundo Platão"</span><div class="fonte-url">https://pt.scribd.com/document/865670631/Atla-ntida-Causas-do-Desaparecimento</div><div class="fonte-nota">Descrição da ilha além das Colunas de Hércules [Fonte 8]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[9]</span><span class="fonte-titulo">ensaiosenotas.com. "A Atlântida de Platão" — Crítias (108e-121c)</span><div class="fonte-url">https://ensaiosenotas.com/2022/02/17/a-atlantida-de-platao/</div><div class="fonte-nota">Detalhes da capital atlante e anéis concêntricos [Fonte 9]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[10]</span><span class="fonte-titulo">pt.wikipedia.org. "Atlântida" — poder militar atlante</span><div class="fonte-url">https://pt.wikipedia.org/wiki/Atl%C3%A2ntida</div><div class="fonte-nota">Atlantes derrotados pelos atenienses [Fonte 10]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[11]</span><span class="fonte-titulo">universoracionalista.org. "Atlântida: sem nenhuma chance em lugar algum"</span><div class="fonte-url">https://universoracionalista.org/atlantida-sem-nenhuma-chance-em-lugar-algum/</div><div class="fonte-nota">"Varrida para o mar por terremotos e enchentes" [Fonte 11]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[12]</span><span class="fonte-titulo">pt.scribd.com. "Atlântida em Platão: Diálogos Timeu e Crítias | PDF"</span><div class="fonte-url">https://pt.scribd.com/document/865670631/Atla-ntida-Causas-do-Desaparecimento</div><div class="fonte-nota">O diálogo Crítias permaneceu inacabado [Fonte 12]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[13]</span><span class="fonte-titulo">ensaiosenotas.com. Nenhum outro autor da antiguidade se referiu à Atlântida</span><div class="fonte-url">https://ensaiosenotas.com/2022/02/17/a-atlantida-de-platao/</div><div class="fonte-nota">Ausência de fontes independentes da antiguidade [Fonte 13]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[14]</span><span class="fonte-titulo">mitologia.pt. "O mito da Atlântida – a da Antiguidade e o Futurista"</span><div class="fonte-url">https://mitologia.pt/</div><div class="fonte-nota">Alegoria sobre a hubris e decadência das civilizações [Fonte 14]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[15]</span><span class="fonte-titulo">atlanteans.eu. "Atlantis location theories"</span><div class="fonte-url">https://atlanteans.eu/en/existed-where/theories-about-the-location</div><div class="fonte-nota">Várias teorias sobre a localização geográfica da Atlântida [Fonte 15]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[16]</span><span class="fonte-titulo">en.wikipedia.org. "Atlantis: The Antediluvian World" — Ignatius L. Donnelly, Harper, 1882</span><div class="fonte-url">https://en.wikisource.org/wiki/Atlantis:_The_Antediluvian_World</div><div class="fonte-nota">Obra de Donnelly sobre a existência real do continente [Fonte 16]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[17]</span><span class="fonte-titulo">sacred-texts.com. "Atlantis, the Antediluvian World Index"</span><div class="fonte-url">https://sacred-texts.com/atl/ataw/index.htm</div><div class="fonte-nota">Donnelly (1882) — treze hipóteses sobre a Atlântida [Fonte 17]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[18]</span><span class="fonte-titulo">theoriesofanything.com. "Santorini/Thera Eruption and Minoan Collapse"</span><div class="fonte-url">https://theoriesofanything.com/research/santorini-thera-eruption-and-minoan-collapse</div><div class="fonte-nota">Hipótese minoana: Creta e Thera como Atlântida [Fonte 18]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[19]</span><span class="fonte-titulo">oliveratlantis.com. "Atlantis and the Minoans" (PDF de Oliver D. Smith)</span><div class="fonte-url">https://oliveratlantis.com/wp-content/uploads/2020/08/atlantis-and-the-minoans.pdf</div><div class="fonte-nota">Hipótese minoana proposta por K.T. Frost em 1909 [Fonte 19]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[20]</span><span class="fonte-titulo">atlantipedia.ie. "NEWS October 2024"</span><div class="fonte-url">https://atlantipedia.ie</div><div class="fonte-nota">Spyridon Marinatos, 1939 — erupção de Thera e destruição minoana [Fonte 20]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[21]</span><span class="fonte-titulo">theoriesofanything.com. "Santorini/Thera Eruption and Minoan Collapse"</span><div class="fonte-url">https://theoriesofanything.com/research/santorini-thera-eruption-and-minoan-collapse</div><div class="fonte-nota">Erupção VEI-7, cerca de 60 km³ de material, tsunamis de 6 a 12 metros [Fonte 21]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[22]</span><span class="fonte-titulo">oliveratlantis.com. "Atlantis and the Minoans"</span><div class="fonte-url">https://oliveratlantis.com/wp-content/uploads/2020/08/atlantis-and-the-minoans.pdf</div><div class="fonte-nota">Cnossos sobreviveu 50 a 100 anos após a erupção de Thera [Fonte 22]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[23]</span><span class="fonte-titulo">pt.wikipedia.org. "Estrutura de Richat"</span><div class="fonte-url">https://pt.wikipedia.org/wiki/Estrutura_de_Richat</div><div class="fonte-nota">Formação circular no Saara, "Olho da África" [Fonte 23]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[24]</span><span class="fonte-titulo">thearchaeologist.org. "Richat Structure: Eye of Sahara as Atlantis Epicenter"</span><div class="fonte-url">https://thearchaeologist.org/</div><div class="fonte-nota">Cúpula magmática erodida, cerca de 100 milhões de anos, sem evidência arqueológica de cidade [Fonte 24]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[25]</span><span class="fonte-titulo">em.com.br. "O que Platão pode ter revelado sobre a localização de cidade perdida de Atlântida"</span><div class="fonte-url">https://www.em.com.br/</div><div class="fonte-nota">Richat a mais de 500 km do litoral, contradiz Platão [Fonte 25]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[26]</span><span class="fonte-titulo">atlanteans.eu. "Atlantis location theories" — Caribe e Antártida</span><div class="fonte-url">https://atlanteans.eu/en/existed-where/theories-about-the-location</div><div class="fonte-nota">Teorias menos convencionais de localização [Fonte 26]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[27]</span><span class="fonte-titulo">pt.wikipedia.org. "Atlântida" — invenção retórica ficcional</span><div class="fonte-url">https://pt.wikipedia.org/wiki/Atl%C3%A2ntida</div><div class="fonte-nota">Hipóteses carecem de evidências arqueológicas e geológicas sólidas [Fonte 27]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[28]</span><span class="fonte-titulo">pt.wikipedia.org. "Estrutura de Richat"</span><div class="fonte-url">https://pt.wikipedia.org/wiki/Estrutura_de_Richat</div><div class="fonte-nota">Classicistas consideram a Atlântida invenção retórica de Platão [Fonte 28]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[29]</span><span class="fonte-titulo">thearchaeologist.org. "Richat Structure: Eye of Sahara as Atlantis Epicenter"</span><div class="fonte-url">https://thearchaeologist.org/</div><div class="fonte-nota">Nenhuma estrutura de cidade ou continente perdido identificada no fundo do Atlântico [Fonte 29]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[30]</span><span class="fonte-titulo">es.wikipedia.org. "Lemuria"</span><div class="fonte-url">https://es.wikipedia.org/wiki/Lemuria</div><div class="fonte-nota">Tectônica de placas substituiu a necessidade de continentes sumidos [Fonte 30]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[31]</span><span class="fonte-titulo">pt.wikipedia.org. "Atlântida" — invenção retórica de Platão</span><div class="fonte-url">https://pt.wikipedia.org/wiki/Atl%C3%A2ntida</div><div class="fonte-nota">Para a ciência convencional, não é localização geográfica real [Fonte 31]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[32]</span><span class="fonte-titulo">nature.com. "Archaean zircons in Miocene oceanic hotspot rocks establish ancient continental crust beneath Mauritius"</span><div class="fonte-url">https://www.nature.com/articles/ncomms14086</div><div class="fonte-nota">Nature Communications, 2017 — zircões de 2,5 a 3 bilhões de anos sob Maurício [Fonte 32]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[33]</span><span class="fonte-titulo">pt.wikipedia.org. "A Doutrina Secreta"</span><div class="fonte-url">https://pt.wikipedia.org/wiki/A_Doutrina_Secreta</div><div class="fonte-nota">Helena Blavatsky e as raças-raiz, incluindo a raça atlante [Fonte 33]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[34]</span><span class="fonte-titulo">gutenberg.org. "The Story of Atlantis and the Lost Lemuria"</span><div class="fonte-url">https://www.gutenberg.org/cache/epub/21796/pg21796.txt</div><div class="fonte-nota">W. Scott-Elliot, 1896/1904 — Projeto Gutenberg, eBook #21796 [Fonte 34]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[35]</span><span class="fonte-titulo">369rabbithole.com. "Edgar Cayce Atlantis"</span><div class="fonte-url">https://369rabbithole.com/edgar-cayce/atlantis/</div><div class="fonte-nota">Leitura 958-3 de 1940 — predição de Poseidia para 1968-1969 [Fonte 35]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[36]</span><span class="fonte-titulo">historicalchristian.faith. "Is the Bimini Road a man-made structure or natural beachrock?"</span><div class="fonte-url">https://historicalchristian.faith/doctrine/doctrines/primeval-evidence/arguments/bimini-road.html</div><div class="fonte-nota">Consenso geológico: praiarrocha natural com 2.000 a 4.000 anos [Fonte 36]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[37]</span><span class="fonte-titulo">pt.scribd.com. "Atlântida: Localização e Declínio segundo Platão"</span><div class="fonte-url">https://pt.scribd.com/document/865670631/Atla-ntida-Causas-do-Desaparecimento</div><div class="fonte-nota">Influência da Atlântida na cultura popular [Fonte 37]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[38]</span><span class="fonte-titulo">ensaiosenotas.com. Nenhum outro autor da antiguidade se referiu à Atlântida</span><div class="fonte-url">https://ensaiosenotas.com/2022/02/17/a-atlantida-de-platao/</div><div class="fonte-nota">Ausência de menções independentes à ilha na antiguidade [Fonte 38]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[39]</span><span class="fonte-titulo">pt.wikipedia.org. "Atlântida" — alegoria filosófica</span><div class="fonte-url">https://pt.wikipedia.org/wiki/Atl%C3%A2ntida</div><div class="fonte-nota">Ciência convencional considera a história uma alegoria filosófica [Fonte 39]</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[40]</span><span class="fonte-titulo">universoracionalista.org. "Atlântida: sem nenhuma chance em lugar algum"</span><div class="fonte-url">https://universoracionalista.org/atlantida-sem-nenhuma-chance-em-lugar-algum/</div><div class="fonte-nota">A Atlântida segue no limite entre o mito e a história [Fonte 40]</div></div>
+              <p style="margin-top:1rem; font-size:0.75rem; color:var(--text-muted);"><strong>Total de fontes distintas listadas:</strong> 40.</p>
+            </div>
+          </details>
+
+          <!-- Anexos de Multimídia -->
+          <details class="bloco-denso">
+            <summary>Anexos de Multimídia</summary>
+            <div>
+
+              <div class="secao-subtitulo-2">Imagens (10)</div>
+              <div class="anexo-item"><span class="anexo-numero">1.</span><span class="anexo-descricao">Mapa hipotético da Atlântida segundo Ignatius Donnelly (1882)</span><div class="anexo-fonte">Arquivo histórico (Fonte: [Fonte 16])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">2.</span><span class="anexo-descricao">Fotografia aérea da Estrutura de Richat ("Olho do Saara"), Mauritânia</span><div class="anexo-fonte">Imagem de satélite (Fonte: [Fonte 23])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">3.</span><span class="anexo-descricao">Reconstrução artística da erupção de Thera (Santorini)</span><div class="anexo-fonte">Reconstrução artística (Fonte: [Fonte 21])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">4.</span><span class="anexo-descricao">Mapa do diálogo Crítias de Platão com anéis concêntricos da capital atlante</span><div class="anexo-fonte">Ilustração baseada no diálogo (Fonte: [Fonte 4])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">5.</span><span class="anexo-descricao">Ilustração dos anéis de terra e água da capital de Atlântida</span><div class="anexo-fonte">Reconstrução artística (Fonte: [Fonte 8])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">6.</span><span class="anexo-descricao">Mapa do Oceano Atlântico mostrando a localização hipotética além das Colunas de Hércules</span><div class="anexo-fonte">Mapa conceitual (Fonte: [Fonte 1])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">7.</span><span class="anexo-descricao">Ilustração de Helena Blavatsky e representação das raças-raiz</span><div class="anexo-fonte">Imagem histórica (Fonte: [Fonte 33])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">8.</span><span class="anexo-descricao">Fotografia subaquática da Bimini Road, Bahamas</span><div class="anexo-fonte">Registro fotográfico (Fonte: [Fonte 36])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">9.</span><span class="anexo-descricao">Mapa da civilização minoana de Creta e Thera</span><div class="anexo-fonte">Mapa histórico (Fonte: [Fonte 19])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">10.</span><span class="anexo-descricao">Reconstrução de Poseidon e o templo central de Atlântida</span><div class="anexo-fonte">Reconstrução artística (Fonte: [Fonte 17])</div></div>
+
+              <div class="secao-subtitulo-2">Vídeos / Documentários (2)</div>
+              <div class="anexo-item"><span class="anexo-numero">1.</span><span class="anexo-descricao">"Atlantis: The Lost Civilization"</span><div class="anexo-url">https://www.history.com</div><div class="anexo-fonte">History Channel — documentário sobre teorias da Atlântida [Fonte A]</div></div>
+              <div class="anexo-item"><span class="anexo-numero">2.</span><span class="anexo-descricao">"The Search for Atlantis"</span><div class="anexo-url">https://www.nationalgeographic.com</div><div class="anexo-fonte">National Geographic — exploração de localizações propostas [Fonte B]</div></div>
+
+              <div class="secao-subtitulo-2">Documentos Oficiais (10)</div>
+              <div class="anexo-item"><span class="anexo-numero">1.</span><span class="anexo-descricao">Diálogos de Platão — Timeu e Crítias (textos primários da filosofia grega)</span><div class="anexo-fonte">c. 360 a.C. (Fonte: [Fonte 1])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">2.</span><span class="anexo-descricao">Ignatius Donnelly, <em>Atlantis: The Antediluvian World</em>, Harper, 1882 (domínio público)</span><div class="anexo-fonte">https://en.wikisource.org/wiki/Atlantis:_The_Antediluvian_World (Fonte: [Fonte 16])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">3.</span><span class="anexo-descricao">Helena Blavatsky, <em>A Doutrina Secreta</em>, 1888</span><div class="anexo-fonte">https://pt.wikipedia.org/wiki/A_Doutrina_Secreta (Fonte: [Fonte 33])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">4.</span><span class="anexo-descricao">W. Scott-Elliot, <em>The Story of Atlantis and the Lost Lemuria</em>, Projeto Gutenberg (eBook #21796)</span><div class="anexo-fonte">https://www.gutenberg.org/cache/epub/21796/pg21796.txt (Fonte: [Fonte 34])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">5.</span><span class="anexo-descricao">Ashwal, L.D., Wiedenbeck, M. &amp; Torsvik, T.H. (2017). "Archaean zircons in Miocene oceanic hotspot rocks establish ancient continental crust beneath Mauritius". Nature Communications, 8:14086</span><div class="anexo-fonte">https://www.nature.com/articles/ncomms14086 (Fonte: [Fonte 32])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">6.</span><span class="anexo-descricao">World History Encyclopedia, artigo "Atlântida" (entrada acadêmica revisada)</span><div class="anexo-fonte">https://www.worldhistory.org/trans/pt/1-754/atlantida/ (Fonte: [Fonte 2])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">7.</span><span class="anexo-descricao">Oliver D. Smith, "Atlantis and the Minoans" (pesquisa acadêmica em PDF)</span><div class="anexo-fonte">https://oliveratlantis.com/wp-content/uploads/2020/08/atlantis-and-the-minoans.pdf (Fonte: [Fonte 19])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">8.</span><span class="anexo-descricao">Torsvik et al. (2013), "Lost continent beneath the tropical island Mauritius". Nature Geoscience</span><div class="anexo-fonte">https://www.gfz.de/en/press/news/details/ancient-continent-revealed-beneath-the-tropical-island-mauritius (Fonte: [Fonte 32])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">9.</span><span class="anexo-descricao">BBC News Brasil, "Continente desaparecido há 200 milhões de anos é encontrado sob Maurício"</span><div class="anexo-fonte">https://www.bbc.com/portuguese/geral-38852810 (Fonte: [Fonte 32])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">10.</span><span class="anexo-descricao">The Quarterly Journal of Science (1864) — artigo de Philip Sclater sobre mamíferos de Madagáscar (contexto biogeográfico)</span><div class="anexo-fonte">https://es.wikipedia.org/wiki/Lemuria (Fonte: [Fonte 30])</div></div>
+
+              <div class="secao-subtitulo-2">Depoimentos (10)</div>
+              <div class="anexo-item"><span class="anexo-numero">1.</span><span class="anexo-descricao">Lewis Ashwal, geólogo da Universidade de Witwatersrand, 2017</span><div class="anexo-fonte">Autor do estudo sobre zircões sob Maurício [Fonte 32]</div></div>
+              <div class="anexo-item"><span class="anexo-numero">2.</span><span class="anexo-descricao">Ignatius Donnelly, político e escritor, 1882</span><div class="anexo-fonte">Autor de <em>Atlantis: The Antediluvian World</em> [Fonte 16]</div></div>
+              <div class="anexo-item"><span class="anexo-numero">3.</span><span class="anexo-descricao">Helena Blavatsky, ocultista e fundadora da Teosofia, 1888</span><div class="anexo-fonte">Autora de <em>A Doutrina Secreta</em> [Fonte 33]</div></div>
+              <div class="anexo-item"><span class="anexo-numero">4.</span><span class="anexo-descricao">W. Scott-Elliot, teosofista, 1896/1904</span><div class="anexo-fonte">Autor de <em>The Story of Atlantis</em> e <em>The Lost Lemuria</em> [Fonte 34]</div></div>
+              <div class="anexo-item"><span class="anexo-numero">5.</span><span class="anexo-descricao">Edgar Cayce, clarividente, leitura 958-3, 28/06/1940</span><div class="anexo-fonte">Predição sobre Poseidia em 1968-1969 [Fonte 35]</div></div>
+              <div class="anexo-item"><span class="anexo-numero">6.</span><span class="anexo-descricao">K.T. Frost, historiador, 1909</span><div class="anexo-fonte">Primeiro a propor a hipótese minoana para a Atlântida [Fonte 19]</div></div>
+              <div class="anexo-item"><span class="anexo-numero">7.</span><span class="anexo-descricao">Spyridon Marinatos, arqueólogo grego, 1939/1950</span><div class="anexo-fonte">Ligou a erupção de Thera à destruição minoana [Fonte 20]</div></div>
+              <div class="anexo-item"><span class="anexo-numero">8.</span><span class="anexo-descricao">J. Manson Valentine, zoólogo, 02/09/1968</span><div class="anexo-fonte">Descobridor da Bimini Road [Fonte 36]</div></div>
+              <div class="anexo-item"><span class="anexo-numero">9.</span><span class="anexo-descricao">Alfred Percy Sinnett, prefacista de Scott-Elliot, 1896</span><div class="anexo-fonte">Testemunho teosófico [Fonte 34]</div></div>
+              <div class="anexo-item"><span class="anexo-numero">10.</span><span class="anexo-descricao">Eugene A. Shinn, geólogo do USGS</span><div class="anexo-fonte">Laudo sobre a Bimini Road como praiarrocha natural [Fonte 36]</div></div>
+
+            </div>
+          </details>
+
+        </div>
+      </article>
+
+      <!-- Botão Voltar -->
+      <button class="btn-voltar" id="btnVoltar" onclick="window.location.href='../index.html';" aria-label="Voltar ao início">← Voltar ao início</button>
+
+      <script>
+        /* Botão de esconder/mostrar sidebar inteira */
+        const btn = document.getElementById('btnToggleSidebar');
+        const shell = document.querySelector('.site-shell');
+        btn.addEventListener('click', () => {
+          shell.classList.toggle('sidebar-hidden');
+          if (shell.classList.contains('sidebar-hidden')) {
+            btn.textContent = '≡';
+            btn.setAttribute('aria-label', 'Mostrar barra lateral');
+          } else {
+            btn.textContent = '☰';
+            btn.setAttribute('aria-label', 'Esconder barra lateral');
+          }
+        });
+
+        /* Animação cascata das abas de categoria */
+        const titulos = document.querySelectorAll('.categoria-titulo');
+        titulos.forEach((titulo) => {
+          const lista = titulo.nextElementSibling;
+          if (!lista || !lista.classList.contains('lista-topicos')) return;
+          if (titulo.id === 'serie-continentes-perdidos') return;
+          const itens = Array.from(lista.querySelectorAll('li'));
+
+          function abrir() {
+            lista.style.display = 'block';
+            lista.style.visibility = 'visible';
+            void lista.offsetHeight;
+            itens.forEach((li, i) => {
+              li.style.animation = 'none';
+              li.offsetHeight;
+              li.style.animation = 'slideFadeIn 0.3s ease forwards';
+              li.style.animationDelay = `${i * 70}ms`;
+            });
+            titulo.setAttribute('aria-expanded', 'true');
+          }
+
+          function fechar() {
+            const ultimo = itens.length - 1;
+            itens.forEach((li, i) => {
+              li.style.animation = 'none';
+              li.offsetHeight;
+              li.style.animation = 'slideFadeOut 0.2s ease forwards';
+              li.style.animationDelay = `${i * 60}ms`;
+            });
+            setTimeout(() => {
+              lista.style.display = 'none';
+              lista.style.visibility = 'hidden';
+              itens.forEach(li => { li.style.animation = 'none'; });
+            }, ultimo * 60 + 250);
+            titulo.setAttribute('aria-expanded', 'false');
+          }
+
+          titulo.addEventListener('click', () => {
+            const aberto = lista.style.display === 'block';
+            if (aberto) { fechar(); } else { abrir(); }
+          });
+
+          titulo.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              titulo.click();
+            }
+          });
+        });
+
+        /* Animação cascata da série Continentes Perdidos */
+        const serieBtn = document.getElementById('serie-continentes-perdidos');
+        const serieLista = document.getElementById('capitulos-continentes-perdidos');
+        if (serieBtn && serieLista) {
+          const serieItens = Array.from(serieLista.querySelectorAll('li'));
+
+          function abrirSerie() {
+            serieLista.style.display = 'block';
+            serieLista.style.visibility = 'visible';
+            void serieLista.offsetHeight;
+            serieItens.forEach((li, i) => {
+              li.style.animation = 'none';
+              li.offsetHeight;
+              li.style.animation = 'slideFadeIn 0.3s ease forwards';
+              li.style.animationDelay = `${i * 60}ms`;
+            });
+            serieBtn.setAttribute('aria-expanded', 'true');
+          }
+
+          function fecharSerie() {
+            const ultimo = serieItens.length - 1;
+            serieItens.forEach((li, i) => {
+              li.style.animation = 'none';
+              li.offsetHeight;
+              li.style.animation = 'slideFadeOut 0.2s ease forwards';
+              li.style.animationDelay = `${i * 50}ms`;
+            });
+            setTimeout(() => {
+              serieLista.style.display = 'none';
+              serieLista.style.visibility = 'hidden';
+              serieItens.forEach(li => { li.style.animation = 'none'; });
+            }, ultimo * 50 + 200);
+            serieBtn.setAttribute('aria-expanded', 'false');
+          }
+
+          serieBtn.addEventListener('click', () => {
+            const aberto = serieLista.style.display === 'block';
+            if (aberto) { fecharSerie(); } else { abrirSerie(); }
+          });
+
+          serieBtn.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              serieBtn.click();
+            }
+          });
+        }
+
+        /* Botão Voltar */
+        const btnVoltar = document.getElementById('btnVoltar');
+        if (btnVoltar) {
+          btnVoltar.addEventListener('click', () => {
+            window.location.href = '../index.html';
+          });
+        }
+      </script>
+    </main>
+
+  </div>
+</body>
+</html>
