@@ -183,4 +183,5 @@ Os demais agentes do time ZAMBRIA (Curador-Chefe, Revisor, Verificador de Qualid
 ||| O Cantor do Rio Negro | criptozoologia | 2026-11-22 | review/ficcoes/o-cantor-do-rio-negro.md | pendente de curadoria |
 |||| O Faroleiro Que Não Desembarcou | contos-de-terror | 2026-11-22 | review/ficcoes/o-faroleiro-que-nao-desembarcou.md | pendente de curadoria |
 || A Luz que Rolou pelo Chão | fenomenos-naturais | 2026-11-22 | review/ficcoes/a-luz-que-rolou-pelo-chao.md | pendente de curadoria |
-| O Furo Profundo | contos-de-terror | 2026-11-22 | review/ficcoes/o-furo-profundo.md | pendente de curadoria |
+|| O Furo Profundo | contos-de-terror | 2026-11-22 | review/ficcoes/o-furo-profundo.md | pendente de curadoria |
+|| O Que Desceu no Milharal | ufos | 2026-11-22 | review/ficcoes/o-que-desceu-no-milharal.md | pendente de curadoria |
