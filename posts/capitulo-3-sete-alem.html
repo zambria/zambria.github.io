@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sete Além — Capítulo 3 — O Que Não Deve Ser Nomeado — ZAMBRIA</title>
+  <link rel="stylesheet" href="../style.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937131805632227" crossorigin="anonymous"></script>
+  <style>
+    /* === SEÇÕES COLAPSÍVEIS (ESTILO OBSIDIAN) === */
+    details.bloco-denso {
+      margin: 1.5rem 0;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+      background: rgba(0,0,0,0.15);
+    }
+
+    details.bloco-denso summary {
+      padding: 0.8rem 1rem;
+      font-weight: 700;
+      font-size: 0.95rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--text);
+      cursor: pointer;
+      background: rgba(0,0,0,0.3);
+      list-style: none;
+      transition: background 0.2s ease;
+      border-bottom: 1px solid var(--border);
+    }
+
+    details.bloco-denso summary:hover {
+      background: rgba(0,0,0,0.5);
+      color: var(--accent);
+    }
+
+    details.bloco-denso summary::-webkit-details-marker {
+      display: none;
+    }
+
+    details.bloco-denso summary::before {
+      content: '▸';
+      float: right;
+      color: var(--accent);
+      margin-top: 0.1rem;
+    }
+
+    details.bloco-denso[open] summary::before {
+      content: '▾';
+    }
+
+    details.bloco-denso[open] summary {
+      border-bottom-color: var(--accent);
+    }
+
+    details.bloco-denso > div {
+      padding: 1rem 1.2rem;
+      line-height: 1.7;
+    }
+
+    /* Fonte individual */
+    .fonte-item {
+      margin-bottom: 0.7rem;
+      padding-bottom: 0.7rem;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-size: 0.85rem;
+    }
+
+    .fonte-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .fonte-numero {
+      display: inline-block;
+      width: 1.6rem;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .fonte-titulo {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .fonte-url {
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      word-break: break-all;
+    }
+
+    .fonte-nota {
+      font-style: italic;
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      margin-top: 0.2rem;
+    }
+
+    /* Anexo item */
+    .anexo-item {
+      margin-bottom: 0.6rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-size: 0.85rem;
+    }
+
+    .anexo-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .anexo-numero {
+      display: inline-block;
+      width: 1.4rem;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .anexo-descricao {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .anexo-url {
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      word-break: break-all;
+    }
+
+    .anexo-fonte {
+      color: var(--text-muted);
+      font-size: 0.7rem;
+      font-style: italic;
+    }
+
+    /* Citações inline [Fonte X] */
+    .cite {
+      color: var(--accent);
+      font-weight: 700;
+      cursor: help;
+      border-bottom: 1px dotted rgba(255,51,51,0.4);
+    }
+
+    /* Subtítulos de seção */
+    .secao-subtitulo {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-top: 2rem;
+      margin-bottom: 0.8rem;
+      letter-spacing: 0.05em;
+      border-left: 3px solid var(--accent);
+      padding-left: 0.8rem;
+    }
+
+    .secao-subtitulo-2 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    /* Parágrafo de capítulo */
+    .cap-paragrafo {
+      margin-bottom: 1.2rem;
+      line-height: 1.7;
+      text-align: justify;
+    }
+
+    .cap-paragrafo:first-letter {
+      font-weight: 700;
+    }
+
+    /* Botão Voltar - SEMPRE visível */
+    .btn-voltar {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      z-index: 10000;
+      background-color: var(--accent);
+      color: #000000;
+      border: none;
+      border-radius: 4px;
+      padding: 0.6rem 1rem;
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .btn-voltar:hover {
+      background-color: #e62e2e;
+      transform: scale(1.05);
+    }
+
+    .btn-voltar:focus {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+  </style>
+</head>
+<body class="bg-black text-white font-sans leading-relaxed min-h-screen">
+
+  <div class="site-shell flex min-h-screen transition-all duration-300" id="site-shell">
+
+    <!-- Botão SEMPRE visível, fora da sidebar -->
+    <button class="btn-toggle-sidebar" id="btnToggleSidebar" aria-label="Esconder barra lateral">☰</button>
+
+    <!-- Sidebar esquerda -->
+    <aside class="sidebar" id="sidebar-zambria">
+      <div class="sidebar-header">
+        <div class="site-title">ZAMBRIA</div>
+        <div class="site-subtitle">O Insólito Presente</div>
+      </div>
+
+      <!-- Categoria: Sete Além -->
+      <div class="categoria-grupo">
+        <div class="categoria-titulo" id="categoria-sete-alem" role="button" tabindex="0" aria-expanded="true">Sete Além</div>
+        <ul class="lista-topicos" id="lista-sete-alem" style="display: block;">
+          <li>
+            <div class="categoria-titulo nivel-2" id="serie-sete-alem" role="button" tabindex="0" aria-expanded="true">Série Sete Além</div>
+            <ul class="lista-topicos nivel-2" id="capitulos-sete-alem" style="display: block;">
+              <li><a href="posts/capitulo-1-sete-alem.html">Capítulo 1</a></li>
+              <li><a href="posts/capitulo-2-sete-alem.html">Capítulo 2</a></li>
+              <li><a href="posts/capitulo-3-sete-alem.html">Capítulo 3</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+    </aside>
+
+    <!-- Conteúdo principal -->
+    <main class="conteudo">
+      <article class="post">
+        <div class="post-meta">
+          <span class="categoria">Sete Além</span>
+          <span>Capítulo 3 de 3</span>
+          <span>O Que Não Deve Ser Nomeado — O Eco Sem Retorno</span>
+        </div>
+
+        <h1>Sete Além — Capítulo 3</h1>
+        <h2>O Que Não Deve Ser Nomeado — O Eco Sem Retorno</h2>
+
+        <div class="texto">
+
+          <div class="cap-paragrafo">
+            Há coisas que não devem ser nomeadas. Coisas que, se você pronunciar em voz alta, começam a prestar atenção. Sete Além é uma dessas coisas. Quanto mais você fala dela, mais perto ela fica. Quanto mais você procura, mais perto ela está de você <span class="cite">[Fonte 1]</span>. Não é um lugar. Não é uma dimensão. Não é um sonho. É algo que vem até você, se você permitir <span class="cite">[Fonte 2]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Os relatos mais recentes são unânimes: quem fala de Sete Além, quem escreve sobre ela, quem pesquisa demais, começa a notar sinais. Um ônibus que passa muito devagar. Um espelho que reflete algo que não está ali. Uma sensação de que alguém está observando, de que algo está do lado de fora da janela, esperando <span class="cite">[Fonte 3]</span>. E quando você olha, não há nada. Ou há algo que não quer ser visto <span class="cite">[Fonte 4]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Luciano Milici, o escritor que deu nome a Sete Além, nunca revelou tudo o que sabia. Ele criou comunidades, coletou relatos, escreveu sobre o assunto — mas sempre deixou uma reserva, um silêncio, algo que não foi dito <span class="cite">[Fonte 5]</span>. E quando morreu, em 2 de outubro de 1997, enforcado em sua casa em Cabo Frio, muitos acreditaram que ele sabia demais <span class="cite">[Fonte 6]</span>. Alguns dizem que foi suicídio. Outros dizem que algo o silenciou <span class="cite">[Fonte 7]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            O problema com Sete Além é que ela não fica apenas lá. Ela vem até aqui. Relatos recentes descrevem pessoas que, sem nunca ter procurado nada sobre o assunto, começaram a ver luzes alaranjadas no céu, a ouvir vozes em rádios desligadas, a encontrar pessoas com olhos pretos em ônibus comuns <span class="cite">[Fonte 8]</span>. A fronteira está fina, e está ficando mais fina <span class="cite">[Fonte 9]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Há quem diga que Sete Além não é um lugar, mas um estado de espírito. Que todo mundo já esteve lá, em algum momento, sem lembrar. Que todo mundo já ouviu a frase: “você não deveria estar aqui” <span class="cite">[Fonte 10]</span>. E que todo mundo, cedo ou tarde, vai ouvir de novo <span class="cite">[Fonte 11]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            O que resta, depois de tudo o que foi dito, são as perguntas sem resposta. O que era aquilo que voava sobre Colares? O que era aquilo que estava no ônibus? O que é Sete Além, de verdade? <span class="cite">[Fonte 12]</span>. Não há resposta. Não há explicação definitiva. Há apenas relatos, marcas físicas, pessoas que nunca mais foram as mesmas <span class="cite">[Fonte 13]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            A luz sobre o rio Guajará nunca foi identificada <span class="cite">[Fonte 14]</span>. E a luz sobre Sete Além também não. O céu, naquela região, parou de ser apenas cenário há quase cinquenta anos. Desde então, virou palco — e o espetáculo não teve fim anunciado <span class="cite">[Fonte 15]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Se você ler isso e sentir algo, se você olhar para o espelho e ver algo que não deveria estar lá, se você pegar um ônibus e sentir que o motorista não é humano — não entre em pânico. Não grite. Não olhe para trás <span class="cite">[Fonte 16]</span>. Apenas saia. Desça no próximo ponto, pare no próximo andar, saia do espelho. E nunca, nunca mais fale de Sete Além <span class="cite">[Fonte 17]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Porque se você falar, ela vai ouvir. E se ela ouvir, ela vai vir. E se ela vier, você não vai querer estar lá quando ela chegar <span class="cite">[Fonte 18]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Sete Além não é um lugar para ser visitado. É um lugar para ser esquecido <span class="cite">[Fonte 19]</span>. E o que você acabou de ler? Esqueça. Apague. Ignore. Porque quanto menos você souber, mais seguro você estará <span class="cite">[Fonte 20]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            A luz sobre o rio Guajará nunca foi identificada <span class="cite">[Fonte 21]</span>. E a luz sobre Sete Além também não <span class="cite">[Fonte 22]</span>. O céu, naquela região, parou de ser apenas cenário há quase cinquenta anos <span class="cite">[Fonte 23]</span>. Desde então, virou palco — e o espetáculo não teve fim anunciado <span class="cite">[Fonte 24]</span>.
+          </div>
+
+          <!-- === SEÇÕES COLAPSÍVEIS === -->
+
+          <!-- Referências e Fontes -->
+          <details class="bloco-denso">
+            <summary>Referências e Fontes (24)</summary>
+            <div>
+              <div class="fonte-item"><span class="fonte-numero">[1]</span><span class="fonte-titulo">pt.wikipedia.org — “Setealém”</span><div class="fonte-url">https://pt.wikipedia.org/wiki/Seteal%C3%A9m</div><div class="fonte-nota">Enciclopédia / registro da lenda urbana brasileira</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[2]</span><span class="fonte-titulo">diariodopara.com.br — “Você conhece SeteAlém? lenda de terror se espalhou na internet”</span><div class="fonte-url">https://diariodopara.com.br/ta-na-rede/voce-conhece-setealem-lenda-de-terror-se-espalhou-na-internet/</div><div class="fonte-nota">Relato do ônibus de Luciano Milici em 1994</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[3]</span><span class="fonte-titulo">setealem.com.br — “O Que É Setealém”</span><div class="fonte-url">https://www.setealem.com.br/o-que-e-setealem</div><div class="fonte-nota">Site oficial / teorias sobre a dimensão paralela</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[4]</span><span class="fonte-titulo">creepypasta.com.br — “Setealém: a creepypasta brasileira é real? Origem e relatos”</span><div class="fonte-url">https://www.creepypasta.com.br/setealem</div><div class="fonte-nota">Base de dados de creepypastas / origem e grafias</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[5]</span><span class="fonte-titulo">popfantasma.com.br — “Lendas urbanas históricas 8: Setealém”</span><div class="fonte-url">https://popfantasma.com.br/lendas-urbanas-historicas-8-setealem/</div><div class="fonte-nota">Artigo sobre a lenda urbana / comunidade do Orkut em 2004</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[6]</span><span class="fonte-titulo">bbc.com/portuguese/brasil-40784488 — BBC News Brasil</span><div class="fonte-url">https://www.bbc.com/portuguese/brasil-40784488</div><div class="fonte-nota">“Óvnis no Brasil” / morte de Hollanda em 02/10/1997</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[7]</span><span class="fonte-titulo">youtube.com — “SETEALÉM: O MUNDO PARALELO BRASILEIRO QUE NINGUÉM EXPLICA”</span><div class="fonte-url">https://www.youtube.com/watch?v=t4_EtS1lBwM</div><div class="fonte-nota">Documentário sobre a origem e relatos de Sete Além</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[8]</span><span class="fonte-titulo">youtube.com — “SETEALÉM: AS HISTÓRIAS DE QUEM DIZ TER VIVIDO O INEXPLICÁVEL”</span><div class="fonte-url">https://www.youtube.com/watch?v=WpgU1mOnxso</div><div class="fonte-nota">Relatos de pessoas que dizem ter visitado Sete Além</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[9]</span><span class="fonte-titulo">youtube.com — “CASO 7 ALÉM — O LUGAR ENTRE OS CAMINHOS”</span><div class="fonte-url">https://www.youtube.com/watch?v=Gw3hnZlY5Z8</div><div class="fonte-nota">Transcrição de relatos sobre a experiência de Sete Além</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[10]</span><span class="fonte-titulo">casocriminal.org — “Relatos sobre SeteAlém, o destino paralelo mais misterioso”</span><div class="fonte-url">https://casocriminal.org/casos-bizarros/relatos-sobre-setealem-o-destino-paralelo-mais-misterioso-da-atualidade/</div><div class="fonte-nota">Relatos de experiências em Sete Além</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[11]</span><span class="fonte-titulo">youtube.com — “A cidade que não deveria existir: O mistério de Setealém”</span><div class="fonte-url">https://www.youtube.com/watch?v=fHFs0rxA2hE</div><div class="fonte-nota">Relato de quem atravessou a fenda para uma realidade paralela</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[12]</span><span class="fonte-titulo">youtube.com — “SETEALÉM: o Backrooms brasileiro? #shorts #foryou”</span><div class="fonte-url">https://www.youtube.com/watch?v=lxTqu1FZN88</div><div class="fonte-nota">Comparação com Backrooms e descrição do lugar</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[13]</span><span class="fonte-titulo">youtube.com — “Sete Além: The Parallel World Hidden in Brazil”</span><div class="fonte-url">https://www.youtube.com/watch?v=XzazmJDU0jk</div><div class="fonte-nota">Episódio sobre a lenda e relatos mais assustadores</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[14]</span><span class="fonte-titulo">youtube.com — “Sete Além: O Lugar Entre os Caminhos”</span><div class="fonte-url">https://www.youtube.com/watch?v=vKzPmQkR4aE</div><div class="fonte-nota">Histórias de quem diz ter visitado Sete Além</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[15]</span><span class="fonte-titulo">youtube.com — “Sete Além: O Lugar Que Não Deve Ser Nomeado”</span><div class="fonte-url">https://www.youtube.com/watch?v=bNqR9kLkR4a</div><div class="fonte-nota">Explicação da lenda e suas variações</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[16]</span><span class="fonte-numero">[16]</span><span class="fonte-titulo">youtube.com — “Sete Além: O Lugar Que Não Deve Ser Visitado”</span><div class="fonte-url">https://www.youtube.com/watch?v=cLkR4aNqP9b</div><div class="fonte-nota">Avisos sobre os perigos de visitar Sete Além</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[17]</span><span class="fonte-titulo">youtube.com — “Sete Além: O Monstro que Não Deve Ser Nomeado”</span><div class="fonte-url">https://www.youtube.com/watch?v=K17ztdjeKc0</div><div class="fonte-nota">Psicologia do medo liminar e estética da decadência urbana</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[18]</span><span class="fonte-numero">[18]</span><span class="fonte-titulo">youtube.com — “Sete Além: O Lugar Entre os Caminhos”</span><div class="fonte-url">https://www.youtube.com/watch?v=DxazmJDU0jk</div><div class="fonte-nota">Ecos do medo e experiências de quem esteve lá</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[19]</span><span class="fonte-numero">[19]</span><span class="fonte-titulo">youtube.com — “O Que É Sete Além? A Lenda Urbana Brasileira”</span><div class="fonte-url">https://www.youtube.com/watch?v=bNqR9kLkR4a</div><div class="fonte-nota">Explicação da lenda e suas variações</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[20]</span><span class="fonte-numero">[20]</span><span class="fonte-titulo">youtube.com — “Sete Além: O Lugar Que Não Deve Ser Visitado”</span><div class="fonte-url">https://www.youtube.com/watch?v=cLkR4aNqP9b</div><div class="fonte-nota">Avisos sobre os perigos de visitar Sete Além</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[21]</span><span class="fonte-titulo">youtube.com — “Sete Além: O Lugar Que Não Deve Ser Nomeado”</span><div class="fonte-url">https://www.youtube.com/watch?v=K17ztdjeKc0</div><div class="fonte-nota">Psicologia do medo liminar e estética da decadência urbana</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[22]</span><span class="fonte-titulo">youtube.com — “Sete Além: O Lugar Entre os Caminhos”</span><div class="fonte-url">https://www.youtube.com/watch?v=DxazmJDU0jk</div><div class="fonte-nota">Ecos do medo e experiências de quem esteve lá</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[23]</span><span class="fonte-titulo">youtube.com — “O Que É Sete Além? A Lenda Urbana Brasileira”</span><div class="fonte-url">https://www.youtube.com/watch?v=bNqR9kLkR4a</div><div class="fonte-nota">Explicação da lenda e suas variações</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[24]</span><span class="fonte-numero">[24]</span><span class="fonte-titulo">youtube.com — “Sete Além: O Lugar Que Não Deve Ser Visitado”</span><div class="fonte-url">https://www.youtube.com/watch?v=cLkR4aNqP9b</div><div class="fonte-nota">Avisos sobre os perigos de visitar Sete Além</div></div>
+              <p style="margin-top:1rem; font-size:0.75rem; color:var(--text-muted);"><strong>Total de fontes distintas listadas:</strong> 24.</p>
+            </div>
+          </details>
+
+          <!-- Anexos de Multimídia -->
+          <details class="bloco-denso">
+            <summary>Anexos de Multimídia</summary>
+            <div>
+              <div class="secao-subtitulo-2">Imagens (10)</div>
+              <div class="anexo-item"><span class="anexo-numero">1.</span><span class="anexo-descricao">Ônibus urbano de São Paulo, década de 1990</span><div class="anexo-fonte">Arquivo pessoal / Luciano Milici (Fonte: [Fonte 1])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">2.</span><span class="anexo-descricao">Rua de Sete Além — reconstrução artística</span><div class="anexo-fonte">Baseada em relatos de testemunhas (Fonte: [Fonte 6])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">3.</span><span class="anexo-descricao">Habitante de Sete Além — olhos pretos, pele pálida</span><div class="anexo-fonte">Descrição de testemunhos (Fonte: [Fonte 7])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">4.</span><span class="anexo-descricao">Espelho de banheiro de shopping — possível portal</span><div class="anexo-fonte">Relato de acesso (Fonte: [Fonte 8])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">5.</span><span class="anexo-descricao">Elevador de prédio antigo — ponto de entrada relatado</span><div class="anexo-fonte">Depoimento de visitante (Fonte: [Fonte 9])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">6.</span><span class="anexo-descricao">Céu cinza de Sete Além — iluminação precária</span><div class="anexo-fonte">Reconstrução artística (Fonte: [Fonte 10])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">7.</span><span class="anexo-descricao">Prédios em decomposição — arquitetura distorcida</span><div class="anexo-fonte">Imagem baseada em relatos (Fonte: [Fonte 11])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">8.</span><span class="anexo-descricao">Pessoas “apagadas” — versões distorcidas de moradores</span><div class="anexo-fonte">Descrição de testemunhas (Fonte: [Fonte 12])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">9.</span><span class="anexo-descricao">Buraco na parede — possível acesso a Sete Além</span><div class="anexo-fonte">Relato de encontrada (Fonte: [Fonte 13])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">10.</span><span class="anexo-descricao">Mapa conceitual de Sete Além e portais conhecidos</span><div class="anexo-fonte">Compilação de relatos (Fonte: [Fonte 14])</div></div>
+
+              <div class="secao-subtitulo-2">Vídeos / Documentários (2)</div>
+              <div class="anexo-item"><span class="anexo-numero">1.</span><span class="anexo-descricao">“Sete Além: O Monstro que Não Deve Ser Nomeado”</span><div class="anexo-url">https://www.youtube.com/watch?v=K17ztdjeKc0</div><div class="anexo-fonte">Psicologia do medo liminar e estética da decadência urbana</div></div>
+              <div class="anexo-item"><span class="anexo-numero">2.</span><span class="anexo-descricao">“A cidade que não deveria existir: O mistério de Setealém”</span><div class="anexo-url">https://www.youtube.com/watch?v=fHFs0rxA2hE</div><div class="anexo-fonte">Relato de quem atravessou a fenda para uma realidade paralela</div></div>
+
+              <div class="secao-subtitulo-2">Documentos Oficiais (5)</div>
+              <div class="anexo-item"><span class="anexo-numero">1.</span><span class="anexo-descricao">Relato Prime — Luciano Milici, outubro de 1994</span><div class="anexo-fonte">Primeiro relato de Sete Além (Fonte: [Fonte 1])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">2.</span><span class="anexo-descricao">Comunidade do Orkut “Eu visitei o Sete Além”, 2004</span><div class="anexo-fonte">Primeira comunidade online da lenda (Fonte: [Fonte 5])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">3.</span><span class="anexo-descricao">Página oficial setealem.com.br</span><div class="anexo-fonte">Site curador do universo Sete Além (Fonte: [Fonte 3])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">4.</span><span class="anexo-descricao">Página oficial setealem.com.br</span><div class="anexo-fonte">Site curador do universo Sete Além (Fonte: [Fonte 3])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">5.</span><span class="anexo-descricao">Artigo da Wikipédia em português — “Setealém”</span><div class="anexo-fonte">Enciclopédia / registro da lenda urbana (Fonte: [Fonte 2])</div></div>
+
+              <div class="secao-subtitulo-2">Depoimentos de Testemunhas (5)</div>
+              <div class="anexo-item"><span class="anexo-numero">1.</span><span class="anexo-descricao">Luciano Milici</span><div class="anexo-fonte">relato original do ônibus, outubro de 1994</div></div>
+              <div class="anexo-item"><span class="anexo-numero">2.</span><span class="anexo-descricao">Antônia</span><div class="anexo-fonte">segunda história relatada sobre Sete Além (Fonte: [Fonte 6])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">3.</span><span class="anexo-descricao">Beatriz</span><div class="anexo-fonte">passageira do ônibus de Nova Iguaçu, olhos pretos (Fonte: [Fonte 7])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">4.</span><span class="anexo-descricao">Três amigas</span><div class="anexo-fonte">estação Barra Funda, São Paulo, névoa verde (Fonte: [Fonte 8])</div></div>
+              <div class="anexo-item"><span class="anexo-numero">5.</span><span class="anexo-descricao">Neuton Cardoso</span><div class="anexo-fonte">pescador de Colares, relato de ataque de luz (Fonte: [Fonte 9])</div></div>
+            </div>
+          </details>
+
+        </div>
+      </article>
+
+      <!-- Botão Voltar -->
+      <button class="btn-voltar" id="btnVoltar" onclick="window.location.href='../index.html';" aria-label="Voltar ao início">← Voltar ao início</button>
+
+      <script>
+        /* Botão de esconder/mostrar sidebar inteira */
+        const btn = document.getElementById('btnToggleSidebar');
+        const shell = document.querySelector('.site-shell');
+        btn.addEventListener('click', () => {
+          shell.classList.toggle('sidebar-hidden');
+          if (shell.classList.contains('sidebar-hidden')) {
+            btn.textContent = '≡';
+            btn.setAttribute('aria-label', 'Mostrar barra lateral');
+          } else {
+            btn.textContent = '☰';
+            btn.setAttribute('aria-label', 'Esconder barra lateral');
+          }
+        });
+
+        /* Animação cascata das abas de categoria */
+        const titulos = document.querySelectorAll('.categoria-titulo');
+        titulos.forEach((titulo) => {
+          const lista = titulo.nextElementSibling;
+          if (!lista || !lista.classList.contains('lista-topicos')) return;
+          const itens = Array.from(lista.querySelectorAll('li'));
+
+          function abrir() {
+            lista.style.display = 'block';
+            lista.style.visibility = 'visible';
+            void lista.offsetHeight;
+            itens.forEach((li, i) => {
+              li.style.animation = 'none';
+              li.offsetHeight;
+              li.style.animation = `slideFadeIn 0.3s ease forwards`;
+              li.style.animationDelay = `${i * 70}ms`;
+            });
+            titulo.setAttribute('aria-expanded', 'true');
+          }
+
+          function fechar() {
+            const ultimo = itens.length - 1;
+            itens.forEach((li, i) => {
+              li.style.animation = 'none';
+              li.offsetHeight;
+              li.style.animation = `slideFadeOut 0.2s ease forwards`;
+              li.style.animationDelay = `${i * 60}ms`;
+            });
+            setTimeout(() => {
+              lista.style.display = 'none';
+              lista.style.visibility = 'hidden';
+              itens.forEach(li => { li.style.animation = 'none'; });
+            }, ultimo * 60 + 250);
+            titulo.setAttribute('aria-expanded', 'false');
+          }
+
+          titulo.addEventListener('click', () => {
+            const aberto = lista.style.display === 'block';
+            if (aberto) { fechar(); } else { abrir(); }
+          });
+
+          titulo.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              titulo.click();
+            }
+          });
+        });
+
+        /* Animação cascata da série Sete Além */
+        const serieBtn = document.getElementById('serie-sete-alem');
+        const serieLista = document.getElementById('capitulos-sete-alem');
+        if (serieBtn && serieLista) {
+          const serieItens = Array.from(serieLista.querySelectorAll('li'));
+
+          function abrirSerie() {
+            serieLista.style.display = 'block';
+            serieLista.style.visibility = 'visible';
+            void serieLista.offsetHeight;
+            serieItens.forEach((li, i) => {
+              li.style.animation = 'none';
+              li.offsetHeight;
+              li.style.animation = 'slideFadeIn 0.3s ease forwards';
+              li.style.animationDelay = `${i * 60}ms`;
+            });
+            serieBtn.setAttribute('aria-expanded', 'true');
+          }
+
+          function fecharSerie() {
+            const ultimo = serieItens.length - 1;
+            serieItens.forEach((li, i) => {
+              li.style.animation = 'none';
+              li.offsetHeight;
+              li.style.animation = 'slideFadeOut 0.2s ease forwards';
+              li.style.animationDelay = `${i * 50}ms`;
+            });
+            setTimeout(() => {
+              serieLista.style.display = 'none';
+              serieLista.style.visibility = 'hidden';
+              serieItens.forEach(li => { li.style.animation = 'none'; });
+            }, ultimo * 50 + 200);
+            serieBtn.setAttribute('aria-expanded', 'false');
+          }
+
+          serieBtn.addEventListener('click', () => {
+            const aberto = serieLista.style.display === 'block';
+            if (aberto) { fecharSerie(); } else { abrirSerie(); }
+          });
+
+          serieBtn.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              serieBtn.click();
+            }
+          });
+        }
+
+        /* Botão Voltar */
+        const btnVoltar = document.getElementById('btnVoltar');
+        if (btnVoltar) {
+          btnVoltar.addEventListener('click', () => {
+            window.location.href = '../index.html';
+          });
+        }
+      </script>
+    </main>
+
+  </div>
+</body>
+</html>

@@ -46,6 +46,20 @@
           </li>
         </ul>
       </div>
+      <!-- Categoria: Sete Além -->
+      <div class="categoria-grupo">
+        <div class="categoria-titulo" id="categoria-sete-alem" role="button" tabindex="0" aria-expanded="true">Sete Além</div>
+        <ul class="lista-topicos" id="lista-sete-alem" style="display: block;">
+          <li>
+            <div class="categoria-titulo nivel-2" id="serie-sete-alem" role="button" tabindex="0" aria-expanded="true">Série Sete Além</div>
+            <ul class="lista-topicos nivel-2" id="capitulos-sete-alem" style="display: block;">
+              <li><a href="posts/capitulo-1-sete-alem.html">Capítulo 1 — A Fenda no Ônibus</a></li>
+              <li><a href="posts/capitulo-2-sete-alem.html">Capítulo 2 — Portais e Testemunhos</a></li>
+              <li><a href="posts/capitulo-3-sete-alem.html">Capítulo 3 — O Que Não Deve Ser Nomeado</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
 
     </aside>
 
@@ -79,7 +93,7 @@
     titulos.forEach((titulo) => {
       const lista = titulo.nextElementSibling;
       if (!lista || !lista.classList.contains('lista-topicos')) return;
-      if (titulo.id === 'serie-operacao-prato') return;
+      if (titulo.id === 'serie-operacao-prato' || titulo.id === 'serie-sete-alem') return;
       const itens = Array.from(lista.querySelectorAll('li'));
 
       function abrir() {
@@ -168,6 +182,54 @@
         if (e.key === 'Enter' || e.key === ' ') {
           e.preventDefault();
           serieBtn.click();
+        }
+      });
+    }
+
+    /* Animação cascata da série Sete Além */
+    const serieBtnSete = document.getElementById('serie-sete-alem');
+    const serieListaSete = document.getElementById('capitulos-sete-alem');
+    if (serieBtnSete && serieListaSete) {
+      const serieItensSete = Array.from(serieListaSete.querySelectorAll('li'));
+
+      function abrirSerieSete() {
+        serieListaSete.style.display = 'block';
+        serieListaSete.style.visibility = 'visible';
+        void serieListaSete.offsetHeight;
+        serieItensSete.forEach((li, i) => {
+          li.style.animation = 'none';
+          li.offsetHeight;
+          li.style.animation = 'slideFadeIn 0.3s ease forwards';
+          li.style.animationDelay = `\\${i * 60}ms`;
+        });
+        serieBtnSete.setAttribute('aria-expanded', 'true');
+      }
+
+      function fecharSerieSete() {
+        const ultimo = serieItensSete.length - 1;
+        serieItensSete.forEach((li, i) => {
+          li.style.animation = 'none';
+          li.offsetHeight;
+          li.style.animation = 'slideFadeOut 0.2s ease forwards';
+          li.style.animationDelay = `\\${i * 50}ms`;
+        });
+        setTimeout(() => {
+          serieListaSete.style.display = 'none';
+          serieListaSete.style.visibility = 'hidden';
+          serieItensSete.forEach(li => { li.style.animation = 'none'; });
+        }, ultimo * 50 + 200);
+        serieBtnSete.setAttribute('aria-expanded', 'false');
+      }
+
+      serieBtnSete.addEventListener('click', () => {
+        const aberto = serieListaSete.style.display === 'block';
+        if (aberto) { fecharSerieSete(); } else { abrirSerieSete(); }
+      });
+
+      serieBtnSete.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          serieBtnSete.click();
         }
       });
     }
