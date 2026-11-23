@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-11-23T08:00:00-03:00",
-  "ciclo": 1,
+  "gerado_em": "2026-11-23T15:45:00-03:00",
+  "ciclo": 2,
   "regras": [
     {
       "regra": "Sempre excluir do loop genérico .categoria-titulo os ids das divs de série (nivel-2) de cada categoria",
@@ -32,7 +32,7 @@
     {
       "regra": "Botao Voltar sempre com onclick direto no HTML + event listener JS como backup",
       "paginas_afetadas": "todos posts/capitulo-*.html",
-      "correcao_aplicada": "verificado em 16/16 capitulos",
+      "correcao_aplicada": "verificado em 17/17 capitulos",
       "status": "mantido"
     },
     {
@@ -40,13 +40,20 @@
       "paginas_afetadas": "todos arquivos com animacao cascata",
       "correcao_aplicada": "verificado em todos os 17 arquivos",
       "status": "mantido"
+    },
+    {
+      "regra": "Publicacao autonoma de ficcoes (review/ficcoes/ + sinais/ficcao-pronta-*.json) respeita espacamento minimo de 3 horas entre posts",
+      "padrao": "estado-publicador.json ultima_publicacao >= agora - 3h para liberar nova publicacao",
+      "paginas_afetadas": "estado-publicador.json, review/ficcoes/*.md, posts/capitulo-*.html (futuras)",
+      "correcao_aplicada": "nenhuma publicacao executada neste ciclo; ultima_publicacao 14:15, proxima liberada em 17:15 (-03)",
+      "status": "observado"
     }
   ],
   "keb_status": {
     "KEB_01_ids_duplicados": "nenhum duplicado em nenhum arquivo",
     "KEB_02_script_aninhado": "nenhum",
     "KEB_03_prefixo_posts_duplicado": "nenhum",
-    "KEB_04_botao_voltar": "presente em 16/16 capitulos",
+    "KEB_04_botao_voltar": "presente em 17/17 capitulos",
     "KEB_05_sidebar_contraida": "17/17 arquivos ok",
     "KEB_06_categorias_sidebar": "abaixo do cabecalho ZAMBRIA, todas contraídas por default",
     "KEB_07_exclusao_serie_loop": "corrigido em index.html e capitulo-1-contos-de-terror.html",
