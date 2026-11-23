@@ -7,7 +7,7 @@
 | O Poço Sem Eco | sobrenatural | 2026-11-23 | review/ficcoes/o-po-co-sem-eco.md | pendente de curadoria |
 | A Camada Abaixo do Ocre | arqueologia | 2026-11-23 | review/ficcoes/a-camada-abaixo-do-ocre.md | pendente de curadoria |
 | O Registro 151 | ufos | 2026-11-23 | review/ficcoes/o-registro-151.md | publicado |
-| A Chuva que Trazia Ossos | fenomenos-naturais | 2026-11-23 | review/ficcoes/a-chuva-que-trazia-ossos.md | pendente de curadoria |
+|| A Chuva que Trazia Ossos | fenomenos-naturais | 2026-11-23 | review/ficcoes/a-chuva-que-traya-ossos.md | publicado |
 | A Voz no Poço de Ventilação | contos-de-terror | 2026-11-23 | review/ficcoes/a-voz-no-poco-de-ventilacao.md | pendente de curadoria |
 | As Luzes do Brejo | fenomenos-naturais | 2026-11-23 | review/ficcoes/as-luzes-do-brejo.md | pendente de curadoria |
 | O Animal de Carajás | criptozoologia | 2026-11-23 | review/ficcoes/o-animal-de-carajas.md | pendente de curadoria |
@@ -39,5 +39,10 @@
 | O Que Está Abaixo das Conchas | arqueologia | 2026-11-23 | review/ficcoes/o-que-esta-abaixo-das-conchas.md | pendente de curadoria |
 || O Tremor da Estação Santa Helena | fenomenos-naturais | 2026-11-23 | review/ficcoes/o-tremor-da-estacao-santa-helena.md | pendente de curadoria |
 || O Faroleiro da Névoa | contos-de-terror | 2026-11-23 | review/ficcoes/o-faroleiro-da-nevoa.md | pendente de curadoria |
-| O Livro de Ponto de Fordlândia | contos-de-terror | 2026-11-23 | review/ficcoes/o-livro-de-ponto-de-fordlandia.md | pendente de curadoria |
-| A Décima Sétima Campainha | contos-de-terror | 2026-11-23 | review/ficcoes/a-decima-setima-campainha.md | pendente de curadoria |
+|| O Livro de Ponto de Fordlândia | contos-de-terror | 2026-11-23 | review/ficcoes/o-livro-de-ponto-de-fordlandia.md | pendente de curadoria |
+|| A Décima Sétima Campainha | contos-de-terror | 2026-11-23 | review/ficcoes/a-decima-setima-campainha.md | pendente de curadoria |
+|| O Que Respira no Lodo | criptozoologia | 2026-11-23 | review/ficcoes/o-que-respira-no-lodo.md | pendente de curadoria |
+|| A Pintura que Esperava no Escuro | arqueologia | 2026-11-23 | review/ficcoes/a-pintura-que-esperava-no-escuro.md | pendente de curadoria |
+||| As Luzes de Antes do Tremor | fenomenos-naturais | 2026-11-23 | review/ficcoes/as-luzes-de-antes-do-tremor.md | pendente de curadoria |
+||| A Figura que Não Estava na Rocha | arqueologia | 2026-11-23 | review/ficcoes/a-figura-que-nao-estava-na-rocha.md | pendente de curadoria |
+|| O Controle Que Respondeu de Volta | ufos | 2026-11-23 | review/ficcoes/o-controle-que-respondeu-de-volta.md | pendente de curadoria |
