@@ -33,3 +33,4 @@
 ||| O Arquivista do Segundo Andar | conspiracaoes | 2026-11-23 | review/ficcoes/o-arquivista-do-segundo-andar.md | pendente de curadoria |
 || O Que Restou Abaixo da Água | criptozoologia | 2026-11-23 | review/ficcoes/o-que-restou-abaixo-da-agua.md | pendente de curadoria |
 || A Nuvem que Não Passava | fenomenos-naturais | 2026-11-23 | review/ficcoes/a-nuvem-que-nao-passava.md | pendente de curadoria |
+| A Última Ronda da Torre de Vigia | contos-de-terror | 2026-11-23 | review/ficcoes/a-ultima-ronda-da-torre-de-vigia.md | pendente de curadoria |
