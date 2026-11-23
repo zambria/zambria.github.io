@@ -79,6 +79,7 @@
     titulos.forEach((titulo) => {
       const lista = titulo.nextElementSibling;
       if (!lista || !lista.classList.contains('lista-topicos')) return;
+      if (titulo.id === 'serie-operacao-prato') return;
       const itens = Array.from(lista.querySelectorAll('li'));
 
       function abrir() {
@@ -137,7 +138,7 @@
           li.style.animation = 'none';
           li.offsetHeight;
           li.style.animation = 'slideFadeIn 0.3s ease forwards';
-          li.style.animationDelay = '${i * 60}ms';
+          li.style.animationDelay = `\${i * 60}ms`;
         });
         serieBtn.setAttribute('aria-expanded', 'true');
       }
@@ -148,7 +149,7 @@
           li.style.animation = 'none';
           li.offsetHeight;
           li.style.animation = 'slideFadeOut 0.2s ease forwards';
-          li.style.animationDelay = '${i * 50}ms';
+          li.style.animationDelay = `\${i * 50}ms`;
         });
         setTimeout(() => {
           serieLista.style.display = 'none';
