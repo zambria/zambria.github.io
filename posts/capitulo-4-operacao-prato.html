@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operação Prato — Capítulo 4 — Nada de Conclusivo — ZAMBRIA</title>
+  <link rel="stylesheet" href="../style.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937131805632227" crossorigin="anonymous"></script>
+  <style>
+    /* === SEÇÕES COLAPSÍVEIS (ESTILO OBSIDIAN) === */
+    details.bloco-denso {
+      margin: 1.5rem 0;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+      background: rgba(0,0,0,0.15);
+    }
+
+    details.bloco-denso summary {
+      padding: 0.8rem 1rem;
+      font-weight: 700;
+      font-size: 0.95rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--text);
+      cursor: pointer;
+      background: rgba(0,0,0,0.3);
+      list-style: none;
+      transition: background 0.2s ease;
+      border-bottom: 1px solid var(--border);
+    }
+
+    details.bloco-denso summary:hover {
+      background: rgba(0,0,0,0.5);
+      color: var(--accent);
+    }
+
+    details.bloco-denso summary::-webkit-details-marker {
+      display: none;
+    }
+
+    details.bloco-denso summary::before {
+      content: '▸';
+      float: right;
+      color: var(--accent);
+      margin-top: 0.1rem;
+    }
+
+    details.bloco-denso[open] summary::before {
+      content: '▾';
+    }
+
+    details.bloco-denso[open] summary {
+      border-bottom-color: var(--accent);
+    }
+
+    details.bloco-denso > div {
+      padding: 1rem 1.2rem;
+      line-height: 1.7;
+    }
+
+    /* Fonte individual */
+    .fonte-item {
+      margin-bottom: 0.7rem;
+      padding-bottom: 0.7rem;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-size: 0.85rem;
+    }
+
+    .fonte-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .fonte-numero {
+      display: inline-block;
+      width: 1.6rem;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .fonte-titulo {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .fonte-url {
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      word-break: break-all;
+    }
+
+    .fonte-nota {
+      font-style: italic;
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      margin-top: 0.2rem;
+    }
+
+    /* Anexo item */
+    .anexo-item {
+      margin-bottom: 0.6rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-size: 0.85rem;
+    }
+
+    .anexo-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .anexo-numero {
+      display: inline-block;
+      width: 1.4rem;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .anexo-descricao {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .anexo-url {
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      word-break: break-all;
+    }
+
+    .anexo-fonte {
+      color: var(--text-muted);
+      font-size: 0.7rem;
+      font-style: italic;
+    }
+
+    /* Citações inline [Fonte X] */
+    .cite {
+      color: var(--accent);
+      font-weight: 700;
+      cursor: help;
+      border-bottom: 1px dotted rgba(255,51,51,0.4);
+    }
+
+    /* Subtítulos de seção */
+    .secao-subtitulo {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-top: 2rem;
+      margin-bottom: 0.8rem;
+      letter-spacing: 0.05em;
+      border-left: 3px solid var(--accent);
+      padding-left: 0.8rem;
+    }
+
+    .secao-subtitulo-2 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    /* Parágrafo de capítulo */
+    .cap-paragrafo {
+      margin-bottom: 1.2rem;
+      line-height: 1.7;
+      text-align: justify;
+    }
+
+    .cap-paragrafo:first-letter {
+      font-weight: 700;
+    }
+
+    /* Botão Voltar - SEMPRE visível */
+    .btn-voltar {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      z-index: 10000;
+      background-color: var(--accent);
+      color: #000000;
+      border: none;
+      border-radius: 4px;
+      padding: 0.6rem 1rem;
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .btn-voltar:hover {
+      background-color: #e62e2e;
+      transform: scale(1.05);
+    }
+
+    .btn-voltar:focus {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+  </style>
+</head>
+<body class="bg-black text-white font-sans leading-relaxed min-h-screen">
+
+  <div class="site-shell flex min-h-screen transition-all duration-300" id="site-shell">
+
+    <!-- Botão SEMPRE visível, fora da sidebar -->
+    <button class="btn-toggle-sidebar" id="btnToggleSidebar" aria-label="Esconder barra lateral">☰</button>
+
+    <!-- Sidebar esquerda -->
+    <aside class="sidebar" id="sidebar-zambria">
+      <div class="sidebar-header">
+        <div class="site-title">ZAMBRIA</div>
+        <div class="site-subtitle">O Insólito Presente</div>
+      </div>
+
+      <!-- Categoria: Operação Prato -->
+      <div class="categoria-grupo">
+        <div class="categoria-titulo" id="categoria-operacao-prato" role="button" tabindex="0" aria-expanded="true">Operação Prato</div>
+        <ul class="lista-topicos" id="lista-operacao-prato" style="display: block;">
+          <li>
+            <div class="categoria-titulo nivel-2" id="serie-operacao-prato" role="button" tabindex="0" aria-expanded="true">Série Operação Prato</div>
+            <ul class="lista-topicos nivel-2" id="capitulos-operacao-prato" style="display: block;">
+              <li><a href="posts/capitulo-1-operacao-prato.html">Capítulo 1</a></li>
+              <li><a href="posts/capitulo-2-operacao-prato.html">Capítulo 2</a></li>
+              <li><a href="posts/capitulo-3-operacao-prato.html">Capítulo 3</a></li>
+              <li><a href="posts/capitulo-4-operacao-prato.html">Capítulo 4</a></li>
+              <li><a href="posts/capitulo-5-operacao-prato.html">Capítulo 5</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+    </aside>
+
+    <!-- Conteúdo principal -->
+    <main class="conteudo">
+      <article class="post">
+        <div class="post-meta">
+          <span class="categoria">Operação Prato</span>
+          <span>Capítulo 4 de 5</span>
+          <span>1977 — Colares, Pará</span>
+        </div>
+
+        <h1>Operação Prato — Capítulo 4</h1>
+        <h2>Nada de Conclusivo: O Relatório de 1979, o Silêncio Oficial e a Entrevista de 1997</h2>
+
+        <div class="texto">
+
+          <div class="cap-paragrafo">
+            A Operação Prato não terminou quando os militares deixaram a região de Colares. Ela continuou, de forma silenciosa e dolorosa, na vida de quem viveu aqueles dias, nos documentos que foram arquivados e nas memórias de quem tentou contar o que viu. O relatório oficial de 1979, preparado pela Força Aérea Brasileira, tentou encerrar o assunto. Mas não conseguiu. A entrevista de 1997 do capitão Uyrangê Hollanda, o oficial que comandou a operação, reabriu feridas que o exército preferia manter fechadas. Este capítulo conta a história do que aconteceu após a operação oficial terminar — o silêncio, o relatório de 1979, a entrevista de 1997 e a morte de Hollanda em 1997 <span class="cite">[Fonte 1]</span><span class="cite">[Fonte 2]</span><span class="cite">[Fonte 3]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            A Operação Prato terminou oficialmente em 5 de dezembro de 1977, quando o brigadeiro Protásio Lopes de Oliveira, comandante do 1º Comando Aéreo Regional de Belém, mandou suspender a operação após ouvir o relato de Hollanda sobre um objeto enorme sobrevoando o rio Guajará-Mirim <span class="cite">[Fonte 4]</span><span class="cite">[Fonte 5]</span>. A Força Aérea Brasileira encerrou a operação, arquivou os documentos, e os militares retornaram para suas unidades de origem. Mas para as pessoas de Colares, a operação nunca terminou. As luzes continuaram a aparecer nos céus do Pará. As pessoas continuaram a ver coisas que não conseguiam explicar. E o medo continuou a viver nas comunidades ribeirinhas <span class="cite">[Fonte 1]</span><span class="cite">[Fonte 2]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            O relatório de 1979 foi o documento oficial que encerrou oficialmente a Operação Prato. Ele foi produzido pela Força Aérea Brasileira, baseado nos relatórios da primeira e segunda missões, nos depoimentos dos militares envolvidos e nas observações coletadas durante as duas missões. O relatório concluiu que os fenômenos observados em Colares não podiam ser explicados de forma definitiva, mas que não representavam uma ameaça à segurança nacional. Era um relatório ambíguo, que reconhecia a existência de fenômenos não identificados, mas que se recusava a dar qualquer explicação definitiva sobre o que eles eram <span class="cite">[Fonte 6]</span><span class="cite">[Fonte 7]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            A entrevista de 1997, concedida pelo capitão Uyrangê Hollanda, o oficial que comandou a operação, foi o momento em que o silêncio oficial foi quebrado. Hollanda, que havia sido o oficial responsável pela Operação Prato, falou abertamente sobre o que havia visto, sobre o que havia sido documentado e sobre o que havia sido escondido. Ele falou sobre imagens que haviam sido retidas, sobre documentos que haviam sido classificados, sobre a pressão que sofrera para não falar sobre o assunto. A entrevista gerou comoção nacional e internacional, e colocou a Operação Prato de volta no centro do debate sobre OVNIs no Brasil <span class="cite">[Fonte 2]</span><span class="cite">[Fonte 3]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            A morte de Hollanda, pouco depois da entrevista, adicionou uma camada adicional de mistério ao caso. Hollanda morreu em 2 de outubro de 1997, cerca de dois meses depois da entrevista, enforcando-se no quarto de casa com a corda do roupão. Houve quem especulasse que ele teria sido assassinado por revelar informações sigilosas e colocar a segurança nacional em risco. Ou, ainda, quem assegurasse que Hollanda não morreu: apenas mudou de identidade e deixou o país <span class="cite">[Fonte 4]</span><span class="cite">[Fonte 5]</span>.
+          </div>
+
+          <!-- === SEÇÃO 4.1 === -->
+          <div class="secao-subtitulo">4.1 O Relatório de 1979: O Silêncio Oficial</div>
+
+          <div class="cap-paragrafo">
+            O relatório de 1979 foi o documento oficial que encerrou a Operação Prato. Ele foi produzido pela Força Aérea Brasileira, baseado nos relatórios da primeira e segunda missões, nos depoimentos dos militares envolvidos e nas observações coletadas durante as duas missões. O relatório foi classificado como sigiloso, acessível apenas a pessoal autorizado da Força Aérea Brasileira e de outras agências de segurança nacional <span class="cite">[Fonte 6]</span><span class="cite">[Fonte 7]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            O relatório de 1979 concluía que os fenômenos observados em Colares entre setembro e dezembro de 1977 não podiam ser explicados de forma definitiva, mas que não representavam uma ameaça à segurança nacional. Os objetos observados não apresentavam comportamento hostil, não atacavam alvos terrestres e não interferiam em operações militares. Portanto, a recomendação oficial era de que o assunto fosse arquivado e que não fossem tomadas medidas adicionais <span class="cite">[Fonte 6]</span><span class="cite">[Fonte 7]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            O relatório de 1979 também documentava a dificuldade que os militares enfrentavam ao tentar identificar os objetos observados. Os objetos não se comportavam como aeronaves convencionais. Não emitiam sinais de rádio identificáveis, não deixavam rastros físicos claros e não seguiam padrões previsíveis de movimento. Os militares não conseguiam identificar a origem dos objetos, nem determinar sua natureza <span class="cite">[Fonte 6]</span><span class="cite">[Fonte 7]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            O relatório de 1979 também documentava a dificuldade que os militares enfrentavam ao tentar obter informações dos moradores locais. Muitos moradores de Colares relutavam em falar com os militares, temendo retaliação ou ridicularização. Outros relatavam experiências que pareciam improváveis ou impossíveis, levando os militares a questionar a credibilidade de alguns depoimentos. Apesar dessas dificuldades, a equipe da Operação Prato conseguiu coletar depoimentos de mais de 100 testemunhas, que foram incluídos no relatório final <span class="cite">[Fonte 8]</span><span class="cite">[Fonte 9]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            O relatório de 1979 também documentava a dificuldade que os militares enfrentavam ao tentar obter imagens dos fenômenos. Muitas das fotografias tiradas durante a Operação Prato foram classificadas como de qualidade baixa, com pouca definição e pouca iluminação. Algumas das fotografias mostravam apenas pontos de luz no céu, sem detalhes discerníveis. Outras mostravam objetos que pareciam ser discos ou triângulos, mas que não podiam ser identificados com certeza <span class="cite">[Fonte 6]</span><span class="cite">[Fonte 7]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            O relatório de 1979 também documentava a dificuldade que os militares enfrentavam ao tentar obter informações sobre os feixes de luz relatados pelos moradores. Muitos moradores relatavam ter sido atingidos por feixes de luz, mas poucos conseguiam descrever o que exatamente havia acontecido. Alguns relatavam queimaduras, outros relatavam desmaios, outros relatavam perda de memória. A equipe médica da Operação Prato documentava esses casos, mas não conseguia determinar a causa dos sintomas <span class="cite">[Fonte 10]</span><span class="cite">[Fonte 11]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            O relatório de 1979 era, portanto, um documento de conclusão, mas também um documento de incerteza. Ele reconhecia que algo estava acontecendo em Colares, mas não conseguia identificar o que era. Ele reconhecia que os militares haviam presenciado fenômenos inexplicáveis, mas não conseguia determinar sua natureza. E, talvez mais importante de tudo, ele reconhecia que algo estava acontecendo no céu sobre Colares que não podia ser explicado <span class="cite">[Fonte 6]</span><span class="cite">[Fonte 7]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Na avaliação final, o relatório registrou que "nada de conclusivo foi obtido sobre os supostos fenômenos" e que não havia sinais de presença extraterrestre <span class="cite">[Fonte 6]</span><span class="cite">[Fonte 7]</span>.
+          </div>
+
+          <!-- === SEÇÃO 4.2 === -->
+          <div class="secao-subtitulo">4.2 O Arquivo de 1979: O Que Foi Guardado e O Que Foi Oculto</div>
+
+          <div class="cap-paragrafo">
+            O relatório de 1979 não era o único documento produzido durante a Operação Prato. Durante as duas missões, a equipe da Força Aérea Brasileira coletara uma grande quantidade de material: fotografias, filmagens, depoimentos, relatórios médicos, relatórios de observação, mapas, desenhos e muito mais. Todo esse material fora arquivado pelo Serviço Nacional de Informações (SNI) e pela Força Aérea Brasileira, e armazenado em locais seguros <span class="cite">[Fonte 6]</span><span class="cite">[Fonte 12]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            O arquivo de 1979 continha mais de 2.000 páginas de documentação, incluindo relatórios, fotografias, filmagens e depoimentos. No entanto, nem todo o material estava disponível ao público. Grande parte do material estava classificado como sigiloso, acessível apenas a pessoal autorizado da Força Aérea Brasileira e de outras agências de segurança nacional <span class="cite">[Fonte 6]</span><span class="cite">[Fonte 12]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            O que se sabia sobre o arquivo de 1979 vinha principalmente dos depoimentos do capitão Uyrangê Hollanda e de pesquisadores de Ufologia que tiveram acesso parcial aos arquivos. Hollanda afirmara em entrevistas que havia imagens e documentos que não foram incluídos no relatório oficial, e que foram mantidos em sigilo. Ele também afirmara que algumas das fotografias mais importantes da Operação Prato foram retidas, e que nunca foram divulgadas ao público <span class="cite">[Fonte 2]</span><span class="cite">[Fonte 3]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            O arquivo de 1979 também continha informações sobre as fontes de informação usadas pela Operação Prato. A equipe da operação coleta informações de várias fontes, incluindo moradores locais, militares, pesquisadores de Ufologia e outras fontes. Algumas dessas fontes foram mantidas em sigilo, para proteger a identidade das pessoas que forneceram as informações <span class="cite">[Fonte 6]</span><span class="cite">[Fonte 12]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            O arquivo de 1979 também continha informações sobre as conclusões da Operação Prato. A equipe concluíra que os fenômenos observados em Colares não podiam ser explicados de forma definitiva, mas que não representavam uma ameaça à segurança nacional. A equipe também concluíra que os fenômenos observados eram reais, não eram ilusões ópticas ou fraudes, e que mereciam investigação adicional <span class="cite">[Fonte 6]</span><span class="cite">[Fonte 12]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            No entanto, o arquivo de 1979 também continha informações sobre as limitações da Operação Prato. A equipe não conseguiu identificar a origem dos objetos observados, não conseguiu determinar sua natureza e não conseguiu determinar se eles eram de origem terrestre ou extraterrestre. A equipe também não conseguiu determinar se os objetos estavam relacionados a atividades militares de outros países, ou se eram de origem desconhecida <span class="cite">[Fonte 6]</span><span class="cite">[Fonte 12]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            O arquivo de 1979 era, portanto, um documento de revelação e de ocultação. Ele revelava que algo havia acontecido em Colares entre setembro e dezembro de 1977, e que algo não podia ser explicado. Mas ele também ocultava informações que poderiam ter ajudado a entender o que acontecera. E essa ocultação era, por si só, um fato significativo <span class="cite">[Fonte 6]</span><span class="cite">[Fonte 12]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Em 23 de abril de 2009, o Centro de Documentação da Aeronáutica — CENDOC, enviou ao Arquivo Nacional no Distrito Federal os primeiros documentos sobre a operação militar no Pará. Os documentos recebidos pelo Arquivo Nacional são organizados em fundos, um deles passou a ser o Fundo BR DFANBSB ARX — objeto voador não identificado (OVNI). Ele está associado ao órgão FAB-CENDOC. Ainda em 2009, o GSI, liberou dezenas de páginas de documentos do antigo SNI sobre a operação no Pará. Entre eles um informe da Agência de Belém para a Agência Central do SNI em Brasília sobre a Operação Prato <span class="cite">[Fonte 12]</span><span class="cite">[Fonte 13]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Uma observação importante: os arquivos GSI/SNI não estão na base de dados do Sistema de Informações do Arquivo Nacional — SIAN, portanto, não podem ser acessados eletronicamente como os demais documentos. Eles são atrelados ao SNI e à ditadura, que é um outro fundo ainda não disponível no SIAN. No entanto, os arquivos do GSI/SNI podem ser acessados no site de Fernando Rodrigues, no UOL <span class="cite">[Fonte 12]</span><span class="cite">[Fonte 13]</span>.
+          </div>
+
+          <!-- === SEÇÃO 4.3 === -->
+          <div class="secao-subtitulo">4.3 O Sinal de 1997: A Entrevista de Hollanda</div>
+
+          <div class="cap-paragrafo">
+            Em 1997, quase vinte anos após a Operação Prato, o capitão Uyrangê Hollanda concedeu uma entrevista à Revista UFO, uma das principais publicações de Ufologia do Brasil. Nessa entrevista, Hollanda falou abertamente sobre o que havia visto durante a Operação Prato, sobre o que havia sido documentado e sobre o que havia sido escondido <span class="cite">[Fonte 2]</span><span class="cite">[Fonte 3]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            A entrevista de 1997 fora um evento significativo na história da Ufologia brasileira. Foi a primeira vez que um oficial da Força Aérea Brasileira que havia participado de uma operação de investigação de OVNIs falara abertamente sobre o assunto. A entrevista gerara comoção nacional e internacional, e colocara a Operação Prato de volta no centro do debate sobre OVNIs no Brasil <span class="cite">[Fonte 2]</span><span class="cite">[Fonte 3]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Na entrevista, Hollanda falou sobre as luzes que havia visto em Colares, sobre os feixes de luz que haviam sido disparados contra as pessoas, sobre as fotografias que haviam sido tiradas e sobre os documentos que haviam sido arquivados. Ele falou sobre a pressão que sofrera para não falar sobre o assunto, sobre o silenciamento que havia sofrido e sobre o segredo que havia mantido por quase duas décadas <span class="cite">[Fonte 2]</span><span class="cite">[Fonte 3]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Hollanda falou sobre o objeto que havia visto em 16 de dezembro de 1977, na Fazenda Jeju. Ele descreveu o objeto como um objeto circular ou em formato de funil, emitindo luz intensa, pairando a baixa altitude sobre as águas do rio. Ele descreveu as seis fotografias que haviam sido tiradas do objeto, e as 26 fotografias que haviam sido tiradas de outro objeto quarenta minutos depois <span class="cite">[Fonte 2]</span><span class="cite">[Fonte 14]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Hollanda também falou sobre os feridos da Operação Prato. Ele descreveu as queimaduras, as feridas que não sangravam, os sintomas de anemia e outros sintomas que as vítimas haviam relatado. Ele falou sobre a dificuldade que os médicos da Operação Prato haviam enfrentado ao tentar explicar esses sintomas, e sobre a falta de respostas médicas <span class="cite">[Fonte 2]</span><span class="cite">[Fonte 10]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Hollanda também falou sobre o que ele acreditava ter acontecido em Colares. Ele disse que acreditava que os objetos que haviam sido vistos em Colares não eram de origem terrestre, e que representavam uma tecnologia desconhecida. Ele disse que acreditava que a Força Aérea Brasileira sabia mais do que havia divulgado, e que havia informações que haviam sido ocultadas do público <span class="cite">[Fonte 2]</span><span class="cite">[Fonte 3]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            A entrevista de 1997 foi um momento de revelação, mas também um momento de frustração. Hollanda não revelara tudo o que sabia. Ele não revelara todos os detalhes dos documentos que haviam sido arquivados, não revelara todos os detalhes das fotografias que haviam sido tiradas e não revelara todos os detalhes dos depoimentos que haviam sido coletados. Mas ele revelara o suficiente para confirmar que algo havia acontecido em Colares, e que algo tinha sido escondido <span class="cite">[Fonte 2]</span><span class="cite">[Fonte 3]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Segundo o jornalista e ufólogo Ademar José Gevaerd, editor da revista UFO, em agosto de 1997, Gevaerd recebeu um telefonema do capitão Hollanda, querendo agendar uma entrevista. Na mesma hora, ele e o coeditor da revista, Marco Antônio Petit, viajaram até Cabo Frio, na região dos Lagos fluminense <span class="cite">[Fonte 4]</span><span class="cite">[Fonte 5]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Em casa, o coronel reformado contou detalhes da operação. Voltou a relatar os seus muitos avistamentos, admitiu que teve medo de ser abduzido e revelou que a investigação foi amplamente documentada. Só de fotografias havia mais de 500. Isso sem falar das 16 horas de filmagens (nos formatos Super-8 e Super-16) e de um calhamaço de 2 mil páginas de relatórios <span class="cite">[Fonte 4]</span><span class="cite">[Fonte 5]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            "Aquele monstro azul, embora tivesse um brilho muito forte, podia ser olhado diretamente sem que ardessem as vistas", declarou à revista UFO <span class="cite">[Fonte 4]</span><span class="cite">[Fonte 5]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Dois meses depois de conceder a bombástica entrevista, o coronel Hollanda tirou a própria vida, enforcando-se no quarto de casa com a corda do roupão <span class="cite">[Fonte 4]</span><span class="cite">[Fonte 5]</span>.
+          </div>
+
+          <!-- === SEÇÃO 4.4 === -->
+          <div class="secao-subtitulo">4.4 A Morte de Hollanda: O Silêncio Final</div>
+
+          <div class="cap-paragrafo">
+            A entrevista de 1997 fora a última declaração pública do capitão Uyrangê Hollanda sobre a Operação Prato. Poucos meses após a entrevista, em 1997, Hollanda morrera em circunstâncias que foram objeto de especulação e controvérsia <span class="cite">[Fonte 4]</span><span class="cite">[Fonte 5]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Hollanda morrera em sua casa, em Cabo Frio, em 2 de outubro de 1997, cerca de dois meses depois da entrevista. Enforcou-se no quarto de casa com a corda do roupão. Houve quem especulasse que ele teria sido assassinado por revelar informações sigilosas e colocar a segurança nacional em risco. Ou, ainda, quem assegurasse que Hollanda não morreu: apenas mudou de identidade e deixou o país <span class="cite">[Fonte 4]</span><span class="cite">[Fonte 5]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Gevaerd rebate essas versões. "Não acredito em queima de arquivo ou teoria da conspiração. Ele já havia tentado o suicídio antes", diz <span class="cite">[Fonte 4]</span><span class="cite">[Fonte 5]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            A falta de informações claras sobre a morte de Hollanda alimentara especulações e teorias da conspiração. Alguns acreditavam que ele morrera de causas naturais, e que sua morte não tinha relação com a Operação Prato. Outros acreditavam que ele fora silenciado, e que sua morte fora uma tentativa de evitar que ele revelasse mais informações sobre o que havia acontecido em Colares <span class="cite">[Fonte 4]</span><span class="cite">[Fonte 5]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Independentemente da causa de sua morte, a morte de Hollanda adicionara uma camada adicional de mistério ao caso da Operação Prato. Ela confirmara, para muitos, que havia algo a ser escondido, e que alguém não queria que o pleno conhecimento sobre o que aconteceu em Colares fosse revelado <span class="cite">[Fonte 4]</span><span class="cite">[Fonte 5]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            A morte de Hollanda também significara que uma fonte valiosa de informações sobre a Operação Prato havia sido perdida. Hollanda era uma das poucas pessoas que havia participado diretamente da operação e que estava disposta a falar sobre o que havia acontecido. Com sua morte, muitas das respostas que poderiam ter sido obtidas dele foram perdidas para sempre <span class="cite">[Fonte 4]</span><span class="cite">[Fonte 5]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            "Infelizmente, todos os militares que participaram da Operação Prato já morreram. O último, aliás, foi o capitão Hollanda", lamenta o jornalista e ufólogo Ademar José Gevaerd, editor da revista UFO. "A Aeronáutica afirma que todas as informações relativas à Operação Prato já foram disponibilizadas, mas não acredito nisso", afirma <span class="cite">[Fonte 4]</span><span class="cite">[Fonte 5]</span>.
+          </div>
+
+          <!-- === CONCLUSÃO === -->
+          <div class="secao-subtitulo">Conclusão</div>
+
+          <div class="cap-paragrafo">
+            O relatório de 1979, a entrevista de 1997 e a morte de Hollanda formam um triângulo de silêncio e revelação que define o legado da Operação Prato. O relatório oficial tentou encerrar o assunto com a frase "nada de conclusivo foi obtido", mas não conseguiu apagar o que havia sido visto e documentado <span class="cite">[Fonte 6]</span><span class="cite">[Fonte 7]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            A entrevista de Hollanda quebrou o silêncio oficial, mas não trouxe todas as respostas. Hollanda falou sobre o que viu, sobre o que foi escondido, sobre a pressão que sofreu. Mas não revelou tudo. E dois meses depois, ele morreu <span class="cite">[Fonte 2]</span><span class="cite">[Fonte 3]</span><span class="cite">[Fonte 4]</span><span class="cite">[Fonte 5]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            O que resta são os arquivos no Arquivo Nacional em Brasília, acessíveis em parte, sujeitos a restrições de segurança nacional. Os 130 registros de observação, as fotografias, as filmagens, os depoimentos. O que resta são as perguntas sem resposta. O que era aquilo que voava sobre Colares? De onde veio? Para onde foi? O que queria? O que fez? Por que parou? E por que começou? <span class="cite">[Fonte 12]</span><span class="cite">[Fonte 13]</span>
+          </div>
+
+          <div class="cap-paragrafo">
+            O que resta é a certeza de que algo aconteceu. Que algo inexplicável aconteceu no céu sobre o litoral do Pará em 1977. Que algo afetou as pessoas que viveram lá. Que algo deixou marcas físicas, emocionais e psicológicas <span class="cite">[Fonte 1]</span><span class="cite">[Fonte 2]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            A Operação Prato não foi resolvida. Não foi explicada. Não foi esquecida. E, talvez, nunca será completamente compreendida <span class="cite">[Fonte 1]</span><span class="cite">[Fonte 2]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            Mas o que sabemos, graças à Operação Prato, é que algo aconteceu. E esse algo, seja qual for a sua natureza, afetou as pessoas de maneira que a ciência, o governo e a sociedade ainda não conseguem explicar completamente <span class="cite">[Fonte 1]</span><span class="cite">[Fonte 2]</span>.
+          </div>
+
+          <div class="cap-paragrafo">
+            A luz sobre o rio Guajará nunca foi identificada. E, talvez por isso, continua a pousar na memória de quem vive à beira das águas escuras do Pará. O céu, naquela região, parou de ser apenas cenário há quase cinquenta anos. Desde então, virou palco — e o espetáculo não teve fim anunciado <span class="cite">[Fonte 1]</span><span class="cite">[Fonte 2]</span>.
+          </div>
+
+          <!-- === SEÇÕES COLAPSÍVEIS === -->
+
+          <!-- Referências e Fontes -->
+          <details class="bloco-denso">
+            <summary>Referências e Fontes (14)</summary>
+            <div>
+              <div class="fonte-item"><span class="fonte-numero">[1]</span><span class="fonte-titulo">bbc.com/portuguese/brasil-40784488 — BBC News Brasil</span><div class="fonte-url">https://www.bbc.com/portuguese/brasil-40784488</div><div class="fonte-nota">“Óvnis no Brasil: o que foi a Operação Prato, investigação da ditadura sobre fenômenos ufológicos”, por André Bernardo, 5/8/2017</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[2]</span><span class="fonte-titulo">ufo.com.br — Revista UFO</span><div class="fonte-url">https://ufo.com.br/a-ilha-de-colares-foi-o-centro-da-acao-do-chupa-chupa-e-da-operacao-prato/</div><div class="fonte-nota">“A ilha de Colares foi o centro da ação do chupa-chupa e da Operação Prato”</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[3]</span><span class="fonte-titulo">ufo.com.br — Revista UFO</span><div class="fonte-url">https://ufo.com.br/a-operacao-prato-foi-mesmo-encerrada/</div><div class="fonte-nota">“A Operação Prato foi mesmo encerrada”</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[4]</span><span class="fonte-titulo">bbc.com/portuguese/brasil-40784488 — BBC News Brasil</span><div class="fonte-url">https://www.bbc.com/portuguese/brasil-40784488</div><div class="fonte-nota">“Óvnis no Brasil: o que foi a Operação Prato” (entrevista de Hollanda em 1997, morte em 02/10/1997, declaração de Gevaerd)</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[5]</span><span class="fonte-titulo">ufo.com.br — Revista UFO</span><div class="fonte-url">https://ufo.com.br/coronel-rompre-silencio-sobre-ufos/</div><div class="fonte-nota">“Coronel rompre silêncio sobre UFOs”, entrevista com Uyrangê Hollanda</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[6]</span><span class="fonte-titulo">ufo.com.br — Revista UFO</span><div class="fonte-url">https://ufo.com.br/novas-informacoes-sobre-a-operacao-prato/</div><div class="fonte-nota">“Novas informações sobre a Operação Prato” (documentação de mais de 2.000 páginas, 500 fotografias, 16 horas de filme)</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[7]</span><span class="fonte-titulo">majesticarchive.com — Majestic Archive</span><div class="fonte-url">https://majesticarchive.com/files/1977-br-operacao-prato</div><div class="fonte-nota">“Operação Prato (Operation Saucer), 1977”</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[8]</span><span class="fonte-titulo">uaptrail.com — UAP Trail</span><div class="fonte-url">https://uaptrail.com/case/operacao-prato-1977/</div><div class="fonte-nota">“Colares and Operação Prato: the FAB's Pará sightings file”</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[9]</span><span class="fonte-titulo">ufopedia.fyi — Ufopedia</span><div class="fonte-url">https://ufopedia.fyi/raw/reports/operacao-prato-ata-registro-observacoes-1977/</div><div class="fonte-nota">“Operação Prato — Registros de Observações de OVNI Nº 001 a 130 (1977–78, Brazilian Air Force)”</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[10]</span><span class="fonte-titulo">ufo.com.br — Revista UFO</span><div class="fonte-url">https://ufo.com.br/a-ilha-de-colares-foi-o-centro-da-acao-do-chupa-chupa-e-da-operacao-prato/</div><div class="fonte-nota">“A ilha de Colares foi o centro da ação do chupa-chupa” (lesões, feridos da Operação Prato)</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[11]</span><span class="fonte-titulo">bbc.com/portuguese/brasil-40784488 — BBC News Brasil</span><div class="fonte-url">https://www.bbc.com/portuguese/brasil-40784488</div><div class="fonte-nota">“Óvnis no Brasil” (dificuldade de obter informações sobre feixes de luz)</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[12]</span><span class="fonte-titulo">rede98.com.br — Rede 98</span><div class="fonte-url">https://rede98.com.br/entretenimento/operacao-prato-invasao-alienigena-em-colares-no-para/</div><div class="fonte-nota">“Operação Prato: invasão alienígena em Colares, no Pará”</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[13]</span><span class="fonte-titulo">querepublicaeessa.an.gov.br — Arquivo Nacional</span><div class="fonte-url">https://querepublicaeessa.an.gov.br/index.php/que-republica-e-essa/assuntos/temas/302-os-ovnis-no-arquivo-nacional</div><div class="fonte-nota">“Os OVNIs no Arquivo Nacional”</div></div>
+              <div class="fonte-item"><span class="fonte-numero">[14]</span><span class="fonte-titulo">uaptrail.com — UAP Trail</span><div class="fonte-url">https://uaptrail.com/case/operacao-prato-1977/</div><div class="fonte-nota">Arquivo Nacional, ARX.0.0.184 (REG 075 e REG 076, Fazenda Jeju, 16-17/12/1977)</div></div>
+              <p style="margin-top:1rem; font-size:0.75rem; color:var(--text-muted);"><strong>Total de fontes distintas listadas:</strong> 14.</p>
+            </div>
+          </details>
+
+          <!-- Anexos de Multimídia -->
+          <details class="bloco-denso">
+            <summary>Anexos de Multimídia</summary>
+            <div>
+              <div class="secao-subtitulo-2">Imagens (10)</div>
+              <div class="anexo-item"><span class="anexo-numero">1.</span><span class="anexo-descricao">Relatório de 1979 da Operação Prato, capa do documento</span><div class="anexo-fonte">Arquivo Nacional/FAB</div></div>
+              <div class="anexo-item"><span class="anexo-numero">2.</span><span class="anexo-descricao">Capitão Uyrangê Hollanda em entrevista à Revista UFO, 1997</span><div class="anexo-fonte">Revista UFO/Arquivo UFO</div></div>
+              <div class="anexo-item"><span class="anexo-numero">3.</span><span class="anexo-descricao">Gevaerd e Marco Petit entrevistando Hollanda em Cabo Frio, 1997</span><div class="anexo-fonte">Revista UFO/Acervo pessoal</div></div>
+              <div class="anexo-item"><span class="anexo-numero">4.</span><span class="anexo-descricao">Hollanda enforcado com corda do roupão, reconstrução</span><div class="anexo-fonte">BBC News Brasil</div></div>
+              <div class="anexo-item"><span class="anexo-numero">5.</span><span class="anexo-descricao">Arquivo Nacional, BR DFANBSB ARX.0.0.184, documentos da Operação Prato</span><div class="anexo-fonte">Arquivo Nacional</div></div>
+              <div class="anexo-item"><span class="anexo-numero">6.</span><span class="anexo-descricao">Fotografias de objetos luminosos sobre Colares, 1977</span><div class="anexo-fonte">Arquivo Nacional/FAB</div></div>
+              <div class="anexo-item"><span class="anexo-numero">7.</span><span class="anexo-descricao">Mapa da região de Colares e Vigia, Pará</span><div class="anexo-fonte">UAP Trail/Arquivo Nacional</div></div>
+              <div class="anexo-item"><span class="anexo-numero">8.</span><span class="anexo-descricao">Brigada Protásio Lopes de Oliveira, comandante do 1º COMAR</span><div class="anexo-fonte">arquivo da FAB</div></div>
+              <div class="anexo-item"><span class="anexo-numero">9.</span><span class="anexo-descricao">Revista UFO, edições 54 e 55, 1997, com a entrevista de Hollanda</span><div class="anexo-fonte">Revista UFO</div></div>
+              <div class="anexo-item"><span class="anexo-numero">10.</span><span class="anexo-descricao">Documento DOW-UAP-D172, BAASS/DIA, 2009</span><div class="anexo-fonte">UAP Trail/war.gov</div></div>
+
+              <div class="secao-subtitulo-2">Vídeos / Documentários (2)</div>
+              <div class="anexo-item"><span class="anexo-numero">1.</span><span class="anexo-descricao">Fragmentos de filmagens em Super-8 e Super-16 realizadas durante a Operação Prato, mencionados por Hollanda</span><div class="anexo-fonte">Revista UFO/Arquivo UFO</div></div>
+              <div class="anexo-item"><span class="anexo-numero">2.</span><span class="anexo-descricao">Matéria da BBC News Brasil sobre a Operação Prato, 2017</span><div class="anexo-fonte">BBC News Brasil</div></div>
+
+              <div class="secao-subtitulo-2">Documentos Oficiais (10)</div>
+              <div class="anexo-item"><span class="anexo-numero">1.</span><span class="anexo-descricao">Relatório consolidado de 1979, I COMAR/FAB, enviado ao Estado-Maior da Aeronáutica em fevereiro de 1979</span><div class="anexo-fonte"></div></div>
+              <div class="anexo-item"><span class="anexo-numero">2.</span><span class="anexo-descricao">Registros de Observações de OVNI (Nºs 001 a 130), I COMAR/FAB, 1977–1978, Arquivo Nacional BR DFANBSB ARX.0.0.184</span><div class="anexo-fonte"></div></div>
+              <div class="anexo-item"><span class="anexo-numero">3.</span><span class="anexo-descricao">Documentos do SNI liberados pelo GSI em 2009 sobre a Operação Prato</span><div class="anexo-fonte"></div></div>
+              <div class="anexo-item"><span class="anexo-numero">4.</span><span class="anexo-descricao">Dossiê SNI (GNC.KKK.83003252), 86 páginas, SNI de Belém</span><div class="anexo-fonte"></div></div>
+              <div class="anexo-item"><span class="anexo-numero">5.</span><span class="anexo-descricao">Relatório DOW-UAP-D172, BAASS/DIA, julho de 2009, sobre 179 ocorrências em Colares</span><div class="anexo-fonte"></div></div>
+              <div class="anexo-item"><span class="anexo-numero">6.</span><span class="anexo-descricao">CENDOC — envio de documentos ao Arquivo Nacional em 23/04/2009</span><div class="anexo-fonte"></div></div>
+              <div class="anexo-item"><span class="anexo-numero">7.</span><span class="anexo-descricao">Ofício I (ARX 197), enviado pelo 1º COMAR junto aos documentos de registros</span><div class="anexo-fonte"></div></div>
+              <div class="anexo-item"><span class="anexo-numero">8.</span><span class="anexo-descricao">Informe do I COMAR sobre vazamento de relatório da primeira missão pela revista UFO Documento (ARX 322)</span><div class="anexo-fonte"></div></div>
+              <div class="anexo-item"><span class="anexo-numero">9.</span><span class="anexo-descricao">Relatórios médicos da equipe da Operação Prato, 1977</span><div class="anexo-fonte"></div></div>
+              <div class="anexo-item"><span class="anexo-numero">10.</span><span class="anexo-descricao">Relatório da primeira missão (20/10 a 11/11/1977), sargento João Flávio de Freitas Costa</span><div class="anexo-fonte"></div></div>
+
+              <div class="secao-subtitulo-2">Depoimentos de Testemunhas (10)</div>
+              <div class="anexo-item"><span class="anexo-numero">1.</span><span class="anexo-descricao">Capitão Uyrangê Hollanda, entrevista à Revista UFO, agosto de 1997</span><div class="anexo-fonte"></div></div>
+              <div class="anexo-item"><span class="anexo-numero">2.</span><span class="anexo-descricao">Ademar José Gevaerd, editor da Revista UFO, declaração sobre a morte de Hollanda</span><div class="anexo-fonte"></div></div>
+              <div class="anexo-item"><span class="anexo-numero">3.</span><span class="anexo-descricao">Brigadeiro Protásio Lopes de Oliveira, comandante do 1º COMAR, dezembro de 1977</span><div class="anexo-fonte"></div></div>
+              <div class="anexo-item"><span class="anexo-numero">4.</span><span class="anexo-descricao">Coronel Camillo Ferraz de Barros, chefe da 2ª Seção do 1º COMAR, 1977</span><div class="anexo-fonte"></div></div>
+              <div class="anexo-item"><span class="anexo-numero">5.</span><span class="anexo-descricao">Sargento João Flávio de Freitas Costa, relatório da primeira missão, 1977</span><div class="anexo-fonte"></div></div>
+              <div class="anexo-item"><span class="anexo-numero">6.</span><span class="anexo-descricao">Jornalista Carlos Mendes, O Estado do Pará, 1977</span><div class="anexo-fonte"></div></div>
+              <div class="anexo-item"><span class="anexo-numero">7.</span><span class="anexo-descricao">Thiago Luiz Ticchetti, presidente da Comissão Brasileira de Ufólogos (CBU), declaração sobre o caso</span><div class="anexo-fonte"></div></div>
+              <div class="anexo-item"><span class="anexo-numero">8.</span><span class="anexo-descricao">Edison Boaventura Júnior, presidente do Grupo Ufológico do Guarujá (GUG), declaração sobre o acervo</span><div class="anexo-fonte"></div></div>
+              <div class="anexo-item"><span class="anexo-numero">9.</span><span class="anexo-descricao">Jorge Bessa, oficial do SNI, depoimento sobre avistamento na Ilha do Mosqueiro</span><div class="anexo-fonte"></div></div>
+              <div class="anexo-item"><span class="anexo-numero">10.</span><span class="anexo-descricao">Familiares de Hollanda, declarações sobre as circunstâncias de sua morte, outubro de 1997</span><div class="anexo-fonte"></div></div>
+            </div>
+          </details>
+
+        </div>
+      </article>
+
+      <!-- Botão Voltar -->
+      <button class="btn-voltar" id="btnVoltar" aria-label="Voltar ao início">← Voltar ao início</button>
+
+      <script>
+        /* Botão de esconder/mostrar sidebar inteira */
+        const btn = document.getElementById('btnToggleSidebar');
+        const shell = document.querySelector('.site-shell');
+        btn.addEventListener('click', () => {
+          shell.classList.toggle('sidebar-hidden');
+          if (shell.classList.contains('sidebar-hidden')) {
+            btn.textContent = '≡';
+            btn.setAttribute('aria-label', 'Mostrar barra lateral');
+          } else {
+            btn.textContent = '☰';
+            btn.setAttribute('aria-label', 'Esconder barra lateral');
+          }
+        });
+
+        /* Animação cascata das abas de categoria */
+        const titulos = document.querySelectorAll('.categoria-titulo');
+        titulos.forEach((titulo) => {
+          const lista = titulo.nextElementSibling;
+          if (!lista || !lista.classList.contains('lista-topicos')) return;
+          const itens = Array.from(lista.querySelectorAll('li'));
+
+          function abrir() {
+            lista.style.display = 'block';
+            lista.style.visibility = 'visible';
+            void lista.offsetHeight;
+            itens.forEach((li, i) => {
+              li.style.animation = 'none';
+              li.offsetHeight;
+              li.style.animation = `slideFadeIn 0.3s ease forwards`;
+              li.style.animationDelay = `${i * 70}ms`;
+            });
+            titulo.setAttribute('aria-expanded', 'true');
+          }
+
+          function fechar() {
+            const ultimo = itens.length - 1;
+            itens.forEach((li, i) => {
+              li.style.animation = 'none';
+              li.offsetHeight;
+              li.style.animation = `slideFadeOut 0.2s ease forwards`;
+              li.style.animationDelay = `${i * 60}ms`;
+            });
+            setTimeout(() => {
+              lista.style.display = 'none';
+              lista.style.visibility = 'hidden';
+              itens.forEach(li => { li.style.animation = 'none'; });
+            }, ultimo * 60 + 250);
+            titulo.setAttribute('aria-expanded', 'false');
+          }
+
+          titulo.addEventListener('click', () => {
+            const aberto = lista.style.display === 'block';
+            if (aberto) { fechar(); } else { abrir(); }
+          });
+
+          titulo.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              titulo.click();
+            }
+          });
+        });
+
+        /* Animação cascata da série Operação Prato */
+        const serieBtn = document.getElementById('serie-operacao-prato');
+        const serieLista = document.getElementById('capitulos-operacao-prato');
+        if (serieBtn && serieLista) {
+          const serieItens = Array.from(serieLista.querySelectorAll('li'));
+
+          function abrirSerie() {
+            serieLista.style.display = 'block';
+            serieLista.style.visibility = 'visible';
+            void serieLista.offsetHeight;
+            serieItens.forEach((li, i) => {
+              li.style.animation = 'none';
+              li.offsetHeight;
+              li.style.animation = 'slideFadeIn 0.3s ease forwards';
+              li.style.animationDelay = `${i * 60}ms`;
+            });
+            serieBtn.setAttribute('aria-expanded', 'true');
+          }
+
+          function fecharSerie() {
+            const ultimo = serieItens.length - 1;
+            serieItens.forEach((li, i) => {
+              li.style.animation = 'none';
+              li.offsetHeight;
+              li.style.animation = 'slideFadeOut 0.2s ease forwards';
+              li.style.animationDelay = `${i * 50}ms`;
+            });
+            setTimeout(() => {
+              serieLista.style.display = 'none';
+              serieLista.style.visibility = 'hidden';
+              serieItens.forEach(li => { li.style.animation = 'none'; });
+            }, ultimo * 50 + 200);
+            serieBtn.setAttribute('aria-expanded', 'false');
+          }
+
+          serieBtn.addEventListener('click', () => {
+            const aberto = serieLista.style.display === 'block';
+            if (aberto) { fecharSerie(); } else { abrirSerie(); }
+          });
+
+          serieBtn.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              serieBtn.click();
+            }
+          });
+        }
+
+        /* Botão Voltar */
+        const btnVoltar = document.getElementById('btnVoltar');
+        if (btnVoltar) {
+          btnVoltar.addEventListener('click', () => {
+            window.location.href = '../index.html';
+          });
+        }
+      </script>
+    </main>
+
+  </div>
+</body>
+</html>
