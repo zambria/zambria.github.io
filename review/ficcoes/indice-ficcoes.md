@@ -34,3 +34,10 @@
 || O Que Restou Abaixo da Água | criptozoologia | 2026-11-23 | review/ficcoes/o-que-restou-abaixo-da-agua.md | pendente de curadoria |
 || A Nuvem que Não Passava | fenomenos-naturais | 2026-11-23 | review/ficcoes/a-nuvem-que-nao-passava.md | pendente de curadoria |
 | A Última Ronda da Torre de Vigia | contos-de-terror | 2026-11-23 | review/ficcoes/a-ultima-ronda-da-torre-de-vigia.md | pendente de curadoria |
+| O Guardião do Silêncio | contos-de-terror | 2026-11-23 | review/ficcoes/o-guardiao-do-silencio.md | pendente de curadoria |
+| O Eco Secundário | ufos | 2026-11-23 | review/ficcoes/o-eco-secundario.md | pendente de curadoria |
+| O Que Está Abaixo das Conchas | arqueologia | 2026-11-23 | review/ficcoes/o-que-esta-abaixo-das-conchas.md | pendente de curadoria |
+|| O Tremor da Estação Santa Helena | fenomenos-naturais | 2026-11-23 | review/ficcoes/o-tremor-da-estacao-santa-helena.md | pendente de curadoria |
+|| O Faroleiro da Névoa | contos-de-terror | 2026-11-23 | review/ficcoes/o-faroleiro-da-nevoa.md | pendente de curadoria |
+| O Livro de Ponto de Fordlândia | contos-de-terror | 2026-11-23 | review/ficcoes/o-livro-de-ponto-de-fordlandia.md | pendente de curadoria |
+| A Décima Sétima Campainha | contos-de-terror | 2026-11-23 | review/ficcoes/a-decima-setima-campainha.md | pendente de curadoria |

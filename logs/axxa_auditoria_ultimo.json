@@ -1,0 +1,188 @@
+{
+  "data": "2026-11-23T16:15:00-03:00",
+  "escaneados": 18,
+  "capitulos": 17,
+  "sinais_ficcao_pronta": 38,
+  "erros": 18,
+  "avisos": 17,
+  "detalhes_erros": [
+    [
+      "index.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-1-arqueologia-o-geoglifo-que-nao-estava-no-mapa.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-1-arte-antiga-discos.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-1-continentes-perdidos.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-1-contos-de-terror.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-1-operacao-prato.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-1-sete-alem.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-1-sobrenatural-o-po-co-sem-eco.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-1-ufos-o-registro-151.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-2-arqueologia-a-camada-abaixo-do-ocre.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-2-continentes-perdidos.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-2-operacao-prato.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-2-sete-alem.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-3-continentes-perdidos.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-3-operacao-prato.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-3-sete-alem.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-4-operacao-prato.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-5-operacao-prato.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ]
+  ],
+  "detalhes_avisos": [
+    [
+      "capitulo-1-arqueologia-o-geoglifo-que-nao-estava-no-mapa.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-1-arte-antiga-discos.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-1-continentes-perdidos.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-1-contos-de-terror.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-1-operacao-prato.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-1-sete-alem.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-1-sobrenatural-o-po-co-sem-eco.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-1-ufos-o-registro-151.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-2-arqueologia-a-camada-abaixo-do-ocre.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-2-continentes-perdidos.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-2-operacao-prato.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-2-sete-alem.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-3-continentes-perdidos.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-3-operacao-prato.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-3-sete-alem.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-4-operacao-prato.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-5-operacao-prato.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ]
+  ],
+  "capitulos_nao_listados_na_index": []
+}
