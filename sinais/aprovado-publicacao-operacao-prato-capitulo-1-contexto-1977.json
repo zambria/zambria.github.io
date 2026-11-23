@@ -4,13 +4,9 @@
   "slug": "operacao-prato-capitulo-1-contexto-1977",
   "titulo": "A Luz que Chupava o Sangue: Colares e a Operação Prato de 1977",
   "caminho_aprovado": "entregas-pesquisa/operacao-prato-capitulo-1-contexto-1977-2026-11-22_aprovado.md",
-  "status": "aprovado_tecnico_condicional",
-  "aprovacao_condicional": true,
-  "itens_pendentes": [
-    "Completar para 30 fontes distintas listadas (atualmente 28 distintas; 7 URLs repetidas em fontes duplas: 6=16, 8=17, 9=18, 11=19, 12=20, 13=21, 14=22)",
-    "Elevar para pelo menos 10 fontes primarias (atualmente 3 explicitas: Fonte 7 Arquivo Nacional, Fonte 31 Carlos Mendes, Fonte 35 U.S. Department of War)"
-  ],
-  "data_aprovacao": "2026-11-22T22:25:00-02:00",
+  "status": "aprovado_tecnico",
+  "aprovacao_condicional": false,
+  "data_aprovacao": "2026-11-22T23:34:00-02:00",
   "proximo_agente": "Usuario_decisao_final",
-  "observacao": "Aprovacao tecnica condicional: texto com 20.000+ caracteres sem frontmatter. A publicacao final depende de autorizacao expressa do usuario (Erico) via Publicador-Webmaster. Nao publicar HTML neste sinal."
+  "observacao": "Aprovacao tecnica integral: texto com 20.000+ caracteres sem frontmatter, 30 fontes distintas, 11 fontes primarias, 10 imagens, 2 videos/documentarios, 10 documentos oficiais, 10 depoimentos com nomes e datas, citacoes inline [Fonte X] em todas as afirmacoes de fato. A publicacao final depende de autorizacao expressa do usuario (Erico) via Publicador-Webmaster. Nao publicar HTML neste sinal."
 }
