@@ -2,11 +2,13 @@
   "agente": "Curador-Revisor-Verificador",
   "bloco": "B",
   "slug": "operacao-prato-capitulo-1-contexto-1977",
-  "titulo": "A Luz que Chupava o Sangue: Colares e a Operação Prato de 1977",
+  "titulo": "Operação Prato: Capítulo 1 - A Ilha no Escopo do Silêncio",
   "caminho_aprovado": "entregas-pesquisa/operacao-prato-capitulo-1-contexto-1977-2026-11-22_aprovado.md",
   "status": "aprovado_tecnico",
-  "aprovacao_condicional": false,
-  "data_aprovacao": "2026-11-22T23:34:00-02:00",
-  "proximo_agente": "Usuario_decisao_final",
-  "observacao": "Aprovacao tecnica integral: texto com 20.000+ caracteres sem frontmatter, 30 fontes distintas, 11 fontes primarias, 10 imagens, 2 videos/documentarios, 10 documentos oficiais, 10 depoimentos com nomes e datas, citacoes inline [Fonte X] em todas as afirmacoes de fato. A publicacao final depende de autorizacao expressa do usuario (Erico) via Publicador-Webmaster. Nao publicar HTML neste sinal."
+  "aprovacao_condicional": true,
+  "itens_pendentes": [
+    "fontes_distintas: 26 listadas (minimo 30 para aprovacao integral) — faltam 4 fontes"
+  ],
+  "data_aprovacao": "2026-11-23T00:22:00-02:00",
+  "proximo_agente": "Usuario_decisao_final"
 }
