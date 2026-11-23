@@ -386,3 +386,74 @@ body {
     transform: translateY(-10px);
   }
 }
+
+/* === SUBNÍVEIS DA SIDEBAR (Operação Prato > Série > Capítulos) === */
+.categoria-grupo.nivel-2 {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.categoria-titulo.nivel-2 {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+  padding-left: 0.25rem;
+  border-left: 2px solid var(--border);
+  cursor: pointer;
+}
+
+.categoria-titulo.nivel-2:hover {
+  color: var(--text);
+}
+
+.lista-topicos.nivel-2 {
+  list-style: none;
+  margin-left: 1rem;
+}
+
+.lista-topicos.nivel-2 li {
+  margin-bottom: 0.4rem;
+}
+
+.lista-topicos.nivel-2 li a {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  display: block;
+  padding: 0.3rem 0.6rem;
+  border-radius: 3px;
+  border-left: 2px solid transparent;
+}
+
+.lista-topicos.nivel-2 li a:hover {
+  color: var(--accent);
+  background-color: var(--accent-glow);
+  padding-left: 1rem;
+  border-left-color: var(--accent);
+}
+
+.serie-placeholder {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  border-left: 2px solid var(--border);
+  cursor: default;
+}
+
+.serie-placeholder::before {
+  content: '▸';
+  color: var(--accent);
+  margin-right: 0.5rem;
+}
+
+/* Responsivo para subníveis */
+@media (max-width: 768px) {
+  .categoria-grupo.nivel-2 {
+    margin-left: 1rem;
+  }
+}
