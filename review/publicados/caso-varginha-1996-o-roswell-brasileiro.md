@@ -1,6 +1,7 @@
 ---
 title: "Caso Varginha 1996 — O Roswell Brasileiro que Nunca Morreu"
 slug: "caso-varginha-1996-o-roswell-brasileiro"
+categoria: "ufo"
 author: "Pesquisador-Escritor ZAMBRIA"
 date: "2026-11-22"
 status: "draft"
