@@ -1,28 +1,28 @@
 # Relatório do Auditor Estrutural Contínua — ZAMBRIA
 
 - **Repositório:** zambria.github.io
-- **Executado em:** 2026-11-23T01:40:54
-- **Rodada:** 5
+- **Executado em:** 2026-11-23T06:17:11
+- **Rodada:** 6
 
 ## Resumo
 - Verificações: 7 | OK: 7 | Problemas: 0
-- Reparações aplicadas: 1
+- Reparações aplicadas: 0
 - **Status geral:** ok
 
 ## Verificações
 ### ✅ Site rodando
-- Evidência: index.html válido (12322 bytes)
+- Evidência: index.html válido (10328 bytes)
 
 ### ✅ CSS carregando
 - Evidência: style.css válido (9397 bytes, assinatura ZAMBRIA)
 
 ### ✅ Sem posts duplicados
-- Evidência: 8 post(s) HTML, todos com títulos únicos.
-- Detalhes: {"total": 8}
+- Evidência: 10 post(s) HTML, todos com títulos únicos.
+- Detalhes: {"total": 10}
 
 ### ✅ Links válidos
-- Evidência: 75 link(s) interno(s) verificado(s), todos resolvendo.
-- Detalhes: {"total_links": 75}
+- Evidência: 84 link(s) interno(s) verificado(s), todos resolvendo.
+- Detalhes: {"total_links": 84}
 
 ### ✅ Estrutura de pastas
 - Evidência: drafts, review, posts, publicados presentes.
