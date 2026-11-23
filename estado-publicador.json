@@ -1,19 +1,13 @@
 {
-  "ultima_publicacao": "2026-11-23T17:30:00-03:00",
-  "posts_hoje": 5,
-  "total_publicados": 289,
-  "posts_publicados_total": 288,
-  "ultimo_post": "a-chuva-que-traya-ossos",
-  "ultima_atualizacao": "2026-11-23T17:30:00-03:00",
+  "ultima_publicacao": "2026-11-23T20:45:00-03:00",
+  "posts_hoje": 6,
+  "total_publicados": 62,
+  "posts_publicados_total": 62,
+  "ultimo_post": "a-voz-no-poco-de-ventilacao",
+  "ultima_atualizacao": "2026-11-23T20:45:00-03:00",
   "limite_diario": null,
   "espaco_disponivel": true,
   "texto_indicado": null,
   "motivo_nao_publicacao": null,
-  "publicacao_agendada": {
-    "slug": "a-voz-no-poco-de-ventilacao",
-    "titulo": "A Voz no Poço de Ventilação",
-    "categoria": "contos-de-terror",
-    "para": "2026-11-23T20:30:00-03:00",
-    "motivo": "espacamento minimo de 3h apos ultima_publicacao (17:30 -03); push no proximo ciclo do cron (*/15)"
-  }
+  "publicacao_agendada": null
 }
