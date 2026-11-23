@@ -10,7 +10,7 @@ Tamanho do texto: ~42.000 caracteres sem frontmatter — acima do mínimo de 20.
 ## Motivo(s) do não aproveitamento
 
 **BLOQUEIO DEFINITIVO — Plágio detectado (regra de ouro inquebrável):**
-O texto reenviado continua reproduzindo trechos extensos, palavra por palavra, da Fonte 1 (Wikipedia — "Operação Prato"), sem aspas nem citação direta. Regra da ZAMBRIA: 5 ou mais palavras seguidas iguais a uma fonte externa = plágio = bloqueio automático. Não há _aprovado.md e não há sinal de publicação. Exemplos de cópia verificada contra o artigo da Wikipédia na versão reenviada (21:46):
+O texto reenviado continua reproduzindo trechos extensos, palavra por palavra, da Fonte 1 (Wikipedia — "Operação Prato"), sem aspas nem citação direta. Regra da ZAMBRIA: 5 ou mais palavras seguidas iguais a uma fonte externa = plágio = bloqueio automático. Não há _aprovado.md e não há sinal de publicação. Exemplos de cópia verificada contra o artigo da Wikipédia (pt.wikipedia.org/wiki/Operação_Prato, acessado e verificado nesta execução) na versão reenviada (21:46):
 
 - Linha 22: "uma equipe de três agentes da seção de informações do I COMAR, conhecida como 2ª Seção ou A2, saiu de Belém em direção ao município de Santo Antônio do Tauá, distante cerca de 60 km da capital" + nomes e codinomes dos sargentos (Ernesto, Luciano, Gualter).
 - Linha 34: "No relatório vazado intitulado "Aspecto Psico-Social e Econômico", o sargento Flávio Costa fez uma descrição de como os moradores de Colares estavam sendo afetados" + "a "histeria coletiva" em que se encontrava a população" + "estes corpos e luzes, são: - INTELIGENTEMENTE DIRIGIDOS".
