@@ -1,42 +1,42 @@
 {
   "agente": "auditor-estrutural-continua-zambria",
   "repositorio": "C:\\Users\\erico\\zambria.github.io",
-  "executado_em": "2026-11-21T16:16:05",
-  "rodada": 4,
+  "executado_em": "2026-11-23T01:40:54",
+  "rodada": 5,
   "timer_minutos": 2.0,
   "verificacoes": [
     {
       "nome": "Site rodando",
       "ok": true,
       "problema": null,
-      "evidencia": "index.html válido (10362 bytes)",
+      "evidencia": "index.html válido (12322 bytes)",
       "sugere_correcao": null
     },
     {
       "nome": "CSS carregando",
       "ok": true,
       "problema": null,
-      "evidencia": "style.css válido (4895 bytes, assinatura ZAMBRIA)",
+      "evidencia": "style.css válido (9397 bytes, assinatura ZAMBRIA)",
       "sugere_correcao": null
     },
     {
       "nome": "Sem posts duplicados",
       "ok": true,
       "problema": null,
-      "evidencia": "17 post(s) HTML, todos com títulos únicos.",
+      "evidencia": "8 post(s) HTML, todos com títulos únicos.",
       "sugere_correcao": null,
       "detalhes": {
-        "total": 17
+        "total": 8
       }
     },
     {
       "nome": "Links válidos",
       "ok": true,
       "problema": null,
-      "evidencia": "107 link(s) interno(s) verificado(s), todos resolvendo.",
+      "evidencia": "75 link(s) interno(s) verificado(s), todos resolvendo.",
       "sugere_correcao": null,
       "detalhes": {
-        "total_links": 107
+        "total_links": 75
       }
     },
     {
@@ -50,25 +50,32 @@
       "nome": "Frontmatter válido",
       "ok": true,
       "problema": null,
-      "evidencia": "60 arquivo(s) .md com frontmatter válido.",
+      "evidencia": "0 arquivo(s) .md com frontmatter válido.",
       "sugere_correcao": null,
       "detalhes": {
-        "total": 60
+        "total": 0
       }
     },
     {
       "nome": "Posts publicados com HTML correspondente",
       "ok": true,
       "problema": null,
-      "evidencia": "15 post(s) publicado(s) com HTML correspondente.",
+      "evidencia": "0 post(s) publicado(s) com HTML correspondente.",
       "sugere_correcao": null,
       "detalhes": {
-        "total": 15
+        "total": 0
       }
     }
   ],
-  "reparacoes_aplicadas": 0,
-  "reparacoes_detalhes": [],
+  "reparacoes_aplicadas": 1,
+  "reparacoes_detalhes": [
+    {
+      "acao": "estrutura_pastas",
+      "criadas": [
+        "review"
+      ]
+    }
+  ],
   "resumo": {
     "total": 7,
     "ok": 7,
