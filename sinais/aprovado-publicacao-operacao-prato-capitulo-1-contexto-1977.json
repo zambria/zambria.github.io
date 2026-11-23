@@ -1,0 +1,15 @@
+{
+  "agente": "Curador-Revisor-Verificador",
+  "bloco": "B",
+  "slug": "operacao-prato-capitulo-1-contexto-1977",
+  "titulo": "A Luz que Chupava o Sangue: Colares e a Operação Prato de 1977",
+  "caminho_aprovado": "entregas-pesquisa/operacao-prato-capitulo-1-contexto-1977-2026-11-22_aprovado.md",
+  "status": "aprovado_tecnico",
+  "aprovacao_condicional": true,
+  "itens_pendentes": [
+    "Completar para 30 fontes distintas listadas (atualmente 15: Fonte 1 a Fonte 15)",
+    "Elevar para pelo menos 10 fontes primárias (documentos oficiais originais, laudos médicos, relatórios militares, depoimentos brutos, arquivos institucionais)"
+  ],
+  "data_aprovacao": "2026-11-22T22:05:00-02:00",
+  "proximo_agente": "Usuario_decisao_final"
+}
