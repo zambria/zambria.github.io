@@ -457,3 +457,69 @@ body {
     margin-left: 1rem;
   }
 }
+
+/* === NAVEGAÇÃO ENTRE CAPÍTULOS === */
+.nav-capitulos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+  padding: 1.5rem 2rem;
+  background-color: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.nav-capitulos a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  border: 1px solid var(--border);
+}
+
+.nav-capitulos a:hover {
+  color: var(--accent);
+  background-color: var(--accent-glow);
+  border-color: var(--accent);
+}
+
+.nav-capitulos a.nav-anterior {
+  padding-left: 2.5rem;
+}
+
+.nav-capitulos a.nav-proximo {
+  padding-right: 2.5rem;
+}
+
+.nav-anterior::before {
+  content: '← ';
+}
+
+.nav-proximo::after {
+  content: ' →';
+}
+
+.btn-voltar {
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  background-color: var(--bg-panel);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-voltar:hover {
+  background-color: var(--accent-glow);
+  color: var(--accent);
+  border-color: var(--accent);
+}
