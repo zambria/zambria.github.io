@@ -146,47 +146,14 @@
         <div class="site-subtitle">O Insólito Presente</div>
       </div>
 
-      <!-- Categoria: Operação Prato -->
+      <!-- Categoria: Contos de Terror -->
       <div class="categoria-grupo">
-        <div class="categoria-titulo" id="categoria-operacao-prato" role="button" tabindex="0" aria-expanded="false">Operação Prato</div>
-        <ul class="lista-topicos" id="lista-operacao-prato" style="display: none;">
+        <div class="categoria-titulo" id="categoria-contos-de-terror" role="button" tabindex="0" aria-expanded="false">Contos de Terror</div>
+        <ul class="lista-topicos" id="lista-contos-de-terror" style="display: none;">
           <li>
-            <div class="categoria-titulo nivel-2" id="serie-operacao-prato" role="button" tabindex="0" aria-expanded="false">Série Operação Prato</div>
-            <ul class="lista-topicos nivel-2" id="capitulos-operacao-prato" style="display: none;">
-              <li><a href="capitulo-1-operacao-prato.html">Capítulo 1</a></li>
-              <li><a href="capitulo-2-operacao-prato.html">Capítulo 2</a></li>
-              <li><a href="capitulo-3-operacao-prato.html">Capítulo 3</a></li>
-              <li><a href="capitulo-4-operacao-prato.html">Capítulo 4</a></li>
-              <li><a href="capitulo-5-operacao-prato.html">Capítulo 5</a></li>
-              <li><a href="capitulo-6-operacao-prato.html">Capítulo 6</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Categoria: Sete Além -->
-      <div class="categoria-grupo">
-        <div class="categoria-titulo" id="categoria-sete-alem" role="button" tabindex="0" aria-expanded="false">Sete Além</div>
-        <ul class="lista-topicos" id="lista-sete-alem" style="display: none;">
-          <li>
-            <div class="categoria-titulo nivel-2" id="serie-sete-alem" role="button" tabindex="0" aria-expanded="false">Série Sete Além</div>
-            <ul class="lista-topicos nivel-2" id="capitulos-sete-alem" style="display: none;">
-              <li><a href="capitulo-1-sete-alem.html">Capítulo 1 — A Fenda no Ônibus</a></li>
-              <li><a href="capitulo-2-sete-alem.html">Capítulo 2 — Portais e Testemunhos</a></li>
-              <li><a href="capitulo-3-sete-alem.html">Capítulo 3 — O Que Não Deve Ser Nomeado</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Categoria: Continentes Perdidos -->
-      <div class="categoria-grupo">
-        <div class="categoria-titulo" id="categoria-continentes-perdidos" role="button" tabindex="0" aria-expanded="false">Continentes Perdidos</div>
-        <ul class="lista-topicos" id="lista-continentes-perdidos" style="display: none;">
-          <li>
-            <div class="categoria-titulo nivel-2" id="serie-continentes-perdidos" role="button" tabindex="0" aria-expanded="false">Série Continentes Perdidos</div>
-            <ul class="lista-topicos nivel-2" id="capitulos-continentes-perdidos" style="display: none;">
-              <li><a href="capitulo-1-continentes-perdidos.html">Capítulo 1 — Atlântida</a></li>
+            <div class="categoria-titulo nivel-2" id="serie-contos-de-terror" role="button" tabindex="0" aria-expanded="false">Série Contos de Terror</div>
+            <ul class="lista-topicos nivel-2" id="capitulos-contos-de-terror" style="display: none;">
+              <li><a href="capitulo-1-contos-de-terror.html">Capítulo 1</a></li>
             </ul>
           </li>
         </ul>
@@ -362,7 +329,6 @@
         titulos.forEach((titulo) => {
           const lista = titulo.nextElementSibling;
           if (!lista || !lista.classList.contains('lista-topicos')) return;
-          if (titulo.id === 'serie-operacao-prato' || titulo.id === 'serie-sete-alem' || titulo.id === 'serie-continentes-perdidos') return;
           const itens = Array.from(lista.querySelectorAll('li'));
 
           function abrir() {
