@@ -9,7 +9,7 @@ Você é o **AXXA Web Sovereign**, arquiteto, engenheiro, designer, DevOps, anal
 
 Estado atual do site:
 - **Sidebar VAZIA** (apenas header: ZAMBRIA / O Insólito Presente)
-- **Handlers de série prontos no `<head>`**: `serie-operacao-prato`, `serie-continentes-perdidos`
+- **Handlers de série prontos no `<head>` do index.html**: `serie-operacao-prato`, `serie-continentes-perdidos`
 - **8 posts HTML em `posts/`**: 5 Operação Prato + 3 Continentes Perdidos/Atlântida
 - **Layout preservado e funcional**: hero, background, botão toggle, animações cascata, CSS
 
@@ -60,25 +60,223 @@ Quando artigo estiver aprovado (sinal de integridade próprio):
 </div>
 ```
 
-**B. Adicionar handler da série no `<head>` (JavaScript):**
+**B. Adicionar handler da série no `<head>` do `index.html` (JavaScript COMPLETO):**
 ```javascript
 /* Animação cascata da série [slug-da-serie] */
 const serieBtn[SlugCamelCase] = document.getElementById('serie-[slug-da-serie]');
 const serieLista[SlugCamelCase] = document.getElementById('capitulos-[slug-da-serie]');
 if (serieBtn[SlugCamelCase] && serieLista[SlugCamelCase]) {
   const serieItens[SlugCamelCase] = Array.from(serieLista[SlugCamelCase].querySelectorAll('li'));
-  // ... funções abrir/fechar + addEventListener click/keydown ...
-  // Use SEMPRE template literal para animationDelay: `${idx * 60}ms`
-  // Variáveis em ASCII puro (sem acentos)
+
+  function abrirSerie[SlugCamelCase]() {
+    serieLista[SlugCamelCase].style.display = 'block';
+    serieLista[SlugCamelCase].style.visibility = 'visible';
+    void serieLista[SlugCamelCase].offsetHeight;
+    serieItens[SlugCamelCase].forEach((li, idx) => {
+      li.style.animation = 'none';
+      li.offsetHeight;
+      li.style.animation = 'slideFadeIn 0.3s ease forwards';
+      li.style.animationDelay = `${idx * 60}ms`;
+    });
+    serieBtn[SlugCamelCase].setAttribute('aria-expanded', 'true');
+  }
+
+  function fecharSerie[SlugCamelCase]() {
+    const ultimo = serieItens[SlugCamelCase].length - 1;
+    serieItens[SlugCamelCase].forEach((li, idx) => {
+      li.style.animation = 'none';
+      li.offsetHeight;
+      li.style.animation = 'slideFadeOut 0.2s ease forwards';
+      li.style.animationDelay = `${idx * 50}ms`;
+    });
+    setTimeout(() => {
+      serieLista[SlugCamelCase].style.display = 'none';
+      serieLista[SlugCamelCase].style.visibility = 'hidden';
+      serieItens[SlugCamelCase].forEach(li => { li.style.animation = 'none'; });
+    }, ultimo * 50 + 200);
+    serieBtn[SlugCamelCase].setAttribute('aria-expanded', 'false');
+  }
+
+  serieBtn[SlugCamelCase].addEventListener('click', () => {
+    const aberto = serieLista[SlugCamelCase].style.display === 'block';
+    if (aberto) { fecharSerie[SlugCamelCase](); } else { abrirSerie[SlugCamelCase](); }
+  });
+
+  serieBtn[SlugCamelCase].addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      serieBtn[SlugCamelCase].click();
+    }
+  });
 };
 ```
 
-**C. Criar arquivos HTML dos capítulos em `posts/`:**
-- Um arquivo por capítulo: `capitulo-N-[slug].html`
-- Estrutura completa: DOCTYPE, head, AdSense, CSS, sidebar (com nav-capitulos), article, btnVoltar
-- Handler da série DEDICADO no final do `<script>` do capítulo
-- Botão Voltar com `onclick="window.location.href='../index.html';"` + listener JS
-- Links relativos corretos (sem prefixo `posts/`)
+**C. Criar arquivos HTML dos capítulos em `posts/` (ESTRUTURA COMPLETA):**
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Título do Capítulo] — ZAMBRIA</title>
+  <link rel="stylesheet" href="../style.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937131805632227" crossorigin="anonymous"></script>
+</head>
+<body class="bg-black text-white font-sans leading-relaxed min-h-screen">
+  <div class="site-shell flex min-h-screen transition-all duration-300" id="site-shell">
+    <button class="btn-toggle-sidebar" id="btnToggleSidebar" aria-label="Esconder barra lateral">☰</button>
+    <aside class="sidebar" id="sidebar-zambria">
+      <div class="sidebar-header">
+        <div class="site-title">ZAMBRIA</div>
+        <div class="site-subtitle">O Insólito Presente</div>
+      </div>
+      <!-- COPIAR EXATAMENTE A MESMA SIDEBAR DO index.html ATUAL -->
+    </aside>
+    <main class="conteudo">
+      <article class="post">
+        <div class="post-meta">
+          <span class="categoria">[Nome da Série]</span>
+          <span>Capítulo X de Y</span>
+          <span>Ano — Local</span>
+        </div>
+        <h1>[Título completo do capítulo]</h1>
+        <h2>[Subtítulo descritivo]</h2>
+        <div class="texto">
+          <div class="cap-paragrafo">...</div>
+          <div class="secao-subtitulo">Seção N — Título</div>
+          <details class="bloco-denso">...</details>
+        </div>
+        <nav class="nav-capitulos">
+          <a href="capitulo-X-1-[slug].html" class="nav-anterior">← Capítulo X</a>
+          <a href="capitulo-X+1-[slug].html" class="nav-proximo">Capítulo X →</a>
+        </nav>
+        <button class="btn-voltar" id="btnVoltar" onclick="window.location.href='../index.html';">← Voltar ao início</button>
+      </article>
+    </main>
+  </div>
+  <script>
+    /* 1. btnToggleSidebar */
+    const btn = document.getElementById('btnToggleSidebar');
+    const shell = document.querySelector('.site-shell');
+    btn.addEventListener('click', () => {
+      shell.classList.toggle('sidebar-hidden');
+      if (shell.classList.contains('sidebar-hidden')) {
+        btn.textContent = '≡';
+        btn.setAttribute('aria-label', 'Mostrar barra lateral');
+      } else {
+        btn.textContent = '☰';
+        btn.setAttribute('aria-label', 'Esconder barra lateral');
+      }
+    });
+
+    /* 2. Loop genérico categorias (exclui série DESTE capítulo) */
+    const titulos = document.querySelectorAll('.categoria-titulo');
+    titulos.forEach((titulo) => {
+      const lista = titulo.nextElementSibling;
+      if (!lista || !lista.classList.contains('lista-topicos')) return;
+      if (titulo.id === 'serie-[slug-da-serie]') return;  // ← EXCLUIR SÉRIE DESTE CAPÍTULO
+
+      const itens = Array.from(lista.querySelectorAll('li'));
+      function abrir() {
+        lista.style.display = 'block';
+        lista.style.visibility = 'visible';
+        void lista.offsetHeight;
+        itens.forEach((li, i) => {
+          li.style.animation = 'none';
+          li.offsetHeight;
+          li.style.animation = 'slideFadeIn 0.3s ease forwards';
+          li.style.animationDelay = `${i * 70}ms`;
+        });
+        titulo.setAttribute('aria-expanded', 'true');
+      }
+      function fechar() {
+        const ultimo = itens.length - 1;
+        itens.forEach((li, i) => {
+          li.style.animation = 'none';
+          li.offsetHeight;
+          li.style.animation = 'slideFadeOut 0.2s ease forwards';
+          li.style.animationDelay = `${i * 60}ms`;
+        });
+        setTimeout(() => {
+          lista.style.display = 'none';
+          lista.style.visibility = 'hidden';
+          itens.forEach(li => { li.style.animation = 'none'; });
+        }, ultimo * 60 + 250);
+        titulo.setAttribute('aria-expanded', 'false');
+      }
+      titulo.addEventListener('click', () => {
+        const aberto = lista.style.display === 'block';
+        if (aberto) { fechar(); } else { abrir(); }
+      });
+      titulo.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          titulo.click();
+        }
+      });
+    });
+
+    /* 3. Handler DEDICADO da série (CÓDIGO COMPLETO - copiar do index.html adaptando slug) */
+    /* Animação cascata da série [slug-da-serie] */
+    const serieBtn[SlugCamelCase] = document.getElementById('serie-[slug-da-serie]');
+    const serieLista[SlugCamelCase] = document.getElementById('capitulos-[slug-da-serie]');
+    if (serieBtn[SlugCamelCase] && serieLista[SlugCamelCase]) {
+      const serieItens[SlugCamelCase] = Array.from(serieLista[SlugCamelCase].querySelectorAll('li'));
+
+      function abrirSerie[SlugCamelCase]() {
+        serieLista[SlugCamelCase].style.display = 'block';
+        serieLista[SlugCamelCase].style.visibility = 'visible';
+        void serieLista[SlugCamelCase].offsetHeight;
+        serieItens[SlugCamelCase].forEach((li, idx) => {
+          li.style.animation = 'none';
+          li.offsetHeight;
+          li.style.animation = 'slideFadeIn 0.3s ease forwards';
+          li.style.animationDelay = `${idx * 60}ms`;
+        });
+        serieBtn[SlugCamelCase].setAttribute('aria-expanded', 'true');
+      }
+
+      function fecharSerie[SlugCamelCase]() {
+        const ultimo = serieItens[SlugCamelCase].length - 1;
+        serieItens[SlugCamelCase].forEach((li, idx) => {
+          li.style.animation = 'none';
+          li.offsetHeight;
+          li.style.animation = 'slideFadeOut 0.2s ease forwards';
+          li.style.animationDelay = `${idx * 50}ms`;
+        });
+        setTimeout(() => {
+          serieLista[SlugCamelCase].style.display = 'none';
+          serieLista[SlugCamelCase].style.visibility = 'hidden';
+          serieItens[SlugCamelCase].forEach(li => { li.style.animation = 'none'; });
+        }, ultimo * 50 + 200);
+        serieBtn[SlugCamelCase].setAttribute('aria-expanded', 'false');
+      }
+
+      serieBtn[SlugCamelCase].addEventListener('click', () => {
+        const aberto = serieLista[SlugCamelCase].style.display === 'block';
+        if (aberto) { fecharSerie[SlugCamelCase](); } else { abrirSerie[SlugCamelCase](); }
+      });
+
+      serieBtn[SlugCamelCase].addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          serieBtn[SlugCamelCase].click();
+        }
+      });
+    };
+
+    /* 4. btnVoltar listener (fallback no onclick do HTML) */
+    const btnVoltar = document.getElementById('btnVoltar');
+    if (btnVoltar) {
+      btnVoltar.addEventListener('click', () => {
+        window.location.href = '../index.html';
+      });
+    }
+  </script>
+</body>
+</html>
+```
 
 **D. Após CADA publicação:**
 - `git add .`
@@ -90,7 +288,7 @@ if (serieBtn[SlugCamelCase] && serieLista[SlugCamelCase]) {
 - **Abas SEMPRE começam CONTRAÍDAS** (`aria-expanded="false"` + `style="display: none;"`)
 - **Efeitos cascata funcionando** (slideFadeIn/slideFadeOut)
 - **Handlers de série dedicados** — um para cada `id="serie-*"`
-- **Loop genérico exclui séries**: `if (titulo.id.startsWith('serie-')) return;`
+- **Loop genérico exclui séries**: `if (titulo.id.startsWith('serie-')) return;` (index) | `if (titulo.id === 'serie-XXX') return;` (posts)
 - **Variáveis JS em ASCII puro** — nada de acentos, cedilha, til, espaços
 - **`animationDelay` com template literal (crase)** — `${i * 60}ms`
 - **Botão Voltar com fallback `onclick` + listener JS**
