@@ -99,7 +99,7 @@
             li.style.animation = 'none';
             li.offsetHeight;
             li.style.animation = 'slideFadeIn 0.3s ease forwards';
-            li.style.animationDelay = '${i * 70}ms';
+            li.style.animationDelay = `${i * 70}ms`;
           });
           titulo.setAttribute('aria-expanded', 'true');
         }
@@ -109,7 +109,7 @@
             li.style.animation = 'none';
             li.offsetHeight;
             li.style.animation = 'slideFadeOut 0.2s ease forwards';
-            li.style.animationDelay = '${i * 60}ms';
+            li.style.animationDelay = `${i * 60}ms`;
           });
           setTimeout(() => {
             lista.style.display = 'none';

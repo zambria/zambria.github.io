@@ -509,7 +509,10 @@ body {
 }
 
 .btn-voltar {
-  margin-top: 1.5rem;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10000;
   padding: 0.8rem 1.5rem;
   background-color: var(--bg-panel);
   color: var(--text);
