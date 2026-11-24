@@ -252,6 +252,7 @@
     titulos.forEach((titulo) => {
       const lista = titulo.nextElementSibling;
       if (!lista || !lista.classList.contains('lista-topicos')) return;
+      if (titulo.id.startsWith('serie-')) return;
 
       const itens = Array.from(lista.querySelectorAll('li'));
 

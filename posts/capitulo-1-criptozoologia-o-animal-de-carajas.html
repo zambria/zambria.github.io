@@ -90,14 +90,21 @@
         <div class="site-title">ZAMBRIA</div>
         <div class="site-subtitle">O Insólito Presente</div>
       </div>
-
+      <!-- Categoria: Criptozoologia -->
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-criptozoologia" role="button" tabindex="0" aria-expanded="false">Criptozoologia</div>
         <ul class="lista-topicos" id="lista-criptozoologia" style="display: none;">
-          <li><a href="#">O Animal de Carajás</a></li>
+          <li>
+            <div class="categoria-titulo nivel-2" id="serie-criptozoologia" role="button" tabindex="0" aria-expanded="false">Série Criptozoologia</div>
+            <ul class="lista-topicos nivel-2" id="capitulos-criptozoologia" style="display: none;">
+              <li><a href="capitulo-1-criptozoologia-o-animal-de-carajas.html" class="ativo">O Animal de Carajás</a></li>
+              <li><a href="capitulo-2-criptozoologia-o-minhocao-de-barro-preto.html">O Minhocão de Barro Preto</a></li>
+              <li><a href="capitulo-3-criptozoologia-o-que-respira-no-lodo.html">O Que Respira no Lodo</a></li>
+              <li><a href="capitulo-4-criptozoologia-o-que-restou-abaixo-da-agua.html">O Que Restou Abaixo da Água</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
-
     </aside>
 
     <main class="conteudo">
@@ -169,7 +176,12 @@
         </div>
 
         <button class="btn-voltar" id="btnVoltar" onclick="window.location.href='../index.html';" aria-label="Voltar ao início">← Voltar ao início</button>
-      </article>
+      
+
+      <nav class="nav-capitulos">
+        <a href="capitulo-2-criptozoologia-o-minhocao-de-barro-preto.html" class="nav-proximo">O Minhocão de Barro Preto →</a>
+      </nav>
+</article>
     </main>
 
     <script>
@@ -190,7 +202,7 @@
       titulos.forEach((titulo) => {
         const lista = titulo.nextElementSibling;
         if (!lista || !lista.classList.contains('lista-topicos')) return;
-        if (titulo.id === 'categoria-criptozoologia') return;
+        if (titulo.id === 'serie-criptozoologia') return;
         const itens = Array.from(lista.querySelectorAll('li'));
         function abrir() {
           lista.style.display = 'block';

@@ -90,14 +90,42 @@
         <div class="site-title">ZAMBRIA</div>
         <div class="site-subtitle">O Insólito Presente</div>
       </div>
-
+      <!-- Categoria: Contos de Terror -->
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-contos-de-terror" role="button" tabindex="0" aria-expanded="false">Contos de Terror</div>
         <ul class="lista-topicos" id="lista-contos-de-terror" style="display: none;">
-          <li><a href="#">O Último Telégrafo da Estação Monte Santo</a></li>
+          <li>
+            <div class="categoria-titulo nivel-2" id="serie-contos-de-terror" role="button" tabindex="0" aria-expanded="false">Série Contos de Terror</div>
+            <ul class="lista-topicos nivel-2" id="capitulos-contos-de-terror" style="display: none;">
+              <li><a href="capitulo-1-contos-de-terror.html">O Gravador do Abismo</a></li>
+              <li><a href="capitulo-2-contos-de-terror-a-boca-da-mina.html">A Boca da Mina</a></li>
+              <li><a href="capitulo-3-contos-de-terror-a-decima-setima-campainha.html">A Décima Sétima Campainha</a></li>
+              <li><a href="capitulo-4-contos-de-terror-a-dolina-invertida.html">A Dolina Invertida</a></li>
+              <li><a href="capitulo-5-contos-de-terror-a-ultima-ronda-da-torre-de-vigia.html">A Última Ronda da Torre de Vigia</a></li>
+              <li><a href="capitulo-6-contos-de-terror-buraco-do-inferno.html">O Eco que Vinha de Baixo</a></li>
+              <li><a href="capitulo-7-contos-de-terror-o-andar-que-nao-esta-na-planta.html">O Andar que Não Está na Planta</a></li>
+              <li><a href="capitulo-8-contos-de-terror-o-bilhete-da-plataforma-3.html">O Bilhete da Plataforma 3</a></li>
+              <li><a href="capitulo-9-contos-de-terror-o-canto-da-areia-nao-tem-volta.html">O Canto da Areia Não Tem Volta</a></li>
+              <li><a href="capitulo-10-contos-de-terror-o-deposito-de-achados-e-perdidos.html">O Depósito de Achados e Perdidos</a></li>
+              <li><a href="capitulo-11-contos-de-terror-o-faroleiro-da-nevoa.html">O Faroleiro da Névoa</a></li>
+              <li><a href="capitulo-12-contos-de-terror-o-guardiao-do-silencio.html">O Guardião do Silêncio</a></li>
+              <li><a href="capitulo-13-contos-de-terror-o-laudo-da-sala-fria.html">O Laudo da Sala Fria</a></li>
+              <li><a href="capitulo-14-contos-de-terror-o-livro-de-ponto-de-fordlandia.html">O Livro de Ponto de Fordlândia</a></li>
+              <li><a href="capitulo-15-contos-de-terror-o-recebedor-de-cartas-nao-enderecadas.html">O Recebedor de Cartas Não Endereçadas</a></li>
+              <li><a href="capitulo-16-contos-de-terror-o-ultimo-sermao-da-igreja-submersa.html">O Último Sermão da Igreja Submersa</a></li>
+              <li><a href="capitulo-17-contos-de-terror-o-ultimo-telegrafo-da-estacao-monte-santo.html" class="ativo">O Último Telégrafo da Estação Monte Santo</a></li>
+              <li><a href="a-boca-da-mina.html">A Boca da Mina</a></li>
+              <li><a href="a-camada-abaixo-do-ocre.html">A Camada Abaixo do Ocre</a></li>
+              <li><a href="a-corrida-da-madrugada.html">A Corrida da Madrugada</a></li>
+              <li><a href="a-linha-morta.html">A Linha Morta</a></li>
+              <li><a href="a-voz-no-poco-de-ventilacao.html">A Voz no Poço de Ventilação</a></li>
+              <li><a href="o-quarto-de-fundo.html">O Quarto de Fundo</a></li>
+              <li><a href="o-zumbido-de-taos.html">O Zumbido de Taos</a></li>
+              <li><a href="o-zumbido-que-escuta-de-volta.html">O Zumbido que Escuta de Volta</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
-
     </aside>
 
     <main class="conteudo">
@@ -176,7 +204,12 @@ VOCÊ FOI O CONDUTOR</div>
         </div>
 
         <button class="btn-voltar" id="btnVoltar" onclick="window.location.href='../index.html';" aria-label="Voltar ao início">← Voltar ao início</button>
-      </article>
+      
+
+      <nav class="nav-capitulos">
+        <a href="capitulo-16-contos-de-terror-o-ultimo-sermao-da-igreja-submersa.html" class="nav-anterior">← O Último Sermão da Igreja Submersa</a>
+      </nav>
+</article>
     </main>
 
     <script>
@@ -197,7 +230,7 @@ VOCÊ FOI O CONDUTOR</div>
       titulos.forEach((titulo) => {
         const lista = titulo.nextElementSibling;
         if (!lista || !lista.classList.contains('lista-topicos')) return;
-        if (titulo.id === 'categoria-contos-de-terror') return;
+        if (titulo.id === 'serie-contos-de-terror') return;
         const itens = Array.from(lista.querySelectorAll('li'));
         function abrir() {
           lista.style.display = 'block';

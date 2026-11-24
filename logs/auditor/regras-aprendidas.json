@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-11-23T15:45:00-03:00",
-  "ciclo": 2,
+  "gerado_em": "2026-11-23T22:00:00-03:00",
+  "ciclo": 3,
   "regras": [
     {
       "regra": "Sempre excluir do loop genérico .categoria-titulo os ids das divs de série (nivel-2) de cada categoria",
@@ -47,6 +47,13 @@
       "paginas_afetadas": "estado-publicador.json, review/ficcoes/*.md, posts/capitulo-*.html (futuras)",
       "correcao_aplicada": "nenhuma publicacao executada neste ciclo; ultima_publicacao 14:15, proxima liberada em 17:15 (-03)",
       "status": "observado"
+    },
+    {
+      "regra": "Loop generico da sidebar deve excluir sempre a divisao de serie (nivel-2), nunca a categoria-pai",
+      "padrao": "if (titulo.id.startsWith('serie-')) return; em index.html; if (titulo.id === 'serie-XXX') return; nos posts, dentro de titulos.forEach antes de ler nextElementSibling",
+      "paginas_afetadas": "index.html + todos posts/capitulo-*.html com sidebar",
+      "correcao_aplicada": "index.html: startsWith('serie-') exclui todas as divs serie-*; 42 posts: exclusao categoria-XXX trocada pela serie-XXX correspondente",
+      "status": "aplicado"
     }
   ],
   "keb_status": {
@@ -56,7 +63,7 @@
     "KEB_04_botao_voltar": "presente em 17/17 capitulos",
     "KEB_05_sidebar_contraida": "17/17 arquivos ok",
     "KEB_06_categorias_sidebar": "abaixo do cabecalho ZAMBRIA, todas contraídas por default",
-    "KEB_07_exclusao_serie_loop": "corrigido em index.html e capitulo-1-contos-de-terror.html",
+    "KEB_07_exclusao_serie_loop": "corrigido em index.html + todos os posts com divs de serie (exclusao categoria-XXX trocada por serie-XXX)",
     "KEB_08_background_image": "bg-zambria.jpg presente no style.css",
     "KEB_10_z_index_toggle": "z-index: 9999 no style.css"
   }

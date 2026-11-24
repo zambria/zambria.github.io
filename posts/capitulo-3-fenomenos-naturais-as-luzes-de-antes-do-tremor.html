@@ -90,14 +90,28 @@
         <div class="site-title">ZAMBRIA</div>
         <div class="site-subtitle">O Insólito Presente</div>
       </div>
-
+      <!-- Categoria: Fenômenos Naturais -->
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-fenomenos-naturais" role="button" tabindex="0" aria-expanded="false">Fenômenos Naturais</div>
         <ul class="lista-topicos" id="lista-fenomenos-naturais" style="display: none;">
-          <li><a href="#">As Luzes de Antes do Tremor</a></li>
+          <li>
+            <div class="categoria-titulo nivel-2" id="serie-fenomenos-naturais" role="button" tabindex="0" aria-expanded="false">Série Fenômenos Naturais</div>
+            <ul class="lista-topicos nivel-2" id="capitulos-fenomenos-naturais" style="display: none;">
+              <li><a href="capitulo-1-fenomenos-naturais-a-chuva-que-traya-ossos.html">A Chuva que Trazia Ossos</a></li>
+              <li><a href="capitulo-2-fenomenos-naturais-a-nuvem-que-nao-passava.html">A Nuvem que Não Passava</a></li>
+              <li><a href="capitulo-3-fenomenos-naturais-as-luzes-de-antes-do-tremor.html" class="ativo">As Luzes de Antes do Tremor</a></li>
+              <li><a href="capitulo-4-fenomenos-naturais-as-luzes-do-brejo.html">As Luzes do Brejo</a></li>
+              <li><a href="capitulo-5-fenomenos-naturais-o-estampido-sem-fonte.html">O Estampido sem Fonte</a></li>
+              <li><a href="capitulo-6-fenomenos-naturais-o-fogo-do-catatumbo.html">O Fogo do Catatumbo</a></li>
+              <li><a href="capitulo-7-fenomenos-naturais-o-gemido-das-pedras-de-espinhaco.html">O Gemido das Pedras de Espinhaço</a></li>
+              <li><a href="capitulo-8-fenomenos-naturais-o-hum-de-cana-brava.html">O Hum de Cana Brava</a></li>
+              <li><a href="capitulo-9-fenomenos-naturais-o-sopro-abaixo-de-20-hertz.html">O Sopro Abaixo de 20 Hertz</a></li>
+              <li><a href="capitulo-10-fenomenos-naturais-o-tremor-da-estacao-santa-helena.html">O Tremor da Estação Santa Helena</a></li>
+              <li><a href="capitulo-11-fenomenos-naturais-o-zumbido-de-pedra-branca.html">O Zumbido de Pedra Branca</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
-
     </aside>
 
     <main class="conteudo">
@@ -150,7 +164,13 @@
         </div>
 
         <button class="btn-voltar" id="btnVoltar" onclick="window.location.href='../index.html';" aria-label="Voltar ao início">← Voltar ao início</button>
-      </article>
+      
+
+      <nav class="nav-capitulos">
+        <a href="capitulo-2-fenomenos-naturais-a-nuvem-que-nao-passava.html" class="nav-anterior">← A Nuvem que Não Passava</a>
+        <a href="capitulo-4-fenomenos-naturais-as-luzes-do-brejo.html" class="nav-proximo">As Luzes do Brejo →</a>
+      </nav>
+</article>
     </main>
 
     <script>
@@ -171,7 +191,7 @@
       titulos.forEach((titulo) => {
         const lista = titulo.nextElementSibling;
         if (!lista || !lista.classList.contains('lista-topicos')) return;
-        if (titulo.id === 'categoria-fenomenos-naturais') return;
+        if (titulo.id === 'serie-fenomenos-naturais') return;
         const itens = Array.from(lista.querySelectorAll('li'));
         function abrir() {
           lista.style.display = 'block';

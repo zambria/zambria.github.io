@@ -90,14 +90,19 @@
         <div class="site-title">ZAMBRIA</div>
         <div class="site-subtitle">O Insólito Presente</div>
       </div>
-
+      <!-- Categoria: Conspirações -->
       <div class="categoria-grupo">
-        <div class="categoria-titulo" id="categoria-conspiracaoes" role="button" tabindex="0" aria-expanded="false">Conspirações</div>
-        <ul class="lista-topicos" id="lista-conspiracaoes" style="display: none;">
-          <li><a href="#">A Última Leitura da Estação de Números</a></li>
+        <div class="categoria-titulo" id="categoria-conspiracoes" role="button" tabindex="0" aria-expanded="false">Conspirações</div>
+        <ul class="lista-topicos" id="lista-conspiracoes" style="display: none;">
+          <li>
+            <div class="categoria-titulo nivel-2" id="serie-conspiracoes" role="button" tabindex="0" aria-expanded="false">Série Conspirações</div>
+            <ul class="lista-topicos nivel-2" id="capitulos-conspiracoes" style="display: none;">
+              <li><a href="capitulo-1-conspiracaoes-a-ultima-leitura-da-estacao-de-numeros.html" class="ativo">A Última Leitura da Estação de Números</a></li>
+              <li><a href="capitulo-2-conspiracaoes-o-arquivista-do-segundo-andar.html">O Arquivista do Segundo Andar</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
-
     </aside>
 
     <main class="conteudo">
@@ -167,7 +172,12 @@
         </div>
 
         <button class="btn-voltar" id="btnVoltar" onclick="window.location.href='../index.html';" aria-label="Voltar ao início">← Voltar ao início</button>
-      </article>
+      
+
+      <nav class="nav-capitulos">
+        <a href="capitulo-2-conspiracaoes-o-arquivista-do-segundo-andar.html" class="nav-proximo">O Arquivista do Segundo Andar →</a>
+      </nav>
+</article>
     </main>
 
     <script>
@@ -188,7 +198,7 @@
       titulos.forEach((titulo) => {
         const lista = titulo.nextElementSibling;
         if (!lista || !lista.classList.contains('lista-topicos')) return;
-        if (titulo.id === 'categoria-conspiracaoes') return;
+        if (titulo.id === 'serie-conspiracaoes') return;
         const itens = Array.from(lista.querySelectorAll('li'));
         function abrir() {
           lista.style.display = 'block';

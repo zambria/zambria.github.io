@@ -95,14 +95,19 @@
         <div class="site-title">ZAMBRIA</div>
         <div class="site-subtitle">O Insólito Presente</div>
       </div>
-
+      <!-- Categoria: Sobrenatural -->
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-sobrenatural" role="button" tabindex="0" aria-expanded="false">Sobrenatural</div>
         <ul class="lista-topicos" id="lista-sobrenatural" style="display: none;">
-          <li><a href="#">O Poço Sem Eco</a></li>
+          <li>
+            <div class="categoria-titulo nivel-2" id="serie-sobrenatural" role="button" tabindex="0" aria-expanded="false">Série Sobrenatural</div>
+            <ul class="lista-topicos nivel-2" id="capitulos-sobrenatural" style="display: none;">
+              <li><a href="capitulo-1-sobrenatural-o-po-co-sem-eco.html" class="ativo">O Poço Sem Eco</a></li>
+              <li><a href="capitulo-2-sobrenatural-o-revisor-de-negativos.html">O Revisor de Negativos</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
-
     </aside>
 
     <main class="conteudo">
@@ -171,7 +176,12 @@
         </div>
 
         <button class="btn-voltar" id="btnVoltar" onclick="window.location.href='../index.html';" aria-label="Voltar ao início">← Voltar ao início</button>
-      </article>
+      
+
+      <nav class="nav-capitulos">
+        <a href="capitulo-2-sobrenatural-o-revisor-de-negativos.html" class="nav-proximo">O Revisor de Negativos →</a>
+      </nav>
+</article>
     </main>
 
     <script>
@@ -192,7 +202,7 @@
       titulos.forEach((titulo) => {
         const lista = titulo.nextElementSibling;
         if (!lista || !lista.classList.contains('lista-topicos')) return;
-        if (titulo.id === 'categoria-sobrenatural') return;
+        if (titulo.id === 'serie-sobrenatural') return;
         const itens = Array.from(lista.querySelectorAll('li'));
         function abrir() {
           lista.style.display = 'block';

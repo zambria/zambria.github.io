@@ -1,0 +1,74 @@
+{
+  "versao": 1,
+  "criado_em": "2026-11-23",
+  "agentes": [
+    "AXXA Web Sovereign",
+    "Agente Parceiro"
+  ],
+  "aprendizados": [
+    {
+      "erro": "animationDelay com aspas simples em vez de template literal (crase)",
+      "sintoma": "Animacoes de abertura/fechamento das abas da sidebar nao funcionavam nos posts afetados; a variavel i nao era interpolada",
+      "solucao": "Substituidos '${i * N}ms' por `${i * N}ms` (crase/backtick) em 8 arquivos de posts",
+      "arquivos": [
+        "posts/a-camada-abaixo-do-ocre.html",
+        "posts/a-linha-morta.html",
+        "posts/a-boca-da-mina.html",
+        "posts/a-corrida-da-madrugada.html",
+        "posts/o-zumbido-que-escuta-de-volta.html",
+        "posts/o-zumbido-de-taos.html",
+        "posts/o-glifo-que-nao-esta-no-catalogo.html",
+        "posts/o-quarto-de-fundo.html",
+        "posts/o-nome-na-pedra-de-esquina.html"
+      ],
+      "regra_prevencao": "animationDelay sempre deve usar template literal com crase: `${i * N}ms`, nunca aspas simples",
+      "resolvido_por": "INTEL-WEB-SECURITY",
+      "data": "2026-11-23 22:45"
+    },
+    {
+      "erro": "btn-voltar sem posicionamento fixo e z-index adequado",
+      "sintoma": "Botao Voltar aparecia no final do artigo (fluxo normal) em vez do canto superior direito, podendo ficar atras de outros elementos",
+      "solucao": "Adicionado position: fixed, top: 1rem, right: 1rem, z-index: 10000 ao .btn-voltar no style.css",
+      "arquivos": [
+        "style.css"
+      ],
+      "regra_prevencao": "Botao Voltar deve ter position: fixed, top/right, z-index: 10000 para ficar sempre visivel no canto superior direito",
+      "resolvido_por": "INTEL-WEB-SECURITY",
+      "data": "2026-11-23 22:45"
+    },
+    {
+      "erro": "Links quebrados nas sidebars dos posts (href=\"#\")",
+      "sintoma": "Ao clicar nos titulos dos capitulos na sidebar lateral, o link nao navegava para lugar nenhum (ancora vazia). Usuario ficava preso na pagina atual.",
+      "solucao": "Reconstruidas todas as sidebars dos 71 arquivos de posts com links corretos para cada capitulo da serie correspondente. Removidos todos os href=\"#\".",
+      "arquivos": [
+        "posts/*.html (71 arquivos)"
+      ],
+      "regra_prevencao": "Sidebars devem sempre conter links validos para os capitulos da serie. Nunca usar href=\"#\" como placeholder.",
+      "resolvido_por": "INTEL-WEB-SECURITY",
+      "data": "2026-11-23 23:15"
+    },
+    {
+      "erro": "Navegacao entre capitulos ausente (nav-capitulos)",
+      "sintoma": "Usuarios nao conseguiam navegar sequencialmente entre capitulos de uma mesma serie usando botoes \"Anterior/Proximo\". Precisavam voltar ao index.",
+      "solucao": "Adicionado componente <nav class=\"nav-capitulos\"> com links Anterior/Proximo em todos os 61 arquivos de capitulos de series multi-capitulo.",
+      "arquivos": [
+        "posts/capitulo-*.html (61 arquivos de series)"
+      ],
+      "regra_prevencao": "Todo capitulo de serie multi-capitulo deve ter nav-capitulos com links anterior/proximo. Artigos standalone nao precisam.",
+      "resolvido_por": "INTEL-WEB-SECURITY",
+      "data": "2026-11-23 23:15"
+    },
+    {
+      "erro": "Loop generico da sidebar exclui a categoria-pai em vez da divisao de serie (nivel-2)",
+      "sintoma": "Ao clicar em uma categoria da sidebar nos posts, a lista de capitulos nunca abria; a divisao de serie ficava com listener solto, deixando a animacao de abertura imprevisível",
+      "solucao": "Substituida a exclusao de categoria-XXX pela exclusao da serie correspondente (serie-XXX) em 42 posts; index.html agora exclui todas as divs serie-* via startsWith('serie-')",
+      "arquivos": [
+        "index.html",
+        "posts/*.html (42 arquivos)"
+      ],
+      "regra_prevencao": "No loop generico .categoria-titulo pular sempre as divs de serie com if (titulo.id.startsWith('serie-')) return; (index) ou if (titulo.id === 'serie-XXX') return; (posts). Nunca excluir a categoria-pai.",
+      "resolvido_por": "AXXA Web Sovereign",
+      "data": "2026-11-23 22:00"
+    }
+  ]
+}

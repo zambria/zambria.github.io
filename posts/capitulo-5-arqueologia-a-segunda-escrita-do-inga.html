@@ -90,14 +90,25 @@
         <div class="site-title">ZAMBRIA</div>
         <div class="site-subtitle">O Insólito Presente</div>
       </div>
-
+      <!-- Categoria: Arqueologia -->
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-arqueologia" role="button" tabindex="0" aria-expanded="false">Arqueologia</div>
         <ul class="lista-topicos" id="lista-arqueologia" style="display: none;">
-          <li><a href="#">A Segunda Escrita do Ingá</a></li>
+          <li>
+            <div class="categoria-titulo nivel-2" id="serie-arqueologia" role="button" tabindex="0" aria-expanded="false">Série Arqueologia</div>
+            <ul class="lista-topicos nivel-2" id="capitulos-arqueologia" style="display: none;">
+              <li><a href="capitulo-1-arqueologia-o-geoglifo-que-nao-estava-no-mapa.html">O Geoglifo que Não Estava no Mapa</a></li>
+              <li><a href="capitulo-2-arqueologia-a-camada-abaixo-do-ocre.html">A Camada Abaixo do Ocre</a></li>
+              <li><a href="capitulo-3-arqueologia-a-figura-que-nao-estava-na-rocha.html">A Figura que Não Estava na Rocha</a></li>
+              <li><a href="capitulo-4-arqueologia-a-pintura-que-esperava-no-escuro.html">A Pintura que Esperava no Escuro</a></li>
+              <li><a href="capitulo-5-arqueologia-a-segunda-escrita-do-inga.html" class="ativo">A Segunda Escrita do Ingá</a></li>
+              <li><a href="capitulo-6-arqueologia-o-que-esta-abaixo-das-conchas.html">O Que Está Abaixo das Conchas</a></li>
+              <li><a href="o-glifo-que-nao-esta-no-catalogo.html">O Glifo que Não Está no Catálogo</a></li>
+              <li><a href="o-nome-na-pedra-de-esquina.html">O Nome na Pedra de Esquina</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
-
     </aside>
 
     <main class="conteudo">
@@ -134,7 +145,13 @@
         </div>
 
         <button class="btn-voltar" id="btnVoltar" onclick="window.location.href='../index.html';" aria-label="Voltar ao início">← Voltar ao início</button>
-      </article>
+      
+
+      <nav class="nav-capitulos">
+        <a href="capitulo-4-arqueologia-a-pintura-que-esperava-no-escuro.html" class="nav-anterior">← A Pintura que Esperava no Escuro</a>
+        <a href="capitulo-6-arqueologia-o-que-esta-abaixo-das-conchas.html" class="nav-proximo">O Que Está Abaixo das Conchas →</a>
+      </nav>
+</article>
     </main>
 
     <script>
@@ -155,7 +172,7 @@
       titulos.forEach((titulo) => {
         const lista = titulo.nextElementSibling;
         if (!lista || !lista.classList.contains('lista-topicos')) return;
-        if (titulo.id === 'categoria-arqueologia') return;
+        if (titulo.id === 'serie-arqueologia') return;
         const itens = Array.from(lista.querySelectorAll('li'));
         function abrir() {
           lista.style.display = 'block';
