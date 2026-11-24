@@ -127,6 +127,40 @@
       "regra_prevencao": "Sidebar da raiz usa links posts/capitulo-*.html (correto da raiz); capítulos usam links sem prefixo posts/",
       "resolvido_por": "AXXA Web Sovereign",
       "data": "2026-11-24 00:30"
-    }
-  ]
-}
+    },
+        {
+          "erro": "nav-capitulos incompleto no capitulo-5-operacao-prato",
+          "sintoma": "Capítulo 5 da Operação Prato só tinha link 'Anterior' para o capítulo 4, faltando link 'Próximo' para o capítulo 6, quebrando a navegação sequencial",
+          "solucao": "Adicionado link <a href=\"capitulo-6-operacao-prato.html\" class=\"nav-proximo\">Capítulo 6 →</a> no nav-capitulos do capitulo-5-operacao-prato.html",
+          "arquivos": [
+            "posts/capitulo-5-operacao-prato.html"
+          ],
+          "regra_prevencao": "Todos os capítulos intermediários de séries multi-capítulo devem ter ambos os links nav-anterior e nav-proximo. Verificar ao criar novos capítulos.",
+          "resolvido_por": "INTEL-WEB-SECURITY",
+          "data": "2026-11-24 01:45"
+        },
+                {
+                  "erro": "varredura-integridade-ciclo-1-limpa",
+                  "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade.",
+                  "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada: abas contraídas, links corretos, btn-voltar presente, nav-capitulos completo, animationDelay com crase, IDs ASCII, sem posts-lista, sem scripts aninhados, background-image preservado.",
+                  "arquivos": [
+                    "index.html",
+                    "posts/capitulo-1-operacao-prato.html",
+                    "posts/capitulo-2-operacao-prato.html",
+                    "posts/capitulo-3-operacao-prato.html",
+                    "posts/capitulo-4-operacao-prato.html",
+                    "posts/capitulo-5-operacao-prato.html",
+                    "posts/capitulo-6-operacao-prato.html",
+                    "posts/capitulo-7-operacao-prato.html",
+                    "posts/capitulo-8-operacao-prato.html",
+                    "posts/capitulo-1-continentes-perdidos.html",
+                    "posts/capitulo-2-continentes-perdidos.html",
+                    "posts/capitulo-3-continentes-perdidos.html",
+                    "style.css"
+                  ],
+                  "regra_prevencao": "Manter varreduras intermitentes a cada ciclo do cron. Verificar pastas WEB INTEL SECURITY, logs/caixa-erros/entrada/, SOLICITAÇÕES/ a cada execução.",
+                  "resolvido_por": "INTEL-WEB-SECURITY",
+                  "data": "2026-11-24 02:15"
+                }
+              ]
+            }

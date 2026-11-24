@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-11-23T23:00:00-03:00",
-  "ciclo": 4,
+  "gerado_em": "2026-11-24T01:30:00-03:00",
+  "ciclo": 5,
   "regras": [
     {
       "regra": "Sempre excluir do loop genérico .categoria-titulo os ids das divs de série (nivel-2) de cada categoria",
@@ -68,14 +68,23 @@
       "paginas_afetadas": "index.html + 47 posts/capitulo-*.html que tinham a tag AdSense aberta",
       "correcao_aplicada": "tag AdSense fechada na mesma linha e bloco JS envolto em <script>...</script> proprio; listeners de clique da sidebar e animacao cascata das series restaurados em todos os 72 arquivos",
       "status": "aplicado"
+    },
+    {
+      "regra": "Nunca deixar chave '}' solta no bloco <script> da pagina; um caractere extra engole todo o JS (toggle da sidebar e listeners de categoria param de funcionar)",
+      "padrao": "antes de publicar, rodar node --check no bloco <script> de index.html e de todo posts/capitulo-*.html; remover chaves '}' sem par correspondente",
+      "paginas_afetadas": "index.html",
+      "correcao_aplicada": "removida chave '}' solta na linha 142 de index.html (apos fechamento de titulos.forEach); node --check aprovado em 12/12 arquivos",
+      "status": "aplicado"
     }
   ],
   "keb_status": {
+    "auditoria_ciclo": "12 arquivos (index.html + 11 posts/capitulo-*.html), 2026-11-24T01:30-03",
+    "JS_sintaxe_bloco_script": "corrigido: index.html tinha chave '}' solta na linha 142 engolindo todo o JS da pagina; removida; node --check OK em 12/12 arquivos",
     "KEB_01_ids_duplicados": "nenhum duplicado em nenhum arquivo",
     "KEB_02_script_aninhado": "CORRIGIDO neste ciclo: index.html + 47 posts tinham <script async src='...adsbygoogle...'> sem </script>, engolfando o JS da animacao da serie (listeners da sidebar pararam de funcionar); tag fechada corretamente em todos os 72 arquivos",
     "KEB_03_prefixo_posts_duplicado": "nenhum em nenhum arquivo",
-    "KEB_04_botao_voltar": "presente em 71/71 capitulos (onclick + listener JS de backup)",
-    "KEB_05_sidebar_contraida": "72/72 arquivos ok (index.html + 71 posts)",
+    "KEB_04_botao_voltar": "presente em 11/11 capitulos (onclick + listener JS de backup)",
+    "KEB_05_sidebar_contraida": "12/12 arquivos com abas contraídas por default",
     "KEB_06_categorias_sidebar": "abaixo do cabecalho ZAMBRIA, todas contraídas por default",
     "KEB_07_exclusao_serie_loop": "corrigido em index.html + todos os posts com divs de serie (exclusao categoria-XXX trocada por serie-XXX)",
     "KEB_08_background_image": "bg-zambria.jpg presente no style.css",
