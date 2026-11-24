@@ -5,26 +5,48 @@
     "AXXA Web Sovereign",
     "Agente Parceiro"
   ],
-  "aprendizados": [
-    {
-      "erro": "animationDelay com aspas simples em vez de template literal (crase)",
-      "sintoma": "Animacoes de abertura/fechamento das abas da sidebar nao funcionavam nos posts afetados; a variavel i nao era interpolada",
-      "solucao": "Substituidos '${i * N}ms' por `${i * N}ms` (crase/backtick) em 8 arquivos de posts",
-      "arquivos": [
-        "posts/a-camada-abaixo-do-ocre.html",
-        "posts/a-linha-morta.html",
-        "posts/a-boca-da-mina.html",
-        "posts/a-corrida-da-madrugada.html",
-        "posts/o-zumbido-que-escuta-de-volta.html",
-        "posts/o-zumbido-de-taos.html",
-        "posts/o-glifo-que-nao-esta-no-catalogo.html",
-        "posts/o-quarto-de-fundo.html",
-        "posts/o-nome-na-pedra-de-esquina.html"
-      ],
-      "regra_prevencao": "animationDelay sempre deve usar template literal com crase: `${i * N}ms`, nunca aspas simples",
-      "resolvido_por": "INTEL-WEB-SECURITY",
-      "data": "2026-11-23 22:45"
-    },
+    "aprendizados": [
+      {
+        "erro": "animationDelay com aspas simples em vez de template literal (crase)",
+        "sintoma": "Animacoes de abertura/fechamento das abas da sidebar nao funcionavam nos posts afetados; a variavel i nao era interpolada",
+        "solucao": "Substituidos '${i * N}ms' por `${i * N}ms` (crase/backtick) em 8 arquivos de posts",
+        "arquivos": [
+          "posts/a-camada-abaixo-do-ocre.html",
+          "posts/a-linha-morta.html",
+          "posts/a-boca-da-mina.html",
+          "posts/a-corrida-da-madrugada.html",
+          "posts/o-zumbido-que-escuta-de-volta.html",
+          "posts/o-zumbido-de-taos.html",
+          "posts/o-glifo-que-nao-esta-no-catalogo.html",
+          "posts/o-quarto-de-fundo.html",
+          "posts/o-nome-na-pedra-de-esquina.html"
+        ],
+        "regra_prevencao": "animationDelay sempre deve usar template literal com crase: `${i * N}ms`, nunca aspas simples",
+        "resolvido_por": "INTEL-WEB-SECURITY",
+        "data": "2026-11-23 22:45"
+      },
+      {
+        "erro": "Regressão: capitulo-2-continentes-perdidos.html com markdown literal e estrutura antiga de referências/anexos",
+        "sintoma": "Arquivo apresentava '# ' renderizando como texto literal no primeiro parágrafo, e seções Referências/Anexos usavam h2/h3 + divs simples em vez do padrão details.bloco-denso colapsível. Erro já corrigido anteriormente (ciclo 2026-11-24 02:45 para capitulo-3) mas reapareceu no capitulo-2 — REGRESSÃO CRÍTICA.",
+        "solucao": "Removido '# ' do parágrafo; substituídas seções Referências e Anexos por dois blocos details.bloco-denso colapsíveis com 40 fontes e 10 anexos cada, seguindo padrão dos outros 10 posts",
+        "arquivos": [
+          "posts/capitulo-2-continentes-perdidos.html"
+        ],
+        "regra_prevencao": "REGRA REFORÇADA: Verificar TODOS os posts de uma série ao corrigir padrão estrutural. Nunca assumir que corrigir um corrige os outros. Aplicar padronização em lote (batch) a todos os arquivos da série simultaneamente.",
+        "resolvido_por": "INTEL-WEB-SECURITY",
+        "data": "2026-11-24 03:05"
+      },
+      {
+        "erro": "IDs duplicados fonte-numero em anexo-item no capitulo-3-continentes-perdidos.html",
+        "sintoma": "Seção Anexos de Multimídia usava spans <span class=\"fonte-numero\"> em vez de <span class=\"anexo-numero\"> nos itens (Documentos Oficiais 7-9, Depoimentos 1-10), com duplicação literal no item 8 de Depoimentos (<span class=\"fonte-numero\">8.</span><span class=\"anexo-numero\">8.</span>). HTML inválido e inconsistência semântica.",
+        "solucao": "Substituídos todos os fonte-numero por anexo-numero nos 13 itens de anexo afetados; removido span duplicado no item 8 de Depoimentos",
+        "arquivos": [
+          "posts/capitulo-3-continentes-perdidos.html"
+        ],
+        "regra_prevencao": "Em anexos (anexo-item), usar sempre classe anexo-numero para numeração. Em referências (fonte-item), usar fonte-numero. Nunca misturar. Validar HTML após edições em seções colapsíveis.",
+        "resolvido_por": "INTEL-WEB-SECURITY",
+        "data": "2026-11-24 03:05"
+      },
     {
       "erro": "btn-voltar sem posicionamento fixo e z-index adequado",
       "sintoma": "Botao Voltar aparecia no final do artigo (fluxo normal) em vez do canto superior direito, podendo ficar atras de outros elementos",
@@ -37,20 +59,20 @@
       "data": "2026-11-23 22:45"
     },
     {
-      "erro": "Links quebrados nas sidebars dos posts (href=\"#\")",
+      "erro": "Links quebrados nas sidebars dos posts (href=\\\"#\\\")",
       "sintoma": "Ao clicar nos titulos dos capitulos na sidebar lateral, o link nao navegava para lugar nenhum (ancora vazia). Usuario ficava preso na pagina atual.",
-      "solucao": "Reconstruidas todas as sidebars dos 71 arquivos de posts com links corretos para cada capitulo da serie correspondente. Removidos todos os href=\"#\".",
+      "solucao": "Reconstruidas todas as sidebars dos 71 arquivos de posts com links corretos para cada capitulo da serie correspondente. Removidos todos os href=\\\"#\\\".",
       "arquivos": [
         "posts/*.html (71 arquivos)"
       ],
-      "regra_prevencao": "Sidebars devem sempre conter links validos para os capitulos da serie. Nunca usar href=\"#\" como placeholder.",
+      "regra_prevencao": "Sidebars devem sempre conter links validos para os capitulos da serie. Nunca usar href=\\\"#\\\" como placeholder.",
       "resolvido_por": "INTEL-WEB-SECURITY",
       "data": "2026-11-23 23:15"
     },
     {
       "erro": "Navegacao entre capitulos ausente (nav-capitulos)",
-      "sintoma": "Usuarios nao conseguiam navegar sequencialmente entre capitulos de uma mesma serie usando botoes \"Anterior/Proximo\". Precisavam voltar ao index.",
-      "solucao": "Adicionado componente <nav class=\"nav-capitulos\"> com links Anterior/Proximo em todos os 61 arquivos de capitulos de series multi-capitulo.",
+      "sintoma": "Usuarios nao conseguiam navegar sequencialmente entre capitulos de uma mesma serie usando botoes \\\"Anterior/Proximo\\\". Precisavam voltar ao index.",
+      "solucao": "Adicionado componente <nav class=\\\"nav-capitulos\\\"> com links Anterior/Proximo em todos os 61 arquivos de capitulos de series multi-capitulo.",
       "arquivos": [
         "posts/capitulo-*.html (61 arquivos de series)"
       ],
@@ -128,39 +150,59 @@
       "resolvido_por": "AXXA Web Sovereign",
       "data": "2026-11-24 00:30"
     },
-        {
-          "erro": "nav-capitulos incompleto no capitulo-5-operacao-prato",
-          "sintoma": "Capítulo 5 da Operação Prato só tinha link 'Anterior' para o capítulo 4, faltando link 'Próximo' para o capítulo 6, quebrando a navegação sequencial",
-          "solucao": "Adicionado link <a href=\"capitulo-6-operacao-prato.html\" class=\"nav-proximo\">Capítulo 6 →</a> no nav-capitulos do capitulo-5-operacao-prato.html",
-          "arquivos": [
-            "posts/capitulo-5-operacao-prato.html"
-          ],
-          "regra_prevencao": "Todos os capítulos intermediários de séries multi-capítulo devem ter ambos os links nav-anterior e nav-proximo. Verificar ao criar novos capítulos.",
-          "resolvido_por": "INTEL-WEB-SECURITY",
-          "data": "2026-11-24 01:45"
-        },
-                {
-                  "erro": "varredura-integridade-ciclo-1-limpa",
-                  "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade.",
-                  "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada: abas contraídas, links corretos, btn-voltar presente, nav-capitulos completo, animationDelay com crase, IDs ASCII, sem posts-lista, sem scripts aninhados, background-image preservado.",
-                  "arquivos": [
-                    "index.html",
-                    "posts/capitulo-1-operacao-prato.html",
-                    "posts/capitulo-2-operacao-prato.html",
-                    "posts/capitulo-3-operacao-prato.html",
-                    "posts/capitulo-4-operacao-prato.html",
-                    "posts/capitulo-5-operacao-prato.html",
-                    "posts/capitulo-6-operacao-prato.html",
-                    "posts/capitulo-7-operacao-prato.html",
-                    "posts/capitulo-8-operacao-prato.html",
-                    "posts/capitulo-1-continentes-perdidos.html",
-                    "posts/capitulo-2-continentes-perdidos.html",
-                    "posts/capitulo-3-continentes-perdidos.html",
-                    "style.css"
-                  ],
-                  "regra_prevencao": "Manter varreduras intermitentes a cada ciclo do cron. Verificar pastas WEB INTEL SECURITY, logs/caixa-erros/entrada/, SOLICITAÇÕES/ a cada execução.",
-                  "resolvido_por": "INTEL-WEB-SECURITY",
-                  "data": "2026-11-24 02:15"
-                }
-              ]
-            }
+    {
+      "erro": "nav-capitulos incompleto no capitulo-5-operacao-prato",
+      "sintoma": "Capítulo 5 da Operação Prato só tinha link 'Anterior' para o capítulo 4, faltando link 'Próximo' para o capítulo 6, quebrando a navegação sequencial",
+      "solucao": "Adicionado link <a href=\\\"capitulo-6-operacao-prato.html\\\" class=\\\"nav-proximo\\\">Capítulo 6 →</a> no nav-capitulos do capitulo-5-operacao-prato.html",
+      "arquivos": [
+        "posts/capitulo-5-operacao-prato.html"
+      ],
+      "regra_prevencao": "Todos os capítulos intermediários de séries multi-capítulo devem ter ambos os links nav-anterior e nav-proximo. Verificar ao criar novos capítulos.",
+      "resolvido_por": "INTEL-WEB-SECURITY",
+      "data": "2026-11-24 01:45"
+    },
+    {
+      "erro": "varredura-integridade-ciclo-1-limpa",
+      "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade.",
+      "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada: abas contraídas, links corretos, btn-voltar presente, nav-capitulos completo, animationDelay com crase, IDs ASCII, sem posts-lista, sem scripts aninhados, background-image preservado.",
+      "arquivos": [
+        "index.html",
+        "posts/capitulo-1-operacao-prato.html",
+        "posts/capitulo-2-operacao-prato.html",
+        "posts/capitulo-3-operacao-prato.html",
+        "posts/capitulo-4-operacao-prato.html",
+        "posts/capitulo-5-operacao-prato.html",
+        "posts/capitulo-6-operacao-prato.html",
+        "posts/capitulo-7-operacao-prato.html",
+        "posts/capitulo-8-operacao-prato.html",
+        "posts/capitulo-1-continentes-perdidos.html",
+        "posts/capitulo-2-continentes-perdidos.html",
+        "posts/capitulo-3-continentes-perdidos.html",
+        "style.css"
+      ],
+      "regra_prevencao": "Manter varreduras intermitentes a cada ciclo do cron. Verificar pastas WEB INTEL SECURITY, logs/caixa-erros/entrada/, SOLICITAÇÕES/ a cada execução.",
+      "resolvido_por": "INTEL-WEB-SECURITY",
+      "data": "2026-11-24 02:15"
+    },
+    {
+      "erro": "capitulo-3-continentes-perdidos estrutura divergente do padrão",
+      "sintoma": "Arquivo tinha: (1) div com markdown '# ' renderizando como texto literal no título, (2) seções Referências e Anexos usando h2/h3 em vez de details.bloco-denso colapsíveis, (3) citações inline [Fonte X] sem wrapper <span class=\"cite\">",
+      "solucao": "Removido markdown '# ' do título; substituídas seções Referências e Anexos por estrutura details.bloco-denso com summary e div (padrão dos outros 10 posts); adicionado <span class=\"cite\"> nas 3 citações da Conclusão; demais citações no conteúdo mantidas como estavam (questão de estilo, não quebra funcionalidade)",
+      "arquivos": [
+        "posts/capitulo-3-continentes-perdidos.html"
+      ],
+      "regra_prevencao": "Todos os posts devem seguir o padrão estabelecido: título em h1/h2, seções colapsíveis com details.bloco-denso, citações inline com <span class=\"cite\">. Verificar conformidade ao criar novos capítulos.",
+      "resolvido_por": "INTEL-WEB-SECURITY",
+      "data": "2026-11-24 02:45"
+    },
+    {
+      "erro": "Classe fonte-numero em item de anexo (capitulo-3-continentes-perdidos)",
+      "sintoma": "Item 10 de Documentos Oficiais dentro de anexo-item usava <span class=\\\"fonte-numero\\\">10.</span> em vez de <span class=\\\"anexo-numero\\\">10.</span>, deixando inconsistencia semantica na secao Anexos de Multimidia",
+      "solucao": "Substituido fonte-numero por anexo-numero no item 10 de Documentos Oficiais de posts/capitulo-3-continentes-perdidos.html",
+      "arquivos": ["posts/capitulo-3-continentes-perdidos.html"],
+      "regra_prevencao": "Ao editar secoes colapsiveis de Referencias/Anexos, validar que fonte-item usa fonte-numero e anexo-item usa anexo-numero; nunca misturar as classes",
+      "resolvido_por": "AXXA Web Sovereign",
+      "data": "2026-11-24 02:15"
+    }
+  ]
+}
