@@ -1,6 +1,6 @@
 {
   "agente": "equipe-varredura-qualidade-zambria",
-  "executado_em": "2026-11-21T04:24:25",
+  "executado_em": "2026-11-23T19:33:32",
   "modo": "apenas_relatorio",
   "arquivos_varridos": 1,
   "arquivos_alterados": [],
@@ -8,15 +8,15 @@
     "total_alteracoes_ortografia": 0,
     "total_sugestoes_revisao": 0,
     "total_trechos_plagio_suspeitos": 0,
-    "atratividade_media": 100.0,
-    "atratividade_aprovados": 1
+    "atratividade_media": 50.0,
+    "atratividade_aprovados": 0
   },
   "arquivos": [
     {
-      "arquivo": "2026-11-21-aine-o-pantano-mulher-de-ballymacombs-more.md",
-      "titulo": "Áine e o Pântano: a Cabeça que a Turfa Devolveu Sem o Crânio",
+      "arquivo": "o-nome-na-pedra-de-esquina.md",
+      "titulo": "O Nome na Pedra de Esquina",
       "categoria": "arqueologia",
-      "status_frontmatter": "não informado",
+      "status_frontmatter": "pendente de curadoria",
       "agente_ortografia": {
         "alteracoes_aplicaveis": 0,
         "alteracoes": [],
@@ -27,14 +27,17 @@
         "total_suspeitos": 0
       },
       "agente_atratividade": {
-        "nota": 100,
-        "aprovado": true,
-        "problemas": [],
-        "suspense_encontrado": 3,
+        "nota": 50,
+        "aprovado": false,
+        "problemas": [
+          "Texto sem título (H1) claro.",
+          "Sem seção 'Fontes consultadas' no final."
+        ],
+        "suspense_encontrado": 1,
         "tem_bloco_citacao": false,
-        "tem_fontes": true,
-        "tem_titulo": true,
-        "palavras": 1180
+        "tem_fontes": false,
+        "tem_titulo": false,
+        "palavras": 2197
       }
     }
   ]

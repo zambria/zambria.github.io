@@ -50,4 +50,11 @@
 || O Recebedor de Cartas Não Endereçadas | contos-de-terror | 2026-11-23 | review/ficcoes/o-recebedor-de-cartas-nao-enderecadas.md | publicado |
 || O Andar que Não Está na Planta | contos-de-terror | 2026-11-23 | review/ficcoes/o-andar-que-nao-esta-na-planta.md | publicado |
 || O Estampido sem Fonte | fenomenos-naturais | 2026-11-23 | review/ficcoes/o-estampido-sem-fonte.md | publicado |
-|| O Último Telégrafo da Estação Monte Santo | contos-de-terror | 2026-11-23 | review/ficcoes/o-ultimo-telegrafo-da-estacao-monte-santo.md | publicado |
+||| O Último Telégrafo da Estação Monte Santo | contos-de-terror | 2026-11-23 | review/ficcoes/o-ultimo-telegrafo-da-estacao-monte-santo.md | publicado |
+| O Nome na Pedra de Esquina | arqueologia | 2026-11-23 | review/ficcoes/o-nome-na-pedra-de-esquina.md | pendente de curadoria |
+| O Glifo que Não Está no Catálogo | arqueologia | 2026-11-23 | review/ficcoes/o-glifo-que-nao-esta-no-catalogo.md | pendente de curadoria |
+|| O Quarto de Fundo | contos-de-terror | 2026-11-23 | review/ficcoes/o-quarto-de-fundo.md | pendente de curadoria |
+|| O Zumbido que Escuta de Volta | contos-de-terror | 2026-11-23 | review/ficcoes/o-zumbido-que-escuta-de-volta.md | pendente de curadoria |
+| O Zumbido de Taos | contos-de-terror | 2026-11-23 | review/ficcoes/o-zumbido-de-taos.md | pendente de curadoria |
+| A Linha Morta | contos-de-terror | 2026-11-23 | review/ficcoes/a-linha-morta.md | pendente de curadoria |
+| A Corrida da Madrugada | contos-de-terror | 2026-11-23 | review/ficcoes/a-corrida-da-madrugada.md | pendente de curadoria |
