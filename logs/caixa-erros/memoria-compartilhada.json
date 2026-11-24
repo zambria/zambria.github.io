@@ -252,6 +252,38 @@
           "regra_prevencao": "Manter varreduras de integridade a cada ciclo do cron; verificar logs/caixa-erros/entrada/, SOLICITAÇÕES/ e caixa-de-mensagens/entrada/ a cada execução. Auditar sempre index.html + todos os posts/capitulo-*.html — cada capítulo é autônomo.",
           "resolvido_por": "AXXA Web Sovereign",
           "data": "2026-11-24 03:45"
-        }
-      ]
-    }
+        },
+        {
+          "erro": "varredura-integridade-ciclo-9-limpa",
+          "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade. Inboxes vazias: SOLICITAÇÕES, caixa-de-mensagens/entrada, logs/caixa-erros/entrada.",
+          "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada: abas contraídas (aria-expanded=false + style=display:none), links relativos sem prefixo posts/ nos capítulos, btn-voltar com onclick direto + listener JS em 11/11 capítulos, nav-capitulos completo em 11/11, handlers de série dedicados excluídos do loop genérico, animationDelay sempre com template literal (crase), IDs únicos em ASCII puro, sem seção posts-lista, sem scripts aninhados, background-image bg-zambria.jpg preservado em index.html e style.css.",
+          "arquivos": ["index.html", "style.css", "posts/capitulo-1-operacao-prato.html", "posts/capitulo-2-operacao-prato.html", "posts/capitulo-3-operacao-prato.html", "posts/capitulo-4-operacao-prato.html", "posts/capitulo-5-operacao-prato.html", "posts/capitulo-6-operacao-prato.html", "posts/capitulo-7-operacao-prato.html", "posts/capitulo-8-operacao-prato.html", "posts/capitulo-1-continentes-perdidos.html", "posts/capitulo-2-continentes-perdidos.html", "posts/capitulo-3-continentes-perdidos.html"],
+          "regra_prevencao": "Manter varreduras de integridade a cada ciclo do cron; verificar logs/caixa-erros/entrada/, SOLICITAÇÕES/ e caixa-de-mensagens/entrada/ a cada execução. Auditar sempre index.html + todos os posts/capitulo-*.html — cada capítulo é autônomo.",
+          "resolvido_por": "AXXA Web Sovereign",
+          "data": "2026-11-24 04:30"
+        },
+            {
+              "erro": "varredura-integridade-ciclo-10-limpa",
+              "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade. KEB v1.0 verificada: sem IDs duplicados, sem scripts aninhados, sem links posts/posts/, btn-voltar com onclick direto + listener JS em 11/11, sidebar contraída por padrão (aria-expanded=false + style=display:none) em todos os arquivos, animationDelay com template literal (crase) em todos os posts, handlers de série excluídos do loop genérico via if (titulo.id.startsWith('serie-')) / === 'serie-XXX', background-image bg-zambria.jpg preservado em style.css e index.html, sem seção posts-lista, sem scripts aninhados, caixas de entrada vazias (SOLICITAÇÕES, caixa-de-mensagens/entrada, logs/caixa-erros/entrada). AdSense script corretamente fechado em todos os 12 arquivos. Nav-capitulos completo: capítulos iniciais só 'próximo', finais só 'anterior', intermediários ambos. Links relativos corretos: index.html usa posts/*, capítulos usam caminhos sem prefixo.",
+              "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada em index.html + todos os 11 posts/capitulo-*.html + style.css.",
+              "arquivos": [
+                "index.html",
+                "style.css",
+                "posts/capitulo-1-operacao-prato.html",
+                "posts/capitulo-2-operacao-prato.html",
+                "posts/capitulo-3-operacao-prato.html",
+                "posts/capitulo-4-operacao-prato.html",
+                "posts/capitulo-5-operacao-prato.html",
+                "posts/capitulo-6-operacao-prato.html",
+                "posts/capitulo-7-operacao-prato.html",
+                "posts/capitulo-8-operacao-prato.html",
+                "posts/capitulo-1-continentes-perdidos.html",
+                "posts/capitulo-2-continentes-perdidos.html",
+                "posts/capitulo-3-continentes-perdidos.html"
+              ],
+              "regra_prevencao": "Manter varreduras de integridade a cada ciclo do cron; verificar logs/caixa-erros/entrada/, SOLICITAÇÕES/ e caixa-de-mensagens/entrada/ a cada execução. Auditar sempre index.html + todos os posts/capitulo-*.html — cada capítulo é autônomo.",
+              "resolvido_por": "INTEL-WEB-SECURITY",
+              "data": "2026-11-24 05:45"
+            }
+              ]
+            }

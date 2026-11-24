@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-11-24T04:00:00-03:00",
-  "ciclo": 6,
+  "gerado_em": "2026-11-24T05:00:00-03:00",
+  "ciclo": 7,
   "regras": [
     {
       "regra": "Sempre excluir do loop genérico .categoria-titulo os ids das divs de série (nivel-2) de cada categoria",
