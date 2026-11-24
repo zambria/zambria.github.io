@@ -83,6 +83,8 @@ body {
 
 .site-shell.sidebar-hidden .conteudo {
   padding-left: 2rem;
+  max-width: none;
+  margin: 0;
 }
 
 /* Sidebar esquerda (visível) */
