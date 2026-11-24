@@ -5,7 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>O Guardião do Silêncio — Contos de Terror</title>
   <link rel="stylesheet" href="../style.css">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937131805632227" crossorigin="anonymous"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937131805632227" crossorigin="anonymous">
+/* Animação cascata da série contos-de-terror */
+const serieBtn = document.getElementById('serie-contos-de-terror');
+const serieLista = document.getElementById('capitulos-contos-de-terror');
+if (serieBtn && serieLista) {
+  const serieItens = Array.from(serieLista.querySelectorAll('li'));
+
+  function abrirSerie() {
+    serieLista.style.display = 'block';
+    serieLista.style.visibility = 'visible';
+    void serieLista.offsetHeight;
+    serieItens.forEach((li, idx) => {
+      li.style.animation = 'none';
+      li.offsetHeight;
+      li.style.animation = 'slideFadeIn 0.3s ease forwards';
+      li.style.animationDelay = `${idx * 60}ms`;
+    });
+    serieBtn.setAttribute('aria-expanded', 'true');
+  }
+
+  function fecharSerie() {
+    const ultimo = serieItens.length - 1;
+    serieItens.forEach((li, idx) => {
+      li.style.animation = 'none';
+      li.offsetHeight;
+      li.style.animation = 'slideFadeOut 0.2s ease forwards';
+      li.style.animationDelay = `${idx * 50}ms`;
+    });
+    setTimeout(() => {
+      serieLista.style.display = 'none';
+      serieLista.style.visibility = 'hidden';
+      serieItens.forEach(li => { li.style.animation = 'none'; });
+    }, ultimo * 50 + 200);
+    serieBtn.setAttribute('aria-expanded', 'false');
+  }
+
+  serieBtn.addEventListener('click', () => {
+    const aberto = serieLista.style.display === 'block';
+    if (aberto) { fecharSerie(); } else { abrirSerie(); }
+  });
+
+  serieBtn.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      serieBtn.click();
+    }
+  });
+};
+
+</script>
   <style>
     /* === SEÇÕES COLAPSÍVEIS (ESTILO OBSIDIAN) === */
     details.bloco-denso {
