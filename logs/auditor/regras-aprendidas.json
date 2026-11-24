@@ -52,7 +52,14 @@
       "regra": "Loop generico da sidebar deve excluir sempre a divisao de serie (nivel-2), nunca a categoria-pai",
       "padrao": "if (titulo.id.startsWith('serie-')) return; em index.html; if (titulo.id === 'serie-XXX') return; nos posts, dentro de titulos.forEach antes de ler nextElementSibling",
       "paginas_afetadas": "index.html + todos posts/capitulo-*.html com sidebar",
-      "correcao_aplicada": "index.html: startsWith('serie-') exclui todas as divs serie-*; 42 posts: exclusao categoria-XXX trocada pela serie-XXX correspondente",
+      "correcao_aplicada": "index.html: startsWith('serie-') exclui todas as divs serie-*; 42 posts: exclusao categoria-XXX trocada por serie-XXX)",
+      "status": "aplicado"
+    },
+    {
+      "regra": "Auditar 100% dos arquivos (index.html + posts/*.html) a cada ciclo; qualquer href cujo arquivo-alvo nao existe gera 404 e deve ser corrigido imediatamente",
+      "padrao": "href quebrado em index.html: posts/o-corrida-da-madrugada.html (arquivo nao existe)",
+      "paginas_afetadas": "index.html",
+      "correcao_aplicada": "href posts/o-corrida-da-madrugada.html -> posts/a-corrida-da-madrugada.html; re-auditoria de 72 arquivos: 0 KEB pendentes",
       "status": "aplicado"
     }
   ],

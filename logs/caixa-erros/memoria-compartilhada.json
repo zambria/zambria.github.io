@@ -69,6 +69,17 @@
       "regra_prevencao": "No loop generico .categoria-titulo pular sempre as divs de serie com if (titulo.id.startsWith('serie-')) return; (index) ou if (titulo.id === 'serie-XXX') return; (posts). Nunca excluir a categoria-pai.",
       "resolvido_por": "AXXA Web Sovereign",
       "data": "2026-11-23 22:00"
+    },
+    {
+      "erro": "IDs com acentos no index.html (categoria/lista/serie/capitulos)",
+      "sintoma": "IDs categoria-operação-prato, serie-sete-além, serie-fenômenos-naturais, serie-conspirações e equivalentes continham acentos, cedilha e til, violando a REGRA ZAMBRIA ABSOLUTA (JavaScript) e podendo quebrar a execução do script e impedir eventos de clique nas abas da sidebar",
+      "solucao": "Substituídos 16 IDs acentuados por equivalentes ASCII puro em index.html: operacao-prato, sete-alem, fenomenos-naturais, conspiracaoes",
+      "arquivos": [
+        "index.html"
+      ],
+      "regra_prevencao": "IDs HTML e nomes de variáveis JS devem usar sempre ASCII puro, sem acentos, cedilha, til ou caracteres especiais",
+      "resolvido_por": "INTEL-WEB-SECURITY",
+      "data": "2026-11-23 23:45"
     }
   ]
 }
