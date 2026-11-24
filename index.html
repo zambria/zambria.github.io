@@ -29,13 +29,14 @@
         <div class="site-title">ZAMBRIA</div>
         <div class="site-subtitle">O Insólito Presente</div>
       </div>
+
       <!-- Categoria: Operação Prato -->
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-operação-prato" role="button" tabindex="0" aria-expanded="false">Operação Prato</div>
         <ul class="lista-topicos" id="lista-operação-prato" style="display: none;">
           <li>
-            <div class="categoria-titulo nivel-2" id="serie-operação-prato" role="button" tabindex="0" aria-expanded="false">Série Operação Prato</div>
-            <ul class="lista-topicos nivel-2" id="capitulos-operação-prato" style="display: none;">
+            <div class="categoria-titulo nivel-2" id="serie-operacao-prato" role="button" tabindex="0" aria-expanded="false">Série Operação Prato</div>
+            <ul class="lista-topicos nivel-2" id="capitulos-operacao-prato" style="display: none;">
               <li><a href="posts/capitulo-1-operacao-prato.html">Operação Prato — Capítulo 1</a></li>
               <li><a href="posts/capitulo-2-operacao-prato.html">Operação Prato — Capítulo 2</a></li>
               <li><a href="posts/capitulo-3-operacao-prato.html">Operação Prato — Capítulo 3</a></li>
@@ -45,6 +46,7 @@
           </li>
         </ul>
       </div>
+
       <!-- Categoria: Sete Além -->
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-sete-além" role="button" tabindex="0" aria-expanded="false">Sete Além</div>
@@ -59,6 +61,7 @@
           </li>
         </ul>
       </div>
+
       <!-- Categoria: Continentes Perdidos -->
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-continentes-perdidos" role="button" tabindex="0" aria-expanded="false">Continentes Perdidos</div>
@@ -73,6 +76,7 @@
           </li>
         </ul>
       </div>
+
       <!-- Categoria: Arqueologia -->
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-arqueologia" role="button" tabindex="0" aria-expanded="false">Arqueologia</div>
@@ -92,6 +96,7 @@
           </li>
         </ul>
       </div>
+
       <!-- Categoria: Sobrenatural -->
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-sobrenatural" role="button" tabindex="0" aria-expanded="false">Sobrenatural</div>
@@ -105,6 +110,7 @@
           </li>
         </ul>
       </div>
+
       <!-- Categoria: Contos de Terror -->
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-contos-de-terror" role="button" tabindex="0" aria-expanded="false">Contos de Terror</div>
@@ -139,6 +145,7 @@
           </li>
         </ul>
       </div>
+
       <!-- Categoria: Arte Antiga e OVNIs -->
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-arte-antiga-e-ovnis" role="button" tabindex="0" aria-expanded="false">Arte Antiga e OVNIs</div>
@@ -151,6 +158,7 @@
           </li>
         </ul>
       </div>
+
       <!-- Categoria: UFOs e Aliens -->
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-ufos-e-aliens" role="button" tabindex="0" aria-expanded="false">UFOs e Aliens</div>
@@ -169,6 +177,7 @@
           </li>
         </ul>
       </div>
+
       <!-- Categoria: Fenômenos Naturais -->
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-fenômenos-naturais" role="button" tabindex="0" aria-expanded="false">Fenômenos Naturais</div>
@@ -191,6 +200,7 @@
           </li>
         </ul>
       </div>
+
       <!-- Categoria: Criptozoologia -->
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-criptozoologia" role="button" tabindex="0" aria-expanded="false">Criptozoologia</div>
@@ -206,6 +216,7 @@
           </li>
         </ul>
       </div>
+
       <!-- Categoria: Conspirações -->
       <div class="categoria-grupo">
         <div class="categoria-titulo" id="categoria-conspirações" role="button" tabindex="0" aria-expanded="false">Conspirações</div>
@@ -233,10 +244,10 @@
   </div>
 
   <script>
-    /* Botão de esconder/mostrar sidebar inteira */
-    const btn = document.getElementById('btnToggleSidebar');
-    const shell = document.querySelector('.site-shell');
-    btn.addEventListener('click', () => {
+    // Botão de esconder/mostrar sidebar inteira
+    var btn = document.getElementById('btnToggleSidebar');
+    var shell = document.querySelector('.site-shell');
+    btn.addEventListener('click', function() {
       shell.classList.toggle('sidebar-hidden');
       if (shell.classList.contains('sidebar-hidden')) {
         btn.textContent = '≡';
@@ -247,55 +258,36 @@
       }
     });
 
-    /* Animação cascata de todas as abas de categoria (genérica) */
-    const titulos = document.querySelectorAll('.categoria-titulo');
-    titulos.forEach((titulo) => {
-      const lista = titulo.nextElementSibling;
-      if (!lista || !lista.classList.contains('lista-topicos')) return;
-      if (titulo.id.startsWith('serie-')) return;
+    // Animação cascata de todas as abas de categoria (genérica)
+    var titulos = document.querySelectorAll('.categoria-titulo');
+    for (var i = 0; i < titulos.length; i++) {
+      var titulo = titulos[i];
+      var lista = titulo.nextElementSibling;
+      if (!lista || !lista.classList.contains('lista-topicos')) continue;
 
-      const itens = Array.from(lista.querySelectorAll('li'));
+      titulo.addEventListener('click', (function(titulo, lista) {
+        return function() {
+          var aberto = lista.style.display === 'block';
+          if (aberto) {
+            lista.style.display = 'none';
+            lista.style.visibility = 'hidden';
+            titulo.setAttribute('aria-expanded', 'false');
+          } else {
+            lista.style.display = 'block';
+            lista.style.visibility = 'visible';
+            titulo.setAttribute('aria-expanded', 'true');
+          }
+        };
+      })(titulo, lista));
 
-      function abrir() {
-        lista.style.display = 'block';
-        lista.style.visibility = 'visible';
-        void lista.offsetHeight;
-        itens.forEach((li, i) => {
-          li.style.animation = 'none';
-          li.offsetHeight;
-          li.style.animation = 'slideFadeIn 0.3s ease forwards';
-          li.style.animationDelay = `${i * 70}ms`;
-        });
-        titulo.setAttribute('aria-expanded', 'true');
-      }
-
-      function fechar() {
-        const ultimo = itens.length - 1;
-        itens.forEach((li, i) => {
-          li.style.animation = 'none';
-          li.offsetHeight;
-          li.style.animation = 'slideFadeOut 0.2s ease forwards';
-          li.style.animationDelay = `${i * 60}ms`;
-        });
-        setTimeout(() => {
-          lista.style.display = 'none';
-          lista.style.visibility = 'hidden';
-          itens.forEach(li => { li.style.animation = 'none'; });
-        }, ultimo * 60 + 250);
-        titulo.setAttribute('aria-expanded', 'false');
-      }
-
-      titulo.addEventListener('click', () => {
-        const aberto = lista.style.display === 'block';
-        if (aberto) { fechar(); } else { abrir(); }
-      });
-
-      titulo.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          titulo.click();
-        }
-      });
+      titulo.addEventListener('keydown', (function(titulo) {
+        return function(e) {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            titulo.click();
+          }
+        };
+      })(titulo));
     });
   </script>
 </body>
