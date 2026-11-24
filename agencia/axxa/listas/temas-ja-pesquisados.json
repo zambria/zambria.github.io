@@ -1,0 +1,28 @@
+{
+  "temas_ja_pesquisados": [
+    {
+      "slug": "operacao-prato",
+      "titulo": "Operação Prato",
+      "categoria": "Ufologia Militar Brasileira",
+      "capitulos_publicados": 5,
+      "ultimo_capitulo": 5,
+      "data_ultima_publicacao": "2026-11-24",
+      "status": "ativo",
+      "observacao": "Série principal — continuar do capítulo 6 em diante. Fim prematuro da operação, morte do Capitão Hollanda, solicitação DIA/EUA 2008-2009, documento DOW-UAP-D172."
+    },
+    {
+      "slug": "continentes-perdidos",
+      "titulo": "Continentes Perdidos / Atlântida",
+      "categoria": "Arqueologia Proibida / Mitologia",
+      "capitulos_publicados": 3,
+      "ultimo_capitulo": 3,
+      "data_ultima_publicacao": "2026-11-24",
+      "status": "ativo",
+      "observacao": "Série secundária — continuar do capítulo 4 em diante. Cap 1: Atlântida, Cap 2: Lemúria, Cap 3: Conexões e Legado."
+    }
+  ],
+  "series_concluidas_ou_abandonadas": [],
+  "temas_rejeitados_insuficiente_conteudo": [],
+  "ultima_atualizacao": "2026-11-24T23:59:00-03:00",
+  "versao": 1
+}

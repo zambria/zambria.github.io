@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-11-24T05:00:00-03:00",
-  "ciclo": 7,
+  "gerado_em": "2026-11-24T06:15:00-03:00",
+  "ciclo": 12,
   "regras": [
     {
       "regra": "Sempre excluir do loop genérico .categoria-titulo os ids das divs de série (nivel-2) de cada categoria",
@@ -82,10 +82,17 @@
       "paginas_afetadas": "posts/capitulo-3-operacao-prato.html corrigido; varredura: 0 ocorrencias de anexo-forte em index.html + 11 posts",
       "correcao_aplicada": "capitulo-3-operacao-prato.html:542 div.anexo-forte -> div.anexo-fonte",
       "status": "aplicado"
+    },
+    {
+      "regra": "Varredura de integridade ciclo 12 — 0 anomalias detectadas",
+      "padrao": "index.html + todos os 11 posts/capitulo-*.html + style.css conforme KEB v1.0 e 15 Regras de Ouro",
+      "paginas_afetadas": "todo o site (12 arquivos)",
+      "correcao_aplicada": "verificado: abas contraidas (aria-expanded=false + style='display: none;'), links relativos sem prefixo posts/ nos capitulos, btn-voltar com onclick + listener JS de backup em 11/11, nav-capitulos completo em 11/11, animationDelay com template literal (crase) em todos os posts, IDs unicos em ASCII puro, sem scripts aninhados, sem links posts/posts/, tag AdSense fechada corretamente em 12/12, node --check OK em 12/12 blocos JS, caixas de entrada vazias (SOLICITACOES, caixa-de-mensagens/entrada, logs/caixa-erros/entrada)",
+      "status": "mantido"
     }
   ],
   "keb_status": {
-    "auditoria_ciclo": "12 arquivos (index.html + 11 posts/capitulo-*.html), 2026-11-24T04:00-03",
+    "auditoria_ciclo": "12 arquivos (index.html + 11 posts/capitulo-*.html), 2026-11-24T06:15-03 (ciclo 12): 0 anomalias, KEB v1.0 em conformidade, node --check OK 12/12",
     "JS_sintaxe_bloco_script": "corrigido: index.html tinha chave '}' solta na linha 142 engolindo todo o JS da pagina; removida; node --check OK em 12/12 arquivos",
     "KEB_01_ids_duplicados": "nenhum duplicado em nenhum arquivo",
     "KEB_02_script_aninhado": "CORRIGIDO neste ciclo: index.html + 47 posts tinham <script async src='...adsbygoogle...'> sem </script>, engolfando o JS da animacao da serie (listeners da sidebar pararam de funcionar); tag fechada corretamente em todos os 72 arquivos",
@@ -95,6 +102,7 @@
     "KEB_06_categorias_sidebar": "abaixo do cabecalho ZAMBRIA, todas contraídas por default",
     "KEB_07_exclusao_serie_loop": "corrigido em index.html + todos os posts com divs de serie (exclusao categoria-XXX trocada por serie-XXX)",
     "KEB_08_background_image": "bg-zambria.jpg presente no style.css",
-    "KEB_10_z_index_toggle": "z-index: 9999 no style.css"
+    "KEB_10_z_index_toggle": "z-index: 9999 no style.css",
+    "ciclo_12": "limpa — sem regressoes de erros KEB anteriores (animationDelay com crase, IDs ASCII, anexo-numero no cap-3-continentes, sidebar contraida em todos os arquivos)"
   }
 }

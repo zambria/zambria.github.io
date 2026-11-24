@@ -5,48 +5,48 @@
     "AXXA Web Sovereign",
     "Agente Parceiro"
   ],
-    "aprendizados": [
-      {
-        "erro": "animationDelay com aspas simples em vez de template literal (crase)",
-        "sintoma": "Animacoes de abertura/fechamento das abas da sidebar nao funcionavam nos posts afetados; a variavel i nao era interpolada",
-        "solucao": "Substituidos '${i * N}ms' por `${i * N}ms` (crase/backtick) em 8 arquivos de posts",
-        "arquivos": [
-          "posts/a-camada-abaixo-do-ocre.html",
-          "posts/a-linha-morta.html",
-          "posts/a-boca-da-mina.html",
-          "posts/a-corrida-da-madrugada.html",
-          "posts/o-zumbido-que-escuta-de-volta.html",
-          "posts/o-zumbido-de-taos.html",
-          "posts/o-glifo-que-nao-esta-no-catalogo.html",
-          "posts/o-quarto-de-fundo.html",
-          "posts/o-nome-na-pedra-de-esquina.html"
-        ],
-        "regra_prevencao": "animationDelay sempre deve usar template literal com crase: `${i * N}ms`, nunca aspas simples",
-        "resolvido_por": "INTEL-WEB-SECURITY",
-        "data": "2026-11-23 22:45"
-      },
-      {
-        "erro": "Regressão: capitulo-2-continentes-perdidos.html com markdown literal e estrutura antiga de referências/anexos",
-        "sintoma": "Arquivo apresentava '# ' renderizando como texto literal no primeiro parágrafo, e seções Referências/Anexos usavam h2/h3 + divs simples em vez do padrão details.bloco-denso colapsível. Erro já corrigido anteriormente (ciclo 2026-11-24 02:45 para capitulo-3) mas reapareceu no capitulo-2 — REGRESSÃO CRÍTICA.",
-        "solucao": "Removido '# ' do parágrafo; substituídas seções Referências e Anexos por dois blocos details.bloco-denso colapsíveis com 40 fontes e 10 anexos cada, seguindo padrão dos outros 10 posts",
-        "arquivos": [
-          "posts/capitulo-2-continentes-perdidos.html"
-        ],
-        "regra_prevencao": "REGRA REFORÇADA: Verificar TODOS os posts de uma série ao corrigir padrão estrutural. Nunca assumir que corrigir um corrige os outros. Aplicar padronização em lote (batch) a todos os arquivos da série simultaneamente.",
-        "resolvido_por": "INTEL-WEB-SECURITY",
-        "data": "2026-11-24 03:05"
-      },
-      {
-        "erro": "IDs duplicados fonte-numero em anexo-item no capitulo-3-continentes-perdidos.html",
-        "sintoma": "Seção Anexos de Multimídia usava spans <span class=\"fonte-numero\"> em vez de <span class=\"anexo-numero\"> nos itens (Documentos Oficiais 7-9, Depoimentos 1-10), com duplicação literal no item 8 de Depoimentos (<span class=\"fonte-numero\">8.</span><span class=\"anexo-numero\">8.</span>). HTML inválido e inconsistência semântica.",
-        "solucao": "Substituídos todos os fonte-numero por anexo-numero nos 13 itens de anexo afetados; removido span duplicado no item 8 de Depoimentos",
-        "arquivos": [
-          "posts/capitulo-3-continentes-perdidos.html"
-        ],
-        "regra_prevencao": "Em anexos (anexo-item), usar sempre classe anexo-numero para numeração. Em referências (fonte-item), usar fonte-numero. Nunca misturar. Validar HTML após edições em seções colapsíveis.",
-        "resolvido_por": "INTEL-WEB-SECURITY",
-        "data": "2026-11-24 03:05"
-      },
+  "aprendizados": [
+    {
+      "erro": "animationDelay com aspas simples em vez de template literal (crase)",
+      "sintoma": "Animacoes de abertura/fechamento das abas da sidebar nao funcionavam nos posts afetados; a variavel i nao era interpolada",
+      "solucao": "Substituidos '${i * N}ms' por `${i * N}ms` (crase/backtick) em 8 arquivos de posts",
+      "arquivos": [
+        "posts/a-camada-abaixo-do-ocre.html",
+        "posts/a-linha-morta.html",
+        "posts/a-boca-da-mina.html",
+        "posts/a-corrida-da-madrugada.html",
+        "posts/o-zumbido-que-escuta-de-volta.html",
+        "posts/o-zumbido-de-taos.html",
+        "posts/o-glifo-que-nao-esta-no-catalogo.html",
+        "posts/o-quarto-de-fundo.html",
+        "posts/o-nome-na-pedra-de-esquina.html"
+      ],
+      "regra_prevencao": "animationDelay sempre deve usar template literal com crase: `${i * N}ms`, nunca aspas simples",
+      "resolvido_por": "INTEL-WEB-SECURITY",
+      "data": "2026-11-23 22:45"
+    },
+    {
+      "erro": "Regressão: capitulo-2-continentes-perdidos.html com markdown literal e estrutura antiga de referências/anexos",
+      "sintoma": "Arquivo apresentava '# ' renderizando como texto literal no primeiro parágrafo, e seções Referências/Anexos usavam h2/h3 + divs simples em vez do padrão details.bloco-denso colapsível. Erro já corrigido anteriormente (ciclo 2026-11-24 02:45 para capitulo-3) mas reapareceu no capitulo-2 — REGRESSÃO CRÍTICA.",
+      "solucao": "Removido '# ' do parágrafo; substituídas seções Referências e Anexos por dois blocos details.bloco-denso colapsíveis com 40 fontes e 10 anexos cada, seguindo padrão dos outros 10 posts",
+      "arquivos": [
+        "posts/capitulo-2-continentes-perdidos.html"
+      ],
+      "regra_prevencao": "REGRA REFORÇADA: Verificar TODOS os posts de uma série ao corrigir padrão estrutural. Nunca assumir que corrigir um corrige os outros. Aplicar padronização em lote (batch) a todos os arquivos da série simultaneamente.",
+      "resolvido_por": "INTEL-WEB-SECURITY",
+      "data": "2026-11-24 03:05"
+    },
+    {
+      "erro": "IDs duplicados fonte-numero em anexo-item no capitulo-3-continentes-perdidos.html",
+      "sintoma": "Seção Anexos de Multimídia usava spans <span class=\"fonte-numero\"> em vez de <span class=\"anexo-numero\"> nos itens (Documentos Oficiais 7-9, Depoimentos 1-10), com duplicação literal no item 8 de Depoimentos (<span class=\"fonte-numero\">8.</span><span class=\"anexo-numero\">8.</span>). HTML inválido e inconsistência semântica.",
+      "solucao": "Substituídos todos os fonte-numero por anexo-numero nos 13 itens de anexo afetados; removido span duplicado no item 8 de Depoimentos",
+      "arquivos": [
+        "posts/capitulo-3-continentes-perdidos.html"
+      ],
+      "regra_prevencao": "Em anexos (anexo-item), usar sempre classe anexo-numero para numeração. Em referências (fonte-item), usar fonte-numero. Nunca misturar. Validar HTML após edições em seções colapsíveis.",
+      "resolvido_por": "INTEL-WEB-SECURITY",
+      "data": "2026-11-24 03:05"
+    },
     {
       "erro": "btn-voltar sem posicionamento fixo e z-index adequado",
       "sintoma": "Botao Voltar aparecia no final do artigo (fluxo normal) em vez do canto superior direito, podendo ficar atras de outros elementos",
@@ -162,128 +162,165 @@
       "data": "2026-11-24 01:45"
     },
     {
-          "erro": "varredura-integridade-ciclo-1-limpa",
-          "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade.",
-          "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada: abas contraídas, links corretos, btn-voltar presente, nav-capitulos completo, animationDelay com crase, IDs ASCII, sem posts-lista, sem scripts aninhados, background-image preservado.",
-          "arquivos": [
-            "index.html",
-            "posts/capitulo-1-operacao-prato.html",
-            "posts/capitulo-2-operacao-prato.html",
-            "posts/capitulo-3-operacao-prato.html",
-            "posts/capitulo-4-operacao-prato.html",
-            "posts/capitulo-5-operacao-prato.html",
-            "posts/capitulo-6-operacao-prato.html",
-            "posts/capitulo-7-operacao-prato.html",
-            "posts/capitulo-8-operacao-prato.html",
-            "posts/capitulo-1-continentes-perdidos.html",
-            "posts/capitulo-2-continentes-perdidos.html",
-            "posts/capitulo-3-continentes-perdidos.html",
-            "style.css"
-          ],
-          "regra_prevencao": "Manter varreduras intermitentes a cada ciclo do cron. Verificar pastas WEB INTEL SECURITY, logs/caixa-erros/entrada/, SOLICITAÇÕES/ a cada execução.",
-          "resolvido_por": "INTEL-WEB-SECURITY",
-          "data": "2026-11-24 02:15"
-        },
-        {
-          "erro": "varredura-integridade-ciclo-2-limpa",
-          "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade. JS syntax OK em 12 blocos de script (node --check). Caixas de entrada vazias. Raiz organizada.",
-          "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada: abas contraídas, links corretos, btn-voltar presente em 11/11, nav-capitulos completo em 11/11, handlers de série dedicados, animationDelay com crase, IDs ASCII únicos por arquivo, sem posts-lista, sem scripts aninhados, background-image preservado.",
-          "arquivos": [
-            "index.html",
-            "posts/capitulo-1-operacao-prato.html",
-            "posts/capitulo-2-operacao-prato.html",
-            "posts/capitulo-3-operacao-prato.html",
-            "posts/capitulo-4-operacao-prato.html",
-            "posts/capitulo-5-operacao-prato.html",
-            "posts/capitulo-6-operacao-prato.html",
-            "posts/capitulo-7-operacao-prato.html",
-            "posts/capitulo-8-operacao-prato.html",
-            "posts/capitulo-1-continentes-perdidos.html",
-            "posts/capitulo-2-continentes-perdidos.html",
-            "posts/capitulo-3-continentes-perdidos.html",
-            "style.css"
-          ],
-          "regra_prevencao": "Manter varreduras intermitentes a cada ciclo do cron. Verificar pastas logs/caixa-erros/entrada/, SOLICITAÇÕES/ a cada execução. Validar JS syntax com node --check em todos os blocos script.",
-          "resolvido_por": "INTEL-WEB-SECURITY",
-          "data": "2026-11-24 04:15"
-        },
-        {
-          "erro": "varredura-integridade-ciclo-7-limpa",
-          "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade. JS syntax OK em 12 blocos de script (node --check). Caixas de entrada vazias: SOLICITAÇÕES, caixa-de-mensagens/entrada e logs/caixa-erros/entrada. Sem regressão de erros KEB anteriores (animationDelay com crase, IDs ASCII, anexo-numero em cap-3-continentes, sidebar contraída em todos os arquivos).",
-          "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada: abas contraídas (aria-expanded=false + style=display:none), links relativos sem prefixo posts/ nos capítulos, btn-voltar com onclick direto + listener JS em 11/11 capítulos, nav-capitulos completo (capítulo final apenas link anterior), handlers de série dedicados excluídos do loop genérico via if (titulo.id === 'serie-XXX') return; / startsWith('serie-'), animationDelay sempre com template literal (crase) `${i * N}ms`, IDs únicos e ASCII puro por arquivo, sem seção posts-lista, sem scripts aninhados, background-image preservado (bg-zambria.jpg) em style.css e index.html.",
-          "arquivos": [
-            "index.html",
-            "style.css",
-            "posts/capitulo-1-operacao-prato.html",
-            "posts/capitulo-2-operacao-prato.html",
-            "posts/capitulo-3-operacao-prato.html",
-            "posts/capitulo-4-operacao-prato.html",
-            "posts/capitulo-5-operacao-prato.html",
-            "posts/capitulo-6-operacao-prato.html",
-            "posts/capitulo-7-operacao-prato.html",
-            "posts/capitulo-8-operacao-prato.html",
-            "posts/capitulo-1-continentes-perdidos.html",
-            "posts/capitulo-2-continentes-perdidos.html",
-            "posts/capitulo-3-continentes-perdidos.html"
-          ],
-          "regra_prevencao": "Executar varredura de integridade a cada ciclo do cron; verificar logs/caixa-erros/entrada/, SOLICITAÇÕES/ e caixa-de-mensagens/entrada/ a cada execução. Auditar sempre index.html + todos os posts/capitulo-*.html — cada capítulo é autônomo, corrigir um não corrige os outros.",
-          "resolvido_por": "AXXA Web Sovereign",
-          "data": "2026-11-24 03:30"
-        },
-        {
-          "erro": "varredura-integridade-ciclo-8-limpa",
-          "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade. KEB v1.0 verificada: sem IDs duplicados, sem scripts aninhados, sem links posts/posts/, btn-voltar com onclick direto + listener JS em 11/11, sidebar contraída por padrão (aria-expanded=false + display:none) em todos os arquivos, animationDelay com template literal (crase) em todos os posts, handlers de série excluídos do loop genérico via if (titulo.id.startsWith('serie-')) / === 'serie-XXX', background-image bg-zambria.jpg preservado em style.css e index.html, sem seção posts-lista, sem scripts aninhados, caixas de entrada vazias (SOLICITAÇÕES, caixa-de-mensagens/entrada, logs/caixa-erros/entrada).",
-          "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada em index.html + todos os 11 posts/capitulo-*.html.",
-          "arquivos": [
-            "index.html",
-            "style.css",
-            "posts/capitulo-1-operacao-prato.html",
-            "posts/capitulo-2-operacao-prato.html",
-            "posts/capitulo-3-operacao-prato.html",
-            "posts/capitulo-4-operacao-prato.html",
-            "posts/capitulo-5-operacao-prato.html",
-            "posts/capitulo-6-operacao-prato.html",
-            "posts/capitulo-7-operacao-prato.html",
-            "posts/capitulo-8-operacao-prato.html",
-            "posts/capitulo-1-continentes-perdidos.html",
-            "posts/capitulo-2-continentes-perdidos.html",
-            "posts/capitulo-3-continentes-perdidos.html"
-          ],
-          "regra_prevencao": "Manter varreduras de integridade a cada ciclo do cron; verificar logs/caixa-erros/entrada/, SOLICITAÇÕES/ e caixa-de-mensagens/entrada/ a cada execução. Auditar sempre index.html + todos os posts/capitulo-*.html — cada capítulo é autônomo.",
-          "resolvido_por": "AXXA Web Sovereign",
-          "data": "2026-11-24 03:45"
-        },
-        {
-          "erro": "varredura-integridade-ciclo-9-limpa",
-          "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade. Inboxes vazias: SOLICITAÇÕES, caixa-de-mensagens/entrada, logs/caixa-erros/entrada.",
-          "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada: abas contraídas (aria-expanded=false + style=display:none), links relativos sem prefixo posts/ nos capítulos, btn-voltar com onclick direto + listener JS em 11/11 capítulos, nav-capitulos completo em 11/11, handlers de série dedicados excluídos do loop genérico, animationDelay sempre com template literal (crase), IDs únicos em ASCII puro, sem seção posts-lista, sem scripts aninhados, background-image bg-zambria.jpg preservado em index.html e style.css.",
-          "arquivos": ["index.html", "style.css", "posts/capitulo-1-operacao-prato.html", "posts/capitulo-2-operacao-prato.html", "posts/capitulo-3-operacao-prato.html", "posts/capitulo-4-operacao-prato.html", "posts/capitulo-5-operacao-prato.html", "posts/capitulo-6-operacao-prato.html", "posts/capitulo-7-operacao-prato.html", "posts/capitulo-8-operacao-prato.html", "posts/capitulo-1-continentes-perdidos.html", "posts/capitulo-2-continentes-perdidos.html", "posts/capitulo-3-continentes-perdidos.html"],
-          "regra_prevencao": "Manter varreduras de integridade a cada ciclo do cron; verificar logs/caixa-erros/entrada/, SOLICITAÇÕES/ e caixa-de-mensagens/entrada/ a cada execução. Auditar sempre index.html + todos os posts/capitulo-*.html — cada capítulo é autônomo.",
-          "resolvido_por": "AXXA Web Sovereign",
-          "data": "2026-11-24 04:30"
-        },
-            {
-              "erro": "varredura-integridade-ciclo-10-limpa",
-              "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade. KEB v1.0 verificada: sem IDs duplicados, sem scripts aninhados, sem links posts/posts/, btn-voltar com onclick direto + listener JS em 11/11, sidebar contraída por padrão (aria-expanded=false + style=display:none) em todos os arquivos, animationDelay com template literal (crase) em todos os posts, handlers de série excluídos do loop genérico via if (titulo.id.startsWith('serie-')) / === 'serie-XXX', background-image bg-zambria.jpg preservado em style.css e index.html, sem seção posts-lista, sem scripts aninhados, caixas de entrada vazias (SOLICITAÇÕES, caixa-de-mensagens/entrada, logs/caixa-erros/entrada). AdSense script corretamente fechado em todos os 12 arquivos. Nav-capitulos completo: capítulos iniciais só 'próximo', finais só 'anterior', intermediários ambos. Links relativos corretos: index.html usa posts/*, capítulos usam caminhos sem prefixo.",
-              "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada em index.html + todos os 11 posts/capitulo-*.html + style.css.",
-              "arquivos": [
-                "index.html",
-                "style.css",
-                "posts/capitulo-1-operacao-prato.html",
-                "posts/capitulo-2-operacao-prato.html",
-                "posts/capitulo-3-operacao-prato.html",
-                "posts/capitulo-4-operacao-prato.html",
-                "posts/capitulo-5-operacao-prato.html",
-                "posts/capitulo-6-operacao-prato.html",
-                "posts/capitulo-7-operacao-prato.html",
-                "posts/capitulo-8-operacao-prato.html",
-                "posts/capitulo-1-continentes-perdidos.html",
-                "posts/capitulo-2-continentes-perdidos.html",
-                "posts/capitulo-3-continentes-perdidos.html"
-              ],
-              "regra_prevencao": "Manter varreduras de integridade a cada ciclo do cron; verificar logs/caixa-erros/entrada/, SOLICITAÇÕES/ e caixa-de-mensagens/entrada/ a cada execução. Auditar sempre index.html + todos os posts/capitulo-*.html — cada capítulo é autônomo.",
-              "resolvido_por": "INTEL-WEB-SECURITY",
-              "data": "2026-11-24 05:45"
-            }
-              ]
-            }
+      "erro": "varredura-integridade-ciclo-1-limpa",
+      "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade.",
+      "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada: abas contraídas, links corretos, btn-voltar presente, nav-capitulos completo, animationDelay com crase, IDs ASCII, sem posts-lista, sem scripts aninhados, background-image preservado.",
+      "arquivos": [
+        "index.html",
+        "posts/capitulo-1-operacao-prato.html",
+        "posts/capitulo-2-operacao-prato.html",
+        "posts/capitulo-3-operacao-prato.html",
+        "posts/capitulo-4-operacao-prato.html",
+        "posts/capitulo-5-operacao-prato.html",
+        "posts/capitulo-6-operacao-prato.html",
+        "posts/capitulo-7-operacao-prato.html",
+        "posts/capitulo-8-operacao-prato.html",
+        "posts/capitulo-1-continentes-perdidos.html",
+        "posts/capitulo-2-continentes-perdidos.html",
+        "posts/capitulo-3-continentes-perdidos.html",
+        "style.css"
+      ],
+      "regra_prevencao": "Manter varreduras intermitentes a cada ciclo do cron. Verificar pastas WEB INTEL SECURITY, logs/caixa-erros/entrada/, SOLICITAÇÕES/ a cada execução.",
+      "resolvido_por": "INTEL-WEB-SECURITY",
+      "data": "2026-11-24 02:15"
+    },
+    {
+      "erro": "varredura-integridade-ciclo-2-limpa",
+      "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade. JS syntax OK em 12 blocos de script (node --check). Caixas de entrada vazias. Raiz organizada.",
+      "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada: abas contraídas, links corretos, btn-voltar presente em 11/11, nav-capitulos completo em 11/11, handlers de série dedicados, animationDelay com crase, IDs ASCII únicos por arquivo, sem posts-lista, sem scripts aninhados, background-image preservado.",
+      "arquivos": [
+        "index.html",
+        "posts/capitulo-1-operacao-prato.html",
+        "posts/capitulo-2-operacao-prato.html",
+        "posts/capitulo-3-operacao-prato.html",
+        "posts/capitulo-4-operacao-prato.html",
+        "posts/capitulo-5-operacao-prato.html",
+        "posts/capitulo-6-operacao-prato.html",
+        "posts/capitulo-7-operacao-prato.html",
+        "posts/capitulo-8-operacao-prato.html",
+        "posts/capitulo-1-continentes-perdidos.html",
+        "posts/capitulo-2-continentes-perdidos.html",
+        "posts/capitulo-3-continentes-perdidos.html",
+        "style.css"
+      ],
+      "regra_prevencao": "Manter varreduras intermitentes a cada ciclo do cron. Verificar pastas logs/caixa-erros/entrada/, SOLICITAÇÕES/ a cada execução. Validar JS syntax com node --check em todos os blocos script.",
+      "resolvido_por": "INTEL-WEB-SECURITY",
+      "data": "2026-11-24 04:15"
+    },
+    {
+      "erro": "varredura-integridade-ciclo-7-limpa",
+      "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade. JS syntax OK em 12 blocos de script (node --check). Caixas de entrada vazias: SOLICITAÇÕES, caixa-de-mensagens/entrada e logs/caixa-erros/entrada. Sem regressão de erros KEB anteriores (animationDelay com crase, IDs ASCII, anexo-numero em cap-3-continentes, sidebar contraída em todos os arquivos).",
+      "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada: abas contraídas (aria-expanded=false + style=display:none), links relativos sem prefixo posts/ nos capítulos, btn-voltar com onclick direto + listener JS em 11/11 capítulos, nav-capitulos completo (capítulo final apenas link anterior), handlers de série dedicados excluídos do loop genérico via if (titulo.id === 'serie-XXX') return; / startsWith('serie-'), animationDelay sempre com template literal (crase) `${i * N}ms`, IDs únicos e ASCII puro por arquivo, sem seção posts-lista, sem scripts aninhados, background-image preservado (bg-zambria.jpg) em style.css e index.html.",
+      "arquivos": [
+        "index.html",
+        "style.css",
+        "posts/capitulo-1-operacao-prato.html",
+        "posts/capitulo-2-operacao-prato.html",
+        "posts/capitulo-3-operacao-prato.html",
+        "posts/capitulo-4-operacao-prato.html",
+        "posts/capitulo-5-operacao-prato.html",
+        "posts/capitulo-6-operacao-prato.html",
+        "posts/capitulo-7-operacao-prato.html",
+        "posts/capitulo-8-operacao-prato.html",
+        "posts/capitulo-1-continentes-perdidos.html",
+        "posts/capitulo-2-continentes-perdidos.html",
+        "posts/capitulo-3-continentes-perdidos.html"
+      ],
+      "regra_prevencao": "Executar varredura de integridade a cada ciclo do cron; verificar logs/caixa-erros/entrada/, SOLICITAÇÕES/ e caixa-de-mensagens/entrada/ a cada execução. Auditar sempre index.html + todos os posts/capitulo-*.html — cada capítulo é autônomo, corrigir um não corrige os outros.",
+      "resolvido_por": "AXXA Web Sovereign",
+      "data": "2026-11-24 03:30"
+    },
+    {
+      "erro": "varredura-integridade-ciclo-8-limpa",
+      "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade. KEB v1.0 verificada: sem IDs duplicados, sem scripts aninhados, sem links posts/posts/, btn-voltar com onclick direto + listener JS em 11/11, sidebar contraída por padrão (aria-expanded=false + display:none) em todos os arquivos, animationDelay com template literal (crase) em todos os posts, handlers de série excluídos do loop genérico via if (titulo.id.startsWith('serie-')) / === 'serie-XXX', background-image bg-zambria.jpg preservado em style.css e index.html, sem seção posts-lista, sem scripts aninhados, caixas de entrada vazias (SOLICITAÇÕES, caixa-de-mensagens/entrada, logs/caixa-erros/entrada).",
+      "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada em index.html + todos os 11 posts/capitulo-*.html.",
+      "arquivos": [
+        "index.html",
+        "style.css",
+        "posts/capitulo-1-operacao-prato.html",
+        "posts/capitulo-2-operacao-prato.html",
+        "posts/capitulo-3-operacao-prato.html",
+        "posts/capitulo-4-operacao-prato.html",
+        "posts/capitulo-5-operacao-prato.html",
+        "posts/capitulo-6-operacao-prato.html",
+        "posts/capitulo-7-operacao-prato.html",
+        "posts/capitulo-8-operacao-prato.html",
+        "posts/capitulo-1-continentes-perdidos.html",
+        "posts/capitulo-2-continentes-perdidos.html",
+        "posts/capitulo-3-continentes-perdidos.html"
+      ],
+      "regra_prevencao": "Manter varreduras de integridade a cada ciclo do cron; verificar logs/caixa-erros/entrada/, SOLICITAÇÕES/ e caixa-de-mensagens/entrada/ a cada execução. Auditar sempre index.html + todos os posts/capitulo-*.html — cada capítulo é autônomo.",
+      "resolvido_por": "AXXA Web Sovereign",
+      "data": "2026-11-24 03:45"
+    },
+    {
+      "erro": "varredura-integridade-ciclo-9-limpa",
+      "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade. Inboxes vazias: SOLICITAÇÕES, caixa-de-mensagens/entrada, logs/caixa-erros/entrada.",
+      "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada: abas contraídas (aria-expanded=false + style=display:none), links relativos sem prefixo posts/ nos capítulos, btn-voltar com onclick direto + listener JS em 11/11 capítulos, nav-capitulos completo em 11/11, handlers de série dedicados excluídos do loop genérico, animationDelay sempre com template literal (crase), IDs únicos em ASCII puro, sem seção posts-lista, sem scripts aninhados, background-image bg-zambria.jpg preservado em index.html e style.css.",
+      "arquivos": [
+        "index.html",
+        "style.css",
+        "posts/capitulo-1-operacao-prato.html",
+        "posts/capitulo-2-operacao-prato.html",
+        "posts/capitulo-3-operacao-prato.html",
+        "posts/capitulo-4-operacao-prato.html",
+        "posts/capitulo-5-operacao-prato.html",
+        "posts/capitulo-6-operacao-prato.html",
+        "posts/capitulo-7-operacao-prato.html",
+        "posts/capitulo-8-operacao-prato.html",
+        "posts/capitulo-1-continentes-perdidos.html",
+        "posts/capitulo-2-continentes-perdidos.html",
+        "posts/capitulo-3-continentes-perdidos.html"
+      ],
+      "regra_prevencao": "Manter varreduras de integridade a cada ciclo do cron; verificar logs/caixa-erros/entrada/, SOLICITAÇÕES/ e caixa-de-mensagens/entrada/ a cada execução. Auditar sempre index.html + todos os posts/capitulo-*.html — cada capítulo é autônomo.",
+      "resolvido_por": "AXXA Web Sovereign",
+      "data": "2026-11-24 04:30"
+    },
+    {
+      "erro": "varredura-integridade-ciclo-10-limpa",
+      "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade. KEB v1.0 verificada: sem IDs duplicados, sem scripts aninhados, sem links posts/posts/, btn-voltar com onclick direto + listener JS em 11/11, sidebar contraída por padrão (aria-expanded=false + style=display:none) em todos os arquivos, animationDelay com template literal (crase) em todos os posts, handlers de série excluídos do loop genérico via if (titulo.id.startsWith('serie-')) / === 'serie-XXX', background-image bg-zambria.jpg preservado em style.css e index.html, sem seção posts-lista, sem scripts aninhados, caixas de entrada vazias (SOLICITAÇÕES, caixa-de-mensagens/entrada, logs/caixa-erros/entrada). AdSense script corretamente fechado em todos os 12 arquivos. Nav-capitulos completo: capítulos iniciais só 'próximo', finais só 'anterior', intermediários ambos. Links relativos corretos: index.html usa posts/*, capítulos usam caminhos sem prefixo.",
+      "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada em index.html + todos os 11 posts/capitulo-*.html + style.css.",
+      "arquivos": [
+        "index.html",
+        "style.css",
+        "posts/capitulo-1-operacao-prato.html",
+        "posts/capitulo-2-operacao-prato.html",
+        "posts/capitulo-3-operacao-prato.html",
+        "posts/capitulo-4-operacao-prato.html",
+        "posts/capitulo-5-operacao-prato.html",
+        "posts/capitulo-6-operacao-prato.html",
+        "posts/capitulo-7-operacao-prato.html",
+        "posts/capitulo-8-operacao-prato.html",
+        "posts/capitulo-1-continentes-perdidos.html",
+        "posts/capitulo-2-continentes-perdidos.html",
+        "posts/capitulo-3-continentes-perdidos.html"
+      ],
+      "regra_prevencao": "Manter varreduras de integridade a cada ciclo do cron; verificar logs/caixa-erros/entrada/, SOLICITAÇÕES/ e caixa-de-mensagens/entrada/ a cada execução. Auditar sempre index.html + todos os posts/capitulo-*.html — cada capítulo é autônomo.",
+      "resolvido_por": "INTEL-WEB-SECURITY",
+      "data": "2026-11-24 05:45"
+    },
+    {
+      "erro": "varredura-integridade-ciclo-11-limpa",
+      "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade. KEB v1.0 verificada: sem IDs duplicados, sem scripts aninhados, sem links posts/posts/, btn-voltar com onclick direto + listener JS em 11/11, sidebar contraída por padrão (aria-expanded=false + style=display:none) em todos os arquivos, animationDelay com template literal (crase) em todos os posts, handlers de série excluídos do loop genérico via if (titulo.id.startswith('serie-')) / === 'serie-XXX', background-image bg-zambria.jpg preservado em style.css e index.html, sem seção posts-lista, sem scripts aninhados, caixas de entrada vazias (SOLICITAÇÕES, caixa-de-mensagens/entrada, logs/caixa-erros/entrada). AdSense script corretamente fechado em todos os 12 arquivos. Nav-capitulos completo: capítulos iniciais só 'próximo', finais só 'anterior', intermediários ambos. Links relativos corretos: index.html usa posts/*, capítulos usam caminhos sem prefixo. JS syntax OK em 12/12 blocos (node --check).",
+      "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada em index.html + todos os 11 posts/capitulo-*.html + style.css.",
+      "arquivos": [
+        "index.html",
+        "style.css",
+        "posts/capitulo-1-operacao-prato.html",
+        "posts/capitulo-2-operacao-prato.html",
+        "posts/capitulo-3-operacao-prato.html",
+        "posts/capitulo-4-operacao-prato.html",
+        "posts/capitulo-5-operacao-prato.html",
+        "posts/capitulo-6-operacao-prato.html",
+        "posts/capitulo-7-operacao-prato.html",
+        "posts/capitulo-8-operacao-prato.html",
+        "posts/capitulo-1-continentes-perdidos.html",
+        "posts/capitulo-2-continentes-perdidos.html",
+        "posts/capitulo-3-continentes-perdidos.html"
+      ],
+      "regra_prevencao": "Manter varreduras de integridade a cada ciclo do cron; verificar logs/caixa-erros/entrada/, SOLICITAÇÕES/ e caixa-de-mensagens/entrada/ a cada execução. Auditar sempre index.html + todos os posts/capitulo-*.html — cada capítulo é autônomo.",
+      "resolvido_por": "INTEL-WEB-SECURITY",
+      "data": "2026-11-24 06:30"
+    }
+  ]
+}
