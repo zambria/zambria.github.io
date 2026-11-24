@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-11-24T01:30:00-03:00",
-  "ciclo": 5,
+  "gerado_em": "2026-11-24T04:00:00-03:00",
+  "ciclo": 6,
   "regras": [
     {
       "regra": "Sempre excluir do loop genérico .categoria-titulo os ids das divs de série (nivel-2) de cada categoria",
@@ -75,10 +75,17 @@
       "paginas_afetadas": "index.html",
       "correcao_aplicada": "removida chave '}' solta na linha 142 de index.html (apos fechamento de titulos.forEach); node --check aprovado em 12/12 arquivos",
       "status": "aplicado"
+    },
+    {
+      "regra": "Classe CSS anexo-forte nao existe; blocos de anexo devem usar anexo-fonte (definida no style.css)",
+      "padrao": "div.anexo-item > div.anexo-fonte; proibido div.anexo-forte em qualquer post",
+      "paginas_afetadas": "posts/capitulo-3-operacao-prato.html corrigido; varredura: 0 ocorrencias de anexo-forte em index.html + 11 posts",
+      "correcao_aplicada": "capitulo-3-operacao-prato.html:542 div.anexo-forte -> div.anexo-fonte",
+      "status": "aplicado"
     }
   ],
   "keb_status": {
-    "auditoria_ciclo": "12 arquivos (index.html + 11 posts/capitulo-*.html), 2026-11-24T01:30-03",
+    "auditoria_ciclo": "12 arquivos (index.html + 11 posts/capitulo-*.html), 2026-11-24T04:00-03",
     "JS_sintaxe_bloco_script": "corrigido: index.html tinha chave '}' solta na linha 142 engolindo todo o JS da pagina; removida; node --check OK em 12/12 arquivos",
     "KEB_01_ids_duplicados": "nenhum duplicado em nenhum arquivo",
     "KEB_02_script_aninhado": "CORRIGIDO neste ciclo: index.html + 47 posts tinham <script async src='...adsbygoogle...'> sem </script>, engolfando o JS da animacao da serie (listeners da sidebar pararam de funcionar); tag fechada corretamente em todos os 72 arquivos",
