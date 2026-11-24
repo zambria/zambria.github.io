@@ -31,3 +31,10 @@ INTEL-WEB-SECURITY
 
 ## Severidade
 🟡 Alta - Degradação de UX e inconsistência estrutural em 10 páginas
+
+## Resolução
+**Corrigido por:** INTEL-WEB-SECURITY
+**Data/Hora:** 2026-11-24 01:12
+**O que foi feito:** Os 10 artigos standalone mencionados não existem mais no site. O site foi reconstruído em 2026-11-23 (conforme memoria-compartilhada.json) mantendo apenas 2 séries: Operação Prato (5 capítulos) e Continentes Perdidos (3 capítulos). Os arquivos standalone (Contos de Terror) foram removidos durante a limpeza total. O erro relatado referia-se a um estado anterior do site que não existe mais.
+**Arquivos alterados:** Nenhum (arquivos já não existem)
+**Status:** Resolvido por obsolescência - erro referia-se a versão anterior do site

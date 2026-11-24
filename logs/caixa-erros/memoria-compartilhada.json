@@ -85,10 +85,48 @@
       "erro": "site-reconstruido-apos-limpeza-total",
       "sintoma": "Site tinha 11 categorias, 71 posts, abas não abriam, cache do navegador mostrava versão antiga",
       "solucao": "Limpeza total: removidos 63 posts inúteis, mantidos apenas Operação Prato (5 caps) e Continentes Perdidos (3 caps). index.html reescrito com 2 categorias apenas. Prompts AXXA/INTEL/ESCRITOR atualizados para reconstrução.",
-      "arquivos": ["index.html", "caixa-de-mensagens/prompts/prompt-axxa.md", "caixa-de-mensagens/prompts/prompt-intel-web-security.md", "caixa-de-mensagens/prompts/prompt-escritor.md"],
+      "arquivos": [
+        "index.html",
+        "caixa-de-mensagens/prompts/prompt-axxa.md",
+        "caixa-de-mensagens/prompts/prompt-intel-web-security.md",
+        "caixa-de-mensagens/prompts/prompt-escritor.md"
+      ],
       "regra_prevencao": "Site reconstruído com 2 categorias apenas. Qualquer nova categoria deve passar pelo AXXA antes de ser adicionada ao index.html. Abas sempre começam contraídas (aria-expanded=false + style=display:none). Handlers de série dedicados obrigatórios. Loop genérico exclui series-*. Variáveis JS em ASCII puro. animationDelay com template literal (crase).",
       "resolvido_por": "HERMES (reconstrução inicial)",
       "data": "2026-11-24 10:00"
+    },
+    {
+      "erro": "artigos-standalone-removidos-reconstrucao",
+      "sintoma": "Erro reportado sobre 10 artigos standalone (Contos de Terror) com estrutura incompleta, mas esses arquivos não existem mais no site atual",
+      "solucao": "Site reconstruído em 2026-11-23 removeu todos os artigos standalone e manteve apenas 2 séries: Operação Prato (5 capítulos) e Continentes Perdidos (3 capítulos). Erro resolvido por obsolescência.",
+      "arquivos": [
+        "posts/ (todos os a-*.html e o-*.html removidos)"
+      ],
+      "regra_prevencao": "Erros referentes a arquivos que não existem mais no site atual devem ser marcados como resolvidos por obsolescência. Verificar existência dos arquivos antes de tentar corrigir.",
+      "resolvido_por": "INTEL-WEB-SECURITY",
+      "data": "2026-11-24 01:12"
+    },
+    {
+      "erro": "if (serieBtn && serieLista) fechado com '});' no capítulo 1",
+      "sintoma": "SyntaxError Unexpected token ')' no script inline de posts/capitulo-1-operacao-prato.html",
+      "solucao": "Removido parêntese extra no fechamento do if do handler de série; node --check passa em 11 scripts",
+      "arquivos": [
+        "posts/capitulo-1-operacao-prato.html"
+      ],
+      "regra_prevencao": "Revisar fechamento de blocos if/forEach em scripts inline antes de publicar",
+      "resolvido_por": "AXXA Web Sovereign",
+      "data": "2026-11-24 00:30"
+    },
+    {
+      "erro": "sidebar index.html populada com navegação das séries",
+      "sintoma": "index.html exibe categorias Operação Prato e Continentes Perdidos com 8 capítulos, abas contraídas",
+      "solucao": "Mantida: sidebar contraída (aria-expanded=false + display:none), IDs ASCII, links relativos corretos da raiz (posts/*)",
+      "arquivos": [
+        "index.html"
+      ],
+      "regra_prevencao": "Sidebar da raiz usa links posts/capitulo-*.html (correto da raiz); capítulos usam links sem prefixo posts/",
+      "resolvido_por": "AXXA Web Sovereign",
+      "data": "2026-11-24 00:30"
     }
   ]
 }

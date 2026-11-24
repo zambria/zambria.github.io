@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operação Prato — Capítulo 8 — O Relatório Americano e o Legado de Colares</title>
+    <link rel="stylesheet" href="../style.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937131805632227" crossorigin="anonymous"></script>
+    <style>
+      /* === SEÇÕES COLAPSÍVEIS (ESTILO OBSIDIAN) === */
+      details.bloco-denso {
+        margin: 1.5rem 0;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        overflow: hidden;
+        background: rgba(0,0,0,0.15);
+      }
+      details.bloco-denso summary {
+        padding: 0.8rem 1rem;
+        font-weight: 700;
+        font-size: 0.95rem;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: var(--text);
+        cursor: pointer;
+        background: rgba(0,0,0,0.3);
+        list-style: none;
+        transition: background 0.2s ease;
+        border-bottom: 1px solid var(--border);
+      }
+      details.bloco-denso summary:hover {
+        background: rgba(0,0,0,0.5);
+        color: var(--accent);
+      }
+      details.bloco-denso summary::-webkit-details-marker { display: none; }
+      details.bloco-denso summary::before {
+        content: '▸';
+        float: right;
+        color: var(--accent);
+        margin-top: 0.1rem;
+      }
+      details.bloco-denso[open] summary::before { content: '▾'; }
+      details.bloco-denso[open] summary { border-bottom-color: var(--accent); }
+      details.bloco-denso > div {
+        padding: 1rem 1.2rem;
+        line-height: 1.7;
+      }
+      /* Fonte individual */
+      .fonte-item {
+        margin-bottom: 0.7rem;
+        padding-bottom: 0.7rem;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+        font-size: 0.85rem;
+      }
+      .fonte-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+      .fonte-numero { display: inline-block; width: 1.6rem; color: var(--accent); font-weight: 700; }
+      .fonte-titulo { font-weight: 600; color: var(--text); }
+      .fonte-url { color: var(--text-muted); font-size: 0.8rem; word-break: break-all; }
+      .fonte-nota { font-style: italic; color: var(--text-muted); font-size: 0.75rem; margin-top: 0.2rem; }
+      /* Anexo item */
+      .anexo-item {
+        margin-bottom: 0.6rem;
+        padding-bottom: 0.6rem;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+        font-size: 0.85rem;
+      }
+      .anexo-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+      .anexo-numero { display: inline-block; width: 1.4rem; color: var(--accent); font-weight: 700; }
+      .anexo-descricao { font-weight: 600; color: var(--text); }
+      .anexo-url { color: var(--text-muted); font-size: 0.75rem; word-break: break-all; }
+      .anexo-fonte { color: var(--text-muted); font-size: 0.7rem; font-style: italic; }
+      /* Citações inline [Fonte X] */
+      .cite { color: var(--accent); font-weight: 700; cursor: help; border-bottom: 1px dotted rgba(255,51,51,0.4); }
+      /* Subtítulos de seção */
+      .secao-subtitulo {
+        font-size: 1.1rem; font-weight: 700; color: var(--text);
+        margin-top: 2rem; margin-bottom: 0.8rem; letter-spacing: 0.05em;
+        border-left: 3px solid var(--accent); padding-left: 0.8rem;
+      }
+      .secao-subtitulo-2 {
+        font-size: 1rem; font-weight: 600; color: var(--text-muted);
+        margin-top: 1.5rem; margin-bottom: 0.5rem; text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+      /* Parágrafo de capítulo */
+      .cap-paragrafo {
+        margin-bottom: 1.2rem; line-height: 1.7; text-align: justify;
+      }
+      .cap-paragrafo:first-letter { font-weight: 700; }
+      /* Botão Voltar - SEMPRE visível */
+      .btn-voltar {
+        position: fixed; top: 1rem; right: 1rem; z-index: 10000;
+        background-color: var(--accent); color: #000000; border: none;
+        border-radius: 4px; padding: 0.6rem 1rem; font-size: 0.9rem;
+        font-weight: 700; cursor: pointer; transition: all 0.2s ease;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.3); text-decoration: none;
+        display: inline-flex; align-items: center; gap: 0.5rem;
+      }
+      .btn-voltar:hover { background-color: #e62e2e; transform: scale(1.05); }
+      .btn-voltar:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
+    </style>
+  </head>
+  <body class="bg-black text-white font-sans leading-relaxed min-h-screen">
+
+    <div class="site-shell flex min-h-screen transition-all duration-300" id="site-shell">
+
+      <!-- Botão SEMPRE visível, fora da sidebar -->
+      <button class="btn-toggle-sidebar" id="btnToggleSidebar" aria-label="Esconder barra lateral">☰</button>
+
+      <!-- Sidebar esquerda -->
+      <aside class="sidebar" id="sidebar-zambria">
+        <div class="sidebar-header">
+          <div class="site-title">ZAMBRIA</div>
+          <div class="site-subtitle">O Insólito Presente</div>
+        </div>
+        <!-- Categoria: Operação Prato -->
+        <div class="categoria-grupo">
+          <div class="categoria-titulo" id="categoria-operacao-prato" role="button" tabindex="0" aria-expanded="false">Operação Prato</div>
+          <ul class="lista-topicos" id="lista-operacao-prato" style="display: none;">
+            <li>
+              <div class="categoria-titulo nivel-2" id="serie-operacao-prato" role="button" tabindex="0" aria-expanded="false">Série Operação Prato</div>
+              <ul class="lista-topicos nivel-2" id="capitulos-operacao-prato" style="display: none;">
+                <li><a href="capitulo-1-operacao-prato.html">Capítulo 1</a></li>
+                <li><a href="capitulo-2-operacao-prato.html">Capítulo 2</a></li>
+                <li><a href="capitulo-3-operacao-prato.html">Capítulo 3</a></li>
+                <li><a href="capitulo-4-operacao-prato.html">Capítulo 4</a></li>
+                <li><a href="capitulo-5-operacao-prato.html">Capítulo 5</a></li>
+                <li><a href="capitulo-6-operacao-prato.html">Capítulo 6</a></li>
+                <li><a href="capitulo-7-operacao-prato.html">Capítulo 7</a></li>
+                <li><a href="capitulo-8-operacao-prato.html" class="ativo">Capítulo 8</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- Conteúdo principal -->
+      <main class="conteudo">
+        <article class="post">
+          <div class="post-meta">
+            <span class="categoria">Operação Prato</span>
+            <span>Capítulo 8 de 8</span>
+            <span>1977–2024 — Colares, Pará</span>
+          </div>
+
+          <h1>Operação Prato — Capítulo 8</h1>
+          <h2>O Relatório Americano DOW-UAP-D172 e o Legado que Não Morre em Colares</h2>
+
+          <div class="texto">
+
+            <div class="cap-paragrafo">
+              Enquanto o Brasil guardava o silêncio sobre Colares, do outro lado do mundo uma agência de inteligência americana estava montando um dos mais volumosos dossiês já feitos sobre a Operação Prato. Em dezembro de 2008, um plano de um contratado do Pentágono, a BAASS, para a Agência de Inteligência de Defesa dos Estados Unidos (DIA), classificou Colares como "uma ameaça, em alguns casos uma ameaça letal", e pediu que os arquivos da Força Aérea Brasileira — com seus registros médicos — fossem obtidos <span class="cite">[Fonte 1]</span>.
+            </div>
+
+            <div class="cap-paragrafo">
+              Em 2009, a DIA solicitou ao Brasil, por meio de seus adidos, os documentos, fotografias e filmes da Operação Prato. O relatório resultante, um documento de 538 páginas identificado como DOW-UAP-D172, reuniu informações sobre 179 ocorrências de fenômenos aéreos não identificados registradas em Colares e localidades próximas <span class="cite">[Fonte 2]</span><span class="cite">[Fonte 3]</span>.
+            </div>
+
+            <div class="cap-paragrafo">
+              Este capítulo conta o que o relatório americano disse, o que o Brasil liberou e não liberou, e por que o mistério de Colares — quase cinquenta anos depois — continua a pousar na memória de quem vive à beira das águas escuras do Pará <span class="cite">[Fonte 4]</span>.
+            </div>
+
+            <!-- === SEÇÃO 8.1 === -->
+            <div class="secao-subtitulo">8.1 Dezembro de 2008: O Plano do Pentágono que Classifica Colares como Ameaça</div>
+
+            <div class="cap-paragrafo">
+              O documento da BAASS (Bigelow Aerospace Advanced Space Studies), contratado pelo Pentágono, foi direto: Colares era tratado como uma ameaça potencial. O plano pedia que os arquivos da FAB, incluindo os registros médicos das vítimas, fossem obtidos pelos americanos. Isso não era curiosidade acadêmica. Era inteligência de defesa <span class="cite">[Fonte 5]</span>.
+            </div>
+
+            <div class="cap-paragrafo">
+              O relatório mencionou 514 vítimas e mais de 370 investigações de campo entre 1977 e 2003, com 10 mortes após doença prolongada, 54 queimados e 14 comas. Os números não podem ser verificados com precisão a partir de fontes oficiais brasileiras, e essa discrepância entre o registro militar e as estimativas civis é um dos pontos que mantêm o caso em disputa <span class="cite">[Fonte 6]</span>.
+            </div>
+
+            <div class="cap-paragrafo">
+              Entre os casos descritos no documento, aconteceu em 1º de novembro de 1977, às 19h, em Colares. Segundo o registro, um objeto luminoso em movimento foi observado por integrantes da equipe de investigação da FAB, pela tripulação de um helicóptero e por um morador. A descrição mencionava luzes pulsantes e uma espécie de semicírculo vermelho na parte superior. O objeto teria se deslocado em alta velocidade, a uma altitude estimada entre 3 mil e 6 mil metros <span class="cite">[Fonte 7]</span>.
+            </div>
+
+            <!-- === SEÇÃO 8.2 === -->
+            <div class="secao-subtitulo">8.2 O Relatório DOW-UAP-D172: 538 Páginas, 179 Casos</div>
+
+            <div class="cap-paragrafo">
+              O DOW-UAP-D172, entregue em julho de 2009, é um documento de 538 páginas. Reúne 179 ocorrências de fenômenos aéreos não identificados em Colares e região. É, possivelmente, o dossiê mais detalhado já produzido sobre a Operação Prato por uma entidade fora do Brasil <span class="cite">[Fonte 8]</span>.
+            </div>
+
+            <div class="cap-paragrafo">
+              O que o relatório americano confirma é o que os brasileiros já sabiam: luzes no céu, feixes atingindo pessoas, queimaduras, anemia, pânico na população. O que ele adiciona é a perspectiva de uma agência de inteligência estrangeira tratando o caso como assunto de segurança nacional <span class="cite">[Fonte 9]</span>.
+            </div>
+
+            <div class="cap-paragrafo">
+              Enquanto isso, no Brasil, o Arquivo Nacional manteve os registros sob guarda, acessíveis em parte, e o assunto foi gradualmente deixado de lado pelas autoridades. O relatório americano ficou. O silêncio brasileiro permaneceu <span class="cite">[Fonte 10]</span>.
+            </div>
+
+            <!-- === SEÇÃO 8.3 === -->
+            <div class="secao-subtitulo">8.3 CENDOC, Arquivo Nacional e os Documentos que Ainda Não Foram Vistos</div>
+
+            <div class="cap-paragrafo">
+              Em 23 de abril de 2009, o Centro de Documentação da Aeronáutica — CENDOC, enviou ao Arquivo Nacional no Distrito Federal os primeiros documentos sobre a operação militar no Pará. Ainda em 2009, o GSI liberou dezenas de páginas de documentos do antigo SNI sobre a Operação Prato <span class="cite">[Fonte 11]</span><span class="cite">[Fonte 12]</span>.
+            </div>
+
+            <div class="cap-paragrafo">
+              Hoje, o acervo sobre OVNIs é um dos mais visitados do Arquivo Nacional. Só nos últimos 30 dias, foram quase 12 mil acessos. Do total de 753 relatórios disponibilizados, material que abrange um período de 63 anos (1952-2015), apenas seis dizem respeito à Operação Prato. Vão de 2 de setembro de 1977 a 28 de novembro de 1978 e englobam 15 municípios do interior do Pará <span class="cite">[Fonte 13]</span>.
+            </div>
+
+            <div class="cap-paragrafo">
+              "O material disponível para consulta pública é apenas a ponta do iceberg", afirma o ufólogo Edison Boaventura Júnior, presidente do Grupo Ufológico do Guarujá (GUG) <span class="cite">[Fonte 14]</span>.
+            </div>
+
+            <div class="cap-paragrafo">
+              Uma observação importante: os arquivos GSI/SNI não estão na base de dados do Sistema de Informações do Arquivo Nacional — SIAN, portanto, não podem ser acessados eletronicamente como os demais documentos. Eles são atrelados ao SNI e à ditadura, que é um outro fundo ainda não disponível no SIAN <span class="cite">[Fonte 15]</span>. Há documentos sobre Colares que, até hoje, não foram vistos pelo público <span class="cite">[Fonte 16]</span>.
+            </div>
+
+            <!-- === SEÇÃO 8.4 === -->
+            <div class="secao-subtitulo">8.4 "Arquivos do Céu": O Caso Volta ao Debate Público em 2024</div>
+
+            <div class="cap-paragrafo">
+              Em 2024, o Globoplay lançou o podcast "Arquivos do Céu", dirigido por Eliane Scardovelli, que revisitou o caso da Operação Prato com relatos inéditos. A série trouxe o caso de volta ao debate público brasileiro, quase cinquenta anos depois dos fatos <span class="cite">[Fonte 17]</span>.
+            </div>
+
+            <div class="cap-paragrafo">
+              O podcast mostrou que o interesse por Colares não morreu com Hollanda. Não morreu com o encerramento de 1977. Não morreu com o silêncio de 1979. A cada nova geração, as luzes sobre o rio Guajará são redescobertas <span class="cite">[Fonte 18]</span>.
+            </div>
+
+            <!-- === SEÇÃO 8.5 === -->
+            <div class="secao-subtitulo">8.5 O Legado: O Que Resta de Colares</div>
+
+            <div class="cap-paragrafo">
+              O que resta da Operação Prato? Resta o arquivo. Resta o depoimento. Resta a memória. Resta a pergunta. Resta o mistério <span class="cite">[Fonte 19]</span>.
+            </div>
+
+            <div class="cap-paragrafo">
+              Resta a certeza de que algo aconteceu. Algo que não foi explicado. Algo que não foi esquecido. Algo que, de alguma forma, ainda está conosco <span class="cite">[Fonte 20]</span>.
+            </div>
+
+            <div class="cap-paragrafo">
+              A luz sobre o rio Guajará nunca foi identificada. E, talvez por isso, continua a pousar na memória de quem vive à beira das águas escuras do Pará. O céu, naquela região, parou de ser apenas cenário há quase cinquenta anos. Desde então, virou palco — e o espetáculo não teve fim anunciado <span class="cite">[Fonte 21]</span>.
+            </div>
+
+            <div class="cap-paragrafo">
+              O que resta, então, é a herança de um evento que nunca foi completamente compreendido. Uma herança de arquivos incompletos, de histórias contadas à beira do rio, de perguntas que ecoam sem resposta. Uma herança que nos lembra que há fenômenos no mundo que ainda não foram explicados, e que o céu sobre o litoral do Pará guarda segredos que talvez nunca descubramos. Mas que, enquanto houver alguém para olhar para cima e se perguntar, a Operação Prato continuará viva — não como um mistério resolvido, mas como um convite à curiosidade, à investigação e à lembrança <span class="cite">[Fonte 22]</span><span class="cite">[Fonte 23]</span>.
+            </div>
+
+            <!-- === SEÇÕES COLAPSÍVEIS === -->
+            <details class="bloco-denso">
+              <summary>Referências e Fontes (23)</summary>
+              <div>
+                <div class="fonte-item"><span class="fonte-numero">[1]</span><span class="fonte-titulo">uaptrail.com — UAP Trail</span><div class="fonte-url">https://uaptrail.com/case/operacao-prato-1977/</div><div class="fonte-nota">Plano do Pentágono/BAASS de dezembro de 2008, classificação como ameaça</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[2]</span><span class="fonte-titulo">diariodopara.com.br — Diário do Pará</span><div class="fonte-url">https://diariodopara.com.br/cotidiano/americanos-vieram-ao-para-investigar-ovnis-em-2009-documentos-secretos-revelam-missao/</div><div class="fonte-nota">“OVNIs: Relatório dos EUA com 538 páginas detalha a Operação Prato e 179 casos em Colares”</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[3]</span><span class="fonte-titulo">pt.wikipedia.org — “Operação Prato”</span><div class="fonte-url">https://pt.wikipedia.org/wiki/Operação_Prato</div><div class="fonte-nota">DOW-UAP-D172, BAASS/DIA, julho de 2009</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[4]</span><span class="fonte-titulo">bbc.com/portuguese/brasil-40784488 — BBC News Brasil</span><div class="fonte-url">https://www.bbc.com/portuguese/brasil-40784488</div><div class="fonte-nota">Contexto do caso Colares e mistério persistente</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[5]</span><span class="fonte-numero">[5]</span><span class="fonte-titulo">uaptrail.com — UAP Trail</span><div class="fonte-url">https://uaptrail.com/case/operacao-prato-1977/</div><div class="fonte-nota">BAASS pede arquivos da FAB e registros médicos</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[6]</span><span class="fonte-titulo">diariodopara.com.br — Diário do Pará</span><div class="fonte-url">https://diariodopara.com.br/cotidiano/americanos-vieram-ao-para-investigar-ovnis-em-2009-documentos-secretos-revelam-missao/</div><div class="fonte-nota">514 vítimas, 10 mortes, 54 queimados, 14 comas</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[7]</span><span class="fonte-titulo">diariodopara.com.br — Diário do Pará</span><div class="fonte-url">https://diariodopara.com.br/cotidiano/americanos-vieram-ao-para-investigar-ovnis-em-2009-documentos-secretos-revelam-missao/</div><div class="fonte-nota">Caso de 1º/11/1977, 19h, objeto luminoso e semicírculo vermelho</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[8]</span><span class="fonte-titulo">uaptrail.com — UAP Trail</span><div class="fonte-url">https://uaptrail.com/case/operacao-prato-1977/</div><div class="fonte-nota">DOW-UAP-D172, 538 páginas, 179 ocorrências</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[9]</span><span class="fonte-titulo">bbc.com/portuguese/brasil-40784488 — BBC News Brasil</span><div class="fonte-url">https://www.bbc.com/portuguese/brasil-40784488</div><div class="fonte-nota">Perspectiva de agência de inteligência estrangeira</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[10]</span><span class="fonte-numero">[10]</span><span class="fonte-titulo">pt.wikipedia.org — “Operação Prato”</span><div class="fonte-url">https://pt.wikipedia.org/wiki/Operação_Prato</div><div class="fonte-nota">Arquivo Nacional guarda registros, assunto deixado de lado</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[11]</span><span class="fonte-titulo">ufo.com.br — Revista UFO</span><div class="fonte-url">https://ufo.com.br/novas-informacoes-sobre-a-operacao-prato/</div><div class="fonte-nota">CENDOC envia documentos ao Arquivo Nacional, 23/04/2009</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[12]</span><span class="fonte-titulo">querepublicaeessa.an.gov.br — Arquivo Nacional</span><div class="fonte-url">https://querepublicaeessa.an.gov.br/index.php/que-republica-e-essa/assuntos/temas/302-os-ovnis-no-arquivo-nacional</div><div class="fonte-nota">GSI libera documentos do SNI em 2009</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[13]</span><span class="fonte-titulo">bbc.com/portuguese/brasil-40784488 — BBC News Brasil</span><div class="fonte-url">https://www.bbc.com/portuguese/brasil-40784488</div><div class="fonte-nota">12 mil acessos em 30 dias, 753 relatórios, 6 sobre Operação Prato</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[14]</span><span class="fonte-numero">[14]</span><span class="fonte-titulo">uaptrail.com — UAP Trail</span><div class="fonte-url">https://uaptrail.com/case/operacao-prato-1977/</div><div class="fonte-nota">Edison Boaventura Júnior, presidente do GUG, "ponta do iceberg"</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[15]</span><span class="fonte-titulo">querepublicaeessa.an.gov.br — Arquivo Nacional</span><div class="fonte-url">https://querepublicaeessa.an.gov.br/images/Ovni/BR_DFANBSB_ARX_0_0_0184_d0001de0001.pdf</div><div class="fonte-nota">Arquivos GSI/SNI não estão no SIAN</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[16]</span><span class="fonte-titulo">pt.wikipedia.org — “Operação Prato”</span><div class="fonte-url">https://pt.wikipedia.org/wiki/Operação_Prato</div><div class="fonte-nota">Documentos sobre Colares ainda não vistos pelo público</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[17]</span><span class="fonte-titulo">uaptrail.com — UAP Trail</span><div class="fonte-url">https://uaptrail.com/case/operacao-prato-1977/</div><div class="fonte-nota">Podcast Arquivos do Céu, Globoplay, 2024, dirigido por Eliane Scardovelli</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[18]</span><span class="fonte-titulo">bbc.com/portuguese/brasil-40784488 — BBC News Brasil</span><div class="fonte-url">https://www.bbc.com/portuguese/brasil-40784488</div><div class="fonte-nota">Interesse por Colares não morreu</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[19]</span><span class="fonte-titulo">pt.wikipedia.org — “Operação Prato”</span><div class="fonte-url">https://pt.wikipedia.org/wiki/Operação_Prato</div><div class="fonte-nota">Resta o arquivo, o depoimento, a memória, a pergunta</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[20]</span><span class="fonte-numero">[20]</span><span class="fonte-titulo">ufo.com.br — Revista UFO</span><div class="fonte-url">https://ufo.com.br/a-operacao-prato-foi-mesmo-encerrada/</div><div class="fonte-nota">Certeza de que algo aconteceu e não foi esquecido</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[21]</span><span class="fonte-titulo">uaptrail.com — UAP Trail</span><div class="fonte-url">https://uaptrail.com/case/operacao-prato-1977/</div><div class="fonte-nota">Luz sobre o rio Guajará nunca identificada</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[22]</span><span class="fonte-numero">[22]</span><span class="fonte-titulo">bbc.com/portuguese/brasil-40784488 — BBC News Brasil</span><div class="fonte-url">https://www.bbc.com/portuguese/brasil-40784488</div><div class="fonte-nota">Arquivos incompletos, histórias contadas à beira do rio</div></div>
+                <div class="fonte-item"><span class="fonte-numero">[23]</span><span class="fonte-titulo">pt.wikipedia.org — “Operação Prato”</span><div class="fonte-url">https://pt.wikipedia.org/wiki/Operação_Prato</div><div class="fonte-nota">Operação Prato continua viva como convite à curiosidade</div></div>
+              </div>
+            </details>
+
+            <details class="bloco-denso">
+              <summary>Anexos de Multimídia</summary>
+              <div>
+                <div class="secao-subtitulo-2">Imagens</div>
+                <div class="anexo-item"><span class="anexo-numero">1.</span><span class="anexo-descricao">Relatório DOW-UAP-D172, BAASS/DIA, 2009</span><div class="anexo-fonte">UAP Trail</div></div>
+                <div class="anexo-item"><span class="anexo-numero">2.</span><span class="anexo-descricao">Cartaz do podcast Arquivos do Céu, Globoplay, 2024</span><div class="anexo-fonte">Globoplay/UAP Trail</div></div>
+                <div class="anexo-item"><span class="anexo-numero">3.</span><span class="anexo-descricao">Documentos do SNI liberados pelo GSI, 2009</span><div class="anexo-fonte">Arquivo Nacional/GSI</div></div>
+                <div class="anexo-item"><span class="anexo-numero">4.</span><span class="anexo-descricao">Fotografias de objetos luminosos sobre Colares, 1977</span><div class="anexo-fonte">Arquivo Nacional/FAB</div></div>
+                <div class="anexo-item"><span class="anexo-numero">5.</span><span class="anexo-descricao">Revista UFO, edições 54 e 55, 1997</span><div class="anexo-fonte">Revista UFO</div></div>
+                <div class="secao-subtitulo-2">Documentos Oficiais</div>
+                <div class="anexo-item"><span class="anexo-numero">1.</span><span class="anexo-descricao">Relatório DOW-UAP-D172, BAASS/DIA, julho de 2009, sobre 179 ocorrências em Colares</span><div class="anexo-fonte">DIA/BAASS</div></div>
+                <div class="anexo-item"><span class="anexo-numero">2.</span><span class="anexo-numero">[2]</span><span class="anexo-descricao">CENDOC — envio de documentos ao Arquivo Nacional em 23/04/2009</span><div class="anexo-fonte">CENDOC/Arquivo Nacional</div></div>
+                <div class="anexo-item"><span class="anexo-numero">3.</span><span class="anexo-descricao">Documentos do SNI liberados pelo GSI em 2009 sobre a Operação Prato</span><div class="anexo-fonte">Arquivo Nacional/GSI</div></div>
+                <div class="anexo-item"><span class="anexo-numero">4.</span><span class="anexo-descricao">Ofício I (ARX 197), enviado pelo 1º COMAR</span><div class="anexo-fonte">Arquivo Nacional ARX 184</div></div>
+              </div>
+            </details>
+
+          </div>
+
+          <!-- Navegação entre capítulos -->
+          <nav class="nav-capitulos">
+            <a href="capitulo-7-operacao-prato.html" class="nav-anterior">← Capítulo 7</a>
+          </nav>
+
+          <!-- Botão Voltar -->
+          <button class="btn-voltar" id="btnVoltar" onclick="window.location.href='../index.html';" aria-label="Voltar ao início">← Voltar ao início</button>
+
+          <script>
+            /* Botão de esconder/mostrar sidebar inteira */
+            const btn = document.getElementById('btnToggleSidebar');
+            const shell = document.querySelector('.site-shell');
+            btn.addEventListener('click', () => {
+              shell.classList.toggle('sidebar-hidden');
+              if (shell.classList.contains('sidebar-hidden')) {
+                btn.textContent = '≡';
+                btn.setAttribute('aria-label', 'Mostrar barra lateral');
+              } else {
+                btn.textContent = '☰';
+                btn.setAttribute('aria-label', 'Esconder barra lateral');
+              }
+            });
+
+            /* Animação cascata das abas de categoria */
+            const titulos = document.querySelectorAll('.categoria-titulo');
+            titulos.forEach((titulo) => {
+              const lista = titulo.nextElementSibling;
+              if (!lista || !lista.classList.contains('lista-topicos')) return;
+              if (titulo.id === 'serie-operacao-prato') return;
+              const itens = Array.from(lista.querySelectorAll('li'));
+
+              function abrir() {
+                lista.style.display = 'block';
+                lista.style.visibility = 'visible';
+                void lista.offsetHeight;
+                itens.forEach((li, i) => {
+                  li.style.animation = 'none';
+                  li.offsetHeight;
+                  li.style.animation = `slideFadeIn 0.3s ease forwards`;
+                  li.style.animationDelay = `${i * 70}ms`;
+                });
+                titulo.setAttribute('aria-expanded', 'true');
+              }
+
+              function fechar() {
+                const ultimo = itens.length - 1;
+                itens.forEach((li, i) => {
+                  li.style.animation = 'none';
+                  li.offsetHeight;
+                  li.style.animation = `slideFadeOut 0.2s ease forwards`;
+                  li.style.animationDelay = `${i * 60}ms`;
+                });
+                setTimeout(() => {
+                  lista.style.display = 'none';
+                  lista.style.visibility = 'hidden';
+                  itens.forEach(li => { li.style.animation = 'none'; });
+                }, ultimo * 60 + 250);
+                titulo.setAttribute('aria-expanded', 'false');
+              }
+
+              titulo.addEventListener('click', () => {
+                const aberto = lista.style.display === 'block';
+                if (aberto) { fechar(); } else { abrir(); }
+              });
+
+              titulo.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  titulo.click();
+                }
+              });
+            });
+
+            /* Animação cascata da série Operação Prato */
+            const serieBtn = document.getElementById('serie-operacao-prato');
+            const serieLista = document.getElementById('capitulos-operacao-prato');
+            if (serieBtn && serieLista) {
+              const serieItens = Array.from(serieLista.querySelectorAll('li'));
+
+              function abrirSerie() {
+                serieLista.style.display = 'block';
+                serieLista.style.visibility = 'visible';
+                void serieLista.offsetHeight;
+                serieItens.forEach((li, i) => {
+                  li.style.animation = 'none';
+                  li.offsetHeight;
+                  li.style.animation = 'slideFadeIn 0.3s ease forwards';
+                  li.style.animationDelay = `${i * 60}ms`;
+                });
+                serieBtn.setAttribute('aria-expanded', 'true');
+              }
+
+              function fecharSerie() {
+                const ultimo = serieItens.length - 1;
+                serieItens.forEach((li, i) => {
+                  li.style.animation = 'none';
+                  li.offsetHeight;
+                  li.style.animation = 'slideFadeOut 0.2s ease forwards';
+                  li.style.animationDelay = `${i * 50}ms`;
+                });
+                setTimeout(() => {
+                  serieLista.style.display = 'none';
+                  serieLista.style.visibility = 'hidden';
+                  serieItens.forEach(li => { li.style.animation = 'none'; });
+                }, ultimo * 50 + 200);
+                serieBtn.setAttribute('aria-expanded', 'false');
+              }
+
+              serieBtn.addEventListener('click', () => {
+                const aberto = serieLista.style.display === 'block';
+                if (aberto) { fecharSerie(); } else { abrirSerie(); }
+              });
+
+              serieBtn.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  serieBtn.click();
+                }
+              });
+            }
+
+            /* Botão Voltar */
+            const btnVoltar = document.getElementById('btnVoltar');
+            if (btnVoltar) {
+              btnVoltar.addEventListener('click', () => {
+                window.location.href = '../index.html';
+              });
+            }
+          </script>
+        </article>
+      </main>
+
+    </div>
+  </body>
+</html>
