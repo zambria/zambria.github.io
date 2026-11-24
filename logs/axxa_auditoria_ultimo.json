@@ -1,15 +1,20 @@
 {
   "data": "2026-11-23T16:15:00-03:00",
-  "escaneados": 18,
-  "capitulos": 17,
-  "sinais_ficcao_pronta": 38,
-  "erros": 18,
-  "avisos": 17,
+  "escaneados": 62,
+  "capitulos": 61,
+  "sinais_ficcao_pronta": 56,
+  "erros": 63,
+  "avisos": 61,
   "detalhes_erros": [
     [
       "index.html",
       "script aninhado",
       "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "index.html",
+      "link quebrado",
+      "1 link(s) para arquivo inexistente: ['posts/a-voz-no-poco-de-ventilacao.html']"
     ],
     [
       "capitulo-1-arqueologia-o-geoglifo-que-nao-estava-no-mapa.html",
@@ -22,12 +27,27 @@
       "<script> aninhado dentro de outro <script>"
     ],
     [
+      "capitulo-1-conspiracaoes-a-ultima-leitura-da-estacao-de-numeros.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
       "capitulo-1-continentes-perdidos.html",
       "script aninhado",
       "<script> aninhado dentro de outro <script>"
     ],
     [
       "capitulo-1-contos-de-terror.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-1-criptozoologia-o-animal-de-carajas.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-1-fenomenos-naturais-a-chuva-que-traya-ossos.html",
       "script aninhado",
       "<script> aninhado dentro de outro <script>"
     ],
@@ -52,12 +72,82 @@
       "<script> aninhado dentro de outro <script>"
     ],
     [
+      "capitulo-10-contos-de-terror-o-deposito-de-achados-e-perdidos.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-10-fenomenos-naturais-o-tremor-da-estacao-santa-helena.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-11-contos-de-terror-o-faroleiro-da-nevoa.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-11-fenomenos-naturais-o-zumbido-de-pedra-branca.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-12-contos-de-terror-o-guardiao-do-silencio.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-13-contos-de-terror-o-laudo-da-sala-fria.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-14-contos-de-terror-o-livro-de-ponto-de-fordlandia.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-15-contos-de-terror-o-recebedor-de-cartas-nao-enderecadas.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-16-contos-de-terror-o-ultimo-sermao-da-igreja-submersa.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-17-contos-de-terror-o-ultimo-telegrafo-da-estacao-monte-santo.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
       "capitulo-2-arqueologia-a-camada-abaixo-do-ocre.html",
       "script aninhado",
       "<script> aninhado dentro de outro <script>"
     ],
     [
+      "capitulo-2-conspiracaoes-o-arquivista-do-segundo-andar.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
       "capitulo-2-continentes-perdidos.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-2-contos-de-terror-a-boca-da-mina.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-2-criptozoologia-o-minhocao-de-barro-preto.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-2-fenomenos-naturais-a-nuvem-que-nao-passava.html",
       "script aninhado",
       "<script> aninhado dentro de outro <script>"
     ],
@@ -72,7 +162,37 @@
       "<script> aninhado dentro de outro <script>"
     ],
     [
+      "capitulo-2-sobrenatural-o-revisor-de-negativos.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-2-ufos-a-sexta-exposicao.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-3-arqueologia-a-figura-que-nao-estava-na-rocha.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
       "capitulo-3-continentes-perdidos.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-3-contos-de-terror-a-decima-setima-campainha.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-3-criptozoologia-o-que-respira-no-lodo.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-3-fenomenos-naturais-as-luzes-de-antes-do-tremor.html",
       "script aninhado",
       "<script> aninhado dentro de outro <script>"
     ],
@@ -87,12 +207,117 @@
       "<script> aninhado dentro de outro <script>"
     ],
     [
+      "capitulo-3-ufos-o-alvo-sem-plano-de-voo.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-4-arqueologia-a-pintura-que-esperava-no-escuro.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-4-contos-de-terror-a-dolina-invertida.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-4-criptozoologia-o-que-restou-abaixo-da-agua.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-4-fenomenos-naturais-as-luzes-do-brejo.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
       "capitulo-4-operacao-prato.html",
       "script aninhado",
       "<script> aninhado dentro de outro <script>"
     ],
     [
+      "capitulo-4-ufos-o-controle-que-respondeu-de-volta.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-5-arqueologia-a-segunda-escrita-do-inga.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-5-contos-de-terror-a-ultima-ronda-da-torre-de-vigia.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-5-fenomenos-naturais-o-estampido-sem-fonte.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
       "capitulo-5-operacao-prato.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-5-ufos-o-eco-secundario.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-6-arqueologia-o-que-esta-abaixo-das-conchas.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-6-contos-de-terror-buraco-do-inferno.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-6-fenomenos-naturais-o-fogo-do-catatumbo.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-6-ufos-o-escrevente-de-colares.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-7-contos-de-terror-o-andar-que-nao-esta-na-planta.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-7-fenomenos-naturais-o-gemido-das-pedras-de-espinhaco.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-7-ufos-o-operador-da-hora-vazia.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-8-contos-de-terror-o-bilhete-da-plataforma-3.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-8-fenomenos-naturais-o-hum-de-cana-brava.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-9-contos-de-terror-o-canto-da-areia-nao-tem-volta.html",
+      "script aninhado",
+      "<script> aninhado dentro de outro <script>"
+    ],
+    [
+      "capitulo-9-fenomenos-naturais-o-sopro-abaixo-de-20-hertz.html",
       "script aninhado",
       "<script> aninhado dentro de outro <script>"
     ]
@@ -109,12 +334,27 @@
       "btn-voltar sem onclick direto no HTML"
     ],
     [
+      "capitulo-1-conspiracaoes-a-ultima-leitura-da-estacao-de-numeros.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
       "capitulo-1-continentes-perdidos.html",
       "btn-voltar onclick",
       "btn-voltar sem onclick direto no HTML"
     ],
     [
       "capitulo-1-contos-de-terror.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-1-criptozoologia-o-animal-de-carajas.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-1-fenomenos-naturais-a-chuva-que-traya-ossos.html",
       "btn-voltar onclick",
       "btn-voltar sem onclick direto no HTML"
     ],
@@ -139,12 +379,82 @@
       "btn-voltar sem onclick direto no HTML"
     ],
     [
+      "capitulo-10-contos-de-terror-o-deposito-de-achados-e-perdidos.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-10-fenomenos-naturais-o-tremor-da-estacao-santa-helena.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-11-contos-de-terror-o-faroleiro-da-nevoa.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-11-fenomenos-naturais-o-zumbido-de-pedra-branca.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-12-contos-de-terror-o-guardiao-do-silencio.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-13-contos-de-terror-o-laudo-da-sala-fria.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-14-contos-de-terror-o-livro-de-ponto-de-fordlandia.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-15-contos-de-terror-o-recebedor-de-cartas-nao-enderecadas.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-16-contos-de-terror-o-ultimo-sermao-da-igreja-submersa.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-17-contos-de-terror-o-ultimo-telegrafo-da-estacao-monte-santo.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
       "capitulo-2-arqueologia-a-camada-abaixo-do-ocre.html",
       "btn-voltar onclick",
       "btn-voltar sem onclick direto no HTML"
     ],
     [
+      "capitulo-2-conspiracaoes-o-arquivista-do-segundo-andar.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
       "capitulo-2-continentes-perdidos.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-2-contos-de-terror-a-boca-da-mina.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-2-criptozoologia-o-minhocao-de-barro-preto.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-2-fenomenos-naturais-a-nuvem-que-nao-passava.html",
       "btn-voltar onclick",
       "btn-voltar sem onclick direto no HTML"
     ],
@@ -159,7 +469,37 @@
       "btn-voltar sem onclick direto no HTML"
     ],
     [
+      "capitulo-2-sobrenatural-o-revisor-de-negativos.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-2-ufos-a-sexta-exposicao.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-3-arqueologia-a-figura-que-nao-estava-na-rocha.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
       "capitulo-3-continentes-perdidos.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-3-contos-de-terror-a-decima-setima-campainha.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-3-criptozoologia-o-que-respira-no-lodo.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-3-fenomenos-naturais-as-luzes-de-antes-do-tremor.html",
       "btn-voltar onclick",
       "btn-voltar sem onclick direto no HTML"
     ],
@@ -174,12 +514,117 @@
       "btn-voltar sem onclick direto no HTML"
     ],
     [
+      "capitulo-3-ufos-o-alvo-sem-plano-de-voo.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-4-arqueologia-a-pintura-que-esperava-no-escuro.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-4-contos-de-terror-a-dolina-invertida.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-4-criptozoologia-o-que-restou-abaixo-da-agua.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-4-fenomenos-naturais-as-luzes-do-brejo.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
       "capitulo-4-operacao-prato.html",
       "btn-voltar onclick",
       "btn-voltar sem onclick direto no HTML"
     ],
     [
+      "capitulo-4-ufos-o-controle-que-respondeu-de-volta.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-5-arqueologia-a-segunda-escrita-do-inga.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-5-contos-de-terror-a-ultima-ronda-da-torre-de-vigia.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-5-fenomenos-naturais-o-estampido-sem-fonte.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
       "capitulo-5-operacao-prato.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-5-ufos-o-eco-secundario.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-6-arqueologia-o-que-esta-abaixo-das-conchas.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-6-contos-de-terror-buraco-do-inferno.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-6-fenomenos-naturais-o-fogo-do-catatumbo.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-6-ufos-o-escrevente-de-colares.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-7-contos-de-terror-o-andar-que-nao-esta-na-planta.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-7-fenomenos-naturais-o-gemido-das-pedras-de-espinhaco.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-7-ufos-o-operador-da-hora-vazia.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-8-contos-de-terror-o-bilhete-da-plataforma-3.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-8-fenomenos-naturais-o-hum-de-cana-brava.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-9-contos-de-terror-o-canto-da-areia-nao-tem-volta.html",
+      "btn-voltar onclick",
+      "btn-voltar sem onclick direto no HTML"
+    ],
+    [
+      "capitulo-9-fenomenos-naturais-o-sopro-abaixo-de-20-hertz.html",
       "btn-voltar onclick",
       "btn-voltar sem onclick direto no HTML"
     ]
