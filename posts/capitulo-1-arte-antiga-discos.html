@@ -7,9 +7,9 @@
   <link rel="stylesheet" href="../style.css">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937131805632227" crossorigin="anonymous"></script>
   <script>
-/* Animação cascata da série arte-antiga */
-const serieBtn = document.getElementById('serie-arte-antiga');
-const serieLista = document.getElementById('capitulos-arte-antiga');
+/* Animação cascata da série arte-antiga-e-ovnis */
+const serieBtn = document.getElementById('serie-arte-antiga-e-ovnis');
+const serieLista = document.getElementById('capitulos-arte-antiga-e-ovnis');
 if (serieBtn && serieLista) {
   const serieItens = Array.from(serieLista.querySelectorAll('li'));
 
@@ -340,7 +340,7 @@ if (serieBtn && serieLista) {
     titulos.forEach((titulo) => {
       const lista = titulo.nextElementSibling;
       if (!lista || !lista.classList.contains('lista-topicos')) return;
-      if (titulo.id === 'serie-operacao-prato' || titulo.id === 'serie-sete-alem' || titulo.id === 'serie-continentes-perdidos' || titulo.id === 'serie-arte-antiga' || titulo.id === 'serie-arqueologia' || titulo.id === 'serie-sobrenatural' || titulo.id === 'serie-contos-de-terror') return;
+      if (titulo.id === 'serie-operacao-prato' || titulo.id === 'serie-sete-alem' || titulo.id === 'serie-continentes-perdidos' || titulo.id === 'serie-arte-antiga-e-ovnis' || titulo.id === 'serie-arqueologia' || titulo.id === 'serie-sobrenatural' || titulo.id === 'serie-contos-de-terror') return;
       const itens = Array.from(lista.querySelectorAll('li'));
 
       function abrir() {

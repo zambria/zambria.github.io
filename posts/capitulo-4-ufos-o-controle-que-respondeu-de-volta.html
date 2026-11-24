@@ -7,9 +7,9 @@
   <link rel="stylesheet" href="../style.css">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4937131805632227" crossorigin="anonymous"></script>
   <script>
-/* Animação cascata da série ufos */
-const serieBtn = document.getElementById('serie-ufos');
-const serieLista = document.getElementById('capitulos-ufos');
+/* Animação cascata da série ufos-e-aliens */
+const serieBtn = document.getElementById('serie-ufos-e-aliens');
+const serieLista = document.getElementById('capitulos-ufos-e-aliens');
 if (serieBtn && serieLista) {
   const serieItens = Array.from(serieLista.querySelectorAll('li'));
 
@@ -257,7 +257,7 @@ if (serieBtn && serieLista) {
       titulos.forEach((titulo) => {
         const lista = titulo.nextElementSibling;
         if (!lista || !lista.classList.contains('lista-topicos')) return;
-        if (titulo.id === 'serie-ufos') return;
+        if (titulo.id === 'serie-ufos-e-aliens') return;
         const itens = Array.from(lista.querySelectorAll('li'));
         function abrir() {
           lista.style.display = 'block';
