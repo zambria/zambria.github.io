@@ -62,6 +62,68 @@
           </li>
         </ul>
       </div>
+      <!-- Categoria: Arqueologia -->
+      <div class="categoria-grupo">
+        <div class="categoria-titulo" id="categoria-arqueologia" role="button" tabindex="0" aria-expanded="false">Arqueologia</div>
+        <ul class="lista-topicos" id="lista-arqueologia" style="display: none;">
+          <li>
+            <div class="categoria-titulo nivel-2" id="serie-arqueologia" role="button" tabindex="0" aria-expanded="false">Série Arqueologia</div>
+            <ul class="lista-topicos nivel-2" id="capitulos-arqueologia" style="display: none;">
+              <li><a href="capitulo-1-a-estrutura-abaixo-do-roncador.html">Capítulo 1 — A Estrutura Abaixo do Roncador</a></li>
+              <li><a href="capitulo-2-as-pinturas-da-gruta-do-abismo.html">Capítulo 2 — As Pinturas da Gruta do Abismo</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- Categoria: Sobrenatural -->
+      <div class="categoria-grupo">
+        <div class="categoria-titulo" id="categoria-sobrenatural" role="button" tabindex="0" aria-expanded="false">Sobrenatural</div>
+        <ul class="lista-topicos" id="lista-sobrenatural" style="display: none;">
+          <li>
+            <div class="categoria-titulo nivel-2" id="serie-sobrenatural" role="button" tabindex="0" aria-expanded="false">Série Sobrenatural</div>
+            <ul class="lista-topicos nivel-2" id="capitulos-sobrenatural" style="display: none;">
+              <li><a href="capitulo-1-metaracanga.html">Capítulo 1 — Metaracanga</a></li>
+              <li><a href="capitulo-2-o-plantao-do-faroleiro.html">Capítulo 2 — O Plantão do Faroleiro</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- Categoria: Fenomenos Naturais -->
+      <div class="categoria-grupo">
+        <div class="categoria-titulo" id="categoria-fenomenos-naturais" role="button" tabindex="0" aria-expanded="false">Fenomenos Naturais</div>
+        <ul class="lista-topicos" id="lista-fenomenos-naturais" style="display: none;">
+          <li>
+            <div class="categoria-titulo nivel-2" id="serie-fenomenos-naturais" role="button" tabindex="0" aria-expanded="false">Série Fenomenos Naturais</div>
+            <ul class="lista-topicos nivel-2" id="capitulos-fenomenos-naturais" style="display: none;">
+              <li><a href="capitulo-1-o-eco-que-volta-do-fundo.html">Capítulo 1 — O Eco Que Volta do Fundo</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- Categoria: UFOS -->
+      <div class="categoria-grupo">
+        <div class="categoria-titulo" id="categoria-ufos" role="button" tabindex="0" aria-expanded="false">UFOS</div>
+        <ul class="lista-topicos" id="lista-ufos" style="display: none;">
+          <li>
+            <div class="categoria-titulo nivel-2" id="serie-ufos" role="button" tabindex="0" aria-expanded="false">Série UFOS</div>
+            <ul class="lista-topicos nivel-2" id="capitulos-ufos" style="display: none;">
+              <li><a href="capitulo-1-o-eco-sem-origem.html">Capítulo 1 — O Eco Sem Origem</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- Categoria: Criptozoologia -->
+      <div class="categoria-grupo">
+        <div class="categoria-titulo" id="categoria-criptozoologia" role="button" tabindex="0" aria-expanded="false">Criptozoologia</div>
+        <ul class="lista-topicos" id="lista-criptozoologia" style="display: none;">
+          <li>
+            <div class="categoria-titulo nivel-2" id="serie-criptozoologia" role="button" tabindex="0" aria-expanded="false">Série Criptozoologia</div>
+            <ul class="lista-topicos nivel-2" id="capitulos-criptozoologia" style="display: none;">
+              <li><a href="capitulo-1-o-espelho-do-mato.html">Capítulo 1 — O Espelho do Mato</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </aside>
 
     <!-- Conteúdo principal -->
@@ -232,6 +294,245 @@
       if (e.key === 'Enter' || e.key === ' ') {
         e.preventDefault();
         serieBtnContinentesPerdidos.click();
+      }
+    });
+
+  /* Animação cascata da série Arqueologia */
+  const serieBtnArqueologia = document.getElementById('serie-arqueologia');
+  const serieListaArqueologia = document.getElementById('capitulos-arqueologia');
+  if (serieBtnArqueologia && serieListaArqueologia) {
+    const serieItensArqueologia = Array.from(serieListaArqueologia.querySelectorAll('li'));
+
+    function abrirSerieArqueologia() {
+      serieListaArqueologia.style.display = 'block';
+      serieListaArqueologia.style.visibility = 'visible';
+      void serieListaArqueologia.offsetHeight;
+      serieItensArqueologia.forEach((li, idx) => {
+        li.style.animation = 'none';
+        li.offsetHeight;
+        li.style.animation = 'slideFadeIn 0.3s ease forwards';
+        li.style.animationDelay = `${idx * 60}ms`;
+      });
+      serieBtnArqueologia.setAttribute('aria-expanded', 'true');
+    }
+
+    function fecharSerieArqueologia() {
+      const ultimo = serieItensArqueologia.length - 1;
+      serieItensArqueologia.forEach((li, idx) => {
+        li.style.animation = 'none';
+        li.offsetHeight;
+        li.style.animation = 'slideFadeOut 0.2s ease forwards';
+        li.style.animationDelay = `${idx * 50}ms`;
+      });
+      setTimeout(() => {
+        serieListaArqueologia.style.display = 'none';
+        serieListaArqueologia.style.visibility = 'hidden';
+        serieItensArqueologia.forEach(li => { li.style.animation = 'none'; });
+      }, ultimo * 50 + 200);
+      serieBtnArqueologia.setAttribute('aria-expanded', 'false');
+    }
+
+    serieBtnArqueologia.addEventListener('click', () => {
+      const aberto = serieListaArqueologia.style.display === 'block';
+      if (aberto) { fecharSerieArqueologia(); } else { abrirSerieArqueologia(); }
+    });
+
+    serieBtnArqueologia.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        serieBtnArqueologia.click();
+      }
+    });
+  };
+
+  /* Animação cascata da série Sobrenatural */
+  const serieBtnSobrenatural = document.getElementById('serie-sobrenatural');
+  const serieListaSobrenatural = document.getElementById('capitulos-sobrenatural');
+  if (serieBtnSobrenatural && serieListaSobrenatural) {
+    const serieItensSobrenatural = Array.from(serieListaSobrenatural.querySelectorAll('li'));
+
+    function abrirSerieSobrenatural() {
+      serieListaSobrenatural.style.display = 'block';
+      serieListaSobrenatural.style.visibility = 'visible';
+      void serieListaSobrenatural.offsetHeight;
+      serieItensSobrenatural.forEach((li, idx) => {
+        li.style.animation = 'none';
+        li.offsetHeight;
+        li.style.animation = 'slideFadeIn 0.3s ease forwards';
+        li.style.animationDelay = `${idx * 60}ms`;
+      });
+      serieBtnSobrenatural.setAttribute('aria-expanded', 'true');
+    }
+
+    function fecharSerieSobrenatural() {
+      const ultimo = serieItensSobrenatural.length - 1;
+      serieItensSobrenatural.forEach((li, idx) => {
+        li.style.animation = 'none';
+        li.offsetHeight;
+        li.style.animation = 'slideFadeOut 0.2s ease forwards';
+        li.style.animationDelay = `${idx * 50}ms`;
+      });
+      setTimeout(() => {
+        serieListaSobrenatural.style.display = 'none';
+        serieListaSobrenatural.style.visibility = 'hidden';
+        serieItensSobrenatural.forEach(li => { li.style.animation = 'none'; });
+      }, ultimo * 50 + 200);
+      serieBtnSobrenatural.setAttribute('aria-expanded', 'false');
+    }
+
+    serieBtnSobrenatural.addEventListener('click', () => {
+      const aberto = serieListaSobrenatural.style.display === 'block';
+      if (aberto) { fecharSerieSobrenatural(); } else { abrirSerieSobrenatural(); }
+    });
+
+    serieBtnSobrenatural.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        serieBtnSobrenatural.click();
+      }
+    });
+  };
+
+  /* Animação cascata da série Fenomenos Naturais */
+  const serieBtnFenomenosNaturais = document.getElementById('serie-fenomenos-naturais');
+  const serieListaFenomenosNaturais = document.getElementById('capitulos-fenomenos-naturais');
+  if (serieBtnFenomenosNaturais && serieListaFenomenosNaturais) {
+    const serieItensFenomenosNaturais = Array.from(serieListaFenomenosNaturais.querySelectorAll('li'));
+
+    function abrirSerieFenomenosNaturais() {
+      serieListaFenomenosNaturais.style.display = 'block';
+      serieListaFenomenosNaturais.style.visibility = 'visible';
+      void serieListaFenomenosNaturais.offsetHeight;
+      serieItensFenomenosNaturais.forEach((li, idx) => {
+        li.style.animation = 'none';
+        li.offsetHeight;
+        li.style.animation = 'slideFadeIn 0.3s ease forwards';
+        li.style.animationDelay = `${idx * 60}ms`;
+      });
+      serieBtnFenomenosNaturais.setAttribute('aria-expanded', 'true');
+    }
+
+    function fecharSerieFenomenosNaturais() {
+      const ultimo = serieItensFenomenosNaturais.length - 1;
+      serieItensFenomenosNaturais.forEach((li, idx) => {
+        li.style.animation = 'none';
+        li.offsetHeight;
+        li.style.animation = 'slideFadeOut 0.2s ease forwards';
+        li.style.animationDelay = `${idx * 50}ms`;
+      });
+      setTimeout(() => {
+        serieListaFenomenosNaturais.style.display = 'none';
+        serieListaFenomenosNaturais.style.visibility = 'hidden';
+        serieItensFenomenosNaturais.forEach(li => { li.style.animation = 'none'; });
+      }, ultimo * 50 + 200);
+      serieBtnFenomenosNaturais.setAttribute('aria-expanded', 'false');
+    }
+
+    serieBtnFenomenosNaturais.addEventListener('click', () => {
+      const aberto = serieListaFenomenosNaturais.style.display === 'block';
+      if (aberto) { fecharSerieFenomenosNaturais(); } else { abrirSerieFenomenosNaturais(); }
+    });
+
+    serieBtnFenomenosNaturais.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        serieBtnFenomenosNaturais.click();
+      }
+    });
+  };
+
+  /* Animação cascata da série UFOS */
+  const serieBtnUfos = document.getElementById('serie-ufos');
+  const serieListaUfos = document.getElementById('capitulos-ufos');
+  if (serieBtnUfos && serieListaUfos) {
+    const serieItensUfos = Array.from(serieListaUfos.querySelectorAll('li'));
+
+    function abrirSerieUfos() {
+      serieListaUfos.style.display = 'block';
+      serieListaUfos.style.visibility = 'visible';
+      void serieListaUfos.offsetHeight;
+      serieItensUfos.forEach((li, idx) => {
+        li.style.animation = 'none';
+        li.offsetHeight;
+        li.style.animation = 'slideFadeIn 0.3s ease forwards';
+        li.style.animationDelay = `${idx * 60}ms`;
+      });
+      serieBtnUfos.setAttribute('aria-expanded', 'true');
+    }
+
+    function fecharSerieUfos() {
+      const ultimo = serieItensUfos.length - 1;
+      serieItensUfos.forEach((li, idx) => {
+        li.style.animation = 'none';
+        li.offsetHeight;
+        li.style.animation = 'slideFadeOut 0.2s ease forwards';
+        li.style.animationDelay = `${idx * 50}ms`;
+      });
+      setTimeout(() => {
+        serieListaUfos.style.display = 'none';
+        serieListaUfos.style.visibility = 'hidden';
+        serieItensUfos.forEach(li => { li.style.animation = 'none'; });
+      }, ultimo * 50 + 200);
+      serieBtnUfos.setAttribute('aria-expanded', 'false');
+    }
+
+    serieBtnUfos.addEventListener('click', () => {
+      const aberto = serieListaUfos.style.display === 'block';
+      if (aberto) { fecharSerieUfos(); } else { abrirSerieUfos(); }
+    });
+
+    serieBtnUfos.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        serieBtnUfos.click();
+      }
+    });
+  };
+
+  /* Animação cascata da série Criptozoologia */
+  const serieBtnCriptozoologia = document.getElementById('serie-criptozoologia');
+  const serieListaCriptozoologia = document.getElementById('capitulos-criptozoologia');
+  if (serieBtnCriptozoologia && serieListaCriptozoologia) {
+    const serieItensCriptozoologia = Array.from(serieListaCriptozoologia.querySelectorAll('li'));
+
+    function abrirSerieCriptozoologia() {
+      serieListaCriptozoologia.style.display = 'block';
+      serieListaCriptozoologia.style.visibility = 'visible';
+      void serieListaCriptozoologia.offsetHeight;
+      serieItensCriptozoologia.forEach((li, idx) => {
+        li.style.animation = 'none';
+        li.offsetHeight;
+        li.style.animation = 'slideFadeIn 0.3s ease forwards';
+        li.style.animationDelay = `${idx * 60}ms`;
+      });
+      serieBtnCriptozoologia.setAttribute('aria-expanded', 'true');
+    }
+
+    function fecharSerieCriptozoologia() {
+      const ultimo = serieItensCriptozoologia.length - 1;
+      serieItensCriptozoologia.forEach((li, idx) => {
+        li.style.animation = 'none';
+        li.offsetHeight;
+        li.style.animation = 'slideFadeOut 0.2s ease forwards';
+        li.style.animationDelay = `${idx * 50}ms`;
+      });
+      setTimeout(() => {
+        serieListaCriptozoologia.style.display = 'none';
+        serieListaCriptozoologia.style.visibility = 'hidden';
+        serieItensCriptozoologia.forEach(li => { li.style.animation = 'none'; });
+      }, ultimo * 50 + 200);
+      serieBtnCriptozoologia.setAttribute('aria-expanded', 'false');
+    }
+
+    serieBtnCriptozoologia.addEventListener('click', () => {
+      const aberto = serieListaCriptozoologia.style.display === 'block';
+      if (aberto) { fecharSerieCriptozoologia(); } else { abrirSerieCriptozoologia(); }
+    });
+
+    serieBtnCriptozoologia.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        serieBtnCriptozoologia.click();
       }
     });
   };
