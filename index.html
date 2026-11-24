@@ -69,8 +69,8 @@
           <li>
             <div class="categoria-titulo nivel-2" id="serie-arqueologia" role="button" tabindex="0" aria-expanded="false">Série Arqueologia</div>
             <ul class="lista-topicos nivel-2" id="capitulos-arqueologia" style="display: none;">
-              <li><a href="capitulo-1-a-estrutura-abaixo-do-roncador.html">Capítulo 1 — A Estrutura Abaixo do Roncador</a></li>
-              <li><a href="capitulo-2-as-pinturas-da-gruta-do-abismo.html">Capítulo 2 — As Pinturas da Gruta do Abismo</a></li>
+              <li><a href="posts/capitulo-1-a-estrutura-abaixo-do-roncador.html">Capítulo 1 — A Estrutura Abaixo do Roncador</a></li>
+              <li><a href="posts/capitulo-2-as-pinturas-da-gruta-do-abismo.html">Capítulo 2 — As Pinturas da Gruta do Abismo</a></li>
             </ul>
           </li>
         </ul>
@@ -82,8 +82,8 @@
           <li>
             <div class="categoria-titulo nivel-2" id="serie-sobrenatural" role="button" tabindex="0" aria-expanded="false">Série Sobrenatural</div>
             <ul class="lista-topicos nivel-2" id="capitulos-sobrenatural" style="display: none;">
-              <li><a href="capitulo-1-metaracanga.html">Capítulo 1 — Metaracanga</a></li>
-              <li><a href="capitulo-2-o-plantao-do-faroleiro.html">Capítulo 2 — O Plantão do Faroleiro</a></li>
+              <li><a href="posts/capitulo-1-metaracanga.html">Capítulo 1 — Metaracanga</a></li>
+              <li><a href="posts/capitulo-2-o-plantao-do-faroleiro.html">Capítulo 2 — O Plantão do Faroleiro</a></li>
             </ul>
           </li>
         </ul>
@@ -95,7 +95,7 @@
           <li>
             <div class="categoria-titulo nivel-2" id="serie-fenomenos-naturais" role="button" tabindex="0" aria-expanded="false">Série Fenomenos Naturais</div>
             <ul class="lista-topicos nivel-2" id="capitulos-fenomenos-naturais" style="display: none;">
-              <li><a href="capitulo-1-o-eco-que-volta-do-fundo.html">Capítulo 1 — O Eco Que Volta do Fundo</a></li>
+              <li><a href="posts/capitulo-1-o-eco-que-volta-do-fundo.html">Capítulo 1 — O Eco Que Volta do Fundo</a></li>
             </ul>
           </li>
         </ul>
@@ -107,7 +107,7 @@
           <li>
             <div class="categoria-titulo nivel-2" id="serie-ufos" role="button" tabindex="0" aria-expanded="false">Série UFOS</div>
             <ul class="lista-topicos nivel-2" id="capitulos-ufos" style="display: none;">
-              <li><a href="capitulo-1-o-eco-sem-origem.html">Capítulo 1 — O Eco Sem Origem</a></li>
+              <li><a href="posts/capitulo-1-o-eco-sem-origem.html">Capítulo 1 — O Eco Sem Origem</a></li>
             </ul>
           </li>
         </ul>
@@ -119,7 +119,7 @@
           <li>
             <div class="categoria-titulo nivel-2" id="serie-criptozoologia" role="button" tabindex="0" aria-expanded="false">Série Criptozoologia</div>
             <ul class="lista-topicos nivel-2" id="capitulos-criptozoologia" style="display: none;">
-              <li><a href="capitulo-1-o-espelho-do-mato.html">Capítulo 1 — O Espelho do Mato</a></li>
+              <li><a href="posts/capitulo-1-o-espelho-do-mato.html">Capítulo 1 — O Espelho do Mato</a></li>
             </ul>
           </li>
         </ul>
@@ -291,13 +291,14 @@
     });
 
     serieBtnContinentesPerdidos.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        serieBtnContinentesPerdidos.click();
-      }
-    });
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            serieBtnContinentesPerdidos.click();
+          }
+        });
+      };
 
-  /* Animação cascata da série Arqueologia */
+      /* Animação cascata da série Arqueologia */
   const serieBtnArqueologia = document.getElementById('serie-arqueologia');
   const serieListaArqueologia = document.getElementById('capitulos-arqueologia');
   if (serieBtnArqueologia && serieListaArqueologia) {
@@ -536,6 +537,6 @@
       }
     });
   };
-</script>
+    </script>
 </body>
 </html>
