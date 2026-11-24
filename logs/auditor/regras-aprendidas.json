@@ -1,6 +1,6 @@
 {
-  "gerado_em": "2026-11-23T22:00:00-03:00",
-  "ciclo": 3,
+  "gerado_em": "2026-11-23T23:00:00-03:00",
+  "ciclo": 4,
   "regras": [
     {
       "regra": "Sempre excluir do loop genérico .categoria-titulo os ids das divs de série (nivel-2) de cada categoria",
@@ -61,14 +61,21 @@
       "paginas_afetadas": "index.html",
       "correcao_aplicada": "href posts/o-corrida-da-madrugada.html -> posts/a-corrida-da-madrugada.html; re-auditoria de 72 arquivos: 0 KEB pendentes",
       "status": "aplicado"
+    },
+    {
+      "regra": "Tag <script async src='...adsbygoogle...'> deve ser fechada imediatamente com </script>; nunca deixar o bloco JS da pagina dentro do elemento do AdSense",
+      "padrao": "<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?...\" crossorigin=\"anonymous\"></script> seguido de <script> ... </script> proprio para o JS da pagina",
+      "paginas_afetadas": "index.html + 47 posts/capitulo-*.html que tinham a tag AdSense aberta",
+      "correcao_aplicada": "tag AdSense fechada na mesma linha e bloco JS envolto em <script>...</script> proprio; listeners de clique da sidebar e animacao cascata das series restaurados em todos os 72 arquivos",
+      "status": "aplicado"
     }
   ],
   "keb_status": {
     "KEB_01_ids_duplicados": "nenhum duplicado em nenhum arquivo",
-    "KEB_02_script_aninhado": "nenhum",
-    "KEB_03_prefixo_posts_duplicado": "nenhum",
-    "KEB_04_botao_voltar": "presente em 17/17 capitulos",
-    "KEB_05_sidebar_contraida": "17/17 arquivos ok",
+    "KEB_02_script_aninhado": "CORRIGIDO neste ciclo: index.html + 47 posts tinham <script async src='...adsbygoogle...'> sem </script>, engolfando o JS da animacao da serie (listeners da sidebar pararam de funcionar); tag fechada corretamente em todos os 72 arquivos",
+    "KEB_03_prefixo_posts_duplicado": "nenhum em nenhum arquivo",
+    "KEB_04_botao_voltar": "presente em 71/71 capitulos (onclick + listener JS de backup)",
+    "KEB_05_sidebar_contraida": "72/72 arquivos ok (index.html + 71 posts)",
     "KEB_06_categorias_sidebar": "abaixo do cabecalho ZAMBRIA, todas contraídas por default",
     "KEB_07_exclusao_serie_loop": "corrigido em index.html + todos os posts com divs de serie (exclusao categoria-XXX trocada por serie-XXX)",
     "KEB_08_background_image": "bg-zambria.jpg presente no style.css",
