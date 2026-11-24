@@ -112,6 +112,13 @@
       "paginas_afetadas": "index.html + posts/capitulo-1-operacao-prato.html ... posts/capitulo-3-continentes-perdidos.html (12 arquivos)",
       "correcao_aplicada": "removido ponto-e-virgula: style=\"display: none\" em 22 ocorrencias (12 arquivos)",
       "status": "aplicado"
+    },
+    {
+      "regra": "Cada capitulo deve carregar bg-zambria.jpg de forma autonoma (auditoria flagou 11 posts sem referencia direta ao fundo)",
+      "padrao": "regra body com background url('../bg-zambria.jpg') !important dentro do <style> local de cada posts/capitulo-*.html",
+      "paginas_afetadas": "todos os 11 posts/capitulo-*.html",
+      "correcao_aplicada": "inserida regra body no <style> local de todos os 11 capitulos; verificado bg-zambria.jpg em 12/12 arquivos HTML",
+      "status": "aplicado"
     }
   ],
   "keb_status": {
@@ -127,6 +134,7 @@
     "KEB_08_background_image": "bg-zambria.jpg presente no style.css",
     "KEB_10_z_index_toggle": "z-index: 9999 no style.css",
     "ciclo_12": "limpa — sem regressoes de erros KEB anteriores (animationDelay com crase, IDs ASCII, anexo-numero no cap-3-continentes, sidebar contraida em todos os arquivos)",
-    "ciclo_13": "Ciclo AXXA cron (06:30 -03): 12 arquivos do site KEB OK; varredura_erros.json 114 itens = falsos positivos (scripts balanceados, links validos); raiz limpa (sinais/ e CRIADOR DE HISTORIAS removidas, varredura_erros.json movido para logs/auditor/); agencia/ e review/ mantidas (workspace do parceiro); ficcao 'A Ultima Valeta' avaliada e nao publicada (~12K < 20K min; janela 3h abre 17:15 -03)"
+    "ciclo_13": "Ciclo AXXA cron (06:30 -03): 12 arquivos do site KEB OK; varredura_erros.json 114 itens = falsos positivos (scripts balanceados, links validos); raiz limpa (sinais/ e CRIADOR DE HISTORIAS removidas, varredura_erros.json movido para logs/auditor/); agencia/ e review/ mantidas (workspace do parceiro); ficcao 'A Ultima Valeta' avaliada e nao publicada (~12K < 20K min; janela 3h abre 17:15 -03)",
+    "ciclo_20": "AXXA cron (10:30 -03): auditoria completa de 12 arquivos (index.html + 11 posts/capitulo-*.html); regressao KEB-08 detectada (bg-zambria.jpg ausente em 11 capitulos segundo auditoria_integridade_latest.json); corrigido com regra body autonoma em todos os 11 capitulos; node --check OK 12/12; 0 anomalias KEB; SOLICITACOES, caixa-de-mensagens/entrada e logs/caixa-erros/entrada vazias; commit + push origin main executados"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "ciclo": "AXXA Web Sovereign cron run",
+  "data": "2026-11-24T10:30:00-03:00",
+  "arquivos_auditados": 12,
+  "problemas": 0,
+  "detalhes": [],
+  "status": "CONFORME",
+  "correcoes_aplicadas": [
+    "KEB-08: fundo bg-zambria.jpg restaurado de forma autonoma em todos os 11 posts/capitulo-*.html (regra body com url('../bg-zambria.jpg') no <style> local de cada capitulo)"
+  ],
+  "validacao": {
+    "node_check": "OK 12/12 blocos JS",
+    "bg_zambria_referencia": "12/12 arquivos HTML",
+    "caixas_entrada": "SOLICITACOES, caixa-de-mensagens/entrada, logs/caixa-erros/entrada vazias"
+  }
+}
