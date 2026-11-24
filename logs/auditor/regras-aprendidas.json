@@ -105,6 +105,13 @@
       "correcao_aplicada": "Ficcao avaliada: tom sombrio e fontes citadas OK; abaixo do minimo de caracteres e fora da janela de publicacao — nao publicada neste ciclo; status atualizado para avaliado_axxa",
       "data": "2026-11-24T06:30-03:00",
       "status": "aplicado"
+    },
+    {
+      "regra": "lista-topicos usa style='display: none' sem ponto-e-virgula (normalizacao de conformidade)",
+      "padrao": "style=\"display: none;\" em <ul class=\"lista-topicos\"> de index.html e todos os posts/capitulo-*.html",
+      "paginas_afetadas": "index.html + posts/capitulo-1-operacao-prato.html ... posts/capitulo-3-continentes-perdidos.html (12 arquivos)",
+      "correcao_aplicada": "removido ponto-e-virgula: style=\"display: none\" em 22 ocorrencias (12 arquivos)",
+      "status": "aplicado"
     }
   ],
   "keb_status": {
