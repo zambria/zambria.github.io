@@ -162,47 +162,73 @@
       "data": "2026-11-24 01:45"
     },
     {
-      "erro": "varredura-integridade-ciclo-1-limpa",
-      "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade.",
-      "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada: abas contraídas, links corretos, btn-voltar presente, nav-capitulos completo, animationDelay com crase, IDs ASCII, sem posts-lista, sem scripts aninhados, background-image preservado.",
-      "arquivos": [
-        "index.html",
-        "posts/capitulo-1-operacao-prato.html",
-        "posts/capitulo-2-operacao-prato.html",
-        "posts/capitulo-3-operacao-prato.html",
-        "posts/capitulo-4-operacao-prato.html",
-        "posts/capitulo-5-operacao-prato.html",
-        "posts/capitulo-6-operacao-prato.html",
-        "posts/capitulo-7-operacao-prato.html",
-        "posts/capitulo-8-operacao-prato.html",
-        "posts/capitulo-1-continentes-perdidos.html",
-        "posts/capitulo-2-continentes-perdidos.html",
-        "posts/capitulo-3-continentes-perdidos.html",
-        "style.css"
-      ],
-      "regra_prevencao": "Manter varreduras intermitentes a cada ciclo do cron. Verificar pastas WEB INTEL SECURITY, logs/caixa-erros/entrada/, SOLICITAÇÕES/ a cada execução.",
-      "resolvido_por": "INTEL-WEB-SECURITY",
-      "data": "2026-11-24 02:15"
-    },
-    {
-      "erro": "capitulo-3-continentes-perdidos estrutura divergente do padrão",
-      "sintoma": "Arquivo tinha: (1) div com markdown '# ' renderizando como texto literal no título, (2) seções Referências e Anexos usando h2/h3 em vez de details.bloco-denso colapsíveis, (3) citações inline [Fonte X] sem wrapper <span class=\"cite\">",
-      "solucao": "Removido markdown '# ' do título; substituídas seções Referências e Anexos por estrutura details.bloco-denso com summary e div (padrão dos outros 10 posts); adicionado <span class=\"cite\"> nas 3 citações da Conclusão; demais citações no conteúdo mantidas como estavam (questão de estilo, não quebra funcionalidade)",
-      "arquivos": [
-        "posts/capitulo-3-continentes-perdidos.html"
-      ],
-      "regra_prevencao": "Todos os posts devem seguir o padrão estabelecido: título em h1/h2, seções colapsíveis com details.bloco-denso, citações inline com <span class=\"cite\">. Verificar conformidade ao criar novos capítulos.",
-      "resolvido_por": "INTEL-WEB-SECURITY",
-      "data": "2026-11-24 02:45"
-    },
-    {
-      "erro": "Classe fonte-numero em item de anexo (capitulo-3-continentes-perdidos)",
-      "sintoma": "Item 10 de Documentos Oficiais dentro de anexo-item usava <span class=\\\"fonte-numero\\\">10.</span> em vez de <span class=\\\"anexo-numero\\\">10.</span>, deixando inconsistencia semantica na secao Anexos de Multimidia",
-      "solucao": "Substituido fonte-numero por anexo-numero no item 10 de Documentos Oficiais de posts/capitulo-3-continentes-perdidos.html",
-      "arquivos": ["posts/capitulo-3-continentes-perdidos.html"],
-      "regra_prevencao": "Ao editar secoes colapsiveis de Referencias/Anexos, validar que fonte-item usa fonte-numero e anexo-item usa anexo-numero; nunca misturar as classes",
-      "resolvido_por": "AXXA Web Sovereign",
-      "data": "2026-11-24 02:15"
+          "erro": "varredura-integridade-ciclo-1-limpa",
+          "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade.",
+          "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada: abas contraídas, links corretos, btn-voltar presente, nav-capitulos completo, animationDelay com crase, IDs ASCII, sem posts-lista, sem scripts aninhados, background-image preservado.",
+          "arquivos": [
+            "index.html",
+            "posts/capitulo-1-operacao-prato.html",
+            "posts/capitulo-2-operacao-prato.html",
+            "posts/capitulo-3-operacao-prato.html",
+            "posts/capitulo-4-operacao-prato.html",
+            "posts/capitulo-5-operacao-prato.html",
+            "posts/capitulo-6-operacao-prato.html",
+            "posts/capitulo-7-operacao-prato.html",
+            "posts/capitulo-8-operacao-prato.html",
+            "posts/capitulo-1-continentes-perdidos.html",
+            "posts/capitulo-2-continentes-perdidos.html",
+            "posts/capitulo-3-continentes-perdidos.html",
+            "style.css"
+          ],
+          "regra_prevencao": "Manter varreduras intermitentes a cada ciclo do cron. Verificar pastas WEB INTEL SECURITY, logs/caixa-erros/entrada/, SOLICITAÇÕES/ a cada execução.",
+          "resolvido_por": "INTEL-WEB-SECURITY",
+          "data": "2026-11-24 02:15"
+        },
+        {
+          "erro": "varredura-integridade-ciclo-2-limpa",
+          "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade. JS syntax OK em 12 blocos de script (node --check). Caixas de entrada vazias. Raiz organizada.",
+          "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada: abas contraídas, links corretos, btn-voltar presente em 11/11, nav-capitulos completo em 11/11, handlers de série dedicados, animationDelay com crase, IDs ASCII únicos por arquivo, sem posts-lista, sem scripts aninhados, background-image preservado.",
+          "arquivos": [
+            "index.html",
+            "posts/capitulo-1-operacao-prato.html",
+            "posts/capitulo-2-operacao-prato.html",
+            "posts/capitulo-3-operacao-prato.html",
+            "posts/capitulo-4-operacao-prato.html",
+            "posts/capitulo-5-operacao-prato.html",
+            "posts/capitulo-6-operacao-prato.html",
+            "posts/capitulo-7-operacao-prato.html",
+            "posts/capitulo-8-operacao-prato.html",
+            "posts/capitulo-1-continentes-perdidos.html",
+            "posts/capitulo-2-continentes-perdidos.html",
+            "posts/capitulo-3-continentes-perdidos.html",
+            "style.css"
+          ],
+          "regra_prevencao": "Manter varreduras intermitentes a cada ciclo do cron. Verificar pastas logs/caixa-erros/entrada/, SOLICITAÇÕES/ a cada execução. Validar JS syntax com node --check em todos os blocos script.",
+          "resolvido_por": "INTEL-WEB-SECURITY",
+          "data": "2026-11-24 04:15"
+        },
+        {
+          "erro": "varredura-integridade-ciclo-7-limpa",
+          "sintoma": "Nenhuma anomalia detectada na varredura completa de 12 arquivos (index.html + 11 posts). Todas as 15 Regras de Ouro em conformidade. JS syntax OK em 12 blocos de script (node --check). Caixas de entrada vazias: SOLICITAÇÕES, caixa-de-mensagens/entrada e logs/caixa-erros/entrada. Sem regressão de erros KEB anteriores (animationDelay com crase, IDs ASCII, anexo-numero em cap-3-continentes, sidebar contraída em todos os arquivos).",
+          "solucao": "Nenhuma correção necessária. Estrutura íntegra confirmada: abas contraídas (aria-expanded=false + style=display:none), links relativos sem prefixo posts/ nos capítulos, btn-voltar com onclick direto + listener JS em 11/11 capítulos, nav-capitulos completo (capítulo final apenas link anterior), handlers de série dedicados excluídos do loop genérico via if (titulo.id === 'serie-XXX') return; / startsWith('serie-'), animationDelay sempre com template literal (crase) `${i * N}ms`, IDs únicos e ASCII puro por arquivo, sem seção posts-lista, sem scripts aninhados, background-image preservado (bg-zambria.jpg) em style.css e index.html.",
+          "arquivos": [
+            "index.html",
+            "style.css",
+            "posts/capitulo-1-operacao-prato.html",
+            "posts/capitulo-2-operacao-prato.html",
+            "posts/capitulo-3-operacao-prato.html",
+            "posts/capitulo-4-operacao-prato.html",
+            "posts/capitulo-5-operacao-prato.html",
+            "posts/capitulo-6-operacao-prato.html",
+            "posts/capitulo-7-operacao-prato.html",
+            "posts/capitulo-8-operacao-prato.html",
+            "posts/capitulo-1-continentes-perdidos.html",
+            "posts/capitulo-2-continentes-perdidos.html",
+            "posts/capitulo-3-continentes-perdidos.html"
+          ],
+          "regra_prevencao": "Executar varredura de integridade a cada ciclo do cron; verificar logs/caixa-erros/entrada/, SOLICITAÇÕES/ e caixa-de-mensagens/entrada/ a cada execução. Auditar sempre index.html + todos os posts/capitulo-*.html — cada capítulo é autônomo, corrigir um não corrige os outros.",
+          "resolvido_por": "AXXA Web Sovereign",
+          "data": "2026-11-24 03:30"
+        }
+      ]
     }
-  ]
-}
