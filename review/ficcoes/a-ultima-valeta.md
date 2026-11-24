@@ -6,7 +6,8 @@ data: "2026-11-24"
 slug: "a-ultima-valeta"
 tipo: "ficcao"
 fonte_pesquisa: "Revista Amazonia; BBC News Brasil"
-status: "pendente de curadoria"
+status: "avaliado_axxa"
+avaliacao_axxa: "Tom sombrio confirmado e fontes citadas (Revista Amazonia, BBC News Brasil); abaixo do minimo de 20.000 caracteres (~12K); fora da janela de publicacao de 3h (proxima 17:15 -03); categoria 'arqueologia' ainda inexistente no index.html - decisao de publicacao/cabeca de serie pendente"
 ---
 
 # A Ultima Valeta

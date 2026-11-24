@@ -89,6 +89,22 @@
       "paginas_afetadas": "todo o site (12 arquivos)",
       "correcao_aplicada": "verificado: abas contraidas (aria-expanded=false + style='display: none;'), links relativos sem prefixo posts/ nos capitulos, btn-voltar com onclick + listener JS de backup em 11/11, nav-capitulos completo em 11/11, animationDelay com template literal (crase) em todos os posts, IDs unicos em ASCII puro, sem scripts aninhados, sem links posts/posts/, tag AdSense fechada corretamente em 12/12, node --check OK em 12/12 blocos JS, caixas de entrada vazias (SOLICITACOES, caixa-de-mensagens/entrada, logs/caixa-erros/entrada)",
       "status": "mantido"
+    },
+    {
+      "regra": "Validar relatorios de varredura externa antes de agir; scripts e links reportados como quebrados podem ser falsos positivos",
+      "padrao": "varredura_erros.json (06:17) reportou 114 itens: script desbalanceado em 11 posts e 100+ links quebrados; verificacao direta mostrou 1 par de tags script por arquivo e todos os alvos de href existentes",
+      "paginas_afetadas": "posts/capitulo-1-operacao-prato.html ate capitulo-8-operacao-prato.html e capitulo-1 a 3-continentes-perdidos.html",
+      "correcao_aplicada": "Nenhuma correcao de codigo necessaria; varredura_erros.json movido da raiz para logs/auditor/varredura_erros-20261124T0617.json; sinal ficcao-pronta-a-ultima-valeta movido para logs/auditor/; pastas CRIADOR DE HISTORIAS e sinais removidas da raiz (estavam vazias)",
+      "data": "2026-11-24T06:30-03:00",
+      "status": "aplicado"
+    },
+    {
+      "regra": "Ficcao sinalizada so e publicada se atingir minimo de 20.000 caracteres e respetar janela de 3 horas entre posts",
+      "padrao": "review/ficcoes/a-ultima-valeta.md sinalizada ficcao-pronta (06:15) mas com ~12K caracteres, abaixo do minimo; ultima_publicacao 14:15, proxima janela 17:15 (-03)",
+      "paginas_afetadas": "review/ficcoes/a-ultima-valeta.md; futuro posts/capitulo-XX-arqueologia.html",
+      "correcao_aplicada": "Ficcao avaliada: tom sombrio e fontes citadas OK; abaixo do minimo de caracteres e fora da janela de publicacao — nao publicada neste ciclo; status atualizado para avaliado_axxa",
+      "data": "2026-11-24T06:30-03:00",
+      "status": "aplicado"
     }
   ],
   "keb_status": {
@@ -103,6 +119,7 @@
     "KEB_07_exclusao_serie_loop": "corrigido em index.html + todos os posts com divs de serie (exclusao categoria-XXX trocada por serie-XXX)",
     "KEB_08_background_image": "bg-zambria.jpg presente no style.css",
     "KEB_10_z_index_toggle": "z-index: 9999 no style.css",
-    "ciclo_12": "limpa — sem regressoes de erros KEB anteriores (animationDelay com crase, IDs ASCII, anexo-numero no cap-3-continentes, sidebar contraida em todos os arquivos)"
+    "ciclo_12": "limpa — sem regressoes de erros KEB anteriores (animationDelay com crase, IDs ASCII, anexo-numero no cap-3-continentes, sidebar contraida em todos os arquivos)",
+    "ciclo_13": "Ciclo AXXA cron (06:30 -03): 12 arquivos do site KEB OK; varredura_erros.json 114 itens = falsos positivos (scripts balanceados, links validos); raiz limpa (sinais/ e CRIADOR DE HISTORIAS removidas, varredura_erros.json movido para logs/auditor/); agencia/ e review/ mantidas (workspace do parceiro); ficcao 'A Ultima Valeta' avaliada e nao publicada (~12K < 20K min; janela 3h abre 17:15 -03)"
   }
 }
