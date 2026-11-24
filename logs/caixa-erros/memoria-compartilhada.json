@@ -80,6 +80,15 @@
       "regra_prevencao": "IDs HTML e nomes de variáveis JS devem usar sempre ASCII puro, sem acentos, cedilha, til ou caracteres especiais",
       "resolvido_por": "INTEL-WEB-SECURITY",
       "data": "2026-11-23 23:45"
+    },
+    {
+      "erro": "site-reconstruido-apos-limpeza-total",
+      "sintoma": "Site tinha 11 categorias, 71 posts, abas não abriam, cache do navegador mostrava versão antiga",
+      "solucao": "Limpeza total: removidos 63 posts inúteis, mantidos apenas Operação Prato (5 caps) e Continentes Perdidos (3 caps). index.html reescrito com 2 categorias apenas. Prompts AXXA/INTEL/ESCRITOR atualizados para reconstrução.",
+      "arquivos": ["index.html", "caixa-de-mensagens/prompts/prompt-axxa.md", "caixa-de-mensagens/prompts/prompt-intel-web-security.md", "caixa-de-mensagens/prompts/prompt-escritor.md"],
+      "regra_prevencao": "Site reconstruído com 2 categorias apenas. Qualquer nova categoria deve passar pelo AXXA antes de ser adicionada ao index.html. Abas sempre começam contraídas (aria-expanded=false + style=display:none). Handlers de série dedicados obrigatórios. Loop genérico exclui series-*. Variáveis JS em ASCII puro. animationDelay com template literal (crase).",
+      "resolvido_por": "HERMES (reconstrução inicial)",
+      "data": "2026-11-24 10:00"
     }
   ]
 }
