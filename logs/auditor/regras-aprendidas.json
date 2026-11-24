@@ -119,6 +119,14 @@
       "paginas_afetadas": "todos os 11 posts/capitulo-*.html",
       "correcao_aplicada": "inserida regra body no <style> local de todos os 11 capitulos; verificado bg-zambria.jpg em 12/12 arquivos HTML",
       "status": "aplicado"
+    },
+    {
+      "regra": "index.html: JS quebrado por chaves extras apos bloco Criptozoologia e if da serie Continentes Perdidos sem fechamento; links de 5 categorias sem prefixo posts/ causando 404 na raiz",
+      "padrao": "rodar node --check no bloco <script> do index.html antes de publicar; verificar que todo href de index.html usa posts/capitulo-X.html; verificar que todo bloco if (...) { esta fechado com };",
+      "paginas_afetadas": "index.html",
+      "correcao_aplicada": "removido '      }' e '    };' extras apos bloco Criptozoologia; adicionado '  };' fechando o if(serieBtnContinentesPerdidos); corrigido 7 href de 'capitulo-X.html' para 'posts/capitulo-X.html' (Arqueologia cap1-2, Sobrenatural cap1-2, Fenomenos Naturais cap1, UFOS cap1, Criptozoologia cap1); node --check OK; commit 6aea4b4 + push + force rebuild 8bc7995",
+      "data": "2026-11-24T13:30-03:00",
+      "status": "aplicado"
     }
   ],
   "keb_status": {
