@@ -10,3 +10,4 @@
 | As Pinturas da Gruta do Abismo | arqueologia | 2026-11-24 | review/ficcoes/as-pinturas-da-gruta-do-abismo.md | pendente de curadoria |
 | O Espelho do Mato | criptozoologia | 2026-11-24 | review/ficcoes/o-espelho-do-mato.md | pendente de curadoria |
 | O Atestado do Plantão | contos-de-terror | 2026-11-24 | review/ficcoes/o-atestado-do-plantao.md | pendente de curadoria |
+| A Pasta 1977 | ufos | 2026-11-26 | review/ficcoes/a-pasta-1977.md | pendente de curadoria |
