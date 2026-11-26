@@ -127,6 +127,15 @@
       "correcao_aplicada": "removido '      }' e '    };' extras apos bloco Criptozoologia; adicionado '  };' fechando o if(serieBtnContinentesPerdidos); corrigido 7 href de 'capitulo-X.html' para 'posts/capitulo-X.html' (Arqueologia cap1-2, Sobrenatural cap1-2, Fenomenos Naturais cap1, UFOS cap1, Criptozoologia cap1); node --check OK; commit 6aea4b4 + push + force rebuild 8bc7995",
       "data": "2026-11-24T13:30-03:00",
       "status": "aplicado"
+    },
+    {
+      "regra": "Nav-capitulos de capítulo final de série não deve apontar para capítulo inexistente; após redução de capítulos, revalidar targets de todos os nav-capitulos da série",
+      "padrao": "todos os href de nav-anterior/nav-proximo devem corresponder a arquivos existentes em posts/; capítulo final da série tem apenas nav-anterior",
+      "paginas_afetadas": "posts/capitulo-5-operacao-prato.html (capítulo final da Operação Prato, série agora com 5 capítulos)",
+      "correcao_aplicada": "removido <a href='capitulo-6-operacao-prato.html' class='nav-proximo'>Capítulo 6 →</a> do nav-capitulos; arquivo-alvo não existe no site",
+      "status": "aplicado",
+      "detectado_em": "2026-11-26T20:15-03",
+      "corrigido_em": "2026-11-26T20:15-03"
     }
   ],
   "keb_status": {
