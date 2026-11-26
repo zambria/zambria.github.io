@@ -1,0 +1,326 @@
+{
+  "temas_potenciais": [
+    {
+      "slug": "varginha-1996",
+      "titulo": "Incidente de Varginha 1996",
+      "categoria": "Ufologia Brasileira",
+      "prioridade": "ALTA",
+      "fontes_conhecidas": [
+        "Relatorio militar brasileiro (desclassificado)",
+        "Testemunhos das tres jovens (Liliane, Valquiria, Katia)",
+        "Documentos CIA/FBI sobre o caso",
+        "Investigacao de Ubirajara Franco Rodrigues",
+        "Depoimentos de bombeiros e militares",
+        "Livro Varginha: O Caso Que Abalou o Mundo"
+      ],
+      "capitulos_estimados": 6,
+      "status": "pendente",
+      "adicionado_em": "2026-11-24",
+      "observacao": "Caso mais famoso do Brasil. Criatura capturada, militares envolvidos, acobertamento. Material vasto para serie longa."
+    },
+    {
+      "slug": "geoglifos-amazonia",
+      "titulo": "Geoglifos da Amazonia",
+      "categoria": "Arqueologia Proibida",
+      "prioridade": "ALTA",
+      "fontes_conhecidas": [
+        "Papers na Nature, Science, PNAS (2010-2024)",
+        "Dados LiDAR (INPE, universidades)",
+        "Entrevistas com arqueologos (Alceu Ranzi, Denise Schaan, Jennifer Watling)",
+        "Imagens de satelite (Google Earth, Sentinel)",
+        "Relatorios IPHAN/FUNAI"
+      ],
+      "capitulos_estimados": 5,
+      "status": "pendente",
+      "adicionado_em": "2026-11-24",
+      "observacao": "Evidencia definitiva de civilizacoes complexas pre-colombianas na Amazonia. 450+ geoglifos mapeados. Muda a historia oficial."
+    },
+    {
+      "slug": "mapinguari",
+      "titulo": "Mapinguari - A Besta da Amazonia",
+      "categoria": "Criptozoologia",
+      "prioridade": "ALTA",
+      "fontes_conhecidas": [
+        "Relatos indigenas (Kayapo, Yanomami, Ashaninka)",
+        "Testemunhos de seringueiros e mateiros (seculos XX-XXI)",
+        "Pegadas e amostras de pelo analisadas (inconclusivas)",
+        "Conexao com preguica-gigante (Megatherium) extinta",
+        "Papers de David Oren (ornitologo/Goeldi)"
+      ],
+      "capitulos_estimados": 4,
+      "status": "pendente",
+      "adicionado_em": "2026-11-24",
+      "observacao": "Criatura mais temida da floresta. Descricao: um olho, boca no ventre, pelo grosso, imune a balas. Paralelo com megafauna extinta."
+    },
+    {
+      "slug": "hum-taos",
+      "titulo": "O Hum de Taos e Zumbidos Globais",
+      "categoria": "Fenomenos Inexplicaveis",
+      "prioridade": "MEDIA",
+      "fontes_conhecidas": [
+        "Estudos acusticos (Universidade de New Mexico, 1993-2020)",
+        "Relatorios governamentais (EUA, UK, Nova Zelandia)",
+        "Casos: Taos (EUA), Bristol (UK), Auckland (NZ), Kokomo (EUA), Largs (Escocia)",
+        "Teorias: micro-sismos, atividade industrial, eletrossensibilidade, fenomeno geofisico"
+      ],
+      "capitulos_estimados": 4,
+      "status": "pendente",
+      "adicionado_em": "2026-11-24",
+      "observacao": "Zumbido de baixa frequencia ouvido por 2-4% da populacao. Causa desconhecida. Conecta multiplos paises."
+    },
+    {
+      "slug": "arquivo-inga",
+      "titulo": "A Pedra do Inga e a Escrita Desconhecida",
+      "categoria": "Arqueologia Proibida",
+      "prioridade": "ALTA",
+      "fontes_conhecidas": [
+        "Estudos de Gabriele Baraldi (linguista)",
+        "Comparacao com escritas: fenicia, cretense, rongorongo, proto-tupi",
+        "Datacao: ~6000 anos (controversa)",
+        "IPHAN - sitio arqueologico protegido",
+        "Teorias: contato transatlantico pre-colombiano"
+      ],
+      "capitulos_estimados": 4,
+      "status": "pendente",
+      "adicionado_em": "2026-11-24",
+      "observacao": "Maior painel de petroglios do Brasil. 450+ simbolos. Escrita nao decifrada. Possivel evidencia de contato transoceanico antigo."
+    },
+    {
+      "slug": "operacao-prato-documentos-fab",
+      "titulo": "Operacao Prato - Documentos FAB Desclassificados (Pos-1977)",
+      "categoria": "Ufologia Militar Brasileira",
+      "prioridade": "ALTA",
+      "fontes_conhecidas": [
+        "Arquivo Nacional BR (ARX.0.0.184) - 2000+ paginas",
+        "Entrevista Capitao Uyrange Hollanda (Revista UFO 1997)",
+        "Relatorio Medico-Psiquiatrico Missao (26-27/10/1977)",
+        "Fotos REG 075/076 (Fazenda Jeju, 16/12/1977)",
+        "Documento DOW-UAP-D172 (DIA/EUA 2009, 538 paginas)",
+        "Oficios SNI, CENDOC, Casa Civil, Min. Defesa"
+      ],
+      "capitulos_estimados": 8,
+      "status": "em_andamento",
+      "adicionado_em": "2026-11-24",
+      "observacao": "CONTINUACAO DIRETA da serie Operacao Prato (caps 6-13). Material oficial vasto. Prioridade maxima."
+    },
+    {
+      "slug": "continentes-perdidos-evidencias",
+      "titulo": "Continentes Perdidos - Evidencias Geologicas e Mitologicas",
+      "categoria": "Arqueologia Proibida",
+      "prioridade": "MEDIA",
+      "fontes_conhecidas": [
+        "Platao (Timeu e Critias) - fonte primaria Atlantis",
+        "Geologia: plataforma continental, eventos de agua derretida (Meltwater Pulses)",
+        "Lemuria: Philip Sclater (1864), Tamil Sangam literature",
+        "Mu: James Churchward (1926), tablillas Naacal (controversas)",
+        "Evidencias submarinas: Bimini Road, Yonaguni, Cuba (2001)"
+      ],
+      "capitulos_estimados": 5,
+      "status": "em_andamento",
+      "adicionado_em": "2026-11-24",
+      "observacao": "CONTINUACAO da serie Continentes Perdidos (caps 4-8). Foco em evidencias fisicas vs mitologia."
+    },
+    {
+      "slug": "chupa-chupa-colares",
+      "titulo": "O Fenomeno Chupa-Chupa - Ataques em Colares 1977",
+      "categoria": "Ufologia Brasileira",
+      "prioridade": "ALTA",
+      "fontes_conhecidas": [
+        "Relatorios medicos (Dra. Wellaide Cecim, 500+ vitimas)",
+        "Testemunhos: queimaduras, desmaios, anemia, 10 mortes",
+        "Fotos militares (REG 075, 076, 077+)",
+        "Operacao Prato - documentos ja listados",
+        "Entrevistas Linha Direta (2005) com vitimas"
+      ],
+      "capitulos_estimados": 4,
+      "status": "pendente",
+      "adicionado_em": "2026-11-24",
+      "observacao": "Subtema da Operacao Prato. Foco nas vitimas, efeitos biologicos, padrao dos ataques. Pode ser serie paralela ou capitulos da principal."
+    },
+    {
+      "slug": "ferramentas-impossiveis-ooparts",
+      "titulo": "OOPArts - Ferramentas Impossiveis em Rochas Antigas",
+      "categoria": "Arqueologia Proibida",
+      "prioridade": "MEDIA",
+      "fontes_conhecidas": [
+        "Martelo de Londres (Texas, 1934) - rocha Cretacea (100 Mi anos)",
+        "Parafuso de Moscovo (Russia, 1990s) - rocha 300 Mi anos",
+        "Esfera de Klerksdorp (Africa do Sul) - 2.8 Bi anos, fabricada",
+        "Bateria de Bagdad (Iraque, ~250 a.C.) - eletroquimica antiga",
+        "Mecanismo de Antikythera (Grecia, ~100 a.C.) - computador analogico"
+      ],
+      "capitulos_estimados": 5,
+      "status": "pendente",
+      "adicionado_em": "2026-11-24",
+      "observacao": "Objetos fora do tempo. Evidencia de tecnologia perdida ou datacao errada? Serie forte para arqueologia proibida."
+    },
+    {
+      "slug": "projeto-montauk",
+      "titulo": "Projeto Montauk - Controle Mental e Viagem no Tempo",
+      "categoria": "Conspiracoes Historicas",
+      "prioridade": "MEDIA",
+      "fontes_conhecidas": [
+        "Livros de Preston Nichols e Peter Moon (1992-2000)",
+        "Testemunho de Al Bielek (Edward Cameron)",
+        "Base de Camp Hero, Montauk, NY (oficialmente fechada 1981)",
+        "Conexao com Experimento Philadelphia (1943)",
+        "MKUltra, Monarch, projetos CIA documentados"
+      ],
+      "capitulos_estimados": 5,
+      "status": "pendente",
+      "adicionado_em": "2026-11-24",
+      "observacao": "Lenda urbana ou realidade encoberta? Serie sobre o lado sombrio de programas militares secretos."
+    },
+    {
+      "slug": "luzes-hessdalen",
+      "titulo": "Luzes de Hessdalen - Fenomeno Luminoso Noruegues",
+      "categoria": "Fenomenos Inexplicaveis",
+      "prioridade": "MEDIA",
+      "fontes_conhecidas": [
+        "Projeto Hessdalen (Universidade Ostfold, 1983-presente)",
+        "Observatorio automatico (cameras, magnetometros, radar)",
+        "Artigos em Journal of Scientific Exploration, Plasma Physics",
+        "Teorias: plasma poeira, piezoeletricidade, radiacao radon, UAP",
+        "Dados: 20+ anos de monitoramento continuo"
+      ],
+      "capitulos_estimados": 4,
+      "status": "pendente",
+      "adicionado_em": "2026-11-24",
+      "observacao": "Unico fenomeno luminoso monitorado cientificamente 24/7 ha decadas. Dados reais, nao anecdóticos."
+    },
+    {
+      "slug": "pinturas-astronautas-arte-antiga",
+      "titulo": "Astronautas e Discos Voadores na Arte Antiga",
+      "categoria": "Arte Antiga Anomala",
+      "prioridade": "MEDIA",
+      "fontes_conhecidas": [
+        "Afresco Visoki Decani (Servia, 1350) - dois objetos voadores com pilotos",
+        "Madonna com Sao Giovannino (Florenca, ~1490) - disco no ceu",
+        "Anuncio aos Pastores (afresco, 1300s) - objeto luminoso",
+        "Petroglios Val Camonica (Italia, 10.000 a.C.) - 'deuses' com capacetes",
+        "Codices maias/astecas - vimanas, deuses voadores",
+        "Livro Eram os Deuses Astronautas? (Von Daniken, 1968)"
+      ],
+      "capitulos_estimados": 5,
+      "status": "pendente",
+      "adicionado_em": "2026-11-24",
+      "observacao": "Evidencia visual direta. Interpretacao: simbolo religioso vs registro historico? Serie visual forte."
+    },
+    {
+      "slug": "caso-varginha-militares",
+      "titulo": "Varginha - O Envolvimento Militar e o Acobertamento",
+      "categoria": "Ufologia Brasileira",
+      "prioridade": "ALTA",
+      "fontes_conhecidas": [
+        "Depoimentos de soldados (anonimos) sobre captura/transporte",
+        "Relatorio de necropsia da criatura (supostamente perdida)",
+        "Movimentacao anomala de viaturas no Hospital Regional",
+        "Pressao politica: Prefeito, Governador, Ministro da Aeronautica",
+        "Conexao com Operacao Prato (mesmo comando regional?)"
+      ],
+      "capitulos_estimados": 5,
+      "status": "pendente",
+      "adicionado_em": "2026-11-24",
+      "observacao": "Foco no acobertamento militar. Serie investigativa, estilo jornalistico. Complementa varginha-1996."
+    },
+    {
+      "slug": "civilizacao-amazonica-pre-colombiana",
+      "titulo": "Civilizacoes Amazonicas Perdidas - Cidades, Estradas, Agricultura",
+      "categoria": "Arqueologia Proibida",
+      "prioridade": "ALTA",
+      "fontes_conhecidas": [
+        "LiDAR: estradas elevadas, canais, pracas, aterros (Bolivia, Brasil)",
+        "Terra Preta de Indio - solo antropico fertil (milhoes de hectares)",
+        "Cristobal de Acuna (1639) - 'cidades grandes' no Amazonas",
+        "Francisco de Orellana (1542) - 'mulheres guerreiras', cidades populosas",
+        "Michael Heckenberger (Xingu) - urbanismo planejado pre-1492"
+      ],
+      "capitulos_estimados": 6,
+      "status": "pendente",
+      "adicionado_em": "2026-11-24",
+      "observacao": "A Amazonia NAO era virgem. Milhoes viviam em cidades conectadas. Geoglifos + Terra Preta + LiDAR = prova irrefutavel."
+    },
+    {
+      "slug": "evento-tunguska-1908",
+      "titulo": "Evento de Tunguska 1908 - Misterio Nao Resolvido",
+      "categoria": "Fenomenos Inexplicaveis",
+      "prioridade": "MEDIA",
+      "fontes_conhecidas": [
+        "Explosao 10-15 megatons, 2000 km2 floresta derrubada",
+        "Sem cratera, sem meteorito recuperado",
+        "Testemunhas: coluna de fogo, onda de choque, calor",
+        "Expelicoes Kulik (1927-1939), modernas (ITEP, 1990s)",
+        "Teorias: cometa, asteroide, buraco negro miniatura, antimateria, Tesla, gas metano"
+      ],
+      "capitulos_estimados": 4,
+      "status": "pendente",
+      "adicionado_em": "2026-11-24",
+      "observacao": "Maior evento de impacto na historia registrada. Causa ainda debatida. Ciencia real + misterio."
+    },
+    {
+      "slug": "sinais-wow-e-radioastronomia",
+      "titulo": "O Sinal Wow! e a Busca por Inteligencia Extraterrestre",
+      "categoria": "Ufologia Internacional",
+      "prioridade": "MEDIA",
+      "fontes_conhecidas": [
+        "Sinal Wow! (15 agosto 1977, Big Ear, Ohio) - 72 segundos, 1420 MHz",
+        "Projeto SETI, Breakthrough Listen, FAST (China), MeerKAT",
+        "Sinais candidatos: BLC1 (Proxima Centauri, 2019), SHGb02+14a",
+        "Equacao de Drake, Paradoxo de Fermi, Grande Filtro",
+        "Messaging Extraterrestrial Intelligence (METI) - etica e riscos"
+      ],
+      "capitulos_estimados": 5,
+      "status": "pendente",
+      "adicionado_em": "2026-11-24",
+      "observacao": "Ciencia dura na fronteira do desconhecido. Sinais reais, origem desconhecida."
+    },
+    {
+      "slug": "fantasmas-documentados-casos-policiais",
+      "titulo": "Assombracao Documentadas - Casos Policiais e Periciais",
+      "categoria": "Sobrenatural Documentado",
+      "prioridade": "MEDIA",
+      "fontes_conhecidas": [
+        "Caso Enfield (UK, 1977-79) - policia, peritos, 30+ testemunhas",
+        "Caso Amityville (EUA, 1974) - investigacao Warren, controversias",
+        "Poltergeist de Rosenheim (Alemanha, 1967) - fisico-quimico Hans Bender",
+        "Casos brasileiros: Castelinho da Rua Apa, Hotel Victoria, Ilha de Cotijuba",
+        "EVP (Electronic Voice Phenomena) - metodologia, ceticismo"
+      ],
+      "capitulos_estimados": 5,
+      "status": "pendente",
+      "adicionado_em": "2026-11-24",
+      "observacao": "Foco em casos COM documentacao oficial (policia, pericia, testemunhas multiplas). Nao lendas urbanas."
+    },
+    {
+      "slug": "projeto-blue-book-eua",
+      "titulo": "Projeto Blue Book - O Arquivo Secreto da Forca Aerea EUA",
+      "categoria": "Ufologia Internacional",
+      "prioridade": "MEDIA",
+      "fontes_conhecidas": [
+        "12.618 avistamentos (1947-1969), 701 'nao identificados'",
+        "Relatorio Condon (1968) - fechamento oficial",
+        "Documentos desclassificados (FOIA, 2020+) - 130.000+ paginas",
+        "Casos: Lubbock Lights, Washington DC 1952, RB-47 1957, Teera 1976",
+        "J. Allen Hynek - de cetico a defensor, classificacao 'Encontros Imediatos'"
+      ],
+      "capitulos_estimados": 6,
+      "status": "pendente",
+      "adicionado_em": "2026-11-24",
+      "observacao": "O arquivo oficial do governo EUA. Base para toda ufologia moderna. Documentos reais, nao especulacao."
+    }
+  ],
+  "categorias_cobertas": [
+    "Ufologia Brasileira",
+    "Ufologia Internacional",
+    "Arqueologia Proibida",
+    "Criptozoologia",
+    "Fenomenos Inexplicaveis",
+    "Conspiracoes Historicas",
+    "Sobrenatural Documentado",
+    "Arte Antiga Anomala",
+    "Operacoes Militares Secretas",
+    "Continentes Perdidos"
+  ],
+  "ultima_atualizacao": "2026-11-24T23:59:00-03:00",
+  "versao": 1
+}
