@@ -1,0 +1,6 @@
+# Infraestrutura de agentes e pipeline do ZAMBRIA - NAO publicar no GitHub Pages
+agencia/
+review/
+sinais/
+logs/
+check_js.py
